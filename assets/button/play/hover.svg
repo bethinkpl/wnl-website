@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>button/play/hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1156.000000, -591.000000)" id="button/play/hover" fill="#E2E6EF">
+            <g transform="translate(1156.000000, 591.000000)">
+                <path d="M40,20 C40,8.954305 31.0481236,0 20,0 C8.954305,0 0,8.95187636 0,20 C0,31.045695 8.95187636,40 20,40 C31.045695,40 40,31.0481236 40,20 Z M14,10 L14,30 L30.6109762,20 L14,10 Z M15.9181266,13.464 L26.7756821,20 L15.9181266,26.536 L15.9181266,13.464 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

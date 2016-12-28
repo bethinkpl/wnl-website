@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>button/arrow_right/normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="20"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1236.000000, -174.000000)" id="button/arrow_right/normal">
+            <g transform="translate(1236.000000, 174.000000)">
+                <use id="Rectangle-3" stroke="#242D47" mask="url(#mask-2)" stroke-width="2" transform="translate(20.000000, 20.000000) scale(-1, 1) rotate(180.000000) translate(-20.000000, -20.000000) " xlink:href="#path-1"></use>
+                <polygon id="down" fill="#242D47" transform="translate(19.814453, 19.691406) rotate(270.000000) translate(-19.814453, -19.691406) " points="28.2929688 18.2382812 20.7226562 25.8203125 20.7226562 10 18.8476562 10 18.8476562 25.7617188 11.3242188 18.2382812 10 19.5742188 19.8085938 29.3828125 29.6289062 19.5742188"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

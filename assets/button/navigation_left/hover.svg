@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>button/navigation_left/hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1120.000000, -382.000000)" id="button/navigation_left/hover">
+            <g transform="translate(1156.000000, 418.000000) rotate(180.000000) translate(-1156.000000, -418.000000) translate(1120.000000, 382.000000)">
+                <rect id="Rectangle-Copy" fill="#E2E6EF" x="0" y="0" width="72" height="72" rx="36"></rect>
+                <g id="arrow-copy" transform="translate(27.000000, 12.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square">
+                    <path d="M0.5,0.5 L23.5,23.5" id="Line"></path>
+                    <path d="M0.5,47.5 L24.0051015,23.9948985" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+// 1440
+
+.off-1440 {
+	display: none !important;
+}
+
+.wrapper {
+   	display: block;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: calc(1440px + 20%);
+    margin: 0 auto;
+}
+
+.page.open .all .wrapper {
+	display: block;
+    float: none;
+    width: 100%;
+    max-width: calc(1440px + 25%);
+    padding: 0px 25%;
+    box-sizing: border-box;
+}

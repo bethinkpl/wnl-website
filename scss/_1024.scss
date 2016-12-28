@@ -1,0 +1,500 @@
+// 1024
+
+.off-1024 {
+	display: none !important;
+}
+
+.wrapper {
+	padding: 0px 5%;
+}
+
+header {
+
+	.desktop {
+		display: none;
+	}
+
+	.bag {
+		display: inline-block;
+		float: left;
+		float: right;
+
+		.mail {
+			margin-right: 40px;
+		}
+
+		.hamburger {
+			display: inline-block;
+			float: left;
+
+			img {
+				float: left;
+				width: 20px;
+				margin-top: 31px;
+			}
+		}
+	}
+
+	.sidebar {
+		display: none;
+		float: left;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-color: #43495A;
+
+		.bag {
+			margin-bottom: 80px;
+		}
+
+		.menu {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			a {
+				font-family: $primary-font;
+				font-size: $medium-2-font-size;
+				color: $white-color;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.signin {
+
+	.input {
+		width: 100%;
+	}
+}
+
+.page {
+
+	&.index {
+
+		.wrapper {
+			padding: 0px 10%;
+		}
+
+		.cover {
+			height: 900px;
+
+			.inside {
+
+				.title {
+					line-height: 65px;
+				}
+
+				.subtitle {
+
+					span {
+						display: inline-block;
+						width: 100%;
+						margin-top: 10px;
+
+						&:first-child {
+							margin-top: 60px;
+						}
+
+						&.line {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+
+		.two {
+
+			.pillars {
+
+				ul {
+
+					li {
+						display: inline-block;
+						float: left;
+						width: 50%;
+						box-sizing: border-box;
+
+						&:nth-child(1) {
+							padding-right: 20px;
+						}
+
+						&:nth-child(2) {
+							padding-left: 20px;
+							padding-right: 0px;
+						}
+
+						&:nth-child(3) {
+							padding-left: 0px;
+							padding-right: 20px;
+							clear: both;
+						}
+
+						&:nth-child(4) {
+							padding-right: 0px;
+							padding-left: 20px;
+							margin-left: 0px;
+							clear: none;
+						}
+
+						&:nth-child(5) {
+							padding-left: 0px;
+							margin-left: 25%;
+							clear: both;
+						}
+					}
+				}
+			}
+		}
+
+		.three {
+
+			.wrapper {
+				padding: 0px 10%;
+			}
+
+			.courses {
+
+				.item {
+					width: 100%;
+
+					&.second {
+						margin-top: 40px;
+					}
+				}
+			}
+		}
+
+		.five {
+
+			.posts {
+
+				ul {
+
+					li {
+						display: inline-block;
+						float: left;
+						width: 50%;
+						box-sizing: border-box;
+
+						&:nth-child(1) {
+							padding-right: 20px;
+						}
+
+						&:nth-child(2) {
+							padding-left: 20px;
+							padding-right: 0px;
+						}
+
+						&:nth-child(3) {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.help {
+
+		.tabhelp {
+
+			.tabs {
+				box-shadow: none;
+			}
+
+			.tabhelp__content {
+			    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.14);
+		    	margin: 0px 5%;
+
+		    	.tabhelp__content-item {
+
+		    		.wrapper {
+		    			padding: 0px;
+		    		}
+		    	}
+	    	}
+		}
+
+		.mail {
+
+			.wrapper {
+				padding: 0px 10%;
+			}
+		}
+	}
+
+	&.course {
+
+		.wrapper {
+			padding: 0px 10%;
+		}
+
+		.form {
+
+			form {
+				width: 60%;
+			}
+		}
+
+		.section {
+
+			&.one {
+
+				.wrapper {
+					padding: 0px;
+				}
+			}
+
+			&.two {
+
+				.boxes {
+					margin-top: 80px;
+
+					.box {
+						width: calc(33.33% - 13.33px);
+						margin-right: 20px;
+
+						&:nth-child(1) {
+							width: 100%;
+							margin-right: 0px;
+						}
+
+						&:nth-child(2) {
+						    width: calc(66.66% - 6.66px);
+						}
+
+						&:nth-child(3) {
+							margin-right: 0px;
+						}
+
+						&:nth-child(6) {
+							margin-right: 0px;
+						}
+
+						&:nth-child(9) {
+							margin-right: 0px;
+						}
+					}
+				}
+
+				.steps {
+
+					ul {
+
+						li {
+							width: 50%;
+
+							&:nth-child(1) {
+								padding-right: 30px;
+								margin-left: 0px;
+								clear: both;
+							}
+
+							&:nth-child(2) {
+								padding-left: 30px;
+							}
+						}
+					}
+				}
+			}
+
+			&.three {
+
+				.wrapper {
+					padding: 0px;
+				}
+			}
+
+			&.four {
+
+				.steps {
+
+					ul {
+
+						li {
+							display: inline-block;
+							float: left;
+							width: 50%;
+							box-sizing: border-box;
+							margin-top: 60px;
+
+							&:nth-child(3n + 1), &:nth-child(3n + 2), &:nth-child(3n + 3) {
+								clear: none;
+								padding-left: 0px;
+								padding-right: 0px;
+							}
+
+							&:nth-child(2n + 1) {
+								clear: both;
+								padding-right: 20px;
+							}
+
+							&:nth-child(2n + 2) {
+								padding-left: 20px;
+							}
+
+							.description {
+
+							    ul {
+
+							    	li {
+							    		display: inline-block;
+									    width: 100%;
+									    padding: 0px;
+									    text-align: left;
+									    margin: 0px;
+							    	}
+							    }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.about {
+
+		.wrapper {
+			padding: 0px 10%;
+		}
+
+		.up {
+
+			.wrapper {
+				padding: 0px;
+			}
+		}
+
+		.who {
+
+			img {
+				width: 100%;
+			}
+
+			.team {
+
+				.person {
+					padding: 0px;
+					width: 100%;
+
+					&:last-child {
+						padding: 0px;
+						margin-top: 60px;
+					}
+				}
+			}
+		}
+	}
+
+	&.blog {
+
+		.wrapper {
+
+			&.specify {
+				padding: 0px 10%;
+			}
+		}
+
+		.categories {
+			box-shadow: none;
+		}
+
+		.last {
+
+			.posts {
+
+				ul {
+
+					li {
+						display: inline-block;
+						float: left;
+						width: 50%;
+						box-sizing: border-box;
+
+						&:nth-child(1) {
+							padding-right: 20px;
+						}
+
+						&:nth-child(2) {
+							padding-left: 20px;
+							padding-right: 0px;
+						}
+
+						&:nth-child(3) {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+
+		article {
+			box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.14);
+		}
+	}
+
+	&.open {
+
+		.cover {
+
+			.inside {
+
+				.wrapper {
+					padding: 0px 10%;
+				}
+			}
+		}
+
+		.all {
+
+			.wrapper {
+				padding: 0px 10%;
+			}
+		}
+	}
+
+	&.contact {
+
+		.wrapper {
+			padding: 0px 10%;
+		}
+
+		.up {
+
+			.wrapper {
+				padding: 0px;
+			}
+
+			.right {
+
+				p {
+
+					&.head, &.award {
+						font-size: $medium-font-size;
+						line-height: $medium-line-height;
+					}
+				}
+			}
+		}
+	}
+
+	&.mail {
+
+		.wrapper {
+			padding: 0px 10%;
+		}
+	}
+}
+
+footer {
+
+	.wrapper {
+		padding: 0px 10%;
+	}
+}

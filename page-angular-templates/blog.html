@@ -1,0 +1,16 @@
+<div class="wrapper specify">
+    <article id="{{value.id}}" ng-repeat="(key, value) in posts | limitTo: limit">
+        <div class="content">
+            <a href="{{value.link}}" title="{{value.slug}}" class="title"> <!-- ng-class="{white: value.acf.preview_photo.url}" -->
+                <div class="inside">
+                	<p class="category"><span ng-repeat="(key, value) in value.categories"><span ng-show="$index != 0" class="gray">, </span>{{getNameCategories(value)}}</span></p>
+                    <p class="t">{{value.title.rendered}}</p>
+                    <p class="date">
+						{{value.date | date:'dd.MM.yyyy'}}, {{getNameAuthor(value.author)}}
+					</p>
+                </div>
+                <!-- <div style="background-image: url('{{value.acf.preview_photo.url}}');"></div> -->
+            </a>
+        </div>
+    </article>
+</div>

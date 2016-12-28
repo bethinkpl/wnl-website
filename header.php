@@ -22,12 +22,13 @@
         	echo '<script src="' . get_template_directory_uri() . '/js/vendors/angular-ui-router.min.js"></script>';
 		?>
 
-		<?php 
+		<?php
 			echo '<script>var pageUrl = "'.get_site_url().'";</script>';
 		?>
     </head>
 
     <body>
+      <div id="particles-js"></div>
     	<div id="statement">
 			<p class="name"></p>
 			<a href="#" class="close"></a>

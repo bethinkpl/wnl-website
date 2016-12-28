@@ -1,5 +1,4 @@
 <div class="page index">
-	<div id="particles-js"></div>
 	<div class="section cover">
 		<div class="inside">
 			<div class="wrapper">
@@ -221,7 +220,7 @@
 										<img src="'.$value['url'].'" alt="" />
 									</div>
 									<p class="title">'.$recent["post_title"].'</p>
-								</a> 
+								</a>
 							</li>';
 						}
 						wp_reset_query();
@@ -235,5 +234,5 @@
 		<a href="#" title="" data-section-target="0">
 			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up/normal.svg' ?>" alt="Więcej niż lek" />
 		</a>
-	</div>	
+	</div>
 </div>

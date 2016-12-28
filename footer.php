@@ -20,7 +20,7 @@
 								<a href="" title="">Polityka prywatności</a>
 							</li>
 						</ul>
-					</div>	
+					</div>
 				</div>
 				<div class="right">
 					<div class="l">
@@ -67,7 +67,7 @@
 							<a href="" title="">Polityka prywatności</a>
 						</li>
 					</ul>
-				</div>	
+				</div>
 			</div>
 		</footer>
 
@@ -78,7 +78,7 @@
 		<?php
 			echo '<script src="' . get_template_directory_uri() . '/js/vendors/validation.form.js"></script>';
 			echo '<script src="' . get_template_directory_uri() . '/js/vendors/tabtab.min.js"></script>';
-			echo '<script src="' . get_template_directory_uri() . '/js/vendors/particles.min.js"></script>';
+			if (is_front_page()) { echo '<script src="' . get_template_directory_uri() . '/js/vendors/particles.min.js"></script>'; }
 			echo '<script src="' . get_template_directory_uri() . '/js/script.js"></script>';
 		?>
 

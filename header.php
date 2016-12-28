@@ -28,7 +28,7 @@
     </head>
 
     <body>
-      <div id="particles-js"></div>
+      <?php if (is_front_page()) : ?><div id="particles-js"></div><?php endif;?>
     	<div id="statement">
 			<p class="name"></p>
 			<a href="#" class="close"></a>

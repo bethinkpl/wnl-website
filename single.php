@@ -16,44 +16,36 @@
 				?>
 
 				<div class="cover">
-					<div class="image" style="background-image: url('<?php echo $image['url']; ?>');"></div>
+					<div class="image" style="background-image: url('<?= $image['url']; ?>');"></div>
 					<div class="inside">
 						<div class="wrapper">
-							<p class="category">
-								<?php 
-									foreach($categories as $key => $category) {
-										if ($key != 0) {
-											echo ', ';
-										}
-								        echo $category->name;   
-								    } ?>
-							</p>
+							<p class="category"><?= get_the_category_list(', ') ?></p>
 							<p class="title">
-								<?php echo $title; ?>
+								<?= $title ?>
 							</p>
-							<?php 
+							<?php
 								if (!empty($subtitle)) {
 									echo '<p class="subtitle">' . $subtitle . '</p>';
 								}
 							?>
 							<p class="date">
-								<?php echo $date; ?>, <?php echo $author; ?>
+								<?= $date . ', ' . $author; ?>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="all">
 					<div class="wrapper">
-						
+
 						<?php the_content(); ?>
-						
+
 					</div>
 				</div>
 
 				<?php
 					$args = array(
 					    'tag' => 'featured'
-				    ); 
+				    );
 					$recent_posts = wp_get_recent_posts($args);
 					foreach( $recent_posts as $recent ){
 						$value = get_field( "preview_photo", $recent["ID"] );
@@ -63,7 +55,7 @@
 						// 			<img src="'.$value['url'].'" alt="" />
 						// 		</div>
 						// 		<p class="title">'.$recent["post_title"].'</p>
-						// 	</a> 
+						// 	</a>
 						// </li>';
 					}
 					wp_reset_query();

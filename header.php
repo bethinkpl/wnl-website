@@ -28,6 +28,7 @@
     <body>
       <?php if (is_front_page()) : ?>
         <div class="wnl-front-particles" id="particles-js"></div>
+        <div class="wnl-front-overlay"></div>
       <?php endif;?>
     	<div id="statement">
 			<p class="name"></p>

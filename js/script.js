@@ -26,9 +26,11 @@ window.onscroll = function() {
 }
 
 $(function() {
-  particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json', function () {
-    console.log('Particles JS loaded.');
-  });
+  if (page == 'index') {
+    particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json', function () {
+      console.log('Particles JS loaded.');
+    });
+  }
 });
 
 function animationTabs() {

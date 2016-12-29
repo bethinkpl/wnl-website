@@ -19,16 +19,15 @@
 			  <script src="<?= get_template_directory_uri() ?>/js/vendors/velocity.min.js"></script>
   			<script src="<?= get_template_directory_uri() ?>/js/vendors/angular.min.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/angular-ui-router.min.js"></script>
-        <script type="text/javascript">var pageUrl = "<?= get_site_url() ?>";</script>
+        <script type="text/javascript">
+          var pageUrl = "<?= get_site_url() ?>";
+          var templateUrl = "<?= get_template_directory_uri() ?>";
+        </script>
     </head>
 
     <body>
       <?php if (is_front_page()) : ?>
-        <video class="wnl-front-hero-video" id="hero-video" poster="<?= get_template_directory_uri() ?>/assets/videos/poster.png" autoplay loop>
-          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.mp4" type="video/mp4">
-          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.ogv" type="video/ogv">
-          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.webm" type="video/webm">
-        </video>
+        <div class="wnl-front-particles" id="particles-js"></div>
       <?php endif;?>
     	<div id="statement">
 			<p class="name"></p>

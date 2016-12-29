@@ -1,16 +1,5 @@
 // base
 
-#particles-js{
-	position: fixed;
-	height: 100%;
-	width: 100%;
-  z-index: -2;
-  background-color: $primary-color;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
 html, body {
 	width: 100%;
 	height: 100%;
@@ -305,6 +294,17 @@ header {
 			text-transform: uppercase;
 		}
 	}
+}
+
+.wnl-front-hero-video {
+	position: fixed;
+  top: 50%; left: 50%;
+  z-index: -3;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
 }
 
 .signin {

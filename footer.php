@@ -36,7 +36,7 @@
 					</div>
 					<div class="r">
 						<div class="social">
-							<p class="head">Obserwuj nas na:</p>
+							<p class="head">Obserwuj nas na</p>
 							<div class="icons">
 								<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 								<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
@@ -45,7 +45,7 @@
 							</div>
 						</div>
 
-						<p class="head">kontakt</p>
+						<p class="head">Kontakt</p>
 						<p class="">info@wiecejnizlek.pl</p>
 						<p class="">600 500 700</p><br />
 

@@ -27,6 +27,10 @@ html, body {
 	position: fixed;
 }
 
+.rwd-line {
+	display: inline;
+}
+
 .wrapper {
 	display: inline-block;
 	float: left;
@@ -420,6 +424,7 @@ header {
 			    -webkit-transform: translateY(-50%);
 			    -ms-transform: translateY(-50%);
 			    transform: translateY(-50%);
+					width: 100%;
 
 			    .subtitle {
 			    	display: inline-block;

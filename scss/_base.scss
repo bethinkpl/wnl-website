@@ -4,6 +4,10 @@ html, body {
 	height: 100%;
 }
 
+.rwd-line {
+	display: block;
+}
+
 .wnl-front-particles {
 	background-image: url('assets/hero-front.jpg');
 	background-position: 50% 50%;
@@ -420,6 +424,7 @@ header {
 			    -webkit-transform: translateY(-50%);
 			    -ms-transform: translateY(-50%);
 			    transform: translateY(-50%);
+					width: 100%;
 
 			    .subtitle {
 			    	display: inline-block;

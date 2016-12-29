@@ -1,10 +1,6 @@
 var scrollTop = $(window).scrollTop();
 var clientWidth = document.documentElement.clientWidth;
 
-jQuery('document').ready(function() {
-
-});
-
 window.onresize = function() {
     clientWidth = document.documentElement.clientWidth;
 };
@@ -19,13 +15,6 @@ window.onload = function() {
     if (page == 'help' && clientWidth < 768) {
         fixedSteps(scrollTop);
     }
-
-    if (page == 'index' && clientWidth > 768) {
-      var video = document.getElementById('hero-video');
-      video.addEventListener('canplay', function() {
-        video.play();
-      });
-    }
 };
 
 window.onscroll = function() {
@@ -35,6 +24,12 @@ window.onscroll = function() {
         fixedSteps(scrollTop);
     }
 }
+
+$(function() {
+  particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json', function () {
+    console.log('Particles JS loaded.');
+  });
+});
 
 function animationTabs() {
     var index = 1;

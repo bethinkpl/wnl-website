@@ -12,23 +12,24 @@
 
         <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rubik|Poppins:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
 
-        <?php
-        	echo '<script src="' . get_template_directory_uri() . '/js/vendors/jquery-3.1.1.min.js"></script>';
-        	echo '<script src="' . get_template_directory_uri() . '/js/vendors/jquery.easing.js"></script>';
-        	echo '<script src="' . get_template_directory_uri() . '/js/vendors/jquery.cookie.js"></script>';
-        	echo '<script src="' . get_template_directory_uri() . '/js/vendors/modernizr-custom.js"></script>';
-			echo '<script src="' . get_template_directory_uri() . '/js/vendors/velocity.min.js"></script>';
-			echo '<script src="' . get_template_directory_uri() . '/js/vendors/angular.min.js"></script>';
-        	echo '<script src="' . get_template_directory_uri() . '/js/vendors/angular-ui-router.min.js"></script>';
-		?>
-
-		<?php
-			echo '<script>var pageUrl = "'.get_site_url().'";</script>';
-		?>
+        <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery-3.1.1.min.js"></script>
+        <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.easing.js"></script>
+        <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.cookie.js"></script>
+        <script src="<?= get_template_directory_uri() ?>/js/vendors/modernizr-custom.js"></script>
+			  <script src="<?= get_template_directory_uri() ?>/js/vendors/velocity.min.js"></script>
+  			<script src="<?= get_template_directory_uri() ?>/js/vendors/angular.min.js"></script>
+        <script src="<?= get_template_directory_uri() ?>/js/vendors/angular-ui-router.min.js"></script>
+        <script type="text/javascript">var pageUrl = "<?= get_site_url() ?>";</script>
     </head>
 
     <body>
-      <?php if (is_front_page()) : ?><div id="particles-js"></div><?php endif;?>
+      <?php if (is_front_page()) : ?>
+        <video class="wnl-front-hero-video" id="hero-video" poster="<?= get_template_directory_uri() ?>/assets/videos/poster.png" autoplay loop>
+          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.mp4" type="video/mp4">
+          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.ogv" type="video/ogv">
+          <source src="<?= get_template_directory_uri() ?>/assets/videos/bg_video.webm" type="video/webm">
+        </video>
+      <?php endif;?>
     	<div id="statement">
 			<p class="name"></p>
 			<a href="#" class="close"></a>
@@ -64,28 +65,28 @@
 			<div class="sidebar">
 				<div class="wrapper">
 					<div class="logo">
-						<a href="<?php echo get_site_url(); ?>/strona-glowna" title="">
-							<img src="<?php echo get_template_directory_uri() . '/assets/logo/main/white.png' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/strona-glowna" title="Wróć do strony głównej">
+							<img src="<?= get_template_directory_uri() ?>/assets/logo/main/white.png" alt="Logotyp Więcej niż LEK" />
 						</a>
 					</div>
 
 					<div class="bag">
 						<div class="mail">
-							<a href="<?php echo get_site_url(); ?>/zostaw-e-mail" title="">
+							<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
 								<?php pll_e("button_leave_mail"); ?>
 							</a>
 						</div>
 
-						<a href="" class="close"><img src="<?php echo get_template_directory_uri() . '/assets/button/menu/exit.svg' ?>" alt="Menu mobile close" /></a>
+						<a href="" class="close"><img src="<?= get_template_directory_uri() ?>/assets/button/menu/exit.svg" alt="Zamknij menu" /></a>
 					</div>
 
 					<div class="menu">
 						<?php wp_nav_menu( array(
 						    'menu' => 'mobile_menu'
 						) ); ?>
-						<a href="" title="" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() . '/assets/button/social_media_footer/facebook/normal.svg' ?>"></a>
+						<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 						<div class="mail">
-							<a href="<?php echo get_site_url(); ?>/zostaw-e-mail" title="">
+							<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
 								<?php pll_e("button_leave_mail"); ?>
 							</a>
 						</div>
@@ -95,8 +96,8 @@
 
 			<div class="wrapper">
 				<div class="logo">
-					<a href="<?php echo get_site_url(); ?>/strona-glowna" title="">
-						<img src="<?php echo get_template_directory_uri() . '/assets/logo/main/normal.svg' ?>" alt="Więcej niż lek" />
+					<a href="<?= get_site_url() ?>/strona-glowna" title="Wróć do strony głównej">
+						<img src="<?= get_template_directory_uri() ?>/assets/logo/main/normal.svg" alt="Logotyp Więcej niż LEK" />
 					</a>
 				</div>
 
@@ -104,17 +105,17 @@
 				<div class="desktop">
 					<div class="bag">
 						<?php wp_nav_menu(array('theme_location'=>'landing-menu')); ?>
-						<a href="" title="" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() . '/assets/button/facebook/normal.svg' ?>"></a>
+						<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
 					</div>
 				</div>
 
 				<div class="bag">
 					<div class="mail">
-						<a href="<?php echo get_site_url(); ?>/zostaw-e-mail" title="">
+						<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
 							<?php pll_e("button_leave_mail"); ?>
 						</a>
 					</div>
-					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() . '/assets/button/menu/normal.svg' ?>" alt="Menu mobile" /></a>
+					<a href="" class="hamburger"><img src="<?= get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>
 				</div>
 			</div>
 		</header>

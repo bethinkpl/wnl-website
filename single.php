@@ -23,14 +23,10 @@
 							<p class="title">
 								<?= $title ?>
 							</p>
-							<?php
-								if (!empty($subtitle)) {
-									echo '<p class="subtitle">' . $subtitle . '</p>';
-								}
-							?>
-							<p class="date">
-								<?= $date . ', ' . $author; ?>
-							</p>
+							<?php	if ( !empty( $subtitle ) ) : ?>
+								<p class="subtitle"><?= $subtitle ?></p>;
+							<?php endif; ?>
+							<p class="date"><?php printf( '%1$s, %2$s', $date, $author ) ?></p>
 						</div>
 					</div>
 				</div>
@@ -41,31 +37,6 @@
 
 					</div>
 				</div>
-
-				<?php
-					$args = array(
-					    'tag' => 'featured'
-				    );
-					$recent_posts = wp_get_recent_posts($args);
-					foreach( $recent_posts as $recent ){
-						$value = get_field( "preview_photo", $recent["ID"] );
-						// echo '<li>
-						// 	<a href="' . get_permalink($recent["ID"]) . '">
-						// 		<div class="image">
-						// 			<img src="'.$value['url'].'" alt="" />
-						// 		</div>
-						// 		<p class="title">'.$recent["post_title"].'</p>
-						// 	</a>
-						// </li>';
-					}
-					wp_reset_query();
-				?>
-
-				<!-- <div class="down">
-					<div class="back">
-						<a href="<?php back_to_post_category(); ?>" title=""><?php pll_e("open_preview_back"); ?></a>
-					</div>
-				</div> -->
 			</div><!-- .entry-content -->
 
 			<div class="wrapper">
@@ -79,7 +50,7 @@
 		</article><!-- #post-## -->
 		<div class="section back">
 			<a href="#" title="" data-section-target="0">
-				<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up/normal.svg' ?>" alt="Więcej niż lek" />
+				<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Logotyp Więcej niż LEK" />
 			</a>
 		</div>
 		<?php endwhile; ?>

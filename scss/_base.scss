@@ -4,12 +4,15 @@ html, body {
 	height: 100%;
 }
 
-p {
+body {
 	color: $primary-color;
 	font-family: $secondary-font;
 	font-size: $normal-font-size;
 	line-height: $normal-line-height;
-	margin: 8px 0 13px;
+}
+
+p {
+	margin: 8px 0 16px;
 }
 
 .wnl-front-particles {

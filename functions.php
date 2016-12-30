@@ -26,26 +26,6 @@
 		echo get_category_link($cat->cat_ID);
 	}
 
-	function mce_google_fonts_array( $initArray ) {
-	    $theme_advanced_fonts = 'Poppins=Poppins,sans-serif;';
-	    $theme_advanced_fonts .= 'PT Serif=PT Serif,serif;';
-	    $initArray['font_formats'] = $theme_advanced_fonts;
-	    return $initArray;
-	}
-	add_filter( 'tiny_mce_before_init', 'mce_google_fonts_array' );
-
-	function customize_text_sizes($initArray){
-       $initArray['fontsize_formats'] = "21px 30px";
-       return $initArray;
-	}
-	add_filter('tiny_mce_before_init', 'customize_text_sizes');
-
-	function customize_block_formats($initArray){
-       $initArray['block_formats'] = "Nagłówek 1=h2;";
-       return $initArray;
-	}
-	add_filter('tiny_mce_before_init', 'customize_block_formats');
-
 	pll_register_string('Cookies - treść', 'cookies_text');
 
 	pll_register_string('Formularz - błędna walidacja', 'form_not_valid');

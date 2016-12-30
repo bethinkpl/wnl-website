@@ -52,6 +52,16 @@ p {
 	line-height: $small-line-height;
 }
 
+a,
+a:visited {
+	color: $green-color;
+}
+
+a:hover,
+a:active {
+	color: $light-green-color;
+}
+
 ul:not([class]) {
 	margin: 8px 0;
 	padding: 0 0 0 32px;

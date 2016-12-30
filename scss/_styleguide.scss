@@ -17,27 +17,32 @@ h3, h4, h5 {
   font-family: $primary-font;
 }
 
-h1, h2 {
-  font-size: $large-font-size;
-  line-height: $large-line-height;
-  text-align: center;
-  margin: 8px 0 16px;
-}
-
 h1 {
 	box-shadow: $shadow-bottom;
+	font-size: $large-font-size;
+  line-height: $large-line-height;
+  padding: 24px 0 16px;
+	text-align: center;
+}
+
+h2 {
+	font-size: $medium-2-font-size;
+	line-height: $medium-2-line-height;
+	padding: 24px 0 16px;
+	text-align: center;
 }
 
 h3 {
   font-size: $medium-font-size;
   line-height: $medium-line-height;
+	padding: 16px 0 8px;
 }
 
 h4 {
   font-size: $normal-font-size;
   font-weight: 500;
   line-height: $normal-line-height;
-	padding: 8px 0 0;
+	padding: 8px 0 4px;
 }
 
 p {

@@ -7,8 +7,8 @@
 			5 filarów Więcej niż LEK
 		</p>
 		<div class="tabhelp">
-			<a href="" class="tabhelp-controls__prev"><img src="<?php echo get_template_directory_uri() . '/assets/button/navigation_left/normal.svg' ?>" alt="" /></a>
-			<a href="" class="tabhelp-controls__next"><img src="<?php echo get_template_directory_uri() . '/assets/button/navigation_right/normal.svg' ?>" alt="" /></a>
+			<a href="" class="tabhelp-controls__prev"><img src="<?= get_template_directory_uri() ?>/assets/button/navigation_left/normal.svg" alt="Poprzedni" /></a>
+			<a href="" class="tabhelp-controls__next"><img src="<?= get_template_directory_uri() ?>/assets/button/navigation_right/normal.svg" alt="Następny" /></a>
 			<div class="tabs">
 				<div class="select">
 					<div class="selected"><?php the_field("help_section_title_1"); ?></div>
@@ -31,7 +31,7 @@
 					</ul>
 				</div>
 			</div>
-			
+
 			<div class="tabhelp__content">
 				<div class="tabhelp__content-item">
 					<div class="wrapper">
@@ -43,9 +43,7 @@
 						<div class="down">
 							<p class="title"><?php the_field("help_section_title_in_1"); ?></p>
 							<div class="wrapper">
-								<p class="description">
 									<?php the_field("help_section_description_1"); ?>
-								</p>
 							</div>
 						</div>
 					</div>
@@ -60,9 +58,7 @@
 						<div class="down">
 							<p class="title"><?php the_field("help_section_title_in_2"); ?></p>
 							<div class="wrapper">
-								<p class="description">
 									<?php the_field("help_section_description_2"); ?>
-								</p>
 							</div>
 						</div>
 					</div>
@@ -162,7 +158,7 @@
 	</div>
 	<div class="section back">
 		<a href="#" title="" data-section-target="0">
-			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up_inverted/normal.svg' ?>" alt="Więcej niż lek" />
+			<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_up_inverted/normal.svg" alt="Więcej niż LEK" />
 		</a>
 	</div>
 </div>

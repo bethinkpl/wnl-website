@@ -24,19 +24,32 @@ h1, h2 {
   margin: 8px 0 16px;
 }
 
-h3 {
-  font-size: $medium-2-font-size;
-  line-height: $medium-2-line-height;
+h1 {
+	box-shadow: $shadow-bottom;
 }
 
-h4 {
+h3 {
   font-size: $medium-font-size;
-  font-weight: 500;
   line-height: $medium-line-height;
 }
 
+h4 {
+  font-size: $normal-font-size;
+  font-weight: 500;
+  line-height: $normal-line-height;
+	padding: 8px 0 0;
+}
+
 p {
-	margin: 8px 0 16px;
+	display: block;
+	padding: 8px 0 16px;
+}
+
+.caption {
+	color: $gray-color;
+	font-size: $small-font-size;
+	font-style: italic;
+	line-height: $small-line-height;
 }
 
 ul:not([class]) {

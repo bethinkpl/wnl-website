@@ -1,24 +1,20 @@
 // variables
 
+// 1. Colors
+
 $primary-color: #242D47;
 $white-color: #FFFFFF;
 $green-color: #2999A3;
 $light-green-color: #61CED8;
 $gray-color: #9B9B9B;
 
+$shadow-bottom: 0 1px 0 0 rgba(0, 0, 0, 0.14);
+
+// 2. Typography
+
 $primary-font: 'Poppins', sans-serif;
 $secondary-font: 'PT Serif', serif;
 $third-font: 'Rubik', sans-serif;
-
-$phone-min-width: 320px;
-$phone-max-width: 640px;
-$tablet-min-width: 768px;
-$tablet-max-width: 1024px;
-$desktop-mdpi: 1280px;
-$desktop-hdpi: 1440px;
-$wrapper-max-width: 960px;
-
-// font
 
 $small-font-size: 14px;
 $small-line-height: 22px;
@@ -31,3 +27,13 @@ $medium-2-font-size: 36px;
 $medium-2-line-height: 57px;
 $large-font-size: 52px;
 $large-line-height: 60px;
+
+// 3. Breakpoints
+
+$phone-min-width: 320px;
+$phone-max-width: 640px;
+$tablet-min-width: 768px;
+$tablet-max-width: 1024px;
+$desktop-mdpi: 1280px;
+$desktop-hdpi: 1440px;
+$wrapper-max-width: 960px;

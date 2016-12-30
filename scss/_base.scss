@@ -1885,56 +1885,37 @@ header {
 	}
 
 	&.contact {
-		margin-top: 80px;
+		margin-top: 40px;
 
-		.title {
-			color: $primary-color;
-			margin-top: 80px;
-			padding-bottom: 60px;
-			text-align: center;
-			box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
+		.wrapper {
+			@include clearfix;
+		}
+
+		.wnl-contact-title {
+			padding: 48px 0;
+		}
+
+		.wnl-contact-image {
+			width: 100%;
+		}
+
+		.wnl-contact-data {
+			font-family: $primary-font;
+			font-size: $small-font-size;
+			line-height: $small-line-height;
+			margin: 0 0 24px;
 		}
 
 		.up {
-			display: inline-block;
-			float: left;
+			display: block;
 			width: 100%;
-			margin-top: 80px;
-			padding-bottom: 120px;
+			margin: 40px 0 120px;
 
-			.left, .right {
-				display: inline-block;
-				float: left;
-				width: 50%;
-				box-sizing: border-box;
-			}
-
-			.left {
-
-				img {
-					width: 90%;
-				}
-			}
-
-			.right {
-				padding-left: 10%;
-
-				p {
-					font-family: $primary-font;
-					font-size: $normal-font-size;
-					font-weight: 600;
-					line-height: $normal-line-height;
-					color: #43495A;
-
-					&.head {
-						margin-bottom: 40px;
-					}
-
-					&.award {
-						font-family: $third-font;
-						font-weight: 500;
-						font-size: 24px;
-					}
+				.left, .right {
+					display: inline-block;
+					float: left;
+					width: 50%;
+					box-sizing: border-box;
 				}
 
 				.social {
@@ -1965,7 +1946,6 @@ header {
 				}
 			}
 		}
-	}
 
 	&.mail {
 		padding-top: 80px;

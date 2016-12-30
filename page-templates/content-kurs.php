@@ -225,9 +225,9 @@
 								<?php printf( '0%1$d.', $i ); ?>
 							</div>
 							<div class="wnl-course-workshops-list-content">
-								<h4 class="wnl-course-workshops-list-title">
+								<h3 class="wnl-course-workshops-list-title">
 									<?php the_field( sprintf( 'point_title_%1$d', $i ) ); ?>
-								</h4>
+								</h3>
 								<?php the_field( sprintf( 'point_description_%1$d', $i ) ); ?>
 							</div>
 						</li>

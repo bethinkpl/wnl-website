@@ -1,0 +1,54 @@
+body {
+	color: $primary-color;
+	font-family: $secondary-font;
+	font-size: $normal-font-size;
+	line-height: $normal-line-height;
+}
+
+h1, h2, h3, h4, h5 {
+  display: block;
+}
+
+h1, h2 {
+  font-family: $third-font;
+}
+
+h3, h4, h5 {
+  font-family: $primary-font;
+}
+
+h1, h2 {
+  font-size: $large-font-size;
+  line-height: $large-line-height;
+  text-align: center;
+  margin: 8px 0 16px;
+}
+
+h3 {
+  font-size: $medium-2-font-size;
+  line-height: $medium-2-line-height;
+}
+
+h4 {
+  font-size: $medium-font-size;
+  font-weight: 500;
+  line-height: $medium-line-height;
+}
+
+p {
+	margin: 8px 0 16px;
+}
+
+ul:not([class]) {
+	margin: 8px 0;
+	padding: 0 0 0 32px;
+
+	li {
+		list-style-type: disc;
+		margin: 8px;
+
+		li {
+			list-style-type: circle;
+		}
+	}
+}

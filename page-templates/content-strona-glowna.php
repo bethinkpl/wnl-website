@@ -17,7 +17,7 @@
 			<div class="wrapper">
 				<div class="scroll">
 					<a href="#" title="" data-section-target=".one">
-						<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_down_inverted/normal.svg' ?>" alt="Więcej niż lek" />
+						<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę">
 					</a>
 				</div>
 				<div class="video">
@@ -51,11 +51,11 @@
 				<?php the_field("courses_subtitle"); ?>
 			</p>
 			<div class="pillars">
-				<ul>
+				<ul class="pillars-list">
 					<li>
 						<div class="image">
 							<div class="inside">
-								<img src="<?php the_field("courses_section_image_1"); ?>" alt="" />
+								<img src="<?php the_field("courses_section_image_1"); ?>" alt="">
 							</div>
 						</div>
 						<p class="title">
@@ -64,8 +64,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_1"); ?>
 						</p>
-						<a href="<?php echo get_site_url() . '/jak-pomagamy#1' ?>" title="" class="more">
-							<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_right/normal.svg' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/jak-pomagamy#1" title="Czytaj więcej" class="more">
+							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -81,8 +81,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_2"); ?>
 						</p>
-						<a href="<?php echo get_site_url() . '/jak-pomagamy#2' ?>" title="" class="more">
-							<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_right/normal.svg' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/jak-pomagamy#2" title="Czytaj więcej" class="more">
+							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -98,8 +98,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_3"); ?>
 						</p>
-						<a href="<?php echo get_site_url() . '/jak-pomagamy#3' ?>" title="" class="more">
-							<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_right/normal.svg' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/jak-pomagamy#3" title="Czytaj więcej" class="more">
+							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -115,8 +115,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_4"); ?>
 						</p>
-						<a href="<?php echo get_site_url() . '/jak-pomagamy#4' ?>" title="" class="more">
-							<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_right/normal.svg' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/jak-pomagamy#4" title="Czytaj więcej" class="more">
+							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -132,8 +132,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_5"); ?>
 						</p>
-						<a href="<?php echo get_site_url() . '/jak-pomagamy#5' ?>" title="" class="more">
-							<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_right/normal.svg' ?>" alt="Więcej niż lek" />
+						<a href="<?= get_site_url() ?>/jak-pomagamy#5" title="Czytaj więcej" class="more">
+							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 				</ul>
@@ -153,10 +153,7 @@
 					<p class="title">
 						<?php the_field("variant_title_1"); ?>
 					</p>
-					<p class="description">
-						<?php the_field("variant_subtitle_1"); ?>
-					</p>
-					<ul>
+					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_1"); ?>
 					</ul>
 				</div>
@@ -166,10 +163,7 @@
 					<p class="title">
 						<?php the_field("variant_title_2"); ?>
 					</p>
-					<p class="description">
-						<?php the_field("variant_subtitle_2"); ?>
-					</p>
-					<ul>
+					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_2"); ?>
 					</ul>
 				</div>
@@ -206,7 +200,7 @@
 				<?php the_field("blog_subtitle"); ?>
 			</p>
 			<div class="posts">
-				<ul>
+				<ul class="wnl-front-blog-list">
 					<?php
 						$args = array(
 							'numberposts' => 3

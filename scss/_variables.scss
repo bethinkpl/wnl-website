@@ -3,6 +3,7 @@
 $primary-color: #242D47;
 $white-color: #FFFFFF;
 $green-color: #2999A3;
+$light-green-color: #61CED8;
 $gray-color: #9B9B9B;
 
 $primary-font: 'Poppins', sans-serif;
@@ -15,6 +16,7 @@ $tablet-min-width: 768px;
 $tablet-max-width: 1024px;
 $desktop-mdpi: 1280px;
 $desktop-hdpi: 1440px;
+$wrapper-max-width: 960px;
 
 // font
 
@@ -22,6 +24,7 @@ $small-font-size: 14px;
 $small-line-height: 22px;
 $normal-font-size: 21px;
 $normal-line-height: 36px;
+$normal-line-height-condensed: 28px;
 $medium-font-size: 30px;
 $medium-line-height: 48px;
 $medium-2-font-size: 36px;

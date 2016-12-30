@@ -2,10 +2,10 @@
 	<div class="wrapper">
 		<div class="section one">
 			<p class="title">
-				<?php the_field("help_section_title_1"); ?>
+				<?php the_field("assumptions_title"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -134,7 +134,7 @@
 				<?php the_field("course_title"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -189,130 +189,49 @@
 		</div>
 	</div>
 
-	<div class="section four">
-		<div class="wrapper">
+	<div class="wrapper">
+		<div class="section five">
 			<p class="title">
-				<?php the_field("points_title"); ?>
+				<?php the_field( 'preparation_title' ); ?>
 			</p>
-			<p class="subtitle">
-				<?php the_field("points_subtitle"); ?>
-			</p>
+			<p><?php the_field( 'points_subtitle' ); ?></p>
 			<div class="steps">
-				<ul>
-					<li>
-						<div class="number">
-							01.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_1"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_1"); ?>	
-						</div>
-					</li>
-
-					<li>
-						<div class="number">
-							02.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_2"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_2"); ?>
-						</div>
-					</li>
-
-					<li>
-						<div class="number">
-							03.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_3"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_3"); ?>
-						</div>
-					</li>
-					<li>
-						<div class="number">
-							04.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_4"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_4"); ?>
-						</div>
-					</li>
-
-					<li>
-						<div class="number">
-							05.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_5"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_5"); ?>
-						</div>
-					</li>
-
-					<li>
-						<div class="number">
-							06.
-						</div>
-						<p class="title">
-							<?php the_field("point_title_6"); ?>
-						</p>
-						<div class="description">
-							<?php the_field("point_description_6"); ?>
-						</div>
-					</li>
+				<ul class="">
+					<?php for ( $i = 1; $i <= 3; $i++ ) : ?>
+						<li>
+							<div class="image">
+								<div class="inside">
+									<img src="<?php the_field( sprintf( 'preparation_image_%1$d', $i ) ); ?>">
+								</div>
+							</div>
+							<p class="description">
+								<?php the_field( sprintf( 'preparation_description_%1$d', $i) ); ?>
+							</p>
+						</li>
+					<?php endfor; ?>
 				</ul>
 			</div>
 		</div>
 	</div>
 
-	<div class="wrapper">
-		<div class="section five">
-			<p class="title">
-				<?php the_field("preparation_title"); ?>
-			</p>
-			<div class="steps">
-				<ul>
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("preparation_image_1"); ?>" alt="" />
+	<div class="section four">
+		<div class="wrapper">
+			<div class="wnl-course-workshops">
+				<h2><?php the_field("points_title"); ?></h2>
+				<ul class="wnl-course-workshops-list">
+					<?php for ( $i = 1; $i<=6; $i++ ) : ?>
+						<li class="wnl-course-workshops-list-item">
+							<div class="wnl-course-workshops-list-number">
+								<?php printf( '0%1$d.', $i ); ?>
 							</div>
-						</div>
-						<p class="description">
-							<?php the_field("preparation_description_1"); ?>
-						</p>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("preparation_image_2"); ?>" alt="" />
+							<div class="wnl-course-workshops-list-content">
+								<h4 class="wnl-course-workshops-list-title">
+									<?php the_field( sprintf( 'point_title_%1$d', $i ) ); ?>
+								</h4>
+								<?php the_field( sprintf( 'point_description_%1$d', $i ) ); ?>
 							</div>
-						</div>
-						<p class="description">
-							<?php the_field("preparation_description_2"); ?>
-						</p>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("preparation_image_3"); ?>" alt="" />
-							</div>
-						</div>
-						<p class="description">
-							<?php the_field("preparation_description_3"); ?>
-						</p>
-					</li>
+						</li>
+					<?php endfor; ?>
 				</ul>
 			</div>
 		</div>

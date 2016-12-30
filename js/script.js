@@ -27,9 +27,7 @@ window.onscroll = function() {
 
 $(function() {
   if (page == 'index') {
-    particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json', function () {
-      console.log('Particles JS loaded.');
-    });
+    particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
   }
 });
 
@@ -217,8 +215,6 @@ function changeStep() {
         });
 
         $('.select .selected').text($(this).text());
-
-        $('html, body').stop().animate({ scrollTop: -80}, 1000);
     });
 }
 

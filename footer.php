@@ -25,7 +25,7 @@
 				<div class="right">
 					<div class="l">
 						<p class="head">na blogu</p>
-						<ul>
+						<ul class="wnl-footer-recent-posts">
 							<?php
 								$recent_posts = wp_get_recent_posts( [ 'numberposts' => 4 ] );
 								foreach( $recent_posts as $recent ) :
@@ -36,7 +36,7 @@
 					</div>
 					<div class="r">
 						<div class="social">
-							<p class="head">Obserwuj nas na:</p>
+							<p class="head">Obserwuj nas na</p>
 							<div class="icons">
 								<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 								<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
@@ -45,7 +45,7 @@
 							</div>
 						</div>
 
-						<p class="head">kontakt</p>
+						<p class="head">Kontakt</p>
 						<p class="">info@wiecejnizlek.pl</p>
 						<p class="">600 500 700</p><br />
 
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 				<div class="down off-768 off-640 off-320">
-					<ul>
+					<ul class="wnl-footer-legal">
 						<li>
 							<a href="" title="">Regulamin</a><span class="line">|</span>
 						</li>

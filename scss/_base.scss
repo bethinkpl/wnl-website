@@ -4,33 +4,6 @@ html, body {
 	height: 100%;
 }
 
-body {
-	color: $primary-color;
-	font-family: $secondary-font;
-	font-size: $normal-font-size;
-	line-height: $normal-line-height;
-}
-
-p {
-	margin: 8px 0 16px;
-}
-
-ul:not([class]) {
-	margin: 8px 0;
-	padding: 0 0 0 32px;
-
-	li {
-		list-style-type: disc;
-		margin: 8px;
-
-		li {
-			list-style-type: circle;
-		}
-	}
-}
-
-
-
 .wnl-front-particles {
 	background-image: url('assets/hero-front.jpg');
 	background-position: 50% 50%;
@@ -1291,89 +1264,52 @@ header {
 		}
 
 		.four {
-			text-align: center;
+			background-color: #43495A;
+			color: $white-color;
 			padding-bottom: 80px;
-		    background-color: #43495A;
+		}
 
-			.title {
-				color: $white-color;
-				margin-top: 120px;
-				text-align: center;
-			}
+		.wnl-course-workshops {
+			width: 70%;
+			margin: 0 auto;
+			padding-top: 48px;
+		}
 
-			.subtitle {
-				color: $white-color;
-			    margin-top: 20px;
-			    text-align: center;
-			}
+		.wnl-course-workshops-list {
+			margin: 48px auto;
+		}
 
-			.steps {
-				text-align: center;
-				margin-top: 20px;
+		.wnl-course-workshops-list-item {
+			@include clearfix;
 
-				ul {
+			display: block;
+			margin-bottom: 32px;
+		}
 
-					li {
-						display: inline-block;
-						float: left;
-						width: 33.33%;
-						box-sizing: border-box;
-						margin-top: 60px;
+		.wnl-course-workshops-list-number {
+			color: $light-green-color;
+			display: block;
+			float: left;
+			font-family: $primary-font;
+			font-size: $large-font-size;
+			line-height: $large-line-height;
+			margin-right: 16px;
+			width: 80px;
+		}
 
-						&:nth-child(3n + 1) {
-							padding-right: 40px;
-							clear: both;
-						}
+		.wnl-course-workshops-list-content {
+			display: block;
+			float: left;
+			font-family: $primary-font;
+			max-width: 80%;
+		}
 
-						&:nth-child(3n + 2) {
-							padding-left: 20px;
-							padding-right: 20px;
-						}
+		.wnl-course-workshops-content-list li {
+			margin: 8px 0;
+		}
 
-						&:nth-child(3n + 3) {
-							padding-left: 40px;
-						}
+		.wnl-course-workshops-list-title {
 
-						.number {
-							font-family: $primary-font;
-							font-size: 72px;
-						    line-height: 80px;
-						    color: #61CED8;
-						    margin-top: 10px;
-						}
-
-						.title {
-							font-size: $medium-font-size;
-						    line-height: $medium-line-height;
-						    color: $white-color;
-						    margin-top: 40px;
-						}
-
-						.description {
-							display: inline-block;
-						    margin-top: 40px;
-
-						    p {
-						    	font-size: $normal-font-size;
-						    	line-height: $normal-line-height;
-						    	color: #E3E5EA;
-						    }
-
-						    ul {
-
-						    	li {
-						    		display: inline-block;
-								    width: 100%;
-								    padding: 0px;
-								    text-align: left;
-								    margin: 0px;
-								    color: #E3E5EA;
-						    	}
-						    }
-						}
-					}
-				}
-			}
 		}
 
 		.five {

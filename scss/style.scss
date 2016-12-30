@@ -8,6 +8,7 @@ Version: 1.0
 @import "_variables.scss";
 @import "_mixins.scss";
 @import "_general.scss";
+@import "_styleguide.scss";
 @import "_base.scss";
 @media (min-width: #{$phone-min-width}) and (max-width: #{$phone-max-width - 1px}) { @import "_320.scss"; }
 @media (min-width: #{$phone-max-width}) and (max-width: #{$tablet-min-width - 1px}) { @import "_640.scss"; }

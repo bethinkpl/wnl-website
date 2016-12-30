@@ -25,7 +25,7 @@
 				<div class="right">
 					<div class="l">
 						<p class="head">na blogu</p>
-						<ul>
+						<ul class="wnl-footer-recent-posts">
 							<?php
 								$recent_posts = wp_get_recent_posts( [ 'numberposts' => 4 ] );
 								foreach( $recent_posts as $recent ) :
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 				<div class="down off-768 off-640 off-320">
-					<ul>
+					<ul class="wnl-footer-legal">
 						<li>
 							<a href="" title="">Regulamin</a><span class="line">|</span>
 						</li>

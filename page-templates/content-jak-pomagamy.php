@@ -4,7 +4,7 @@
 			Jak pomagamy?
 		</p>
 		<p class="subtitle">
-			5 filarów Więcej niż LEK
+			Poznaj 5 filarów kursu "Więcej niż LEK"!
 		</p>
 		<div class="tabhelp">
 			<a href="" class="tabhelp-controls__prev"><img src="<?= get_template_directory_uri() ?>/assets/button/navigation_left/normal.svg" alt="Poprzedni" /></a>

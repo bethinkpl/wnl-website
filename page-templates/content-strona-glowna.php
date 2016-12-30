@@ -51,7 +51,7 @@
 				<?php the_field("courses_subtitle"); ?>
 			</p>
 			<div class="pillars">
-				<ul>
+				<ul class="pillars-list">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -200,7 +200,7 @@
 				<?php the_field("blog_subtitle"); ?>
 			</p>
 			<div class="posts">
-				<ul>
+				<ul class="wnl-front-blog-list">
 					<?php
 						$args = array(
 							'numberposts' => 3

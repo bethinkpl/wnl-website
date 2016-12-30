@@ -5,7 +5,7 @@
 				<?php the_field("help_section_title_1"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -134,7 +134,7 @@
 				<?php the_field("course_title"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">
@@ -198,7 +198,7 @@
 				<?php the_field("points_subtitle"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="number">
 							01.
@@ -207,7 +207,7 @@
 							<?php the_field("point_title_1"); ?>
 						</p>
 						<div class="description">
-							<?php the_field("point_description_1"); ?>	
+							<?php the_field("point_description_1"); ?>
 						</div>
 					</li>
 
@@ -280,7 +280,7 @@
 				<?php the_field("preparation_title"); ?>
 			</p>
 			<div class="steps">
-				<ul>
+				<ul class="">
 					<li>
 						<div class="image">
 							<div class="inside">

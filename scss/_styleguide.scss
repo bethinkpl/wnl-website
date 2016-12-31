@@ -18,11 +18,14 @@ h3, h4, h5 {
 }
 
 h1 {
-	box-shadow: $shadow-bottom;
 	font-size: $large-font-size;
   line-height: $large-line-height;
   padding: 24px 0 16px;
 	text-align: center;
+}
+
+h1.wnl-page-title {
+	box-shadow: $shadow-bottom;
 }
 
 h2 {
@@ -57,6 +60,14 @@ p {
 	line-height: $small-line-height;
 }
 
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: 600;
+}
+
 a,
 a:visited {
 	color: $green-color;
@@ -79,4 +90,18 @@ ul:not([class]) {
 			list-style-type: circle;
 		}
 	}
+}
+
+div {
+	display: block;
+}
+
+.background-image {
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: -5;
 }

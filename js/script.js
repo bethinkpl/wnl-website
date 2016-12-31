@@ -27,7 +27,7 @@ window.onscroll = function() {
 
 $(function() {
   if (page == 'index') {
-    particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
+    // particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
   }
 });
 

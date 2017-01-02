@@ -17,6 +17,41 @@
 	line-height: 35px;
 }
 
+h1 {
+	font-size: $xs-large-font-size;
+	line-height: $xs-large-line-height;
+}
+
+h2 {
+	font-size: $xs-medium-2-font-size;
+	line-height: $xs-medium-2-line-height;
+}
+
+h3 {
+	font-size: $xs-medium-font-size;
+	line-height: $xs-medium-line-height;
+}
+
+h4 {
+	font-size: $xs-normal-font-size;
+	line-height: $xs-normal-line-height;
+}
+
+body {
+	font-size: $xs-normal-font-size;
+	line-height: $xs-normal-line-height;
+}
+
+.subtitle {
+	font-size: $xs-medium-font-size;
+	line-height: $xs-medium-line-height;
+}
+
+p {
+	font-size: $xs-normal-font-size;
+	line-height: $xs-normal-line-height;
+}
+
 #regulations {
 	overflow-y: scroll;
 

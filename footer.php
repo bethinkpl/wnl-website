@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="down off-1440 off-1280 off-1024">
-						<ul>
+						<ul class="wnl-footer-legal">
 							<li>
 								<a href="" title="">Regulamin</a>
 							</li>

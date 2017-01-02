@@ -77,7 +77,6 @@ function scrollToSection() {
     $('.wnl-scroll-top').on('click', function() {
         var section = $(this).data('sectionTarget'),
           off = -80;
-          debugger;
         if (section != 0) {
             off = $(section).offset().top - 80;
         }

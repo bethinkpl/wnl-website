@@ -1224,6 +1224,10 @@ header {
 			padding-bottom: 80px;
 		}
 
+		.wnl-course-steps-list {
+			@include clearfix;
+		}
+
 		.wnl-course-workshops {
 			width: 70%;
 			margin: 0 auto;
@@ -1264,7 +1268,7 @@ header {
 		}
 
 		.wnl-course-workshops-list-title {
-
+			padding: 12px 0 8px;
 		}
 
 		.five {

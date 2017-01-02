@@ -196,7 +196,7 @@
 			</p>
 			<p><?php the_field( 'points_subtitle' ); ?></p>
 			<div class="steps">
-				<ul class="">
+				<ul class="wnl-course-steps-list">
 					<?php for ( $i = 1; $i <= 3; $i++ ) : ?>
 						<li>
 							<div class="image">

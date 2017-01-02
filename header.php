@@ -105,7 +105,7 @@
 				<div class="desktop">
 					<div class="bag">
 						<?php wp_nav_menu(array('theme_location'=>'landing-menu')); ?>
-						<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
+						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
 					</div>
 				</div>
 

@@ -25,6 +25,7 @@ h1 {
 }
 
 h1.wnl-page-title {
+	padding-top: 64px;
 	box-shadow: $shadow-bottom;
 }
 
@@ -51,6 +52,11 @@ h4 {
 p {
 	display: block;
 	padding: 8px 0 16px;
+}
+
+p.wnl-page-subtitle {
+	font-family: $primary-font;
+	text-align: center;
 }
 
 .caption {
@@ -104,4 +110,13 @@ div {
 	position: fixed;
 	width: 100%;
 	z-index: -5;
+}
+
+// Auxilliary classes
+.no-shadow {
+	box-shadow: none !important;
+}
+
+.wrapper {
+	@include clearfix;
 }

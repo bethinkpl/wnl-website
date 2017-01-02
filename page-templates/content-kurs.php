@@ -1,9 +1,9 @@
 <div class="page course">
 	<div class="wrapper">
 		<div class="section one">
-			<p class="title">
+			<h1 class="wnl-page-title no-shadow">
 				<?php the_field("assumptions_title"); ?>
-			</p>
+			</h1>
 			<div class="steps">
 				<ul class="">
 					<li>
@@ -253,7 +253,7 @@
 		</div>
 	</div>
 	<div class="section back">
-		<a href="#" title="" data-section-target="0">
+		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
 			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up/normal.svg' ?>" alt="Więcej niż lek" />
 		</a>
 	</div>

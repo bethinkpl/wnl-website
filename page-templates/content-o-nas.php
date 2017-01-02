@@ -56,7 +56,7 @@
 		</div>
 	</div>
 	<div class="section back">
-		<a href="#" title="" data-section-target="0">
+		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
 			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up_inverted/normal.svg' ?>" alt="Więcej niż lek" />
 		</a>
 	</div>

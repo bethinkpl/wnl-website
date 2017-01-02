@@ -323,8 +323,6 @@ header {
 }
 
 .signin {
-	display: inline-block;
-	float: left;
 	width: 100%;
 	text-align: center;
 
@@ -744,14 +742,21 @@ header {
 		overflow: hidden;
 		margin-top: 80px;
 
+		.content {
+			@include clearfix;
+		}
+
+		.bottom {
+			background-color: $dark-background;
+			color: $white-color;
+		}
+
 		.title {
-			color: $primary-color;
 			margin-top: 80px;
 			text-align: center;
 		}
 
 		.subtitle {
-			color: $primary-color;
 			margin-top: 20px;
 			text-align: center;
 		}
@@ -781,7 +786,7 @@ header {
 				text-align: center;
 				line-height: 0px;
 				padding-bottom: 40px;
-				box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
+				box-shadow: $shadow-bottom;
 
 				.select {
 
@@ -844,7 +849,6 @@ header {
 					width: 100%;
 					padding-top: 60px;
 					padding-bottom: 80px;
-					box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
 
 					.head {
 						display: inline-block;
@@ -895,10 +899,8 @@ header {
 		}
 
 		.mail {
-		    display: inline-block;
-		    float: left;
-		    width: 100%;
-			background-color: #43495A;
+			@include clearfix;
+
 			padding-bottom: 60px;
 
 			.signin {
@@ -910,10 +912,11 @@ header {
 				}
 
 				.title {
-					margin-top: 60px;
+					padding-top: 60px;
 				}
 
 				.subtitle {
+					color: $white-color;
 					margin-top: 20px;
 					font-family: $secondary-font;
 				}
@@ -924,11 +927,14 @@ header {
 			}
 		}
 
+		.mc4wp-form {
+			@include clearfix;
+		}
+
 		.back {
 		    text-align: center;
 		    padding-top: 40px;
 		    padding-bottom: 70px;
-		    background-color: #43495A;
 		}
 	}
 
@@ -1975,7 +1981,7 @@ footer {
 
 	.right {
 		width: 60%;
-		margin-top: 45px;
+		margin-top: 30px;
 
 		.head {
 			font-family: $primary-font;

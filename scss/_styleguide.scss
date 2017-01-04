@@ -24,11 +24,6 @@ h1 {
 	text-align: center;
 }
 
-h1.wnl-page-title {
-	padding-top: 64px;
-	box-shadow: $shadow-bottom;
-}
-
 h2 {
 	font-size: $medium-2-font-size;
 	line-height: $medium-2-line-height;
@@ -48,6 +43,19 @@ h4 {
   line-height: $normal-line-height;
 	padding: 8px 0 4px;
 }
+
+// Headings modifiers
+
+.wnl-page-title {
+	padding-top: 64px;
+	box-shadow: $shadow-bottom;
+}
+
+.wnl-section-heading {
+	padding-top: 80px;
+}
+
+// Paragraphs
 
 p {
 	display: block;
@@ -77,11 +85,14 @@ strong {
 a,
 a:visited {
 	color: $green-color;
+	text-decoration: none;
+	transition: color 0.25s;
 }
 
 a:hover,
 a:active {
 	color: $light-green-color;
+	transition: color 0.25s;
 }
 
 ul:not([class]) {

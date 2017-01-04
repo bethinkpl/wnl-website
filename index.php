@@ -1,8 +1,6 @@
+	<?php get_header(); ?>
 
-		<?php get_header(); ?>
-
-		<?php echo '<script src="' . get_template_directory_uri() . '/js/angular.js"></script>'; ?>
-
+		<script src="<?= get_template_directory_uri() ?>/js/angular.js"></script>
 		<div ng-app="lekApp" id="primary" class="content-area">
 			<main id="main" class="site-main page blog" role="main" ng-controller="blogController">
 				<div class="wrapper">
@@ -23,36 +21,26 @@
 							<a ng-click="increaseLimit()">wczytaj więcej</a>
 						</div>
 					</div>
-					<div class="categories second">
-						<ul>
-							<li ng-repeat="(key, value) in categories | orderBy:'id'">
-								<a href="#" title="" ui-sref="category({id: '{{value.id}}'})" ng-class="{active: id_category == value.id}">{{value.name}}</a>
-							</li>
-						</ul>
-					</div>
 					<div class="last">
 						<div class="wrapper">
-							<p class="title">
-								Przeczytaj także...
-							</p>
+							<h3 class="wnl-section-heading">Przeczytaj także...</h3>
 							<div class="posts">
 								<ul class="wnl-blog-recent-posts">
 									<?php
-										$args = array(
-											'numberposts' => 3
-										);
-										$recent_posts = wp_get_recent_posts($args);
-										foreach( $recent_posts as $recent ){
-											$value = get_field( "preview_photo", $recent["ID"] );
-											echo '<li>
-												<a href="' . get_permalink($recent["ID"]) . '">
+										$recent_posts = wp_get_recent_posts( [ 'numberposts' => 3 ] );
+										foreach( $recent_posts as $recent ) :
+											$value = get_field( 'preview_photo', $recent['ID'] );
+									?>
+											<li>
+												<a href="<?= esc_url( get_permalink( $recent['ID'] ) ) ?>">
 													<div class="image">
-														<img src="'.$value['url'].'" alt="" />
+														<img src="<?= esc_url( $value['url'] ) ?>">
 													</div>
-													<p class="title">'.$recent["post_title"].'</p>
+													<p class="title"><?= $recent['post_title'] ?></p>
 												</a>
-											</li>';
-										}
+											</li>
+									<?php
+										endforeach;
 										wp_reset_query();
 									?>
 								</ul>

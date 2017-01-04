@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="down off-1440 off-1280 off-1024">
-						<ul>
+						<ul class="wnl-footer-legal">
 							<li>
 								<a href="" title="">Regulamin</a>
 							</li>
@@ -46,12 +46,7 @@
 						</div>
 
 						<p class="head">Kontakt</p>
-						<p class="">info@wiecejnizlek.pl</p>
-						<p class="">600 500 700</p><br />
-
-						<p class="award">Bethink s.c.</p><br />
-						<p class="">27 Grudnia 7/9, Poznań</p>
-						<p class="">NIP: 900 700 78 78</p>
+						<p>info@wiecejnizlek.pl</p>
 					</div>
 				</div>
 				<div class="down off-768 off-640 off-320">

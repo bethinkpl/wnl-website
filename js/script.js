@@ -7,7 +7,6 @@ window.onresize = function() {
 
 window.onload = function() {
     animationTabs();
-    scrollToSection();
     toggleMenu();
     changeStep();
     subscribe();
@@ -26,9 +25,10 @@ window.onscroll = function() {
 }
 
 $(function() {
-  if (page == 'index') {
+  if (page === 'index') {
     particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
   }
+  scrollToSection();
 });
 
 function animationTabs() {
@@ -74,19 +74,18 @@ function animationTabs() {
 }
 
 function scrollToSection() {
-    jQuery('[data-section-target]').on('click', function() {
-        var section = jQuery(this).data('sectionTarget');
-        var off = -80;
-
+    $('.wnl-scroll-top').on('click', function() {
+        var section = $(this).data('sectionTarget'),
+          off = -80;
         if (section != 0) {
-            off = jQuery(section).offset().top - 80;
+            off = $(section).offset().top - 80;
         }
 
-        jQuery('.page').velocity("stop", true).velocity("scroll",
+        $('.page').velocity('stop', true).velocity('scroll',
             {
                 offset: off,
                 duration: 1000,
-                easing: "easeInOutCubic"
+                easing: 'easeInOutCubic'
             }
         );
     });

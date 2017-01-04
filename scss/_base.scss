@@ -65,8 +65,7 @@ html, body {
 }
 
 .section {
-	display: inline-block;
-	float: left;
+	display: block;
 	width: 100%;
 }
 
@@ -254,6 +253,7 @@ header {
 		.menu-main_menu-container, .fb {
 			display: inline-block;
 			float: left;
+			width: auto;
 		}
 
 		.fb {
@@ -323,8 +323,6 @@ header {
 }
 
 .signin {
-	display: inline-block;
-	float: left;
 	width: 100%;
 	text-align: center;
 
@@ -397,99 +395,48 @@ header {
 }
 
 .page {
-	display: inline-block;
-	float: left;
+	margin-top: 80px;
 	width: 100%;
 
 	&.index {
 
 		.section {
+			@include clearfix;
+
 			background-color: $white-color;
 		}
 
 		.cover {
 			background-color: transparent;
-			display: inline-block;
-			float: left;
-			width: 100%;
 			height: 600px;
-			margin-top: 80px;
 			text-align: center;
 
 			.inside {
-				display: inline-block;
-			    position: relative;
-			    z-index: 8;
-			    top: calc(50% - 100px);
-			    -webkit-transform: translateY(-50%);
-			    -ms-transform: translateY(-50%);
-			    transform: translateY(-50%);
-					width: 100%;
+				padding: 160px 0 0;
 
-			    .subtitle {
-			    	display: inline-block;
-			    	margin-top: 20px;
+		    .subtitle {
+		    	display: inline-block;
+		    	margin-top: 20px;
 
-			    	span {
-			    		display: inline-block;
-			    		float: left;
+		    	span {
+		    		display: inline-block;
+		    		float: left;
 
-			    		&.line {
-				    		width: 40px;
-				    		height: 1px;
-				    		margin: 0px 10px;
-				    		margin-top: 14px;
-				    		background-color: $white-color;
-				    	}
+		    		&.line {
+			    		width: 40px;
+			    		height: 1px;
+			    		margin: 0px 10px;
+			    		margin-top: 14px;
+			    		background-color: $white-color;
 			    	}
-			    }
-				}
+		    	}
+		    }
 			}
-
-		.one {
-			background-color: #E2E6EF;
-			// padding-bottom: 120px;
-			// temporary
-			padding-bottom: 0px !important;
-
-			.bag {
-				display: inline-block;
-				float: left;
-				width: 100%;
-				margin-top: -160px;
-			}
-
-			.scroll {
-				text-align: center;
-			}
-
-			// temporary
-			.video {
-				display: none;
-			}
-
-			.signin {
-				margin-top: 160px;
-
-				// temporary
-				display: none;
-			}
-			// end temporary
-
-			// .video {
-			//     display: block;
-			//     clear: both;
-			//     width: 750px;
-			//     height: 422px;
-			//     margin: 0 auto;
-			//     margin-top: 50px;
-			//     background-color: #000;
-			// }
 		}
 
 		.two {
 			text-align: center;
-			padding-bottom: 120px;
+			padding: 40px 0 120px;
 
 			.title, .subtitle {
 				color: $primary-color;
@@ -581,7 +528,6 @@ header {
 
 		.three {
 			text-align: center;
-			// background-image: url('assets/course.jpg'); /* Fallback */
 			background-image: linear-gradient(-180deg, rgba(45,67,105,0.36) 0%, #43495A 89%), url('assets/course.jpg');
 			background-size: cover;
 			background-position: top center;
@@ -795,14 +741,21 @@ header {
 		overflow: hidden;
 		margin-top: 80px;
 
+		.content {
+			@include clearfix;
+		}
+
+		.bottom {
+			background-color: $dark-background;
+			color: $white-color;
+		}
+
 		.title {
-			color: $primary-color;
 			margin-top: 80px;
 			text-align: center;
 		}
 
 		.subtitle {
-			color: $primary-color;
 			margin-top: 20px;
 			text-align: center;
 		}
@@ -832,7 +785,7 @@ header {
 				text-align: center;
 				line-height: 0px;
 				padding-bottom: 40px;
-				box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
+				box-shadow: $shadow-bottom;
 
 				.select {
 
@@ -895,7 +848,6 @@ header {
 					width: 100%;
 					padding-top: 60px;
 					padding-bottom: 80px;
-					box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
 
 					.head {
 						display: inline-block;
@@ -946,10 +898,8 @@ header {
 		}
 
 		.mail {
-		    display: inline-block;
-		    float: left;
-		    width: 100%;
-			background-color: #43495A;
+			@include clearfix;
+
 			padding-bottom: 60px;
 
 			.signin {
@@ -961,10 +911,11 @@ header {
 				}
 
 				.title {
-					margin-top: 60px;
+					padding-top: 60px;
 				}
 
 				.subtitle {
+					color: $white-color;
 					margin-top: 20px;
 					font-family: $secondary-font;
 				}
@@ -975,11 +926,14 @@ header {
 			}
 		}
 
+		.mc4wp-form {
+			@include clearfix;
+		}
+
 		.back {
 		    text-align: center;
 		    padding-top: 40px;
 		    padding-bottom: 70px;
-		    background-color: #43495A;
 		}
 	}
 
@@ -1269,6 +1223,10 @@ header {
 			padding-bottom: 80px;
 		}
 
+		.wnl-course-steps-list {
+			@include clearfix;
+		}
+
 		.wnl-course-workshops {
 			width: 70%;
 			margin: 0 auto;
@@ -1309,7 +1267,7 @@ header {
 		}
 
 		.wnl-course-workshops-list-title {
-
+			padding: 12px 0 8px;
 		}
 
 		.five {
@@ -1784,59 +1742,44 @@ header {
 		margin-top: 80px;
 
 		.cover {
-			display: inline-block;
-			float: left;
-			width: 100%;
+			background-color: rgba(36, 45, 71, 0.5);
+			color: $white-color;
 			height: 600px;
-			background-color: rgba(45,67,105,0.49);
 			text-align: center;
 
-			.image {
-				position: absolute;
-				z-index: -1;
-				width: 100%;
-				height: 600px;
-				background-size: cover;
-			}
-
 			.inside {
-				display: inline-block;
-				width: 100%;
-			    position: relative;
-			    z-index: 8;
-			    top: 50%;
-			    -webkit-transform: translateY(-50%);
-			    -ms-transform: translateY(-50%);
-			    transform: translateY(-50%);
+		    position: relative;
+		    z-index: 8;
+		    top: 50%;
+		    -webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    transform: translateY(-50%);
 
-			    .wrapper {
-			    	padding: 0px 20%;
-			    }
+		    .wrapper {
+		    	padding: 0px 20%;
+		    }
 
 				.category {
 					font-family: $primary-font;
 					font-size: $small-font-size;
 					font-weight: 600;
 					line-height: $small-line-height;
-					margin-bottom: 20px;
+					padding-bottom: 40px;
 					text-transform: uppercase;
-					color: $white-color;
 				}
 
-			    .subtitle {
-			    	display: inline-block;
-			    	margin-top: 20px;
-			    	font-family: $secondary-font;
-			    }
+		    .subtitle {
+		    	font-family: $secondary-font;
+					margin-bottom: 32px;
+		    }
 
-			    .date {
-			    	font-family: $primary-font;
+		    .date {
+		    	font-family: $primary-font;
 					font-size: $small-font-size;
 					font-weight: 600;
 					line-height: $small-line-height;
 					color: $white-color;
-					margin-top: 30px;
-			    }
+		    }
 			}
 
 			a,
@@ -1849,38 +1792,30 @@ header {
 		}
 
 		.all {
-			display: inline-block;
-			float: left;
-			width: 100%;
-			margin-top: 120px;
+			background-color: $white-color;
+			display: block;
 			padding-bottom: 80px;
+		}
 
-			.wrapper {
-				display: inline-block;
-				float: left;
-				width: 100%;
-				padding: 0px 25%;
-				box-sizing: border-box;
-			}
+		.wrapper {
+			display: block;
+			width: 100%;
+			padding: 0px 25%;
+			box-sizing: border-box;
+		}
 
-			* {
-				line-height: $normal-line-height;
-				color: $primary-color;
-			}
+		.content {
+			padding-top: 40px;
+		}
 
-			h2 {
-				font-size: $normal-line-height;
-			}
-
-			strong {
-				font-weight: 600;
-			}
+		.content-comments {
+			margin-top: 80px;
 		}
 
 		.back {
 		    text-align: center;
 		    padding-top: 80px;
-		    padding-bottom: 120px;
+		    padding-bottom: 40px;
 		}
 	}
 
@@ -2049,7 +1984,7 @@ footer {
 
 	.right {
 		width: 60%;
-		margin-top: 45px;
+		margin-top: 30px;
 
 		.head {
 			font-family: $primary-font;

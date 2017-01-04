@@ -45,7 +45,7 @@
 				<div class="in">
 					<p class="title">Musimy zapytać…</p>
 					<p class="subtitle">
-						Czy wyrażasz zgode na przetwarzanie Twoich danych przez Bethink sp. z o.o. w celu dostarczania informacji handlowych, czyli informacji o rozpoczęciu kursu, nowych wpisach na blogu, oraz aktualności dotyczących kursu “Więcej niż LEK”?
+						Czy wyrażasz zgode na przetwarzanie Twoich danych przez bethink s.c. w celu dostarczania informacji handlowych, czyli informacji o rozpoczęciu kursu, nowych wpisach na blogu, oraz aktualności dotyczących kursu “Więcej niż LEK”?
 					</p>
 					<div class="accept">
 						<a href="#" title="">
@@ -84,7 +84,7 @@
 						<?php wp_nav_menu( array(
 						    'menu' => 'mobile_menu'
 						) ); ?>
-						<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 						<div class="mail">
 							<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
 								<?php pll_e("button_leave_mail"); ?>
@@ -105,7 +105,7 @@
 				<div class="desktop">
 					<div class="bag">
 						<?php wp_nav_menu(array('theme_location'=>'landing-menu')); ?>
-						<a href="" title="" target="_blank" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
+						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
 					</div>
 				</div>
 

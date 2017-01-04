@@ -1,6 +1,6 @@
 <div class="page contact">
 	<div class="wrapper">
-		<h1 class="wnl-contact-title">
+		<h1 class="wnl-page-title no-shadow">
 			<?php the_field( 'contact_head' ); ?>
 		</h1>
 		<div class="up">

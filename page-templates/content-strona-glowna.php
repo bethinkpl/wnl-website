@@ -12,41 +12,9 @@
 		</div>
 	</div>
 
-	<div class="section one">
-		<div class="bag">
-			<div class="wrapper">
-				<div class="scroll">
-					<a href="#" title="" data-section-target=".one">
-						<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę">
-					</a>
-				</div>
-				<div class="video">
-
-				</div>
-				<div class="signin">
-					<p class="title">
-						<?php the_field("subscribe_subtitle"); ?>
-					</p>
-					<p class="subtitle">
-						<?php the_field("subscribe_subtitle"); ?>
-					</p>
-					<div class="input">
-						<?php
-							if( function_exists( 'mc4wp_show_form' ) ) {
-							    mc4wp_show_form();
-							}
-						?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="section two">
 		<div class="wrapper">
-			<p class="title">
-				<?php the_field("courses_title"); ?>
-			</p>
+			<h1><?php the_field("courses_title"); ?></h1>
 			<p class="subtitle">
 				<?php the_field("courses_subtitle"); ?>
 			</p>
@@ -225,8 +193,8 @@
 	</div>
 
 	<div class="section back">
-		<a href="#" title="" data-section-target="0">
-			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up/normal.svg' ?>" alt="Więcej niż lek" />
+		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
+			<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Przewiń stronę do góry">
 		</a>
 	</div>
 </div>

@@ -36,7 +36,7 @@
 								Przeczytaj także...
 							</p>
 							<div class="posts">
-								<ul>
+								<ul class="wnl-blog-recent-posts">
 									<?php
 										$args = array(
 											'numberposts' => 3
@@ -50,7 +50,7 @@
 														<img src="'.$value['url'].'" alt="" />
 													</div>
 													<p class="title">'.$recent["post_title"].'</p>
-												</a> 
+												</a>
 											</li>';
 										}
 										wp_reset_query();

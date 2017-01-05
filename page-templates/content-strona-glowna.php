@@ -8,6 +8,11 @@
 				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
 				</p>
+				<div class="wnl-front-cover-scroll">
+					<a href="#" title="" class="wnl-scroll-top" data-section-target=".two">
+						<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

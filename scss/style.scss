@@ -10,7 +10,7 @@ Version: 1.0
 @import "_general.scss";
 @import "_styleguide.scss";
 @import "_base.scss";
-@media (min-width: #{$phone-min-width}) and (max-width: #{$phone-max-width - 1px}) { @import "_320.scss"; }
+@media (max-width: #{$phone-max-width - 1px}) { @import "_320.scss"; }
 @media (min-width: #{$phone-max-width}) and (max-width: #{$tablet-min-width - 1px}) { @import "_640.scss"; }
 @media (min-width: #{$tablet-min-width}) and (max-width: #{$tablet-max-width - 1px}) { @import "_768.scss"; }
 @media (min-width: #{$tablet-max-width}) and (max-width: #{$desktop-mdpi - 1px}) { @import "_1024.scss"; }

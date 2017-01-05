@@ -617,7 +617,7 @@ header {
 
 					}
 
-					li {
+					.wnl-front-options-list-item {
 						background-repeat: no-repeat;
 						background-position: 0 8px;
 						background-image: url('assets/check.svg');
@@ -631,12 +631,12 @@ header {
 						margin-bottom: 12px;
 						padding-left: 30px;
 
-						&:last-child {
-							margin-bottom: 0px;
-						}
-
 						ul {
-							padding: 0;
+							padding: 0 0 0 12px;
+
+							li {
+								list-style-type: circle;
+							}
 						}
 					}
 				}

@@ -175,21 +175,19 @@
 			<div class="posts">
 				<ul class="wnl-front-blog-list">
 					<?php
-						$args = array(
-							'numberposts' => 3
-						);
+						$args = [ 'numberposts' => 3 ];
 						$recent_posts = wp_get_recent_posts($args);
-						foreach( $recent_posts as $recent ){
-							$value = get_field( "preview_photo", $recent["ID"] );
-							echo '<li>
-								<a href="' . get_permalink($recent["ID"]) . '">
-									<div class="image">
-										<img src="'.$value['url'].'" alt="" />
-									</div>
-									<p class="title">'.$recent["post_title"].'</p>
+						foreach( $recent_posts as $recent ) :
+							$value = get_field( 'preview_photo', $recent['ID'] );
+					?>
+							<li>
+								<a href="<?= get_permalink( $recent['ID'] ) ?>">
+									<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
+									<p class="title"><?= $recent['post_title'] ?></p>
 								</a>
-							</li>';
-						}
+							</li>
+					<?php
+						endforeach;
 						wp_reset_query();
 					?>
 				</ul>

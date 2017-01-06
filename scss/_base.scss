@@ -299,22 +299,6 @@ header {
 	.mail {
 		width: 180px;
 		height: 40px;
-
-		a {
-			display: block;
-			height: 40px;
-			line-height: 40px;
-			margin-top: 20px;
-			font-family: $primary-font;
-			font-size: $small-font-size;
-			font-weight: 600;
-			color: $white-color;
-			background-color: $green-color;
-			border-radius: 100px;
-			text-align: center;
-			text-decoration: none;
-			text-transform: uppercase;
-		}
 	}
 }
 
@@ -723,10 +707,10 @@ header {
 						}
 
 						.image {
-
-							img {
-								width: 80%;
-							}
+							height: 240px;
+							background-position: center center;
+							background-repeat: none;
+							background-size: cover;
 						}
 
 						.title {
@@ -1658,10 +1642,10 @@ header {
 						}
 
 						.image {
-
-							img {
-								width: 80%;
-							}
+							height: 240px;
+							background-position: center center;
+							background-repeat: none;
+							background-size: cover;
 						}
 
 						.title {

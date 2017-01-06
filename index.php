@@ -27,15 +27,14 @@
 							<div class="posts">
 								<ul class="wnl-blog-recent-posts">
 									<?php
-										$recent_posts = wp_get_recent_posts( [ 'numberposts' => 3 ] );
+										$args = [ 'numberposts' => 3 ];
+										$recent_posts = wp_get_recent_posts($args);
 										foreach( $recent_posts as $recent ) :
 											$value = get_field( 'preview_photo', $recent['ID'] );
 									?>
 											<li>
-												<a href="<?= esc_url( get_permalink( $recent['ID'] ) ) ?>">
-													<div class="image">
-														<img src="<?= esc_url( $value['url'] ) ?>">
-													</div>
+												<a href="<?= get_permalink( $recent['ID'] ) ?>">
+													<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
 													<p class="title"><?= $recent['post_title'] ?></p>
 												</a>
 											</li>

@@ -111,7 +111,7 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
+						<a href="<?= get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 							<?php pll_e("button_leave_mail"); ?>
 						</a>
 					</div>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class="background-image" style="background-image: url('<?= get_field( 'preview_photo' )['url'] ?>');"></div>
 		<div class="page open">
+			<div class="background-image" style="background-image: url('<?= get_field( 'preview_photo' )['url'] ?>');"></div>
 
 		<article id="post-<?php the_ID(); ?>">
 

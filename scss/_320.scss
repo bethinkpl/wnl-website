@@ -966,6 +966,10 @@ header {
 
 	&.open {
 
+		.background-image {
+			height: 500px;
+		}
+
 		.cover {
 			height: 500px;
 

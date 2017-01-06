@@ -29,6 +29,18 @@ $medium-2-line-height: 57px;
 $large-font-size: 52px;
 $large-line-height: 60px;
 
+$md-small-font-size: 12px;
+$md-small-line-height: 18px;
+$md-normal-font-size: 16px;
+$md-normal-line-height: 28px;
+$md-normal-line-height-condensed: 22px;
+$md-medium-font-size: 24px;
+$md-medium-line-height: 36px;
+$md-medium-2-font-size: 30px;
+$md-medium-2-line-height: 48px;
+$md-large-font-size: 36px;
+$md-large-line-height: 50px;
+
 $xs-small-font-size: 12px;
 $xs-small-line-height: 18px;
 $xs-normal-font-size: 16px;
@@ -50,3 +62,6 @@ $tablet-max-width: 1024px;
 $desktop-mdpi: 1280px;
 $desktop-hdpi: 1440px;
 $wrapper-max-width: 960px;
+
+// 4. Elements
+$top-bar-height: 80px;

@@ -1,9 +1,53 @@
 // 1280
 
+h1 {
+	font-size: $large-font-size;
+	line-height: $large-line-height;
+}
+
+h2 {
+	font-size: $md-medium-2-font-size;
+	line-height: $md-medium-2-line-height;
+}
+
+h3 {
+	font-size: $md-medium-font-size;
+	line-height: $md-medium-line-height;
+}
+
+h4 {
+	font-size: $md-normal-font-size;
+	line-height: $md-normal-line-height;
+}
+
+body {
+	font-size: $md-normal-font-size;
+	line-height: $md-normal-line-height;
+}
+
 .rwd-line {
 	display: block;
 }
 
 .off-1280 {
 	display: none !important;
+}
+
+.wnl-front-particles {
+	height: 640px;
+}
+
+.wnl-front-overlay {
+	height: 640px;
+}
+
+.page.index {
+
+		.cover {
+			height: 640px;
+
+			.inside {
+				padding: 200px 0 0;
+			}
+		}
 }

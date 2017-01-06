@@ -2,9 +2,9 @@
 	<div class="section cover">
 		<div class="inside">
 			<div class="wrapper">
-				<p class="title">
+				<h1 class="wnl-front-title">
 					<?php the_field("cover_title"); ?>
-				</p>
+				</h1>
 				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
 				</p>

@@ -74,6 +74,14 @@ p.wnl-page-subtitle {
 	line-height: $small-line-height;
 }
 
+.metadata {
+	font-family: $primary-font;
+	font-size: $small-font-size;
+	font-weight: 600;
+	line-height: $small-line-height;
+	text-transform: uppercase;
+}
+
 em {
 	font-style: italic;
 }

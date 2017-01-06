@@ -945,15 +945,12 @@ header {
 			}
 		}
 
-		article {
-			box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.14);
+		.wnl-blog-listing-article {
+			height: 300px;
+		}
 
-			.title {
-				font-size: $medium-font-size;
-				line-height: 35px;
-				padding: 0px 20px;
-    			box-sizing: border-box;
-			}
+		.wnl-blog-listing-article-inside {
+			padding: 60px 0 0;
 		}
 
 		.more {
@@ -985,12 +982,8 @@ header {
 			}
 		}
 
-		.all {
-			margin-top: 40px;
-
-			.wrapper {
-				padding: 0px 5%;
-			}
+		.wrapper {
+			padding: 0px 5%;
 		}
 
 		.back {

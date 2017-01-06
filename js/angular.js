@@ -1,7 +1,7 @@
 var lekApp = angular.module('lekApp', ['ui.router']);
 
 lekApp.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider){
-  
+
     // For any unmatched url, send to /offer
     $urlRouterProvider.otherwise("/category/1")
 
@@ -27,9 +27,9 @@ lekApp.controller('blogController', ['$scope', '$sce', '$http', '$stateParams', 
         // or server returns response with an error status.
     });
 
-    $scope.limit = 4;
+    $scope.limit = 6;
     $scope.increaseLimit = function() {
-        $scope.limit += 4;
+        $scope.limit += 6;
         $scope.$emit('limit', $scope.limit);
     }
 }]);

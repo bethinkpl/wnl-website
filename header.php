@@ -19,6 +19,11 @@
 			  <script src="<?= get_template_directory_uri() ?>/js/vendors/velocity.min.js"></script>
   			<script src="<?= get_template_directory_uri() ?>/js/vendors/angular.min.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/angular-ui-router.min.js"></script>
+
+        <?php if ( is_home() ) : ?>
+          <script src="<?= get_template_directory_uri() ?>/js/angular.js"></script>
+        <?php endif; ?>
+
         <script type="text/javascript">
           var pageUrl = "<?= get_site_url() ?>";
           var templateUrl = "<?= get_template_directory_uri() ?>";

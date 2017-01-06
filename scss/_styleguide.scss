@@ -1,6 +1,9 @@
 body {
 	color: $primary-color;
 	font-family: $secondary-font;
+}
+
+body, p {
 	font-size: $normal-font-size;
 	line-height: $normal-line-height;
 }

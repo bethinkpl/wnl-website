@@ -4,6 +4,10 @@ html, body {
 	height: 100%;
 }
 
+.aligncenter {
+	text-align: center;
+}
+
 .wnl-front-particles {
 	background-image: url('assets/hero-front-2.jpg');
 	background-position: top center;
@@ -1872,6 +1876,10 @@ header {
 				}
 			}
 		}
+	}
+
+	&.thank-you {
+		padding: 80px 0 120px;
 	}
 }
 

@@ -27,8 +27,12 @@
 					}
 					else if (is_page(array('zostaw-e-mail'))) {
 						get_template_part( 'page-templates/content', 'zostaw-e-mail' );
-					} else if ( is_page( [ 'dziekujemy' ] ) ) {
+					}
+					else if ( is_page( [ 'dziekujemy' ] ) ) {
 						get_template_part( 'page-templates/content', 'dziekujemy' );
+					}
+					else if ( is_page( [ 'potwierdz-email' ] ) ) {
+						get_template_part( 'page-templates/content', 'potwierdz-email' );
 					}
 				?>
 

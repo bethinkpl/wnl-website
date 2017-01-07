@@ -180,7 +180,7 @@
 							<li>
 								<a href="<?= get_permalink( $recent['ID'] ) ?>">
 									<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
-									<h3 class="wnl-front-blog-list-link"><?= $recent['post_title'] ?></h3>
+									<h4 class="wnl-front-blog-list-link"><?= $recent['post_title'] ?></h4>
 								</a>
 							</li>
 					<?php

@@ -1908,12 +1908,8 @@ header {
 }
 
 footer {
-	display: inline-block;
-	float: left;
-	width: 100%;
-	padding-top: 80px;
-	padding-bottom: 70px;
-	background-color: #43495A;
+	padding: 50px 0;
+	background-color: $dark-background;
 
 	.wrapper {
 		padding: 0px 20%;
@@ -1936,20 +1932,14 @@ footer {
 			ul {
 
 				li {
-					display: inline-block;
-					float: left;
 					width: 100%;
-					margin-top: 20px;
+					margin-top: 10px;
 
 					&.current_page_item {
 
 						a {
 							color: $gray-color;
 						}
-					}
-
-					&:first-child {
-						margin-top: 30px;
 					}
 
 					a {
@@ -1995,11 +1985,7 @@ footer {
 
 				li {
 					width: 100%;
-					margin-top: 15px;
-
-					&:first-child {
-						margin-top: 30px;
-					}
+					margin-top: 10px;
 
 					a {
 						font-family: $primary-font;
@@ -2021,7 +2007,7 @@ footer {
 			width: 33.33%;
 
 			.head {
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 			}
 
 			p:not(.head) {

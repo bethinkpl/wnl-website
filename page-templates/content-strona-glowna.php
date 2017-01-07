@@ -169,9 +169,6 @@
 			<p class="title">
 				<?php the_field("blog_title"); ?>
 			</p>
-			<p class="subtitle">
-				<?php the_field("blog_subtitle"); ?>
-			</p>
 			<div class="posts">
 				<ul class="wnl-front-blog-list">
 					<?php
@@ -183,7 +180,7 @@
 							<li>
 								<a href="<?= get_permalink( $recent['ID'] ) ?>">
 									<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
-									<p class="title"><?= $recent['post_title'] ?></p>
+									<h3 class="wnl-front-blog-list-link"><?= $recent['post_title'] ?></h3>
 								</a>
 							</li>
 					<?php

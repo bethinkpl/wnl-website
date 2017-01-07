@@ -661,7 +661,7 @@ header {
 
 		.five {
 			text-align: center;
-			padding-bottom: 120px;
+			padding-bottom: 80px;
 
 			.title, .subtitle {
 				color: $primary-color;
@@ -723,6 +723,14 @@ header {
 							margin-top: 70px;
 						}
 					}
+				}
+			}
+
+			.wnl-front-blog-list-link {
+				color: $primary-color;
+
+				&:hover {
+					color: $gray-color;
 				}
 			}
 		}

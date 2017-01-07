@@ -5,7 +5,6 @@
 				<div class="wrapper">
 					<h1 class="wnl-page-title no-shadow">Blog</h1>
 					<div class="categories">
-						<p class="metadata">Kategorie</p>
 						<ul class="wnl-blog-categories-list">
 							<li ng-repeat="(key, value) in categories | orderBy:'id'">
 								<a href="#" title="" ui-sref="category({id: '{{value.id}}'})" ng-class="{active: id_category == value.id}">{{value.name}}</a>

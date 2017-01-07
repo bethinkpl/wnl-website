@@ -1533,11 +1533,15 @@ header {
 	&.blog {
 		margin-top: 80px;
 
+		.wnl-page-title {
+			padding-top: 40px;
+		}
+
 		.categories {
 			text-align: center;
 			line-height: 0px;
 			padding-bottom: 40px;
-			margin-top: 70px;
+			margin-top: 20px;
 			box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
 
 			ul {
@@ -1678,12 +1682,12 @@ header {
 			color: $white-color;
 			display: block;
 			width: 100%;
-			height: 450px;
+			height: 300px;
 			text-align: center;
 		}
 
 		.wnl-blog-listing-article-inside {
-			padding: 125px 0 0;
+			padding: 60px 0 0;
 		}
 
 		.wnl-blog-listing-link {

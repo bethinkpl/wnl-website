@@ -1878,7 +1878,8 @@ header {
 		}
 	}
 
-	&.thank-you {
+	&.thank-you,
+	&.general {
 		padding: 80px 0 120px;
 	}
 }

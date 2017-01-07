@@ -51,12 +51,15 @@
 				</div>
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
-						<li>
-							<a href="" title="">Regulamin</a><span class="line">|</span>
-						</li>
-						<li>
-							<a href="" title="">Polityka prywatności</a>
-						</li>
+						<a href="<?= get_site_url() ?>/regulamin" title="Regulamin strony">Regulamin</a><span class="line">|</span>
+						<a href="http://www.guideme24.pl/privacy-policy/677" class="guide-embed guide-color-2 guide-branded guide-button-policy" title="Polityka Prywatności" onclick="TINY.box.show({iframe:'http://www.guideme24.pl/privacy-policy/677',boxid:'frameless',width:760,height:450,fixed:false}); return false;">Polityka Prywatności</a>
+
+            <script type="text/javascript">
+            (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+              s.src = "http://www.guideme24.pl/privacy-policy/client.js"; tag.parentNode.insertBefore(s,tag);};
+              if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}
+              else{w.onload = loader;}})(window, document);
+            </script>
 					</ul>
 				</div>
 			</div>

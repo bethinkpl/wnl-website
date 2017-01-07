@@ -33,6 +33,8 @@
 					}
 					else if ( is_page( [ 'potwierdz-email' ] ) ) {
 						get_template_part( 'page-templates/content', 'potwierdz-email' );
+					} else {
+						get_template_part( 'page-templates/content', 'general' );
 					}
 				?>
 

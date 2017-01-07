@@ -1219,7 +1219,7 @@ header {
 		}
 
 		.wnl-course-workshops {
-			width: 70%;
+			width: 80%;
 			margin: 0 auto;
 			padding-top: 48px;
 		}
@@ -1254,7 +1254,8 @@ header {
 		}
 
 		.wnl-course-workshops-content-list li {
-			margin: 8px 0;
+			list-style-type: square;
+			margin: 8px 0 0 40px;
 		}
 
 		.wnl-course-workshops-list-title {

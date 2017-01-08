@@ -14,7 +14,7 @@
               'type' => 'article',
               'title' => sprintf( '%1$s - Więcej niż LEK', $post->post_title ),
               'description' => $post->post_excerpt,
-              'image' => esc_url( $image['url'] ),
+              'image' => esc_url( $image['sizes']['large'] ),
             ];
           } else {
             $og_data = [

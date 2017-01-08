@@ -3,6 +3,34 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+        <?
+          if ( is_single() ) {
+            $post = get_post();
+            $image = get_field( 'preview_photo', $post->ID );
+
+            $og_data = [
+              'url' => get_permalink( $post->ID ),
+              'type' => 'article',
+              'title' => sprintf( '%1$s - Więcej niż LEK', $post->post_title ),
+              'description' => $post->post_excerpt,
+              'image' => esc_url( $image['url'] ),
+            ];
+          } else {
+            $og_data = [
+              'url' => get_site_url(),
+              'type' => 'website',
+              'title' => 'Więcej niż LEK - Unikalny kurs przygotowujący do LEK-u',
+              'description' => 'Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.',
+              'image' => esc_url( sprintf( '%1$s/assets/fb_og_mainpage.png', get_template_directory_uri() ) ),
+            ];
+          }
+
+          foreach ( $og_data as $key => $value ) {
+            printf( '<meta property="og:%1$s" content="%2$s">', $key, $value );
+          }
+        ?>
+
         <title>Kurs do LEK-u - Więcej niż LEK <?php wp_title(); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />

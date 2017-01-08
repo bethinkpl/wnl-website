@@ -21,24 +21,31 @@
 			<?
 				if ( have_posts() ) : while ( have_posts() ) : the_post();
 				$image = get_field( 'preview_photo' );
-				$categories = get_categories();
-				$categoryNames = [];
-				foreach ( $categories as $category ) {
-					$categoryNames[] = $category->cat_name;
-				}
 			?>
 
-				<div class="wnl-blog-listing-article" style="background-image: url('<?= $image['url'] ?>');">
+				<div class="wnl-blog-listing-article" style="background-image: url('<?= $image !== false ? $image['url'] : '' ?>');">
 			    <a href="<?= esc_url( get_permalink() ) ?>" title="<?= get_the_title() ?>" class="wnl-blog-listing-link">
 			      <div class="wnl-blog-listing-article-inside">
-							<p class="metadata"><?= implode( ', ', $categoryNames ) ?></p>
+							<?
+								$categories = get_the_category();
+								if ( !empty ( $categories ) ) :
+									$categoryNames = [];
+									foreach ( $categories as $category ) {
+										$categoryNames[] = $category->cat_name;
+									}
+							?>
+								<p class="metadata"><?= implode( ', ', $categoryNames ) ?></p>
+							<? endif; ?>
 			        <h2 class="wnl-blog-listing-title"><? the_title() ?></h2>
 			        <p class="metadata"><? the_date( 'j F Y' ) ?>, <? the_author() ?></p>
 			      </div>
 			    </a>
 			  </div>
 
-			<? endwhile; else : ?>
+			<?
+				$image = $categories = null;
+				endwhile; else :
+			?>
 
 				<h2>Pierwszy wpis już wkrótce!</h2>
 

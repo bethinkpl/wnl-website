@@ -438,6 +438,8 @@ header {
 			}
 
 			.subtitle {
+				font-size: $medium-font-size;
+				font-weight: 400;
 				margin-top: 20px;
 			}
 
@@ -505,6 +507,7 @@ header {
 
 						.description {
 						    color: $primary-color;
+								font-family: $primary-font;
 						    margin-top: 15px;
 						}
 
@@ -649,8 +652,8 @@ header {
 				}
 
 				.subtitle {
+					font-weight: 400;
 					margin-top: 20px;
-					font-family: $secondary-font;
 				}
 
 				.input {

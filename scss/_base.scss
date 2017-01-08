@@ -758,6 +758,7 @@ header {
 		}
 
 		.subtitle {
+			font-family: $secondary-font;
 			margin-top: 20px;
 			text-align: center;
 		}
@@ -873,7 +874,7 @@ header {
 
 						.subtitle {
 							color: $primary-color;
-							margin-top: 80px;
+							margin-top: 40px;
 						}
 					}
 
@@ -918,8 +919,8 @@ header {
 
 				.subtitle {
 					color: $white-color;
+					font-weight: 400;
 					margin-top: 20px;
-					font-family: $secondary-font;
 				}
 
 				.input {

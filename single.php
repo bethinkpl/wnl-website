@@ -28,6 +28,9 @@
 					<div class="content">
 						<?php the_content(); ?>
 					</div>
+					<div class="wnl-post-social">
+						<div class="fb-like" data-href="<?= get_the_permalink(); ?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+					</div>
 					<div class="content-comments">
 						<?php
 							if ( comments_open() || get_comments_number() ) {

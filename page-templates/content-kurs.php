@@ -4,7 +4,7 @@
 			<h1 class="wnl-page-title no-shadow">
 				<?php the_field("assumptions_title"); ?>
 			</h1>
-			<div class="steps">
+			<div class="wrapper steps">
 				<ul class="">
 					<li>
 						<div class="image">
@@ -39,11 +39,6 @@
 						</p>
 					</li>
 				</ul>
-			</div>
-			<div class="wrapper">
-				<p class="description">
-					<?php the_field("assumptions_description"); ?>
-				</p>
 			</div>
 		</div>
 	</div>
@@ -194,7 +189,9 @@
 			<p class="title">
 				<?php the_field( 'preparation_title' ); ?>
 			</p>
-			<p><?php the_field( 'points_subtitle' ); ?></p>
+			<div class="wrapper">
+				<p class="description"><?php the_field( 'points_subtitle' ); ?></p>
+			</div>
 			<div class="steps">
 				<ul class="wnl-course-steps-list">
 					<?php for ( $i = 1; $i <= 3; $i++ ) : ?>

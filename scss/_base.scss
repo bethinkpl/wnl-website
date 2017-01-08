@@ -919,6 +919,7 @@ header {
 
 				.subtitle {
 					color: $white-color;
+					font-family: $primary-font;
 					font-weight: 400;
 					margin-top: 20px;
 				}
@@ -942,6 +943,10 @@ header {
 
 	&.course {
 		margin-top: 80px;
+
+		.description {
+			font-family: $primary-font;
+		}
 
 		.one {
 			text-align: center;
@@ -1009,10 +1014,9 @@ header {
 			}
 
 			.description {
-				display: inline-block;
-				margin-top: 120px;
+				margin-top: 80px;
 				font-size: $medium-font-size;
-			    line-height: $medium-line-height;
+		    line-height: $medium-line-height;
 			}
 		}
 
@@ -1422,6 +1426,10 @@ header {
 	&.about {
 		margin-top: 80px;
 
+		.wrapper {
+			padding: 0 15%;
+		}
+
 		.title {
 			color: $primary-color;
 			margin-top: 80px;
@@ -1435,16 +1443,14 @@ header {
 			.title {
 				text-align: left;
 				box-shadow: none;
-				margin-top: 120px;
+				margin-top: 40px;
 				padding-bottom: 0px;
 			}
 
 			.subtitle {
 				color: $primary-color;
-				margin-top: 80px;
-			}
-
-			.description {
+				font-family: $secondary-font;
+				font-size: 24px;
 				margin-top: 30px;
 			}
 		}
@@ -1517,7 +1523,8 @@ header {
 
 				.subtitle {
 					margin-top: 20px;
-					font-family: $secondary-font;
+					font-family: $primary-font;
+					font-weight: 400;
 				}
 
 				.input {
@@ -1530,7 +1537,7 @@ header {
 		    text-align: center;
 		    padding-top: 40px;
 		    padding-bottom: 80px;
-		    background-color: #43495A;
+		    background-color: $dark-background;
 		}
 	}
 
@@ -1842,6 +1849,10 @@ header {
 					float: left;
 					width: 50%;
 					box-sizing: border-box;
+
+					p {
+						font-family: $primary-font;
+					}
 				}
 
 				.social {

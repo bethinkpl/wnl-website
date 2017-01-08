@@ -39,7 +39,7 @@
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
 
-        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rubik|Poppins:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif400:700|Rubik|Poppins:400,500&amp;subset=latin-ext" rel="stylesheet">
 
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery-3.1.1.min.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.easing.js"></script>

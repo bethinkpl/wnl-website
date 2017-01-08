@@ -5,14 +5,11 @@
 		</p>
 		<div class="up">
 			<div class="wrapper">
-
 				<p class="title"><?php the_field("about_title"); ?></p>
 				<p class="subtitle"><?php the_field("about_subtitle"); ?></p>
-				<div class="wrapper">
-					<p class="description">
-						<?php the_field("about_description"); ?>
-					</p>
-				</div>
+				<p class="description">
+					<?php the_field("about_description"); ?>
+				</p>
 			</div>
 		</div>
 		<div class="who">

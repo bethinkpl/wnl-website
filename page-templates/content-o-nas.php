@@ -5,7 +5,7 @@
 		</p>
 		<div class="up">
 			<div class="wrapper">
-				<p class="title"><?php the_field("about_title"); ?></p>
+				<h2 class="alignleft"><?php the_field("about_title"); ?></h2>
 				<p class="subtitle"><?php the_field("about_subtitle"); ?></p>
 				<p class="description">
 					<?php the_field("about_description"); ?>

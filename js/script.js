@@ -81,14 +81,18 @@ function scrollToSection() {
             off = $(section).offset().top - 80;
         }
 
-        $('.page').velocity('stop', true).velocity('scroll',
-            {
-                offset: off,
-                duration: 1000,
-                easing: 'easeInOutCubic'
-            }
-        );
+        scrollToOffset( off );
     });
+}
+
+function scrollToOffset(offset) {
+  $('.page').velocity('stop', true).velocity('scroll',
+      {
+          offset: offset,
+          duration: 1000,
+          easing: 'easeInOutCubic'
+      }
+  );
 }
 
 function toggleMenu() {
@@ -214,6 +218,10 @@ function changeStep() {
         });
 
         $('.select .selected').text($(this).text());
+
+        if ( page === 'help' && clientWidth < 768 && scrollTop > 100 ) {
+          scrollToOffset( 100 );
+        }
     });
 }
 

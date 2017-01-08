@@ -3,33 +3,70 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
-        <title><?php wp_title(); ?></title>
+
+        <?
+          if ( is_single() ) {
+            $post = get_post();
+            $image = get_field( 'preview_photo', $post->ID );
+
+            $og_data = [
+              'url' => get_permalink( $post->ID ),
+              'type' => 'article',
+              'title' => sprintf( '%1$s - Więcej niż LEK', $post->post_title ),
+              'description' => $post->post_excerpt,
+              'image' => esc_url( $image['sizes']['large'] ),
+            ];
+          } else {
+            $og_data = [
+              'url' => get_site_url(),
+              'type' => 'website',
+              'title' => 'Więcej niż LEK - Unikalny kurs przygotowujący do LEK-u',
+              'description' => 'Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.',
+              'image' => esc_url( sprintf( '%1$s/assets/fb_og_mainpage.png', get_template_directory_uri() ) ),
+            ];
+          }
+
+          foreach ( $og_data as $key => $value ) {
+            printf( '<meta property="og:%1$s" content="%2$s">', $key, $value );
+          }
+        ?>
+
+        <title>Kurs do LEK-u - Więcej niż LEK <?php wp_title(); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        <link rel="icon" type="image/png" href="<?= get_template_directory_uri() ?>/assets/favicon.png" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
 
-        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rubik|Poppins:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif400:700|Rubik|Poppins:400,500&amp;subset=latin-ext" rel="stylesheet">
 
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery-3.1.1.min.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.easing.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.cookie.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/modernizr-custom.js"></script>
 			  <script src="<?= get_template_directory_uri() ?>/js/vendors/velocity.min.js"></script>
-  			<script src="<?= get_template_directory_uri() ?>/js/vendors/angular.min.js"></script>
-        <script src="<?= get_template_directory_uri() ?>/js/vendors/angular-ui-router.min.js"></script>
+
         <script type="text/javascript">
           var pageUrl = "<?= get_site_url() ?>";
           var templateUrl = "<?= get_template_directory_uri() ?>";
         </script>
     </head>
 
-    <body>
-      <?php if (is_front_page()) : ?>
+    <body <? body_class() ?>>
+      <? if ( is_front_page() ) : ?>
         <div class="wnl-front-particles" id="particles-js"></div>
         <div class="wnl-front-overlay"></div>
-      <?php endif;?>
+      <? elseif ( is_single() ) : ?>
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+      <? endif;?>
     	<div id="statement">
 			<p class="name"></p>
 			<a href="#" class="close"></a>
@@ -72,7 +109,7 @@
 
 					<div class="bag">
 						<div class="mail">
-							<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
+							<a href="<?= get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 								<?php pll_e("button_leave_mail"); ?>
 							</a>
 						</div>
@@ -111,7 +148,7 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="<?= get_site_url() ?>/zostaw-e-mail" title="">
+						<a href="<?= get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 							<?php pll_e("button_leave_mail"); ?>
 						</a>
 					</div>

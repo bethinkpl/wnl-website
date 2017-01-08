@@ -2,12 +2,17 @@
 	<div class="section cover">
 		<div class="inside">
 			<div class="wrapper">
-				<p class="title">
+				<h1 class="wnl-front-title">
 					<?php the_field("cover_title"); ?>
-				</p>
+				</h1>
 				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
 				</p>
+				<div class="wnl-front-cover-scroll">
+					<a href="#" title="" class="wnl-scroll-top" data-section-target=".two">
+						<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -164,27 +169,22 @@
 			<p class="title">
 				<?php the_field("blog_title"); ?>
 			</p>
-			<p class="subtitle">
-				<?php the_field("blog_subtitle"); ?>
-			</p>
 			<div class="posts">
 				<ul class="wnl-front-blog-list">
 					<?php
-						$args = array(
-							'numberposts' => 3
-						);
+						$args = [ 'numberposts' => 3 ];
 						$recent_posts = wp_get_recent_posts($args);
-						foreach( $recent_posts as $recent ){
-							$value = get_field( "preview_photo", $recent["ID"] );
-							echo '<li>
-								<a href="' . get_permalink($recent["ID"]) . '">
-									<div class="image">
-										<img src="'.$value['url'].'" alt="" />
-									</div>
-									<p class="title">'.$recent["post_title"].'</p>
+						foreach( $recent_posts as $recent ) :
+							$value = get_field( 'preview_photo', $recent['ID'] );
+					?>
+							<li>
+								<a href="<?= get_permalink( $recent['ID'] ) ?>">
+									<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
+									<h4 class="wnl-front-blog-list-link"><?= $recent['post_title'] ?></h4>
 								</a>
-							</li>';
-						}
+							</li>
+					<?php
+						endforeach;
 						wp_reset_query();
 					?>
 				</ul>

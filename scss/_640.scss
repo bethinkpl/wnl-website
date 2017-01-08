@@ -1,5 +1,30 @@
 // 640
 
+h1 {
+	font-size: $xs-large-font-size;
+	line-height: $xs-large-line-height;
+}
+
+h2 {
+	font-size: $xs-medium-2-font-size;
+	line-height: $xs-medium-2-line-height;
+}
+
+h3 {
+	font-size: $xs-medium-font-size;
+	line-height: $xs-medium-line-height;
+}
+
+h4 {
+	font-size: $xs-normal-font-size;
+	line-height: $xs-normal-line-height;
+}
+
+body, p {
+	font-size: $xs-normal-font-size;
+	line-height: $xs-normal-line-height;
+}
+
 *{
 	-webkit-tap-highlight-color: transparent;
 }
@@ -161,6 +186,14 @@ header {
 	}
 }
 
+.wnl-front-particles {
+	height: 550px;
+}
+
+.wnl-front-overlay {
+	height: 550px;
+}
+
 .page {
 
 	&.index {
@@ -170,9 +203,10 @@ header {
 		}
 
 		.cover {
-			height: 600px;
+			height: 550px;
 
 			.inside {
+				padding: 120px 0 0;
 				top: calc(50% - 60px);
 
 				.subtitle {
@@ -181,10 +215,6 @@ header {
 						display: inline-block;
 						width: 100%;
 						margin-top: 10px;
-
-						&:first-child {
-							margin-top: 60px;
-						}
 
 						&.line {
 							display: none;
@@ -848,6 +878,14 @@ header {
 			padding-top: 20px;
 			padding-bottom: 0px;
 		}
+
+		.wnl-about-signature {
+			text-align: right;
+
+			img {
+				max-width: 300px;
+			}
+		}
 	}
 
 	&.blog {
@@ -901,15 +939,12 @@ header {
 			}
 		}
 
-		article {
-			box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.14);
+		.wnl-blog-listing-article {
+			height: 300px;
+		}
 
-			.title {
-				font-size: $medium-font-size;
-				line-height: 35px;
-				padding: 0px 20px;
-    			box-sizing: border-box;
-			}
+		.wnl-blog-listing-article-inside {
+			padding: 60px 0 0;
 		}
 
 		.more {
@@ -921,6 +956,10 @@ header {
 	}
 
 	&.open {
+
+		.background-image {
+			height: 500px;
+		}
 
 		.cover {
 			height: 500px;

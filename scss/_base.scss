@@ -4,19 +4,23 @@ html, body {
 	height: 100%;
 }
 
+.aligncenter {
+	text-align: center;
+}
+
 .wnl-front-particles {
-	background-image: url('assets/hero-front.jpg');
-	background-position: 50% 50%;
+	background-image: url('assets/hero-front-2.jpg');
+	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: 820px;
 	position: fixed;
 	width: 100%;
 	z-index: -3;
 }
 
 .wnl-front-overlay {
-	height: 100%;
+	height: 820px;
 	background-color: rgba(45,67,105,0.49);
 	position: fixed;
 	width: 100%;
@@ -32,8 +36,7 @@ html, body {
 }
 
 .wrapper {
-	display: inline-block;
-	float: left;
+	display: block;
 	width: 100%;
 	padding: 0px 10%;
 	box-sizing: border-box;
@@ -123,9 +126,8 @@ html, body {
 	text-align: center;
 
 	.inside {
-		display: inline-block;
+			display: block;
 	    position: relative;
-	    z-index: 8;
 	    top: 50%;
 	    -webkit-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
@@ -184,17 +186,15 @@ html, body {
 }
 
 header {
+	background-color: $white-color;
+	box-shadow: $shadow-bottom;
+	height: $top-bar-height;
+	left: 0;
+	line-height: $top-bar-height;
 	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 19;
-	display: inline-block;
-	float: left;
+	top: 0;
 	width: 100%;
-	height: 80px;
-	line-height: 80px;
-	background-color: #FFFFFF;
-	box-shadow: 0 1px 0 0 rgba(0,0,0,0.22);
+	z-index: 19;
 
 	.logo, .desktop, .mail {
 		display: inline-block;
@@ -303,22 +303,6 @@ header {
 	.mail {
 		width: 180px;
 		height: 40px;
-
-		a {
-			display: block;
-			height: 40px;
-			line-height: 40px;
-			margin-top: 20px;
-			font-family: $primary-font;
-			font-size: $small-font-size;
-			font-weight: 600;
-			color: $white-color;
-			background-color: $green-color;
-			border-radius: 100px;
-			text-align: center;
-			text-decoration: none;
-			text-transform: uppercase;
-		}
 	}
 }
 
@@ -394,8 +378,11 @@ header {
 	}
 }
 
+.wnl-front-title {
+	color: $white-color;
+}
+
 .page {
-	margin-top: 80px;
 	width: 100%;
 
 	&.index {
@@ -408,11 +395,11 @@ header {
 
 		.cover {
 			background-color: transparent;
-			height: 600px;
+			height: 820px;
 			text-align: center;
 
 			.inside {
-				padding: 160px 0 0;
+				padding: 300px 0 0;
 
 		    .subtitle {
 		    	display: inline-block;
@@ -434,6 +421,10 @@ header {
 			}
 		}
 
+		.wnl-front-cover-scroll {
+			padding-top: 20px;
+		}
+
 		.two {
 			text-align: center;
 			padding: 40px 0 120px;
@@ -447,6 +438,8 @@ header {
 			}
 
 			.subtitle {
+				font-size: $medium-font-size;
+				font-weight: 400;
 				margin-top: 20px;
 			}
 
@@ -514,6 +507,7 @@ header {
 
 						.description {
 						    color: $primary-color;
+								font-family: $primary-font;
 						    margin-top: 15px;
 						}
 
@@ -617,7 +611,7 @@ header {
 
 					}
 
-					li {
+					.wnl-front-options-list-item {
 						background-repeat: no-repeat;
 						background-position: 0 8px;
 						background-image: url('assets/check.svg');
@@ -631,12 +625,12 @@ header {
 						margin-bottom: 12px;
 						padding-left: 30px;
 
-						&:last-child {
-							margin-bottom: 0px;
-						}
-
 						ul {
-							padding: 0;
+							padding: 0 0 0 12px;
+
+							li {
+								list-style-type: circle;
+							}
 						}
 					}
 				}
@@ -658,8 +652,8 @@ header {
 				}
 
 				.subtitle {
+					font-weight: 400;
 					margin-top: 20px;
-					font-family: $secondary-font;
 				}
 
 				.input {
@@ -670,7 +664,7 @@ header {
 
 		.five {
 			text-align: center;
-			padding-bottom: 120px;
+			padding-bottom: 80px;
 
 			.title, .subtitle {
 				color: $primary-color;
@@ -720,10 +714,10 @@ header {
 						}
 
 						.image {
-
-							img {
-								width: 80%;
-							}
+							height: 240px;
+							background-position: center center;
+							background-repeat: none;
+							background-size: cover;
 						}
 
 						.title {
@@ -732,6 +726,14 @@ header {
 							margin-top: 70px;
 						}
 					}
+				}
+			}
+
+			.wnl-front-blog-list-link {
+				color: $primary-color;
+
+				&:hover {
+					color: $gray-color;
 				}
 			}
 		}
@@ -756,6 +758,7 @@ header {
 		}
 
 		.subtitle {
+			font-family: $secondary-font;
 			margin-top: 20px;
 			text-align: center;
 		}
@@ -871,7 +874,7 @@ header {
 
 						.subtitle {
 							color: $primary-color;
-							margin-top: 80px;
+							margin-top: 40px;
 						}
 					}
 
@@ -916,8 +919,9 @@ header {
 
 				.subtitle {
 					color: $white-color;
+					font-family: $primary-font;
+					font-weight: 400;
 					margin-top: 20px;
-					font-family: $secondary-font;
 				}
 
 				.input {
@@ -939,6 +943,10 @@ header {
 
 	&.course {
 		margin-top: 80px;
+
+		.description {
+			font-family: $primary-font;
+		}
 
 		.one {
 			text-align: center;
@@ -1006,10 +1014,9 @@ header {
 			}
 
 			.description {
-				display: inline-block;
-				margin-top: 120px;
+				margin-top: 80px;
 				font-size: $medium-font-size;
-			    line-height: $medium-line-height;
+		    line-height: $medium-line-height;
 			}
 		}
 
@@ -1228,7 +1235,7 @@ header {
 		}
 
 		.wnl-course-workshops {
-			width: 70%;
+			width: 80%;
 			margin: 0 auto;
 			padding-top: 48px;
 		}
@@ -1263,7 +1270,8 @@ header {
 		}
 
 		.wnl-course-workshops-content-list li {
-			margin: 8px 0;
+			list-style-type: square;
+			margin: 8px 0 0 40px;
 		}
 
 		.wnl-course-workshops-list-title {
@@ -1418,6 +1426,10 @@ header {
 	&.about {
 		margin-top: 80px;
 
+		.wrapper {
+			padding: 0 15%;
+		}
+
 		.title {
 			color: $primary-color;
 			margin-top: 80px;
@@ -1431,16 +1443,14 @@ header {
 			.title {
 				text-align: left;
 				box-shadow: none;
-				margin-top: 120px;
+				margin-top: 40px;
 				padding-bottom: 0px;
 			}
 
 			.subtitle {
 				color: $primary-color;
-				margin-top: 80px;
-			}
-
-			.description {
+				font-family: $secondary-font;
+				font-size: 24px;
 				margin-top: 30px;
 			}
 		}
@@ -1513,7 +1523,8 @@ header {
 
 				.subtitle {
 					margin-top: 20px;
-					font-family: $secondary-font;
+					font-family: $primary-font;
+					font-weight: 400;
 				}
 
 				.input {
@@ -1522,22 +1533,34 @@ header {
 			}
 		}
 
+		.wnl-about-signature {
+			text-align: right;
+
+			img {
+				max-width: 350px;
+			}
+		}
+
 		.back {
 		    text-align: center;
 		    padding-top: 40px;
 		    padding-bottom: 80px;
-		    background-color: #43495A;
+		    background-color: $dark-background;
 		}
 	}
 
 	&.blog {
 		margin-top: 80px;
 
+		.wnl-page-title {
+			padding-top: 40px;
+		}
+
 		.categories {
 			text-align: center;
 			line-height: 0px;
 			padding-bottom: 40px;
-			margin-top: 70px;
+			margin-top: 20px;
 			box-shadow: 0 1px 0 0 rgba(0,0,0,0.14);
 
 			ul {
@@ -1655,10 +1678,10 @@ header {
 						}
 
 						.image {
-
-							img {
-								width: 80%;
-							}
+							height: 240px;
+							background-position: center center;
+							background-repeat: none;
+							background-size: cover;
 						}
 
 						.title {
@@ -1673,69 +1696,47 @@ header {
 			}
 		}
 
-		article {
-			display: inline-block;
-			float: left;
+		.wnl-blog-listing-article {
+			background-size: cover;
+			color: $white-color;
+			display: block;
 			width: 100%;
 			height: 300px;
+			text-align: center;
+		}
 
-			.content {
-				display: inline-block;
-				float: left;
-				width: 100%;
-				height: 100%;
-				text-align: center;
-				background-size: cover;
-			}
+		.wnl-blog-listing-article-inside {
+			padding: 60px 0 0;
+		}
 
-			.inside {
-				display: inline-block;
-			    position: relative;
-			    z-index: 8;
-			    top: 50%;
-			    -webkit-transform: translateY(-50%);
-			    -ms-transform: translateY(-50%);
-			    transform: translateY(-50%);
-			}
+		.wnl-blog-listing-link {
+			background-color: $background-overlay;
+			color: $white-color;
+			display: block;
+			height: 100%;
+			width: 100%;
+			transition: background 0.25s;
 
-			.title {
-				display: inline-block;
-				width: 100%;
-				height: 100%;
-				font-family: $primary-font;
-				font-size: $medium-2-font-size;
-				font-weight: 600;
-				line-height: $medium-2-line-height;
-				color: $primary-color;
-				text-decoration: none;
-				box-shadow: inset 0 -1px 0 0 rgba(132,129,129,0.50);
-
-				&.white {
-					color: $white-color;
-					background-color: rgba(44,67,104,0.49);
-					box-shadow: none;
-				}
-
-				.category, .date {
-					font-size: $small-font-size;
-					font-weight: 600;
-					line-height: $small-line-height;
-				}
-
-				.category {
-					margin-bottom: 20px;
-					text-transform: uppercase;
-				}
-
-				.t {
-					font-family: $third-font;
-				}
-
-				.date {
-					margin-top: 20px;
-				}
+			&:hover {
+				background-color: $background-overlay-light;
+				color: $white-color;
+				transition: background 0.25s;
 			}
 		}
+
+		.back {
+			padding: 80px 0;
+		}
+	}
+
+	.background-image {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 600px;
+		position: fixed;
+		width: 100%;
+		z-index: -5;
 	}
 
 	&.open {
@@ -1808,6 +1809,11 @@ header {
 			padding-top: 40px;
 		}
 
+		.wnl-post-social {
+			text-align: center;
+			margin-top: 40px;
+		}
+
 		.content-comments {
 			margin-top: 80px;
 		}
@@ -1820,6 +1826,7 @@ header {
 	}
 
 	&.contact {
+		margin-top: 80px;
 
 		.wrapper {
 			@include clearfix;
@@ -1850,6 +1857,10 @@ header {
 					float: left;
 					width: 50%;
 					box-sizing: border-box;
+
+					p {
+						font-family: $primary-font;
+					}
 				}
 
 				.social {
@@ -1911,6 +1922,11 @@ header {
 			}
 		}
 	}
+
+	&.thank-you,
+	&.general {
+		padding: 80px 0 120px;
+	}
 }
 
 .back {
@@ -1920,12 +1936,8 @@ header {
 }
 
 footer {
-	display: inline-block;
-	float: left;
-	width: 100%;
-	padding-top: 80px;
-	padding-bottom: 70px;
-	background-color: #43495A;
+	padding: 50px 0;
+	background-color: $dark-background;
 
 	.wrapper {
 		padding: 0px 20%;
@@ -1948,20 +1960,14 @@ footer {
 			ul {
 
 				li {
-					display: inline-block;
-					float: left;
 					width: 100%;
-					margin-top: 20px;
+					margin-top: 10px;
 
 					&.current_page_item {
 
 						a {
 							color: $gray-color;
 						}
-					}
-
-					&:first-child {
-						margin-top: 30px;
 					}
 
 					a {
@@ -2006,14 +2012,8 @@ footer {
 			    width: 65%;
 
 				li {
-					display: inline-block;
-					float: left;
 					width: 100%;
-					margin-top: 15px;
-
-					&:first-child {
-						margin-top: 30px;
-					}
+					margin-top: 10px;
 
 					a {
 						font-family: $primary-font;
@@ -2035,7 +2035,7 @@ footer {
 			width: 33.33%;
 
 			.head {
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 			}
 
 			p:not(.head) {
@@ -2051,17 +2051,11 @@ footer {
 			}
 
 			.social {
-				display: inline-block;
-				float: left;
 
 				.icons {
-					display: inline-block;
-					float: left;
 					margin-bottom: 30px;
 
 					a {
-						display: inline-block;
-						float: left;
 						margin-left: 10px;
 
 						&:first-child {
@@ -2074,39 +2068,26 @@ footer {
 	}
 
 	.down {
-		display: inline-block;
-		float: left;
-		width: 100%;
 		margin-top: 40px;
 
-		ul {
+		a, .line {
+			font-family: $primary-font;
+			font-size: $small-font-size;
+			font-weight: 300;
+			line-height: $small-line-height;
+			color: $white-color;
+			text-decoration: none;
+		}
 
-			li {
-				display: inline-block;
-				float: left;
+		a {
 
-				a, .line {
-					display: inline-block;
-					float: left;
-					font-family: $primary-font;
-					font-size: $small-font-size;
-					font-weight: 300;
-					line-height: $small-line-height;
-					color: $white-color;
-					text-decoration: none;
-				}
-
-				a {
-
-					&:hover {
-						color: $gray-color;
-					}
-				}
-
-				.line {
-					margin: 0px 20px;
-				}
+			&:hover {
+				color: $gray-color;
 			}
+		}
+
+		.line {
+			margin: 0px 20px;
 		}
 	}
 }

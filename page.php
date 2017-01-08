@@ -2,9 +2,9 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			
 
-				<?php 
+
+				<?php
 					if (is_page(array('strona-glowna'))) {
 						echo '<script>page = "index";</script>';
 						get_template_part( 'page-templates/content', 'strona-glowna' );
@@ -27,6 +27,14 @@
 					}
 					else if (is_page(array('zostaw-e-mail'))) {
 						get_template_part( 'page-templates/content', 'zostaw-e-mail' );
+					}
+					else if ( is_page( [ 'dziekujemy' ] ) ) {
+						get_template_part( 'page-templates/content', 'dziekujemy' );
+					}
+					else if ( is_page( [ 'potwierdz-email' ] ) ) {
+						get_template_part( 'page-templates/content', 'potwierdz-email' );
+					} else {
+						get_template_part( 'page-templates/content', 'general' );
 					}
 				?>
 

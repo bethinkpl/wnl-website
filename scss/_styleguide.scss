@@ -1,6 +1,9 @@
 body {
 	color: $primary-color;
 	font-family: $secondary-font;
+}
+
+body, p {
 	font-size: $normal-font-size;
 	line-height: $normal-line-height;
 }
@@ -9,11 +12,11 @@ h1, h2, h3, h4, h5 {
   display: block;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: $third-font;
 }
 
-h3, h4, h5 {
+h4, h5 {
   font-family: $primary-font;
 }
 
@@ -74,6 +77,14 @@ p.wnl-page-subtitle {
 	line-height: $small-line-height;
 }
 
+.metadata {
+	font-family: $primary-font;
+	font-size: $small-font-size;
+	font-weight: 600;
+	line-height: $small-line-height;
+	text-transform: uppercase;
+}
+
 em {
 	font-style: italic;
 }
@@ -109,21 +120,52 @@ ul:not([class]) {
 	}
 }
 
+ol:not([class]) {
+	margin: 8px 0;
+	padding: 0 0 0 32px;
+
+	li {
+		list-style-type: decimal;
+	}
+}
+
 div {
 	display: block;
 }
 
-.background-image {
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
-	height: 100%;
-	position: fixed;
-	width: 100%;
-	z-index: -5;
+// Buttons
+
+.button {
+	border-radius: 20px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $primary-font;
+	font-size: $small-font-size;
+	font-weight: 600;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.button__primary,
+.button__primary:visited,
+.button__primary:active {
+	background-color: $green-color;
+	color: $white-color;
+	transition: background 0.25s;
+
+	&:hover {
+		background-color: $light-green-color;
+		color: $white-color;
+		transition: background 0.25s;
+	}
 }
 
 // Auxilliary classes
+
 .no-shadow {
 	box-shadow: none !important;
 }

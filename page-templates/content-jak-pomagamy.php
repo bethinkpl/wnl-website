@@ -33,14 +33,18 @@
 					<?php for ( $i = 1; $i <= 5; $i++ ) : ?>
 					<div class="tabhelp__content-item">
 						<div class="wrapper">
-							<p class="head">
-								<img src="<?php the_field( sprintf( 'help_section_image_%1$d', $i ) ); ?>" alt="" />
-								<span class="title"><?php the_field( sprintf( 'help_section_title_%1$d', $i ) ) ?></span>
-								<span class="subtitle"><?php the_field( sprintf( 'help_section_subtitle_%1$d', $i ) ) ?></span>
-							</p>
+							<div class="wrapper">
+								<p class="head">
+									<img src="<?php the_field( sprintf( 'help_section_image_%1$d', $i ) ); ?>" alt="" />
+									<span class="title"><?php the_field( sprintf( 'help_section_title_%1$d', $i ) ) ?></span>
+									<span class="subtitle"><?php the_field( sprintf( 'help_section_subtitle_%1$d', $i ) ) ?></span>
+								</p>
+							</div>
 							<div class="down">
-								<h3><?php the_field( sprintf( 'help_section_title_in_%1$d', $i ) ) ?></h3>
 								<div class="wrapper">
+									<h3>
+										<?php the_field( sprintf( 'help_section_title_in_%1$d', $i ) ) ?>
+									</h3>
 										<?php the_field( sprintf( 'help_section_description_%1$d', $i ) ) ?>
 								</div>
 							</div>

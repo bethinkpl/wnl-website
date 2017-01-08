@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class="background-image" style="background-image: url('<?= get_field( 'preview_photo' )['url'] ?>');"></div>
 		<div class="page open">
+			<div class="background-image" style="background-image: url('<?= get_field( 'preview_photo' )['url'] ?>');"></div>
 
 		<article id="post-<?php the_ID(); ?>">
 
@@ -27,6 +27,9 @@
 				<div class="wrapper">
 					<div class="content">
 						<?php the_content(); ?>
+					</div>
+					<div class="wnl-post-social">
+						<div class="fb-like" data-href="<?= get_the_permalink(); ?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 					</div>
 					<div class="content-comments">
 						<?php

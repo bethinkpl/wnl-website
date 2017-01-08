@@ -878,6 +878,14 @@ header {
 			padding-top: 20px;
 			padding-bottom: 0px;
 		}
+
+		.wnl-about-signature {
+			text-align: right;
+
+			img {
+				max-width: 300px;
+			}
+		}
 	}
 
 	&.blog {

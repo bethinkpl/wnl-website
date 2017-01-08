@@ -1,9 +1,0 @@
-  <div id="{{value.id}}" ng-repeat="(key, value) in posts | limitTo: limit" class="wnl-blog-listing-article" style="background-image: url('{{value.acf.preview_photo.url}}');">
-    <a href="{{value.link}}" title="{{value.link}}" class="wnl-blog-listing-link">
-      <div class="wnl-blog-listing-article-inside">
-        <p class="metadata">Kategorie: <span ng-repeat="(key, value) in value.categories"><span ng-show="$index != 0" class="gray">, </span>{{getNameCategories(value)}}</span></p>
-        <h2 class="wnl-blog-listing-title">{{value.title.rendered}}</h2>
-        <p class="metadata">{{value.date | date:'dd.MM.yyyy'}}, {{getNameAuthor(value.author)}}</p>
-      </div>
-    </a>
-  </div>

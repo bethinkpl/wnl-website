@@ -18,12 +18,6 @@
         <script src="<?= get_template_directory_uri() ?>/js/vendors/jquery.cookie.js"></script>
         <script src="<?= get_template_directory_uri() ?>/js/vendors/modernizr-custom.js"></script>
 			  <script src="<?= get_template_directory_uri() ?>/js/vendors/velocity.min.js"></script>
-  			<script src="<?= get_template_directory_uri() ?>/js/vendors/angular.min.js"></script>
-        <script src="<?= get_template_directory_uri() ?>/js/vendors/angular-ui-router.min.js"></script>
-
-        <?php if ( is_home() ) : ?>
-          <script src="<?= get_template_directory_uri() ?>/js/angular.js"></script>
-        <?php endif; ?>
 
         <script type="text/javascript">
           var pageUrl = "<?= get_site_url() ?>";
@@ -31,8 +25,8 @@
         </script>
     </head>
 
-    <body>
-      <?php if (is_front_page()) : ?>
+    <body <? body_class() ?>>
+      <?php if ( is_front_page() ) : ?>
         <div class="wnl-front-particles" id="particles-js"></div>
         <div class="wnl-front-overlay"></div>
       <?php endif;?>

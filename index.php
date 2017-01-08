@@ -37,7 +37,7 @@
 								<p class="metadata"><?= implode( ', ', $categoryNames ) ?></p>
 							<? endif; ?>
 			        <h2 class="wnl-blog-listing-title"><? the_title() ?></h2>
-			        <p class="metadata"><? the_date( 'j F Y' ) ?>, <? the_author() ?></p>
+			        <p class="metadata"><?= get_the_date( 'j F Y' ) ?>, <? the_author() ?></p>
 			      </div>
 			    </a>
 			  </div>

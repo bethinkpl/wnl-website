@@ -36,7 +36,7 @@
 					</div>
 					<div class="r">
 						<div class="social">
-							<p class="head">Obserwuj nas na</p>
+							<p class="head">Social Media</p>
 							<div class="icons">
 								<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 							</div>

@@ -173,3 +173,9 @@ div {
 .wrapper {
 	@include clearfix;
 }
+
+.responsive-iframe {
+	width: 50%;
+	min-width: 280px;
+	max-width: 640px;
+}

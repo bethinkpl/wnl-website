@@ -4,8 +4,8 @@
 			<h1 class="wnl-page-title no-shadow">Jak pomagamy?</h1>
 			<p class="wnl-page-subtitle">Poznaj 5 filarów kursu "Więcej niż LEK"!</p>
 			<div class="tabhelp">
-				<a href="" class="tabhelp-controls__prev"><img src="<?= get_template_directory_uri() ?>/assets/button/navigation_left/normal.svg" alt="Poprzedni"></a>
-				<a href="" class="tabhelp-controls__next"><img src="<?= get_template_directory_uri() ?>/assets/button/navigation_right/normal.svg" alt="Następny"></a>
+				<a href="" class="tabhelp-controls__prev"><img src="<?php echo get_template_directory_uri() ?>/assets/button/navigation_left/normal.svg" alt="Poprzedni"></a>
+				<a href="" class="tabhelp-controls__next"><img src="<?php echo get_template_directory_uri() ?>/assets/button/navigation_right/normal.svg" alt="Następny"></a>
 				<div class="tabs">
 					<div class="select">
 						<div class="selected"><?php the_field("help_section_title_1"); ?></div>

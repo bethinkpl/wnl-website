@@ -10,7 +10,7 @@
 				</p>
 				<div class="wnl-front-cover-scroll">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".two">
-						<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
 					</a>
 				</div>
 			</div>
@@ -37,8 +37,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_1"); ?>
 						</p>
-						<a href="<?= get_site_url() ?>/jak-pomagamy#1" title="Czytaj więcej" class="more">
-							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
+						<a href="<?php echo get_site_url() ?>/jak-pomagamy#1" title="Czytaj więcej" class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -54,8 +54,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_2"); ?>
 						</p>
-						<a href="<?= get_site_url() ?>/jak-pomagamy#2" title="Czytaj więcej" class="more">
-							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
+						<a href="<?php echo get_site_url() ?>/jak-pomagamy#2" title="Czytaj więcej" class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -71,8 +71,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_3"); ?>
 						</p>
-						<a href="<?= get_site_url() ?>/jak-pomagamy#3" title="Czytaj więcej" class="more">
-							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
+						<a href="<?php echo get_site_url() ?>/jak-pomagamy#3" title="Czytaj więcej" class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -88,8 +88,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_4"); ?>
 						</p>
-						<a href="<?= get_site_url() ?>/jak-pomagamy#4" title="Czytaj więcej" class="more">
-							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
+						<a href="<?php echo get_site_url() ?>/jak-pomagamy#4" title="Czytaj więcej" class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 
@@ -105,8 +105,8 @@
 						<p class="description">
 							<?php the_field("courses_section_description_5"); ?>
 						</p>
-						<a href="<?= get_site_url() ?>/jak-pomagamy#5" title="Czytaj więcej" class="more">
-							<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
+						<a href="<?php echo get_site_url() ?>/jak-pomagamy#5" title="Czytaj więcej" class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
 						</a>
 					</li>
 				</ul>
@@ -178,9 +178,9 @@
 							$value = get_field( 'preview_photo', $recent['ID'] );
 					?>
 							<li>
-								<a href="<?= get_permalink( $recent['ID'] ) ?>">
-									<div class="image" style="background-image: url('<?= $value['url'] ?>')"></div>
-									<h4 class="wnl-front-blog-list-link"><?= $recent['post_title'] ?></h4>
+								<a href="<?php echo get_permalink( $recent['ID'] ) ?>">
+									<div class="image" style="background-image: url('<?php echo $value['url'] ?>')"></div>
+									<h4 class="wnl-front-blog-list-link"><?php echo $recent['post_title'] ?></h4>
 								</a>
 							</li>
 					<?php
@@ -194,7 +194,7 @@
 
 	<div class="section back">
 		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
-			<img src="<?= get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Przewiń stronę do góry">
+			<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Przewiń stronę do góry">
 		</a>
 	</div>
 </div>

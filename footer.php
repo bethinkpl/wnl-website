@@ -3,7 +3,7 @@
 				<div class="left">
 					<div class="logo">
 						<a href="strona-glowna" title="Przejdź na stronę główną">
-							<img src="<?= get_template_directory_uri() ?>/assets/logo/footer/normal.svg" alt="Logotyp Więcej niż LEK" />
+							<img src="<?php echo get_template_directory_uri() ?>/assets/logo/footer/normal.svg" alt="Logotyp Więcej niż LEK" />
 						</a>
 					</div>
 
@@ -30,7 +30,7 @@
 								$recent_posts = wp_get_recent_posts( [ 'numberposts' => 4 ] );
 								foreach( $recent_posts as $recent ) :
 							?>
-								<li><a href="<?= esc_url( get_permalink( $recent['ID'] ) ) ?>"><?= $recent["post_title"] ?></a></li>
+								<li><a href="<?php echo esc_url( get_permalink( $recent['ID'] ) ) ?>"><?php echo $recent["post_title"] ?></a></li>
 							<?php endforeach; wp_reset_query(); ?>
 						</ul>
 					</div>
@@ -38,7 +38,7 @@
 						<div class="social">
 							<p class="head">Social Media</p>
 							<div class="icons">
-								<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?= get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+								<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 							</div>
 						</div>
 
@@ -48,7 +48,7 @@
 				</div>
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
-						<a href="<?= get_site_url() ?>/regulamin" title="Regulamin strony">Regulamin</a><span class="line">|</span>
+						<a href="<?php echo get_site_url() ?>/regulamin" title="Regulamin strony">Regulamin</a><span class="line">|</span>
 						<a href="http://www.guideme24.pl/privacy-policy/677" class="guide-embed guide-color-2 guide-branded guide-button-policy" title="Polityka Prywatności" onclick="TINY.box.show({iframe:'http://www.guideme24.pl/privacy-policy/677',boxid:'frameless',width:760,height:450,fixed:false}); return false;">Polityka Prywatności</a>
 
             <script type="text/javascript">
@@ -62,9 +62,9 @@
 			</div>
 		</footer>
 
-		<script src="<?= get_template_directory_uri() ?>/js/vendors/validation.form.js"></script>
-		<script src="<?= get_template_directory_uri() ?>/js/vendors/tabtab.min.js"></script>
-		<script src="<?= get_template_directory_uri() ?>/js/script.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/js/vendors/validation.form.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/js/vendors/tabtab.min.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/js/script.js"></script>
 		<script type="text/javascript">
 			var page;
 

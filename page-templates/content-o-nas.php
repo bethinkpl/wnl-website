@@ -11,7 +11,7 @@
 					<?php the_field("about_description"); ?>
 				</p>
 				<div class="wnl-about-signature">
-					<img src="<?= get_template_directory_uri() ?>/assets/signature.png" alt="Podpis - Dariusz Chrapek" title="Podpis Darka :)">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/signature.png" alt="Podpis - Dariusz Chrapek" title="Podpis Darka :)">
 				</div>
 			</div>
 		</div>

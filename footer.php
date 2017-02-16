@@ -14,11 +14,8 @@
 					<div class="down off-1440 off-1280 off-1024">
 						<ul class="wnl-footer-legal">
 							<li>
-								<a href="#" title="Przeczytaj politykę prywatności">Regulamin i Polityka prywatności</a>
-							</li>
-							<li>
 								<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
-							</li
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -48,9 +45,9 @@
 				</div>
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
-						<a href="<?php echo get_site_url() ?>/regulamin" title="Regulamin strony">Regulamin</a><span class="line">|</span>
 						<a href="http://www.guideme24.pl/privacy-policy/677" class="guide-embed guide-color-2 guide-branded guide-button-policy" title="Polityka Prywatności" onclick="TINY.box.show({iframe:'http://www.guideme24.pl/privacy-policy/677',boxid:'frameless',width:760,height:450,fixed:false}); return false;">Polityka Prywatności</a>
-
+						<span class="line">|</span>
+						<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
             <script type="text/javascript">
             (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
               s.src = "http://www.guideme24.pl/privacy-policy/client.js"; tag.parentNode.insertBefore(s,tag);};

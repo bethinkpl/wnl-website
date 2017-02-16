@@ -14,11 +14,11 @@
 					<div class="down off-1440 off-1280 off-1024">
 						<ul class="wnl-footer-legal">
 							<li>
-								<a href="" title="">Regulamin</a>
+								<a href="#" title="Przeczytaj politykę prywatności">Regulamin i Polityka prywatności</a>
 							</li>
 							<li>
-								<a href="" title="">Polityka prywatności</a>
-							</li>
+								<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
+							</li
 						</ul>
 					</div>
 				</div>

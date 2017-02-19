@@ -403,7 +403,7 @@ header {
 			text-align: center;
 
 			.inside {
-				padding: 300px 0 0;
+				padding: 200px 0 0;
 
 		    .subtitle {
 		    	display: inline-block;
@@ -426,12 +426,24 @@ header {
 		}
 
 		.wnl-front-cover-scroll {
+			display: none;
 			padding-top: 20px;
 		}
 
 		.two {
 			text-align: center;
 			padding: 40px 0 120px;
+
+			.wnl-front-video {
+				margin: -200px auto 80px;
+				height: 360px;
+				width: 640px;
+
+				iframe {
+					width: 100%;
+					height: 100%;
+				}
+			}
 
 			.title, .subtitle {
 				color: $primary-color;

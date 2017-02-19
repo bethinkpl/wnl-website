@@ -9,7 +9,7 @@
 					<?php the_field("cover_subtitle"); ?>
 				</p>
 				<div class="wnl-front-cover-scroll">
-					<a href="#" title="" class="wnl-scroll-top" data-section-target=".two">
+					<a href="#" title="" class="wnl-scroll-top" data-section-target=".wnl-front-cover-scroll">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
 					</a>
 				</div>
@@ -18,6 +18,9 @@
 	</div>
 
 	<div class="section two">
+		<div class="wnl-front-video">
+			<iframe src="https://player.vimeo.com/video/157562616?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
 		<div class="wrapper">
 			<h1><?php the_field("courses_title"); ?></h1>
 			<p class="subtitle">

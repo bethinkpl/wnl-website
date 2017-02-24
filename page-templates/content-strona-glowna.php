@@ -24,8 +24,11 @@
 		<div class="wnl-front-signin-top wrapper">
 			<div class="signin">
 				<h2 class="title">
-					<?php the_field("subscribe_title_2"); ?>
+					Pierwsza edycja kursu już 17 czerwca!
 				</h2>
+				<h3 class="subtitle">
+					Zapisy ruszają 1 kwietnia
+				</h3>
 				<h3 class="subtitle">
 					<?php the_field("subscribe_subtitle_2"); ?>
 				</h3>

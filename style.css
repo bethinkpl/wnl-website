@@ -624,6 +624,13 @@ header .mail {
   display: none;
 }
 
+.wnl-email-info {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+  text-align: center;
+}
+
 .wnl-front-title {
   color: #FFFFFF;
 }

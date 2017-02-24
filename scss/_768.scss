@@ -157,7 +157,11 @@ header {
 		.two {
 
 			.wnl-front-video {
+				box-sizing: border-box;
+				height: 480px;
 				margin-top: -150px;
+				padding: 0 20px;
+				width: 100%;
 			}
 
 			.pillars {

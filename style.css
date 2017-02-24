@@ -696,8 +696,8 @@ input[type="submit"] {
 
 .page.index .two .wnl-front-video {
   margin: -200px auto 80px;
-  height: 360px;
-  width: 640px;
+  height: 450px;
+  width: 800px;
 }
 
 .page.index .two .wnl-front-video iframe {
@@ -4073,7 +4073,11 @@ footer .down .line {
     width: 100%;
   }
   .page.index .two .wnl-front-video {
+    box-sizing: border-box;
+    height: 480px;
     margin-top: -150px;
+    padding: 0 20px;
+    width: 100%;
   }
   .page.index .two .pillars ul li {
     display: inline-block;

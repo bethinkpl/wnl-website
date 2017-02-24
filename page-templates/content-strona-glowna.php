@@ -9,7 +9,7 @@
 					<?php the_field("cover_subtitle"); ?>
 				</p>
 				<div class="wnl-front-cover-scroll">
-					<a href="#" title="" class="wnl-scroll-top" data-section-target=".two">
+					<a href="#" title="" class="wnl-scroll-top" data-section-target=".wnl-front-cover-scroll">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
 					</a>
 				</div>
@@ -18,6 +18,29 @@
 	</div>
 
 	<div class="section two">
+		<div class="wnl-front-video">
+			<iframe src="https://player.vimeo.com/video/205572663?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="wnl-front-signin-top wrapper">
+			<div class="signin">
+				<h2 class="title">
+					Pierwsza edycja kursu już 17 czerwca!
+				</h2>
+				<h3 class="subtitle">
+					Zapisy ruszają 1 kwietnia
+				</h3>
+				<h3 class="subtitle">
+					<?php the_field("subscribe_subtitle_2"); ?>
+				</h3>
+				<div class="input">
+					<?php
+						if( function_exists( 'mc4wp_show_form' ) ) {
+						    mc4wp_show_form();
+						}
+					?>
+				</div>
+			</div>
+		</div>
 		<div class="wrapper">
 			<h1><?php the_field("courses_title"); ?></h1>
 			<p class="subtitle">

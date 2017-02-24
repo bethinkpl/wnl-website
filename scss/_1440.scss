@@ -25,3 +25,13 @@
     padding: 0px 25%;
     box-sizing: border-box;
 }
+
+.page {
+
+	&.index {
+
+		.wnl-front-cover-scroll {
+			display: block;
+		}
+	}
+}

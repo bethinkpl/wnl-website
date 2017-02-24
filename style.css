@@ -628,6 +628,10 @@ header .mail {
   color: #FFFFFF;
 }
 
+input[type="submit"] {
+  cursor: pointer;
+}
+
 .page {
   width: 100%;
 }
@@ -692,6 +696,24 @@ header .mail {
 .page.index .two .wnl-front-video iframe {
   width: 100%;
   height: 100%;
+}
+
+.page.index .two .wnl-front-signin-top {
+  margin-bottom: 120px;
+}
+
+.page.index .two .wnl-front-signin-top .title {
+  margin-top: 0px;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+
+.page.index .two .wnl-front-signin-top .subtitle {
+  font-size: 1.1em;
+}
+
+.page.index .two .wnl-front-signin-top input[type="email"] {
+  border-color: #2999A3;
 }
 
 .page.index .two .title, .page.index .two .subtitle {

@@ -21,6 +21,23 @@
 		<div class="wnl-front-video">
 			<iframe src="https://player.vimeo.com/video/157562616?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
+		<div class="wnl-front-signin-top wrapper">
+			<div class="signin">
+				<h2 class="title">
+					<?php the_field("subscribe_title_2"); ?>
+				</h2>
+				<h3 class="subtitle">
+					<?php the_field("subscribe_subtitle_2"); ?>
+				</h3>
+				<div class="input">
+					<?php
+						if( function_exists( 'mc4wp_show_form' ) ) {
+						    mc4wp_show_form();
+						}
+					?>
+				</div>
+			</div>
+		</div>
 		<div class="wrapper">
 			<h1><?php the_field("courses_title"); ?></h1>
 			<p class="subtitle">

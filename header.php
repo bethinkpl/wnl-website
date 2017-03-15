@@ -67,36 +67,6 @@
           fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));</script>
       <?php endif;?>
-    	<div id="statement">
-			<p class="name"></p>
-			<a href="#" class="close"></a>
-		</div>
-		<div id="cookies">
-			<p>
-				Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą zbierane żadne informacje.
-			</p>
-			<a href="#" class="close"></a>
-		</div>
-		<div id="regulations">
-			<div class="inside">
-				<div class="in">
-					<p class="title">Musimy zapytać…</p>
-					<p class="subtitle">
-						Czy wyrażasz zgode na przetwarzanie Twoich danych przez bethink s.c. w celu dostarczania informacji handlowych, czyli informacji o rozpoczęciu kursu, nowych wpisach na blogu, oraz aktualności dotyczących kursu “Więcej niż LEK”?
-					</p>
-					<div class="accept">
-						<a href="#" title="">
-							WYRAŻAM ZGODĘ
-						</a>
-					</div>
-					<div class="close">
-						<a href="#" title="">
-							Nie, dziękuję.
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<header>
 			<!-- menu mobile -->
 			<div class="sidebar">
@@ -123,8 +93,8 @@
 						) ); ?>
 						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 						<div class="mail">
-							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" title="">
-								<?php pll_e("button_leave_mail"); ?>
+							<a href="http://platforma.wiecejnizlek.pl/payment/select-product" title="Kliknij, aby wybrać kurs">
+								Zapisz się!
 							</a>
 						</div>
 					</div>
@@ -148,8 +118,8 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
-							<?php pll_e("button_leave_mail"); ?>
+						<a href="http://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary" title="Kliknij, aby wybrać kurs">
+							Zapisz się!
 						</a>
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>
@@ -157,6 +127,4 @@
 			</div>
 		</header>
 
-		<div id="mask">
-
-		</div>
+		<div id="mask"></div>

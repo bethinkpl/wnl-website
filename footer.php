@@ -59,6 +59,31 @@
 			</div>
 		</footer>
 
+		<div id="statement">
+			<p class="name"></p>
+			<a href="#" class="close"></a>
+		</div>
+		<div id="regulations">
+			<div class="inside">
+				<div class="in">
+					<p class="title">Musimy zapytać…</p>
+					<p class="subtitle">
+						Czy wyrażasz zgode na przetwarzanie Twoich danych przez bethink s.c. w celu dostarczania informacji handlowych, czyli informacji o rozpoczęciu kursu, nowych wpisach na blogu, oraz aktualności dotyczących kursu “Więcej niż LEK”?
+					</p>
+					<div class="accept">
+						<a href="#" title="">
+							WYRAŻAM ZGODĘ
+						</a>
+					</div>
+					<div class="close">
+						<a href="#" title="">
+							Nie, dziękuję.
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<script src="<?php echo get_template_directory_uri() ?>/js/vendors/validation.form.js"></script>
 		<script src="<?php echo get_template_directory_uri() ?>/js/vendors/tabtab.min.js"></script>
 		<script src="<?php echo get_template_directory_uri() ?>/js/script.js"></script>

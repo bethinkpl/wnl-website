@@ -233,6 +233,28 @@ div {
   transition: background 0.25s;
 }
 
+.button-inverted {
+  border: 1px solid #FFFFFF;
+  border-radius: 200px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 28px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-inverted:hover {
+  border-color: #61CED8;
+  color: #61CED8;
+}
+
 .cards {
   display: flex;
   flex-flow: row wrap;
@@ -303,6 +325,10 @@ div {
   margin: 0 auto;
   padding: 9px 10px;
   width: 4rem;
+}
+
+.inverted {
+  color: #FFFFFF;
 }
 
 .no-shadow {
@@ -4729,7 +4755,7 @@ footer .down .line {
     height: 640px;
   }
   .page.index .cover .inside {
-    padding: 200px 0 0;
+    padding: 120px 0 0;
   }
 }
 

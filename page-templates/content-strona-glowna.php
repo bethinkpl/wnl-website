@@ -5,14 +5,17 @@
 				<h1 class="wnl-front-title">
 					<?php the_field("cover_title"); ?>
 				</h1>
-				<p class="subtitle">
+				<!-- <p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
+				</p> -->
+				<p class="metadata inverted">
+					Zapisy trwają! Kurs rusza już 17 czerwca!
 				</p>
-				<div class="wnl-front-cover-scroll">
-					<a href="#" title="" class="wnl-scroll-top" data-section-target=".wnl-front-cover-scroll">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down_inverted/normal.svg" alt="Przewiń stronę" />
+				<p class="aligncenter">
+					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+						Zapisz się!
 					</a>
-				</div>
+				</p>
 			</div>
 		</div>
 	</div>

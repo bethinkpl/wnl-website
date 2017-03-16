@@ -1,6 +1,6 @@
 <div class="content workshops">
 	<div class="wrapper">
-		<h1>O warsztatach</h1>
+		<h1>Warsztaty</h1>
 		<p class="lead aligncenter">
 			<span class="rwd-line">Wybierając kurs stacjonarny uczestniczysz w 6 sobotnich spotkaniach warsztatowych. </span><span class="rwd-line">Są one wyjątkową okazją do zgłębienia problematycznych zagadnień, kontaktu ze specjalistami oraz grupowego budowania motywacji.</span>
 		</p>
@@ -80,7 +80,7 @@
 					<span class="card-subtitle">17 czerwca 2017</span>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Pana Dr hab. n. med. Mariusza Puszczewicza, specjalistę chorób wewnętrznych</li>
+							<li>Zajęcia prowadzone przez <strong>Pana dr hab. n. med. Mariusza Puszczewicza</strong>, specjalistę chorób wewnętrznych</li>
 							<li>Rozwiązywanie problemów i przypadków z interny</li>
 						</ul>
 					</p>
@@ -91,7 +91,7 @@
 					<span class="card-subtitle">17 czerwca 2017</span>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Panią Dr n. med. Annę Manię, specjalistkę chorób dziecięcych</li>
+							<li>Zajęcia prowadzone przez Panią <strong>dr n. med. Annę Manię</strong>, specjalistkę chorób dziecięcych</li>
 							<li>Rozwiązywanie problemów i przypadków z pediatrii</li>
 						</ul>
 					</p>
@@ -101,7 +101,7 @@
 					<p class="card-title">Stany nagłe</p>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Pana lek. Michała Szemienia, specjalistę medycyny ratunkowej</li>
+							<li>Zajęcia prowadzone przez Pana <strong>lek. Michała Szemienia</strong>, specjalistę medycyny ratunkowej</li>
 							<li>Rozwiązywanie problemów i przypadków z medycyny ratunkowej</li>
 						</ul>
 					</p>
@@ -111,7 +111,7 @@
 					<p class="card-title">Prawo medyczne</p>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Pana dr n. praw. Radosława Tymińskiego</li>
+							<li>Zajęcia prowadzone przez Pana <strong>dr n. praw. Radosława Tymińskiego</strong></li>
 							<li>Prawo medyczne</li>
 							<li>Komunikacja z pacjentem</li>
 						</ul>

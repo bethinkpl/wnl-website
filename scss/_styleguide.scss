@@ -168,6 +168,28 @@ div {
 	}
 }
 
+.button-inverted {
+	border: 1px solid $white-color;
+	border-radius: 200px;
+	color: $white-color;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $primary-font;
+	font-size: 1.2rem;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover {
+		border-color: $light-green-color;
+		color: $light-green-color;
+	}
+}
+
 // Card item
 
 .cards {
@@ -243,6 +265,10 @@ div {
 }
 
 // Auxilliary classes
+
+.inverted {
+	color: $white-color;
+}
 
 .no-shadow {
 	box-shadow: none !important;

@@ -229,6 +229,33 @@ div {
   transition: background 0.25s;
 }
 
+.expandable {
+  position: relative;
+}
+
+.expandable .cloud {
+  bottom: 0;
+  display: none;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+}
+
+.expandable.folded {
+  height: 450px;
+  overflow: hidden;
+}
+
+.expandable.folded .cloud {
+  align-items: flex-end;
+  box-shadow: inset 0px -75px 75px 0px white;
+  -webkit-box-shadow: inset 0px -75px 75px 0px white;
+  -moz-box-shadow: inset 0px -75px 75px 0px white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .no-shadow {
   box-shadow: none !important;
 }
@@ -1700,10 +1727,6 @@ input[type="submit"] {
   padding-top: 40px;
   padding-bottom: 120px;
   background-color: #E2E6EF;
-}
-
-.page.about {
-  margin-top: 80px;
 }
 
 .page.about .wrapper {

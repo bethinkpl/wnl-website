@@ -17,6 +17,7 @@
 						get_template_part( 'page-templates/content', 'kurs' );
 					}
 					else if (is_page(array('o-nas'))) {
+						echo '<script>page = "o-nas";</script>';
 						get_template_part( 'page-templates/content', 'o-nas' );
 					}
 					else if (is_page(array('blog'))) {

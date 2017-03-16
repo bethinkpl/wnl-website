@@ -66,12 +66,12 @@
 			var page;
 
 			var statementFormNotValid = '<?php pll_e("form_not_valid"); ?>';
-    	var statementFormSendSuccess = '<?php pll_e("form_send_success"); ?>';
-    	var statementFormSendError = '<?php pll_e("form_send_error"); ?>';
+			var statementFormSendSuccess = '<?php pll_e("form_send_success"); ?>';
+			var statementFormSendError = '<?php pll_e("form_send_error"); ?>';
 
-    	var statementMailNotValid = '<?php pll_e("mail_not_valid"); ?>';
-    	var statementMailSendSuccess = '<?php pll_e("mail_send_success"); ?>';
-    	var statementMailSendError = '<?php pll_e("mail_send_error"); ?>';
+			var statementMailNotValid = '<?php pll_e("mail_not_valid"); ?>';
+			var statementMailSendSuccess = '<?php pll_e("mail_send_success"); ?>';
+			var statementMailSendError = '<?php pll_e("mail_send_error"); ?>';
 
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

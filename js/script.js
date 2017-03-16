@@ -25,9 +25,14 @@ window.onscroll = function() {
 }
 
 $(function() {
-  if (page === 'index') {
-    particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
-  }
+	if (page === 'index') {
+		particlesJS.load('particles-js', templateUrl + '/js/vendors/particles.json');
+	} else if (page === 'o-nas') {
+		var $expandable = $('.expandable');
+		$expandable.find('.cloud').click(function() {
+			$expandable.removeClass('folded');
+		})
+	}
   scrollToSection();
 });
 

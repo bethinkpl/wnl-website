@@ -58,15 +58,15 @@
 		</div>
 
 		<div class="section">
-			<h2>Plan warsztatów</h2>
+			<h2 style="margin: 50px 0">Plan warsztatów</h2>
 			<div class="cards">
 				<div class="card with-shadow">
 					<div class="big-number">1</div>
 					<p class="card-title">Wprowadzenie do kursu</p>
-					<span class="card-subtitle">17 czerwca 2017</span>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzą Adam i Daro</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzą Daro i Adam</li>
 							<li>Higiena pracy umysłowej</li>
 							<li>Metodologia i mapy myśli</li>
 							<li>Growth mindset</li>
@@ -77,10 +77,10 @@
 				<div class="card with-shadow">
 					<div class="big-number">2</div>
 					<p class="card-title">Interna</p>
-					<span class="card-subtitle">17 czerwca 2017</span>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzi Pan dr hab. n. med. Mariusz Puszczewicz</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez <strong>Pana dr hab. n. med. Mariusza Puszczewicza</strong>, specjalistę chorób wewnętrznych</li>
 							<li>Rozwiązywanie problemów i przypadków z interny</li>
 						</ul>
 					</p>
@@ -88,10 +88,10 @@
 				<div class="card with-shadow">
 					<div class="big-number">3</div>
 					<p class="card-title">Pediatria</p>
-					<span class="card-subtitle">17 czerwca 2017</span>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzi Pani dr n. med. Anna Mania</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Panią <strong>dr n. med. Annę Manię</strong>, specjalistkę chorób dziecięcych</li>
 							<li>Rozwiązywanie problemów i przypadków z pediatrii</li>
 						</ul>
 					</p>
@@ -99,9 +99,10 @@
 				<div class="card with-shadow">
 					<div class="big-number">4</div>
 					<p class="card-title">Stany nagłe</p>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzi Pan lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Pana <strong>lek. Michała Szemienia</strong>, specjalistę medycyny ratunkowej</li>
 							<li>Rozwiązywanie problemów i przypadków z medycyny ratunkowej</li>
 						</ul>
 					</p>
@@ -109,9 +110,10 @@
 				<div class="card with-shadow">
 					<div class="big-number">5</div>
 					<p class="card-title">Prawo medyczne</p>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzi Pan dr n. praw. Radosław Tymiński</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzone przez Pana <strong>dr n. praw. Radosława Tymińskiego</strong></li>
 							<li>Prawo medyczne</li>
 							<li>Komunikacja z pacjentem</li>
 						</ul>
@@ -120,9 +122,10 @@
 				<div class="card with-shadow">
 					<div class="big-number">6</div>
 					<p class="card-title">Praca w zawodzie</p>
+					<div class="metadata">17 czerwca 2017</div>
+					<div class="card-subtitle">Prowadzą Daro i Adam</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Zajęcia prowadzą Daro i Adam</li>
 							<li>Prowadzenie działalności</li>
 							<li>Recepty i zwolnienia</li>
 							<li>Planowanie stażu podyplomowego</li>

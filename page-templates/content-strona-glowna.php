@@ -23,13 +23,7 @@
 			<iframe src="https://player.vimeo.com/video/205572663?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<div class="wrapper">
-			<!-- <div class="mission lead">
-				Traktujemy kurs "Więcej niż LEK" jako okazję do szerzenia idei dzielenia się wiedzą, działania na rzecz powrotu prawdziwego mentoringu w środowisku medycznym oraz poprawy wizerunku lekarzy w polskim społeczeństwie. Wierzymy, że aby osiągnąć te cele, sami musimy stać się tą zmianą. Mamy nadzieję, że zarówno w Waszej, jak i naszej zawodowej codzienności, wszyscy będziemy pamiętać, że aby oczekiwać pomocy, sami musimy być zawsze gotowi udzielić jej drugiej osobie.
-			</div> -->
 			<h2 class="title"><?php the_field("courses_title"); ?></h2>
-			<!-- <p class="subtitle">
-				<?php the_field("courses_subtitle"); ?>
-			</p> -->
 			<div class="pillars">
 				<ul class="pillars-list">
 					<?php for ($i = 1; $i <= 5; $i++) : ?>
@@ -54,15 +48,11 @@
 	<div class="section three">
 		<div class="image"></div>
 		<div class="wrapper">
-			<p class="title">
-				<?php the_field("variant_head"); ?>
-			</p>
+			<p class="title">Dwa warianty do wyboru</p>
 			<div class="courses">
 				<div class="item first">
 					<div class="line"></div>
-					<p class="title">
-						<?php the_field("variant_title_1"); ?>
-					</p>
+					<h3 class="courses-title"><?php the_field("variant_title_1"); ?></h3>
 					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_1"); ?>
 					</ul>
@@ -70,9 +60,7 @@
 
 				<div class="item second">
 					<div class="line"></div>
-					<p class="title">
-						<?php the_field("variant_title_2"); ?>
-					</p>
+					<h3 class="courses-title"><?php the_field("variant_title_2"); ?></h3>
 					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_2"); ?>
 					</ul>
@@ -81,21 +69,36 @@
 		</div>
 	</div>
 
-	<div class="section four">
+	<div class="section" style="padding: 30px 0;">
 		<div class="wrapper">
-			<div class="signin">
-				<p class="title">
-					<?php the_field("subscribe_title_2"); ?>
-				</p>
-				<p class="subtitle">
-					<?php the_field("subscribe_subtitle_2"); ?>
-				</p>
-				<div class="input">
-					<?php
-						if( function_exists( 'mc4wp_show_form' ) ) {
-						    mc4wp_show_form();
-						}
-					?>
+			<div class="cards">
+				<div class="card">
+					<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">
+						<img src="https://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_02.png" alt="Praktyczne warsztaty" class="image big">
+					</a>
+					<h2 class="card-title">Praktyczne warsztaty</h2>
+					<p class="card-content alignleft">
+						Warsztaty w ramach naszego kursu do LEK-u, to nie tylko okazja do uzyskania odpowiedzi na najtrudniejsze pytania! Pozwalają również skorzystać z doświadczenia wyjątkowych dydaktyków i specjalistów w dziedzinach chorób wewnętrznych, pediatrii, medycyny ratunkowej oraz prawa medycznego. Przeczytaj więcej na podstronie <a href="<?php echo site_url('o-warsztatach') ?>">O warsztatach</a>.
+					</p>
+					<p class="alignleft">
+						<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
+						</a>
+					</p>
+				</div>
+				<div class="card">
+					<a href="<?php echo site_url('o-kursie') ?>" title="Czytaj więcej..." class="more">
+						<img src="https://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_01.png" alt="Najczęście zadawane pytania" class="image big">
+					</a>
+					<h2 class="card-title">Masz wątpliwości?</h2>
+					<p class="card-content alignleft">
+						Na podstronie <a href="<?php echo site_url('o-kursie') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. :) Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
+					</p>
+					<p class="alignleft">
+						<a href="<?php echo site_url('o-kursie') ?>" title="Czytaj więcej..." class="more">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
+						</a>
+					</p>
 				</div>
 			</div>
 		</div>

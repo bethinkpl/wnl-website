@@ -583,11 +583,11 @@ input[type="submit"] {
 			}
 
 			.title {
-				margin-top: 120px;
+				margin-top: 70px;
 			}
 
 			.courses {
-				margin-top: 100px;
+				margin-top: 50px;
 
 				.item {
 					display: inline-block;
@@ -614,36 +614,23 @@ input[type="submit"] {
 						height: 8px;
 					}
 
+					.courses-title {
+						margin: 15px 0;
+					}
+
 					&.first {
 						background-color: $white-color;
 
 						.line {
 							background-color: #FFB44D;
 						}
-
-						.title {
-							margin: 120px 0 35px;
-						}
-
-						.description {
-							margin-top: 80px;
-						}
 					}
 
 					&.second {
 						background-color: #E2E6EF;
-						margin-top: 20px;
 
 						.line {
 							background-color: $green-color;
-						}
-
-						.title {
-							margin: 100px 0 35px;
-						}
-
-						.description {
-							margin-top: 140px;
 						}
 					}
 

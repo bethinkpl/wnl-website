@@ -32,90 +32,20 @@
 			</p> -->
 			<div class="pillars">
 				<ul class="pillars-list">
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("courses_section_image_1"); ?>" alt="">
+					<?php for ($i = 1; $i <= 5; $i++) : ?>
+						<li>
+							<div class="image">
+								<div class="inside">
+									<img src="<?php the_field("courses_section_image_" . $i); ?>" alt="<?php the_field("courses_section_title_" . $i); ?>">
+								</div>
 							</div>
-						</div>
-						<p class="title">
-							<?php the_field("courses_section_title_1"); ?>
-						</p>
-						<p class="description">
-							<?php the_field("courses_section_description_1"); ?>
-						</p>
-						<a href="<?php echo get_site_url() ?>/jak-pomagamy#1" title="Czytaj więcej" class="more">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
-						</a>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("courses_section_image_2"); ?>" alt="" />
-							</div>
-						</div>
-						<p class="title">
-							<?php the_field("courses_section_title_2"); ?>
-						</p>
-						<p class="description">
-							<?php the_field("courses_section_description_2"); ?>
-						</p>
-						<a href="<?php echo get_site_url() ?>/jak-pomagamy#2" title="Czytaj więcej" class="more">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
-						</a>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("courses_section_image_3"); ?>" alt="" />
-							</div>
-						</div>
-						<p class="title">
-							<?php the_field("courses_section_title_3"); ?>
-						</p>
-						<p class="description">
-							<?php the_field("courses_section_description_3"); ?>
-						</p>
-						<a href="<?php echo get_site_url() ?>/jak-pomagamy#3" title="Czytaj więcej" class="more">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
-						</a>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("courses_section_image_4"); ?>" alt="" />
-							</div>
-						</div>
-						<p class="title">
-							<?php the_field("courses_section_title_4"); ?>
-						</p>
-						<p class="description">
-							<?php the_field("courses_section_description_4"); ?>
-						</p>
-						<a href="<?php echo get_site_url() ?>/jak-pomagamy#4" title="Czytaj więcej" class="more">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
-						</a>
-					</li>
-
-					<li>
-						<div class="image">
-							<div class="inside">
-								<img src="<?php the_field("courses_section_image_5"); ?>" alt="" />
-							</div>
-						</div>
-						<p class="title">
-							<?php the_field("courses_section_title_5"); ?>
-						</p>
-						<p class="description">
-							<?php the_field("courses_section_description_5"); ?>
-						</p>
-						<a href="<?php echo get_site_url() ?>/jak-pomagamy#5" title="Czytaj więcej" class="more">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej" />
-						</a>
-					</li>
+							<p class="title"><?php the_field("courses_section_title_" . $i); ?></p>
+							<p class="description"><?php the_field("courses_section_description_" . $i); ?></p>
+							<a href="<?php echo get_site_url() . '/jak-pomagamy#' . $i ?>" title="Czytaj więcej..." class="more">
+								<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
+							</a>
+						</li>
+					<?php endfor; ?>
 				</ul>
 			</div>
 		</div>

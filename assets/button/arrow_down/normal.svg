@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>button/arrow_down_inverted/normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="20"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1022.000000, -530.000000)" id="button/arrow_down_inverted/normal">
+            <g transform="translate(1022.000000, 530.000000)">
+                <use id="Rectangle-3" stroke="#242D47" mask="url(#mask-2)" stroke-width="2" transform="translate(20.000000, 20.000000) scale(-1, 1) translate(-20.000000, -20.000000) " xlink:href="#path-1"></use>
+                <polygon id="down" fill="#242D47" points="28.2403125 19.4882812 20.67 27.0703125 20.67 11.25 18.795 11.25 18.795 27.0117188 11.2715625 19.4882812 9.94734376 20.8242188 19.7559375 30.6328125 29.57625 20.8242188"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

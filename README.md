@@ -1,2 +1,2 @@
 # wnl-website
-WordPress theme for the http://wiecejnizlek.pl website.
+WordPress theme for the https://wiecejnizlek.pl website.

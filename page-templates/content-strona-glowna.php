@@ -5,12 +5,10 @@
 				<h1 class="wnl-front-title">
 					<?php the_field("cover_title"); ?>
 				</h1>
-				<!-- <p class="subtitle">
+				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
-				</p> -->
-				<p class="metadata inverted">
-					Zapisy trwają! Kurs rusza już 17 czerwca!
 				</p>
+				<p class="metadata inverted">Zapisy trwają! Kurs rusza już 17 czerwca!</p>
 				<p class="aligncenter">
 					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 						Zapisz się!
@@ -24,31 +22,14 @@
 		<div class="wnl-front-video">
 			<iframe src="https://player.vimeo.com/video/205572663?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
-		<div class="wnl-front-signin-top wrapper">
-			<div class="signin">
-				<h2 class="title">
-					Pierwsza edycja kursu już 17 czerwca!
-				</h2>
-				<h3 class="subtitle">
-					Zapisy ruszają 1 kwietnia
-				</h3>
-				<h3 class="subtitle">
-					<?php the_field("subscribe_subtitle_2"); ?>
-				</h3>
-				<div class="input">
-					<?php
-						if( function_exists( 'mc4wp_show_form' ) ) {
-						    mc4wp_show_form();
-						}
-					?>
-				</div>
-			</div>
-		</div>
 		<div class="wrapper">
-			<h1><?php the_field("courses_title"); ?></h1>
-			<p class="subtitle">
+			<!-- <div class="mission lead">
+				Traktujemy kurs "Więcej niż LEK" jako okazję do szerzenia idei dzielenia się wiedzą, działania na rzecz powrotu prawdziwego mentoringu w środowisku medycznym oraz poprawy wizerunku lekarzy w polskim społeczeństwie. Wierzymy, że aby osiągnąć te cele, sami musimy stać się tą zmianą. Mamy nadzieję, że zarówno w Waszej, jak i naszej zawodowej codzienności, wszyscy będziemy pamiętać, że aby oczekiwać pomocy, sami musimy być zawsze gotowi udzielić jej drugiej osobie.
+			</div> -->
+			<h2 class="title"><?php the_field("courses_title"); ?></h2>
+			<!-- <p class="subtitle">
 				<?php the_field("courses_subtitle"); ?>
-			</p>
+			</p> -->
 			<div class="pillars">
 				<ul class="pillars-list">
 					<li>

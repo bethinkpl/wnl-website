@@ -767,7 +767,7 @@ input[type="submit"] {
 }
 
 .page.index .cover .inside {
-  padding: 200px 0 0;
+  padding: 170px 0 0;
 }
 
 .page.index .cover .inside .subtitle {
@@ -832,7 +832,7 @@ input[type="submit"] {
 }
 
 .page.index .two .title {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 .page.index .two .subtitle {
@@ -843,7 +843,7 @@ input[type="submit"] {
 
 .page.index .two .pillars {
   text-align: left;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .page.index .two .pillars ul li {
@@ -2613,12 +2613,7 @@ footer .down .line {
     padding: 120px 0 0;
     top: calc(50% - 60px);
   }
-  .page.index .cover .inside .subtitle span {
-    display: inline-block;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .page.index .cover .inside .subtitle span.line {
+  .page.index .cover .inside .subtitle {
     display: none;
   }
   .page.index .cover .wnl-scroll-top {
@@ -3450,12 +3445,7 @@ footer .down .line {
     padding: 120px 0 0;
     top: calc(50% - 60px);
   }
-  .page.index .cover .inside .subtitle span {
-    display: inline-block;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .page.index .cover .inside .subtitle span.line {
+  .page.index .cover .inside .subtitle {
     display: none;
   }
   .page.index .one {
@@ -4165,12 +4155,7 @@ footer .down .line {
   .page.index .cover .inside {
     padding: 120px 0 0;
   }
-  .page.index .cover .inside .subtitle span {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .page.index .cover .inside .subtitle span.line {
+  .page.index .cover .inside .subtitle {
     display: none;
   }
   .page.index .one .video {
@@ -4502,12 +4487,7 @@ footer .down .line {
   .page.index .cover .inside {
     padding: 120px 0 0;
   }
-  .page.index .cover .inside .subtitle span {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .page.index .cover .inside .subtitle span.line {
+  .page.index .cover .inside .subtitle {
     display: none;
   }
   .page.index .two .wnl-front-video {
@@ -4755,7 +4735,7 @@ footer .down .line {
     height: 640px;
   }
   .page.index .cover .inside {
-    padding: 120px 0 0;
+    padding: 80px 0 0;
   }
 }
 

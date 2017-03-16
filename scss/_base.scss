@@ -216,7 +216,7 @@ header {
 		img {
 			width: 100%;
 			line-height: 0px;
-			margin-top: 21.5px;
+			margin-top: 26px;
 		}
 	}
 
@@ -265,7 +265,7 @@ header {
 
 			img {
 				float: left;
-				margin-top: 28px;
+				margin-top: 30px;
 				width: 24px;
 			}
 		}
@@ -395,6 +395,10 @@ header {
 
 input[type="submit"] {
 	cursor: pointer;
+}
+
+.content {
+	margin-top: 100px;
 }
 
 .page {

@@ -58,6 +58,10 @@ h4 {
 	padding-top: 80px;
 }
 
+.lead {
+	font-family: $primary-font;
+}
+
 // Paragraphs
 
 p {
@@ -161,6 +165,80 @@ div {
 		background-color: $light-green-color;
 		color: $white-color;
 		transition: background 0.25s;
+	}
+}
+
+// Card item
+
+.cards {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	.card {
+		flex: 1 1 auto;
+		margin: 10px 20px;
+		padding: 20px;
+		text-align: center;
+		width: 280px;
+
+		&.with-shadow {
+			border-radius: 5px;
+			box-shadow: $card-box-shadow;
+			margin-bottom: 30px;
+		}
+	}
+
+	.card-title {
+		font-family: $primary-font;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+
+	.card-subtitle {
+		color: $dark-background;
+		font-family: $primary-font;
+		font-size: 1rem;
+	}
+
+	.card-content {
+		font-family: $primary-font;
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
+
+	.card-content-list {
+		font-family: $primary-font;
+		font-size: 1rem;
+
+		li {
+			border-bottom: 1px solid $background-overlay-light;
+			list-style-type: none;
+			padding: 5px 0;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+
+	.image {
+		max-height: 150px;
+		margin: 0 auto;
+	}
+
+	.big-number {
+		border: 1px solid $primary-color;
+		border-radius: 200px;
+		box-sizing: border-box;
+		font-family: $primary-font;
+		font-size: 2rem;
+		font-weight: 700;
+		height: 4rem;
+		line-height: 3rem;
+		margin: 0 auto;
+		padding: 9px 10px;
+		width: 4rem;
 	}
 }
 

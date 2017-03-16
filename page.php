@@ -9,12 +9,15 @@
 						echo '<script>page = "index";</script>';
 						get_template_part( 'page-templates/content', 'strona-glowna' );
 					}
-					else if (is_page(array('jak-pomagamy'))) {
+					else if (is_page(array('o-zalozeniach'))) {
 						echo '<script>page = "help";</script>';
-						get_template_part( 'page-templates/content', 'jak-pomagamy' );
+						get_template_part( 'page-templates/content', 'o-zalozeniach' );
 					}
-					else if (is_page(array('kurs'))) {
-						get_template_part( 'page-templates/content', 'kurs' );
+					else if (is_page(array('o-kursie'))) {
+						get_template_part( 'page-templates/content', 'o-kursie' );
+					}
+					else if (is_page(array('o-warsztatach'))) {
+						get_template_part( 'page-templates/content', 'o-warsztatach' );
 					}
 					else if (is_page(array('o-nas'))) {
 						get_template_part( 'page-templates/content', 'o-nas' );

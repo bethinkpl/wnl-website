@@ -127,6 +127,10 @@ h4 {
   padding-top: 80px;
 }
 
+.lead {
+  font-family: "Poppins", sans-serif;
+}
+
 p {
   display: block;
   padding: 8px 0 16px;
@@ -229,6 +233,78 @@ div {
   background-color: #61CED8;
   color: #FFFFFF;
   transition: background 0.25s;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cards .card {
+  flex: 1 1 auto;
+  margin: 10px 20px;
+  padding: 20px;
+  text-align: center;
+  width: 280px;
+}
+
+.cards .card.with-shadow {
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px 4px #e3e0e3;
+  margin-bottom: 30px;
+}
+
+.cards .card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cards .card-subtitle {
+  color: #43495a;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.cards .card-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.cards .card-content-list {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.cards .card-content-list li {
+  border-bottom: 1px solid rgba(44, 67, 104, 0.15);
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.cards .card-content-list li:last-child {
+  border-bottom: 0;
+}
+
+.cards .image {
+  max-height: 150px;
+  margin: 0 auto;
+}
+
+.cards .big-number {
+  border: 1px solid #242D47;
+  border-radius: 200px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  padding: 9px 10px;
+  width: 4rem;
 }
 
 .no-shadow {
@@ -469,7 +545,7 @@ header .logo a {
 header .logo img {
   width: 100%;
   line-height: 0px;
-  margin-top: 21.5px;
+  margin-top: 26px;
 }
 
 header .sidebar, header .hamburger {
@@ -516,7 +592,7 @@ header .desktop .fb {
 
 header .desktop .fb img {
   float: left;
-  margin-top: 28px;
+  margin-top: 30px;
   width: 24px;
 }
 
@@ -637,6 +713,10 @@ header .mail {
 
 input[type="submit"] {
   cursor: pointer;
+}
+
+.content {
+  margin-top: 100px;
 }
 
 .page {

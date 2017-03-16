@@ -12,6 +12,7 @@
 
 			if ( has_tag('http', $post) ) {
 				$url = str_replace('https:', 'http:', $url);
+				echo '<link rel="canonical" href="' . $url . '">';
 			}
 
             $og_data = [

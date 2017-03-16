@@ -4,18 +4,25 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
 
-        <?php
+		<?php
           if ( is_single() ) {
             $post = get_post();
             $image = get_field( 'preview_photo', $post->ID );
+			$url = get_permalink( $post->ID );
+
+			if ( has_tag('http', $post) ) {
+				$url = str_replace('https:', 'http:', $url);
+			}
 
             $og_data = [
-              'url' => get_permalink( $post->ID ),
+              'url' => $url,
               'type' => 'article',
               'title' => sprintf( '%1$s - Więcej niż LEK', $post->post_title ),
               'description' => $post->post_excerpt,
               'image' => esc_url( $image['sizes']['large'] ),
             ];
+
+			echo '<meta name="description" content="' . $og_data['description'] . '">';
           } else {
             $og_data = [
               'url' => get_site_url(),
@@ -24,6 +31,8 @@
               'description' => 'Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.',
               'image' => esc_url( sprintf( '%1$s/assets/fb_og_mainpage.png', get_template_directory_uri() ) ),
             ];
+
+			echo '<meta name="description" content="Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.">';
           }
 
           foreach ( $og_data as $key => $value ) {
@@ -32,7 +41,6 @@
         ?>
 
         <title><?php wp_title(); ?></title>
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/assets/favicon.png" />

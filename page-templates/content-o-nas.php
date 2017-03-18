@@ -5,13 +5,18 @@
 		</p>
 		<div class="up">
 			<div class="wrapper">
-				<h2 class="alignleft"><?php the_field("about_title"); ?></h2>
-				<p class="subtitle"><?php the_field("about_subtitle"); ?></p>
-				<p class="description">
-					<?php the_field("about_description"); ?>
-				</p>
-				<div class="wnl-about-signature">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/signature.png" alt="Podpis - Dariusz Chrapek" title="Podpis Darka :)">
+				<div class="expandable folded">
+					<div class="cloud">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down/normal.svg" alt="Zobacz więcej">
+					</div>
+					<h2 class="alignleft"><?php the_field("about_title"); ?></h2>
+					<p class="subtitle"><?php the_field("about_subtitle"); ?></p>
+					<p class="description">
+						<?php the_field("about_description"); ?>
+					</p>
+					<div class="wnl-about-signature">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/signature.png" alt="Podpis - Dariusz Chrapek" title="Podpis Darka :)">
+					</div>
 				</div>
 			</div>
 		</div>

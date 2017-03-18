@@ -270,6 +270,33 @@ div {
 	color: $white-color;
 }
 
+.expandable {
+	position: relative;
+
+	.cloud {
+		bottom: 0;
+		display: none;
+		height: 100px;
+		position: absolute;
+		text-align: center;
+	}
+
+	&.folded {
+		height: 450px;
+		overflow: hidden;
+
+		.cloud {
+			align-items: flex-end;
+			box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
+			-webkit-box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
+			-moz-box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
+			display: flex;
+			justify-content: center;;
+			width: 100%;
+		}
+	}
+}
+
 .no-shadow {
 	box-shadow: none !important;
 }

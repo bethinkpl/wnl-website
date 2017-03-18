@@ -233,28 +233,6 @@ div {
   transition: background 0.25s;
 }
 
-.button-inverted {
-  border: 1px solid #FFFFFF;
-  border-radius: 200px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 28px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.button-inverted:hover {
-  border-color: #61CED8;
-  color: #61CED8;
-}
-
 .cards {
   display: flex;
   flex-flow: row wrap;
@@ -266,7 +244,7 @@ div {
   margin: 10px 20px;
   padding: 20px;
   text-align: center;
-  width: 250px;
+  width: 280px;
 }
 
 .cards .card.with-shadow {
@@ -284,7 +262,7 @@ div {
 .cards .card-subtitle {
   color: #43495a;
   font-family: "Poppins", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .cards .card-content {
@@ -309,7 +287,7 @@ div {
 }
 
 .cards .image {
-  max-height: 170px;
+  max-height: 150px;
   margin: 0 auto;
 }
 
@@ -325,10 +303,6 @@ div {
   margin: 0 auto;
   padding: 9px 10px;
   width: 4rem;
-}
-
-.inverted {
-  color: #FFFFFF;
 }
 
 .no-shadow {
@@ -767,7 +741,7 @@ input[type="submit"] {
 }
 
 .page.index .cover .inside {
-  padding: 170px 0 0;
+  padding: 200px 0 0;
 }
 
 .page.index .cover .inside .subtitle {
@@ -832,7 +806,7 @@ input[type="submit"] {
 }
 
 .page.index .two .title {
-  margin-top: 40px;
+  margin-top: 120px;
 }
 
 .page.index .two .subtitle {
@@ -843,7 +817,7 @@ input[type="submit"] {
 
 .page.index .two .pillars {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .page.index .two .pillars ul li {
@@ -929,11 +903,11 @@ input[type="submit"] {
 }
 
 .page.index .three .title {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .page.index .three .courses {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .page.index .three .courses .item {
@@ -962,10 +936,6 @@ input[type="submit"] {
   height: 8px;
 }
 
-.page.index .three .courses .item .courses-title {
-  margin: 15px 0;
-}
-
 .page.index .three .courses .item.first {
   background-color: #FFFFFF;
 }
@@ -974,12 +944,29 @@ input[type="submit"] {
   background-color: #FFB44D;
 }
 
+.page.index .three .courses .item.first .title {
+  margin: 120px 0 35px;
+}
+
+.page.index .three .courses .item.first .description {
+  margin-top: 80px;
+}
+
 .page.index .three .courses .item.second {
   background-color: #E2E6EF;
+  margin-top: 20px;
 }
 
 .page.index .three .courses .item.second .line {
   background-color: #2999A3;
+}
+
+.page.index .three .courses .item.second .title {
+  margin: 100px 0 35px;
+}
+
+.page.index .three .courses .item.second .description {
+  margin-top: 140px;
 }
 
 .page.index .three .courses .item .title, .page.index .three .courses .item .description, .page.index .three .courses .item ul {
@@ -2600,7 +2587,12 @@ footer .down .line {
     padding: 120px 0 0;
     top: calc(50% - 60px);
   }
-  .page.index .cover .inside .subtitle {
+  .page.index .cover .inside .subtitle span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .page.index .cover .inside .subtitle span.line {
     display: none;
   }
   .page.index .cover .wnl-scroll-top {
@@ -3432,7 +3424,12 @@ footer .down .line {
     padding: 120px 0 0;
     top: calc(50% - 60px);
   }
-  .page.index .cover .inside .subtitle {
+  .page.index .cover .inside .subtitle span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .page.index .cover .inside .subtitle span.line {
     display: none;
   }
   .page.index .one {
@@ -4142,7 +4139,12 @@ footer .down .line {
   .page.index .cover .inside {
     padding: 120px 0 0;
   }
-  .page.index .cover .inside .subtitle {
+  .page.index .cover .inside .subtitle span {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .page.index .cover .inside .subtitle span.line {
     display: none;
   }
   .page.index .one .video {
@@ -4474,7 +4476,12 @@ footer .down .line {
   .page.index .cover .inside {
     padding: 120px 0 0;
   }
-  .page.index .cover .inside .subtitle {
+  .page.index .cover .inside .subtitle span {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .page.index .cover .inside .subtitle span.line {
     display: none;
   }
   .page.index .two .wnl-front-video {
@@ -4722,7 +4729,7 @@ footer .down .line {
     height: 640px;
   }
   .page.index .cover .inside {
-    padding: 80px 0 0;
+    padding: 200px 0 0;
   }
 }
 

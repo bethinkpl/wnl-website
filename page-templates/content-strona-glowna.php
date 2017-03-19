@@ -52,18 +52,53 @@
 			<div class="courses">
 				<div class="item first">
 					<div class="line"></div>
-					<h3 class="courses-title"><?php the_field("variant_title_1"); ?></h3>
+					<h3><?php the_field("variant_title_1"); ?></h3>
+					<h4>2000zł</h4>
 					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_1"); ?>
 					</ul>
+					<div class="select-product">
+						<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
+							Wybieram kurs stacjonarny
+						</a>
+					</div>
 				</div>
 
 				<div class="item second">
 					<div class="line"></div>
-					<h3 class="courses-title"><?php the_field("variant_title_2"); ?></h3>
+					<h3><?php the_field("variant_title_2"); ?></h3>
+					<h4>1300zł</h4>
 					<ul class="wnl-front-options-list">
 						<?php the_field("variant_lists_2"); ?>
 					</ul>
+					<div class="select-product">
+						<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
+							Wybieram kurs stacjonarny
+						</a>
+					</div>
+				</div>
+				<div style="height: 1px; clear: both;"></div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="cards">
+				<div class="card">
+					<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
+					<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
+				</div>
+				<div class="card">
+					<h4 class="card-title">50% zniżki na drugi kurs</h4>
+					<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy przy drugim podejściu!</p>
+				</div>
+			</div>
+			<div class="cards">
+				<div class="card">
+					<h4 class="card-title">Rezygnacja do 7 dni</h4>
+					<p class="card-content">Obawiasz się, że kurs Ci się nie spodoba? Przez pierwsze 7 dni możesz zrezygnować i odzyskać 50% wpłaty bez żadnych wyjaśnień!</p>
+				</div>
+				<div class="card">
+					<h4 class="card-title">Bierzemy odpowiedzialność za wynik</h4>
+					<p class="card-content">Jeżeli przerobisz co najmniej 75% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
 				</div>
 			</div>
 		</div>

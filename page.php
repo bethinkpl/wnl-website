@@ -35,6 +35,9 @@
 					else if ( is_page( [ 'dziekujemy' ] ) ) {
 						get_template_part( 'page-templates/content', 'dziekujemy' );
 					}
+					else if ( is_page( [ 'plan-kursu' ] ) ) {
+						get_template_part( 'page-templates/content', 'plan-kursu' );
+					}
 					else if ( is_page( [ 'potwierdz-email' ] ) ) {
 						get_template_part( 'page-templates/content', 'potwierdz-email' );
 					} else {

@@ -168,6 +168,21 @@ div {
 	}
 }
 
+.button__secondary,
+.button__secondary:visited,
+.button__secondary:active {
+	border: 1px solid $green-color;
+	border-radius: 100px;
+	color: $green-color;
+	transition: border 0.25s;
+
+	&:hover {
+		border: 1px solid $light-green-color;
+		color: $light-green-color;
+		transition: border 0.25s;
+	}
+}
+
 .button-inverted {
 	border: 1px solid $white-color;
 	border-radius: 200px;
@@ -294,6 +309,67 @@ div {
 			justify-content: center;;
 			width: 100%;
 		}
+	}
+}
+
+// Timeline
+.timeline {
+	margin: 20px 0;
+	width: 100%;
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.column {
+		align-items: center;
+		flex: 1 0 150px;
+		justify-content: center;
+		max-width: 100%;
+
+		&.is-2 {
+			flex: 2 0 300px;
+		}
+
+		&.is-3 {
+			flex: 3 0 450px;
+		}
+	}
+
+	.box {
+		align-items: center;
+		background-color: $green-color;
+		color: $white-color;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		font-family: $primary-font;
+		font-size: $small-font-size;
+		min-height: 125px;
+		justify-content: center;
+		margin: 10px;
+		text-transform: uppercase;
+
+		&.empty {
+			background-color: $white-color;
+			border: 1px solid $green-color;
+			color: $green-color;
+		}
+	}
+
+	.box-title {
+		line-height: 1.2em;
+		margin-bottom: 5px;
+		padding: 0 5px;
+		text-align: center;
+	}
+
+	.box-meta {
+		font-size: 0.8em;
+		line-height: 1.2em;
+		padding: 0 5px;
+		text-align: center;
 	}
 }
 

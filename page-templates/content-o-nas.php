@@ -20,49 +20,32 @@
 				</div>
 			</div>
 		</div>
-		<div class="who">
-			<p class="title"><?php the_field("team_title"); ?></p>
-			<img src="<?php the_field("team_image"); ?>" alt="" />
 
-			<div class="team">
-				<div class="person">
-					<p class="subtitle"><?php the_field("person_name_1"); ?></p>
-					<p class="description">
-						<?php the_field("person_description_1"); ?>
-					</p>
+		<div>
+			<h2 class="wnl-page-title">Ekipa "Więcej niż LEK"</h2>
+
+			<div class="cards" style="margin-top: 50px;">
+				<div class="card with-shadow">
+					<img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12645053_10153837659463555_2557956224268377114_n.jpg?oh=cc9f3aa34b72c7c7e5e28d1f43b7fc32&oe=5929F2BB" alt="lek. Dariusz Ireneusz Chrapek" class="image">
+					<p class="card-title">lek. Dariusz Ireneusz Chrapek</p>
+					<p class="card-content">Młody lekarz w trakcie specjalizacji z medycyny rodzinnej. Zdecydował się na założenie firmy edukacyjnej co pozwoliło mu na połączenie swoich dwóch wielkich pasji - medycyny i nauczania. W wolnych chwilach głównie czyta książki, medytuje i gra w gry planszowe. :)</p>
 				</div>
-
-				<div class="person">
-					<p class="subtitle"><?php the_field("person_name_2"); ?></p>
-					<p class="description">
-						<?php the_field("person_description_2"); ?>
-					</p>
+				<div class="card with-shadow">
+					<img src="http://s5.postimg.org/pm0syoq6f/adam.jpg" alt="Adam Karmiński" class="image">
+					<p class="card-title">Adam Karmiński</p>
+					<p class="card-content">Dzięki doświadczeniu, które zdobył jako programista i project manager, ogarnia teraz technologię dla "Więcej niż LEK". Od wielu lat marzy o zmianach w systemie edukacji nastawionych na rozwój potencjału ludzkiego. Wychowany w poznańskim akademiku Uniwersytetu Medycznego, od zawsze miał słabość do medycyny. :)</p>
+				</div>
+				<div class="card with-shadow">
+					<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t31.0-8/10550126_1469472899987537_7973644516435015689_o.jpg?oh=44845152f927294fc5900259bf0df28a&oe=59575436" alt="Kuba Karmiński" class="image">
+					<p class="card-title">Kuba Karmiński</p>
+					<p class="card-content">Kocha technologię, kocha bluesa, kocha psy. Jako pierwszy full-time'owy członek ekipy, włożył całe serce w to, żeby platforma i strona były szybkie, bezpieczne oraz niezawodne.</p>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="mail">
-		<div class="wrapper">
-			<div class="signin">
-				<p class="title">
-					<?php the_field("subscribe_title"); ?>
-				</p>
-				<p class="subtitle">
-					<?php the_field("subscribe_subtitle"); ?>
-				</p>
-				<div class="input">
-					<?php
-						if( function_exists( 'mc4wp_show_form' ) ) {
-						    mc4wp_show_form();
-						}
-					?>
-				</div>
-			</div>
+		<div class="section back">
+			<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
+				<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up/normal.svg' ?>" alt="Więcej niż lek" />
+			</a>
 		</div>
-	</div>
-	<div class="section back">
-		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
-			<img src="<?php echo get_template_directory_uri() . '/assets/button/arrow_up_inverted/normal.svg' ?>" alt="Więcej niż lek" />
-		</a>
 	</div>
 </div>

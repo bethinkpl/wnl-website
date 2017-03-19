@@ -31,6 +31,20 @@ html, body {
 	z-index: -2;
 }
 
+.recirculation-box {
+	border-radius: 5px;
+	box-shadow: $card-box-shadow;
+	font-family: $primary-font;
+	margin: 20px 0;
+	text-align: center;
+	padding: 30px;
+
+	h2 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
 .particles-js-canvas-el {
 	position: fixed;
 }

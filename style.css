@@ -271,7 +271,7 @@ div {
 
 .cards .card.with-shadow {
   border-radius: 5px;
-  box-shadow: 4px 4px 10px 4px #e3e0e3;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
 
@@ -407,6 +407,20 @@ html, body {
   position: fixed;
   width: 100%;
   z-index: -2;
+}
+
+.recirculation-box {
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.recirculation-box h2 {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .particles-js-canvas-el {

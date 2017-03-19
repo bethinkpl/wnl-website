@@ -114,9 +114,9 @@
 				<p>Jesteśmy grupą przyjaciół z Poznania. Projekt jest w całości prowadzony i tworzony przez lekarza (Daro) i człowieka od wszystkiego (Adam), oraz naszych przyjaciół. Jesteśmy w pełni prywatną firmą, która nie posiada żadnych koneksji z przemysłem farmaceutycznym, ani żadnym innym. Będzie tak, dopóki my jesteśmy odpowiedzialny za prowadzenie projektu “Więcej niż LEK”. ;)</p>
 
 				<h3>Wciąż mam pytania... gdzie mam pisać?</h3>
-				<p>Jeśli macie powyższy tekst nie rozwiał wszystkich Twoich wątpliwości, pisz śmiało na info@wiecejnizlek.pl .</p>
+				<p>Jeśli macie powyższy tekst nie rozwiał wszystkich Twoich wątpliwości, pisz śmiało na info@wiecejnizlek.pl . :)</p>
 
-				<h2>Do zobaczenia na kursie! :)</h2>
+				<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
 			</div>
 		</div><!-- .entry-content -->
 		<div class="section back">

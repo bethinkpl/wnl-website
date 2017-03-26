@@ -52,10 +52,30 @@
 			<div class="courses">
 				<div class="item first">
 					<div class="line"></div>
-					<h3><?php the_field("variant_title_1"); ?></h3>
-					<h4>2000zł</h4>
+					<h3>Kurs stacjonarny</h3>
+					<h4>2200zł</h4>
+					<p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p>
 					<ul class="wnl-front-options-list">
-						<?php the_field("variant_lists_1"); ?>
+						<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+						<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+						<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+						<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
+						<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
+						<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
+					</ul>
+					<span class="wnl-front-options-plus">+</span>
+					<ul class="wnl-front-options-list">
+						<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
+							<ul>
+								<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
+								<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM/li>
+								<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
+								<li>Stany nagłe - lek. Michał Szemień</li>
+								<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>
+								<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
+							</ul>
+						</li>
+						<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
 					</ul>
 					<div class="select-product">
 						<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
@@ -66,10 +86,16 @@
 
 				<div class="item second">
 					<div class="line"></div>
-					<h3><?php the_field("variant_title_2"); ?></h3>
-					<h4>1300zł</h4>
+					<h3>Kurs internetowy</h3>
+					<h4>1500zł</h4>
+					<p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p>
 					<ul class="wnl-front-options-list">
-						<?php the_field("variant_lists_2"); ?>
+						<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+						<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+						<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+						<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
+						<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
+						<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 					</ul>
 					<div class="select-product">
 						<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">

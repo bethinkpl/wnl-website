@@ -68,7 +68,7 @@
 						<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
 							<ul>
 								<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
-								<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM/li>
+								<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
 								<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
 								<li>Stany nagłe - lek. Michał Szemień</li>
 								<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>

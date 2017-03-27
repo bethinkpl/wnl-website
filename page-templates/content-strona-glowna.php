@@ -113,8 +113,8 @@
 					<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
 				</div>
 				<div class="card">
-					<h4 class="card-title">50% zniżki na drugi kurs</h4>
-					<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy przy drugim podejściu!</p>
+					<h4 class="card-title">50% zniżki na kolejne edycje</h4>
+					<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy w ramach kolejnych edycji!</p>
 				</div>
 			</div>
 			<div class="cards">

@@ -65,36 +65,39 @@
 				<div class="card with-shadow">
 					<div class="big-number">1</div>
 					<p class="card-title">Wprowadzenie do kursu</p>
-					<div class="metadata">17 czerwca 2017</div>
-					<div class="card-subtitle">Prowadzą Adam i Daro</div>
+					<div class="metadata">17 czerwca 2017, 10:00</div>
+					<div class="card-subtitle">Prowadzą Daro i Adam</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Higiena pracy umysłowej</li>
-							<li>Metodologia i mapy myśli</li>
-							<li>Growth mindset</li>
-							<li>Doświedczenia z przegotowań do LEK-u z perspektywy rezydenta</li>
+							<li>Wprowadzenie do kursu</li>
+							<li>Metody efektywnej nauki</li>
+							<li>Przepis na LEK</li>
 						</ul>
 					</p>
 				</div>
 				<div class="card with-shadow">
 					<div class="big-number">2</div>
 					<p class="card-title">Interna</p>
-					<div class="metadata">17 czerwca 2017</div>
+					<div class="metadata">8 lipca 2017, 10:00</div>
 					<div class="card-subtitle">Prowadzi Pan dr hab. n. med. Mariusz Puszczewicz</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Rozwiązywanie problemów i przypadków z interny</li>
+							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
+							<li>Wspólne rozwiązywanie przypadków</li>
+							<li>Godzina z mentorem</li>
 						</ul>
 					</p>
 				</div>
 				<div class="card with-shadow">
 					<div class="big-number">3</div>
 					<p class="card-title">Pediatria</p>
-					<div class="metadata">17 czerwca 2017</div>
+					<div class="metadata">22 lipca 2017, 10:00</div>
 					<div class="card-subtitle">Prowadzi Pani dr n. med. Anna Mania</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Rozwiązywanie problemów i przypadków z pediatrii</li>
+							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
+							<li>Wspólne rozwiązywanie przypadków</li>
+							<li>Godzina z mentorem</li>
 						</ul>
 					</p>
 				</div>
@@ -103,37 +106,39 @@
 				<div class="card with-shadow">
 					<div class="big-number">4</div>
 					<p class="card-title">Stany nagłe</p>
-					<div class="metadata">17 czerwca 2017</div>
+					<div class="metadata">26 sierpnia 2017, 10:00</div>
 					<div class="card-subtitle">Prowadzi Pan lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Rozwiązywanie problemów i przypadków z medycyny ratunkowej</li>
+							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
+							<li>Wspólne rozwiązywanie przypadków</li>
+							<li>Godzina z mentorem</li>
 						</ul>
 					</p>
 				</div>
 				<div class="card with-shadow">
 					<div class="big-number">5</div>
 					<p class="card-title">Prawo medyczne</p>
-					<div class="metadata">17 czerwca 2017</div>
+					<div class="metadata">2 września 2017, 10:00</div>
 					<div class="card-subtitle">Prowadzi Pan dr n. praw. Radosław Tymiński</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Prawo medyczne</li>
-							<li>Komunikacja z pacjentem</li>
+							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
+							<li>Wspólne rozwiązywanie przypadków</li>
+							<li>Godzina z mentorem</li>
 						</ul>
 					</p>
 				</div>
 				<div class="card with-shadow">
 					<div class="big-number">6</div>
-					<p class="card-title">Praca w zawodzie</p>
-					<div class="metadata">17 czerwca 2017</div>
+					<p class="card-title">Co po LEK-u?</p>
+					<div class="metadata">9 września 2017, 10:00</div>
 					<div class="card-subtitle">Prowadzą Daro i Adam</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Prowadzenie działalności</li>
-							<li>Recepty i zwolnienia</li>
-							<li>Planowanie stażu podyplomowego</li>
-							<li>Świadomy rozwój zawodowy</li>
+							<li>Perspektywy zawodowe</li>
+							<li>Wybór specjalizacji</li>
+							<li>Możliwe ścieżki rozwoju po studiach medycznych</li>
 						</ul>
 					</p>
 				</div>
@@ -149,7 +154,7 @@
 						<ol>
 							<li>Odpowiadanie na pytania zadawane przez Was na poziomie platformy e-learningowej w okresie poprzedzającym spotkanie ze specjalistą. Idea jest taka abyście to Wy tworzyli wcześniej listę zagadnień, które chcecie mieć wyjaśnione już po przerobieniu całego tematu na platformie. Dotyczy to interny pediatrii, szeroko pojętych stanów nagłych oraz prawa medycznego. Specjalista otrzymyuje te pytania wcześniej i opracowuje je na wspólne spotkanie.</li>
 							<li>Wspólne rozwiązywanie zadań i przypadków klinicznych.</li>
-							<li>“Godzinka z mentorem “ - na zakończenie pytania do specjalisty. Rozmowy w luźnej atmosferze związane z refleksjami związanymi z dotychczasowym życiem zawodowym. Idea jest taka aby pomóc Wam chwycić inną perspektywę, która być może pomoże Wam podjąć decyzję co do wyboru własnej ścieżki zawodowej. Będzie możliwość porozmawiania z internistą, pediatrą, lekarzem medycyny ratunkowej oraz prawnikiem.</li>
+							<li>“Godzina z mentorem “ - na zakończenie pytania do specjalisty. Rozmowy w luźnej atmosferze związane z refleksjami związanymi z dotychczasowym życiem zawodowym. Idea jest taka aby pomóc Wam chwycić inną perspektywę, która być może pomoże Wam podjąć decyzję co do wyboru własnej ścieżki zawodowej. Będzie możliwość porozmawiania z internistą, pediatrą, lekarzem medycyny ratunkowej oraz prawnikiem.</li>
 						</ol>
 					</p>
 					<p>Spotkania numer 1 i 6 będą pośrednio związane z LEKiem. Na pierwszym będziemy uczyć się jak się uczyć i jak obsługiwać platformę. Plus, my będziemy się dokładnie tłumaczyć z tego dlaczego kurs wygląda jak wygląda.

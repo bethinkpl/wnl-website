@@ -197,7 +197,7 @@
 				<h3>Growth mindset</h3>
 				<p>Nikt nie wie jakie czekają na nas wyzwania w przyszłości. Niezależnie od tego czy będzie to praca zawodowa, budowa domu czy wychowanie dzieci, wierzymy, że skupianie się na postępie a nie na wyniku przynosi zdecydowanie lepsze rezultaty i pozwala z dużo większym komfortem psychicznym nie tylko znosić porażki ale przede wszystkim się z nich uczyć i dalej rozwijać. Zjawisko to w swoich pracach opisuje Carol Dweck, której twórczość i perspektywę będziemy starali się Wam przybliżyć.</p>
 
-				<h3>Zaproszenie do społeczności ludzi uczących się</h3>
+				<h3>Efektywna nauka</h3>
 				<p>Na kursie dowiesz się całkiem sporo o tym, jak przebiega proces nauki. Zarówno na warsztatach jak i na platformie z początku kursu pojawią się materiały, dzięki którym dowiesz się jak efektywnie się uczyć i dlaczego kurs Więcej niż LEK jest skonstruowany tak, a nie inaczej. Mamy nadzieję, że pozwoli Ci to nie tylko lepiej przygotować się do egzaminu ale także pomoże na dalszych etapach ścieżki zawodowej i w zmaganiach z egzaminami specjalizacyjnymi.</p>
 
 				<h3>Lekarska perspektywa</h3>

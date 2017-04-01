@@ -355,7 +355,7 @@ div {
 .expandable .cloud {
   bottom: 0;
   display: none;
-  height: 100px;
+  height: 200px;
   position: absolute;
   text-align: center;
 }
@@ -367,12 +367,22 @@ div {
 
 .expandable.folded .cloud {
   align-items: flex-end;
-  box-shadow: inset 0px -75px 75px 0px white;
-  -webkit-box-shadow: inset 0px -75px 75px 0px white;
-  -moz-box-shadow: inset 0px -75px 75px 0px white;
+  background: rgba(255, 255, 255, 0);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
   display: flex;
   justify-content: center;
   width: 100%;
+  z-index: 1000;
+}
+
+.expandable.folded .cloud img {
+  cursor: pointer;
 }
 
 .timeline {
@@ -2512,14 +2522,9 @@ footer .right .r {
   width: 33.33%;
 }
 
-footer .right .r .head {
-  margin-bottom: 20px;
-}
-
 footer .right .r p:not(.head) {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 600;
   line-height: 22px;
   color: #FFFFFF;
 }

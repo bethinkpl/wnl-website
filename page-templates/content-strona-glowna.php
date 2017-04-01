@@ -67,12 +67,12 @@
 					<ul class="wnl-front-options-list">
 						<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
 							<ul>
-								<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
+								<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki - Ekipa Więcej niż LEK</li>
 								<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
 								<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
 								<li>Stany nagłe - lek. Michał Szemień</li>
 								<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>
-								<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
+								<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych - Ekipa Więcej niż LEK</li>
 							</ul>
 						</li>
 						<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
@@ -110,7 +110,7 @@
 			<div class="cards">
 				<div class="card">
 					<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
-					<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
+					<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs! <a href="<?php echo site_url('o-kursie/#platnosci-reklamacje-promocje') ?>">Dowiedz się więcej</a></p>
 				</div>
 				<div class="card">
 					<h4 class="card-title">50% zniżki na kolejne edycje</h4>
@@ -124,9 +124,12 @@
 				</div>
 				<div class="card">
 					<h4 class="card-title">Bierzemy odpowiedzialność za wynik</h4>
-					<p class="card-content">Jeżeli przerobisz co najmniej 75% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
+					<p class="card-content">Jeżeli ukończysz wszystkie nasze lekcje, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
 				</div>
 			</div>
+			<p class="text-center metadata inverted">
+				Szczegóły dotyczące promocji i procesów reklamacji w Regulaminie
+			</p>
 		</div>
 	</div>
 
@@ -148,15 +151,15 @@
 					</p>
 				</div>
 				<div class="card">
-					<a href="<?php echo site_url('o-kursie') ?>" title="Czytaj więcej..." class="more">
+					<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">
 						<img src="https://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_01.png" alt="Najczęście zadawane pytania" class="image big">
 					</a>
 					<h2 class="card-title">Masz wątpliwości?</h2>
 					<p class="card-content alignleft">
-						Na podstronie <a href="<?php echo site_url('o-kursie') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. :) Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
+						Na podstronie <a href="<?php echo site_url('o-kursie#qanda') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. :) Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
 					</p>
 					<p class="alignleft">
-						<a href="<?php echo site_url('o-kursie') ?>" title="Czytaj więcej..." class="more">
+						<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
 						</a>
 					</p>

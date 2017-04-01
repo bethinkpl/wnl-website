@@ -291,7 +291,7 @@ div {
 	.cloud {
 		bottom: 0;
 		display: none;
-		height: 100px;
+		height: 200px;
 		position: absolute;
 		text-align: center;
 	}
@@ -302,12 +302,22 @@ div {
 
 		.cloud {
 			align-items: flex-end;
-			box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
-			-webkit-box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
-			-moz-box-shadow: inset 0px -75px 75px 0px rgba(255,255,255,1);
+			background: rgba(255,255,255,0);
+			background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+			background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+			background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+			background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+			background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
 			display: flex;
 			justify-content: center;;
 			width: 100%;
+			z-index: 1000;
+
+			img {
+				cursor: pointer;
+			}
 		}
 	}
 }

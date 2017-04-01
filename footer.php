@@ -41,6 +41,15 @@
 
 						<p class="head">Kontakt</p>
 						<p>info@wiecejnizlek.pl</p>
+						<p>+48 722 100 867</p>
+						<p class="head">Dane firmy</p>
+						<p>
+							bethink sp. z o.o.<br>
+							ul. Henryka Sienkiewicza 8/1<br>
+							60-817 Poznań<br>
+							NIP: 781-194-37-56<br>
+							KRS: 0000668811
+						</p>
 					</div>
 				</div>
 				<div class="down off-768 off-640 off-320">

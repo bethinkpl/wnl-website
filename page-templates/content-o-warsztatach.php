@@ -25,36 +25,61 @@
 			<h2>Kadra</h2>
 			<div class="cards">
 				<div class="card">
-					<img src="http://wl1.ump.edu.pl/media/uid/--f_-e-2_ac9a2379ce-/c98fe1.jpg" class="image">
-					<p class="card-title">Dr hab. n. med. Anna Mania</p>
-					<p class="card-content">Specjalistka chorób dziecięcych. Prodziekan ds. programów studiów i kształcenia oraz studentów I-II roku Wydziału Lekarskiego na Uniwersytecie Medycznym w Poznaniu.</p>
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/dr_Puszczewicz.jpg" class="image">
+					<p class="card-title">Dr hab. med. Mariusz J. Puszczewicz</p>
+					<p class="card-content" style="text-align: left;">Specjalista Chorób Wewnętrznych II stopnia  i Reumatologii<br>
+<br>
+Kierownik Katedry i Kliniki Reumatologii i Chorób Wewnętrznych UM im. Karola Marcinkowskiego w Poznaniu<br>
+<br>
+Prorektor do spraw studenckich UM im. Karola Marcinkowskiego w Poznaniu  w kadencji 2008-2012. Wyróżniony tytułem honorowym “Amicus studentorum” przez studentów Akademii Medycznej im. Karola Marcinkowskiego w Poznaniu.</p>
 				</div>
 				<div class="card">
-					<img src="https://podyplomie.pl/vod/system/films/previews/000/003/532/medium/preview.png" class="image">
-					<p class="card-title">Dr hab. med. Mariusz J. Puszczewicz</p>
-					<p class="card-content">Specjalista chorób wewnętrznych. Prorektor ds. studenckich Uniwersytetu Medycznego w Poznaniu w latach 2012-2014. Kierownik Katedry i Kliniki Reumatologii i Chorób Wewnętrznych UM w Poznaniu.</p>
+					<img src="http://wl1.ump.edu.pl/media/uid/--f_-e-2_ac9a2379ce-/c98fe1.jpg" class="image">
+					<p class="card-title">Dr hab. n. med. Anna Mania</p>
+					<p class="card-content" style="text-align: left;">
+						Specjalista pediatrii, chorób zakaźnych, hepatolog.<br><br>
+						Pracownik naukowy UM im. K. Marcinkowskiego w Poznaniu Kliniki Chorób Zakaźnych i Neurologii Dziecięcej. Opiekun specjalizacji oraz dydaktyk UM w dziedzinie pediatrii. Prodziekan ds. programów studiów i kształcenia oraz studentów I - II roku. <br><br>
+						Lekarz praktyk z dużym doświadczeniem klinicznym, także w zakresie podstawowej opieki
+zdrowotnej i doraźnej pomocy medycznej w stanach nagłych.
+					</p>
 				</div>
+
 				<div class="card">
 					<img src="http://kancelariatyminski.pl/cdn/upload/team_radoslaw-tyminski.jpg" class="image">
 					<p class="card-title">Dr n. praw. Radosław Tymiński</p>
-					<p class="card-content">Zajmuje się obroną lekarzy w sprawach sądowych. Wykłada prawo medyczne na Akademii Leona Koźmińskiego (dla przyszłych prawników) i na Warszawskim Uniwersytecie Medycznym (dla przyszłych lekarzy).</p>
+					<p class="card-content" style="text-align: left;">Zajmuje się obroną lekarzy w sprawach sądowych. <br><br>Wykłada prawo medyczne na Akademii Leona Koźmińskiego (dla przyszłych prawników) i na Warszawskim Uniwersytecie Medycznym (dla przyszłych lekarzy).<br><br>
+					Autor bloga <a href="http://prawalekarza.pl">prawalekarza.pl</a></p>
 				</div>
 			</div>
 			<div class="cards">
 				<div class="card">
-					<img src="https://scontent-waw.xx.fbcdn.net/v/t1.0-1/c156.0.389.389/376587_484888881541013_1483570032_n.jpg?oh=01fe2f6a312d76b742486519ca5b8815&oe=596AB412" class="image">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/Michał-Szemień.jpg" class="image">
 					<p class="card-title">lek. Michał Szemień</p>
-					<p class="card-content">Specjalista medycyny ratunkowej.</p>
+					<p class="card-content" style="text-align: left;">Rezydent medycyny ratunkowej w Szpitalnym Oddziale Ratunkowym Centrum urazowego  Wielospecjalistycznym Szpitalu Miejskim im. J. Strusia w Poznaniu.<br>
+<br>
+Koordynator ds. Wydziału Lekarskiego I, Zakładu Medycyny Ratunkowej UM w Poznaniu.<br>
+<br>
+Instruktor europejskiej rady resuscytacji z zakresu BLS, EPALS, ALS i ETC.<br>
+Emergency Point-of-Care Ultrasonography Provider.
+</p>
 				</div>
 				<div class="card">
-					<img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12645053_10153837659463555_2557956224268377114_n.jpg?oh=cc9f3aa34b72c7c7e5e28d1f43b7fc32&oe=5929F2BB" class="image">
-					<p class="card-title">lek. Dariusz Chrapek (ps. <i>Prezes</i>)</p>
-					<p class="card-content">Specjalista ds. gier planszowych. Chief Executive Daro @ bethink sp. z o.o.</p>
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/FullSizeRender.jpg" class="image">
+					<p class="card-title">lek. Dariusz Chrapek</p>
+					<p class="card-content" style="text-align: left;">Absolwent UM im. Karola Marcinkowskiego w Poznaniu z 2015 roku.
+Lekarz w trakcie specjalizacji z medycyny rodzinnej.<br>
+<br>
+W trakcie studiów zainteresował się procesem nauczania. Pełnił przez rok funkcję Asystenta Lokalnego Koordynatora ds. Edukacji Medycznej w IFMSA Poznań.<br><br>
+Reprezentował uczelnie w zespołowych zawodach SIMOLIMPIC w 2015 roku.<br><br>
+
+Na kursie odpowiedzialny jest za metodologię nauki, konstrukcję programu kursu oraz wykorzystanie nowych technologii w nauce medycyny.<br><br>
+
+Współzałożyciel projektu “Więcej niż LEK”</p>
 				</div>
 				<div class="card">
-					<img src="http://s5.postimg.org/pm0syoq6f/adam.jpg" class="image">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/FullSizeRender-2.jpg" class="image">
 					<p class="card-title">Adam Karmiński</p>
-					<p class="card-content">Nie do końca wie, co robi w tym gronie.</p>
+					<p class="card-content" style="text-align: left;">Dzięki doświadczeniu, które zdobył jako programista i project manager, ogarnia teraz technologię dla "Więcej niż LEK".<br><br>Od wielu lat marzy o zmianach w systemie edukacji nastawionych na rozwój potencjału ludzkiego. Wychowany w poznańskim akademiku Uniwersytetu Medycznego, od zawsze miał słabość do medycyny.</p>
 				</div>
 			</div>
 		</div>

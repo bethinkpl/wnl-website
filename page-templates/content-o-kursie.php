@@ -1,88 +1,97 @@
 <div class="all wnl-course">
 	<div class="page index">
-		<div class="section three">
-			<div class="image"></div>
-			<div class="wrapper">
-				<p class="title">Warianty kursu</p>
-				<div class="courses">
-					<div class="item first">
-						<div class="line"></div>
-						<h3>Kurs stacjonarny</h3>
-						<h4>2200zł</h4>
-						<p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p>
-						<ul class="wnl-front-options-list">
-							<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-							<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
-							<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
-							<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-							<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
-							<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
-						</ul>
-						<span class="wnl-front-options-plus">+</span>
-						<ul class="wnl-front-options-list">
-							<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
-								<ul>
-									<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
-									<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
-									<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
-									<li>Stany nagłe - lek. Michał Szemień</li>
-									<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>
-									<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
-								</ul>
-							</li>
-							<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
-						</ul>
-						<div class="select-product">
-							<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
-								Wybieram kurs stacjonarny
-							</a>
+		<div class="expandable folded">
+			<div class="cloud">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down/normal.svg" alt="Zobacz więcej">
+			</div>
+			<div class="section three">
+				<div class="image"></div>
+				<div class="wrapper">
+					<p class="title">Warianty kursu</p>
+					<div class="courses">
+						<div class="item first">
+							<div class="line"></div>
+							<h3>Kurs stacjonarny</h3>
+							<h4>2200zł</h4>
+							<p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p>
+							<ul class="wnl-front-options-list">
+								<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+								<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+								<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+								<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
+								<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
+								<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
+							</ul>
+							<span class="wnl-front-options-plus">+</span>
+							<ul class="wnl-front-options-list">
+								<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
+									<ul>
+										<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
+										<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
+										<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
+										<li>Stany nagłe - lek. Michał Szemień</li>
+										<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>
+										<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
+									</ul>
+								</li>
+								<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
+							</ul>
+							<div class="select-product">
+								<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
+									Wybieram kurs stacjonarny
+								</a>
+							</div>
 						</div>
-					</div>
 
-					<div class="item second">
-						<div class="line"></div>
-						<h3>Kurs internetowy</h3>
-						<h4>1500zł</h4>
-						<p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p>
-						<ul class="wnl-front-options-list">
-							<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-							<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
-							<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
-							<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-							<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
-							<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
-						</ul>
-						<div class="select-product">
-							<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
-								Wybieram kurs stacjonarny
-							</a>
+						<div class="item second">
+							<div class="line"></div>
+							<h3>Kurs internetowy</h3>
+							<h4>1500zł</h4>
+							<p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p>
+							<ul class="wnl-front-options-list">
+								<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+								<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+								<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+								<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
+								<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
+								<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
+							</ul>
+							<div class="select-product">
+								<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
+									Wybieram kurs stacjonarny
+								</a>
+							</div>
+						</div>
+						<div style="height: 1px; clear: both;"></div>
+					</div>
+					<div class="cards">
+						<div class="card">
+							<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
+							<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
+						</div>
+						<div class="card">
+							<h4 class="card-title">50% zniżki na kolejne edycje</h4>
+							<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy w ramach kolejnych edycji!</p>
 						</div>
 					</div>
-					<div style="height: 1px; clear: both;"></div>
-				</div>
-				<div class="cards">
-					<div class="card">
-						<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
-						<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
+					<div class="cards">
+						<div class="card">
+							<h4 class="card-title">Rezygnacja do 7 dni</h4>
+							<p class="card-content">Obawiasz się, że kurs Ci się nie spodoba? Przez pierwsze 7 dni możesz zrezygnować i odzyskać 50% wpłaty bez żadnych wyjaśnień!</p>
+						</div>
+						<div class="card">
+							<h4 class="card-title">Bierzemy odpowiedzialność za wynik</h4>
+							<p class="card-content">Jeżeli przerobisz co najmniej 75% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
+						</div>
 					</div>
-					<div class="card">
-						<h4 class="card-title">50% zniżki na kolejne edycje</h4>
-						<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy w ramach kolejnych edycji!</p>
-					</div>
-				</div>
-				<div class="cards">
-					<div class="card">
-						<h4 class="card-title">Rezygnacja do 7 dni</h4>
-						<p class="card-content">Obawiasz się, że kurs Ci się nie spodoba? Przez pierwsze 7 dni możesz zrezygnować i odzyskać 50% wpłaty bez żadnych wyjaśnień!</p>
-					</div>
-					<div class="card">
-						<h4 class="card-title">Bierzemy odpowiedzialność za wynik</h4>
-						<p class="card-content">Jeżeli przerobisz co najmniej 75% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
-					</div>
+					<p class="text-center metadata inverted">
+						Szczegóły wszystkich promocji i reklamacji w Regulaminie
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<a name="qanda"></a>
 	<div class="wrapper q-and-a">
 		<div class="content">
 			<div class="wrapper">
@@ -92,26 +101,65 @@
 					<div class="card with-shadow">
 						<div class="card-content">
 							<ul class="wnl-course-toc">
-								<li><a href="#podstawowe-pytania">Podstawowe pytania</a></li>
-								<li><a href="#cele-kursu">Cele kursu</a></li>
-								<li><a href="#przebieg-kursu">Przebieg kursu</a></li>
-								<li><a href="#konstrukcja-materialow">Konstrukcja materiałów</a></li>
-								<li><a href="#plan-pracy">Plan pracy</a></li>
-								<li><a href="#systematyzacja-wiedzy">Systematyzacja wiedzy</a></li>
-								<li><a href="#wspolna-nauka">Wspólna nauka</a></li>
-								<li><a href="#motywacja">Motywacja</a></li>
-								<li><a href="#platnosci-reklamacje-promocje">Płatności, reklamacje, promocje</a></li>
-								<li><a href="#inne-pytania">Pytania z innej beczki</a></li>
-								<li><a href=""></a></li>
+								<li>
+									<a href="#podstawowe-pytania" class="wnl-scroll-top" data-section-target=".podstawowe-pytania">
+										Podstawowe pytania
+									</a>
+								</li>
+								<li>
+									<a href="#cele-kursu" class="wnl-scroll-top" data-section-target=".cele-kursu">
+										Cele kursu
+									</a>
+								</li>
+								<li>
+									<a href="#przebieg-kursu" class="wnl-scroll-top" data-section-target=".przebieg-kursu">
+										Przebieg kursu
+									</a>
+								</li>
+								<li>
+									<a href="#konstrukcja-materialow" class="wnl-scroll-top" data-section-target=".konstrukcja-materialow">
+										Konstrukcja materiałów
+									</a>
+								</li>
+								<li>
+									<a href="#plan-pracy" class="wnl-scroll-top" data-section-target=".plan-pracy">
+										Plan pracy
+									</a>
+								</li>
+								<li>
+									<a href="#systematyzacja-wiedzy" class="wnl-scroll-top" data-section-target=".systematyzacja-wiedzy">
+										Systematyzacja wiedzy
+									</a>
+								</li>
+								<li>
+									<a href="#wspolna-nauka" class="wnl-scroll-top" data-section-target=".wspolna-nauka">
+										Wspólna nauka
+									</a>
+								</li>
+								<li>
+									<a href="#motywacja" class="wnl-scroll-top" data-section-target=".motywacja">
+										Motywacja
+									</a>
+								</li>
+								<li>
+									<a href="#platnosci-reklamacje-promocje" class="wnl-scroll-top" data-section-target=".platnosci-reklamacje-promocje">
+										Płatności, reklamacje, promocje
+									</a>
+								</li>
+								<li>
+									<a href="#inne-pytania" class="wnl-scroll-top" data-section-target=".inne-pytania">
+										Pytania z innej beczki
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 
 				<a name="podstawowe-pytania"></a>
-				<h2 class="wnl-page-title">Podstawowe pytania</h2>
+				<h2 class="wnl-page-title podstawowe-pytania">Podstawowe pytania</h2>
 				<h3>Kiedy zaczyna się kurs? Jak długo potrwa?</h3>
-				<p>Kurs zaczyna się 17 czerwca i potrwa 12 tygodni, do 9 września. Szczegółowy plan znajdziecie <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">tutaj</a>.</p>
+				<p>Kurs zaczyna się 17 czerwca i potrwa 12 tygodni, do 9 września. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
 
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
 				<p>Dostęp do platformy daje dostęp do lekcji oraz narzędzi komunikacyjnych. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p>
@@ -137,7 +185,7 @@
 				</div>
 
 				<a name="cele-kursu"></a>
-				<h2 class="wnl-page-title">Jakie są cele kursu Więcej niż LEK?</h2>
+				<h2 class="wnl-page-title cele-kursu">Jakie są cele kursu Więcej niż LEK?</h2>
 				<h3>Lekarski Egzamin Końcowy</h3>
 				<p>Pragniemy pomóc Ci osiągnąć pożądany przez Ciebie wynik na LEKu. Jak to robimy? Przede wszystkim tworzymy narzędzia i środowisko, dzięki któremu zaoszczędzisz masę czasu na samodzielnej selekcji materiału, przebijaniu się przez stosy książek, szukaniu odpowiedzi na “głupie” pytania, czy na układaniu planu pracy.</p>
 				<p>Ucząc się razem tworzymy wielką bazę wiedzy, z której każdy kolejny rocznik będzie mógł korzystać. Platforma pozwoli Ci nie tylko szybko i sprawnie się komunikować z innymi ale także znajdować zapomniane informacje, rozwiązywać zadania i monitorować Twój indywidualny postęp.</p>
@@ -161,7 +209,7 @@
 				</div>
 
 				<a name="przebieg-kursu"></a>
-				<h2 class="wnl-page-title">Przebieg kursu</h2>
+				<h2 class="wnl-page-title przebieg-kursu">Przebieg kursu</h2>
 
 				<h3>Czy dostęp do platformy zawiera dostęp do bazy pytań do LEKu?</h3>
 				<p>Na dzień 1 kwietnia 2017 roku baza pytań do kursu Więcej niż LEK jest nadal na etapie produkcji. Dostęp do platformy będzie umożliwiał rozwiązanie dużej liczby pytań z poprzednich edycji Lekarskiego Egzaminu Końcowego jednak na tym etapie nie będzie możliwości wykupienia dostępu do samych pytań. Baza pytań będzie zwiększana z dnia na dzień w trakcie pierwszej edycji kursu. Mamy nadzieję, że na pewnym etapie będzie ważnym i samodzielnym elementem platformy.</p>
@@ -193,7 +241,7 @@
 				</div>
 
 				<a name="konstrukcja-materialow"></a>
-				<h2 class="wnl-page-title">Konstrukcja materiałów</h2>
+				<h2 class="wnl-page-title konstrukcja-materialow">Konstrukcja materiałów</h2>
 				<h3>Jak powstają materiały dydaktyczne do kursu Więcej niż LEK?</h3>
 				<p>Materiały dydaktyczne były tworzone przez kilkanaście osób, w większości lekarzy w trakcie specjalizacji. Dodatkowo pomaga nam zespół grafików, dzięki czemu prezentacje są przejrzyste, atrakcyjne wizualnie oraz wzbogacone w system skojarzeniowo wyobrażeniowy stworzony specjalnie na potrzeby kursu.</p>
 				<p>Prezentacje multimedialne są przygotowane przede wszystkim z podręczników wymaganych do Lekarskiego Egzaminu Końcowego. Dodatkowo udało nam się wzbogacić je o wiedzę zgromadzoną w prywatnych notatkach osoby, która uzyskała na LEKu bardzo wysoki wynik. Podziękowania dla naszego przyjaciela za ten ukłon i chęć dzielenia się wiedzą! </p>
@@ -210,7 +258,7 @@
 				</div>
 
 				<a name="plan-pracy"></a>
-				<h2 class="wnl-page-title">Plan pracy</h2>
+				<h2 class="wnl-page-title plan-pracy">Plan pracy</h2>
 				<h3>Dlaczego akurat 12 tygodni?</h3>
 				<p>Długość trwania kursu została określona na podstawie ankiet, oraz długich rozmów z przyjaciółmi, którzy często przygotowywali się do LEKu kilkukrotnie. Dwunastotygodniowa przygoda, z tygodniową przerwą w środku tak aby każdy mógł skoczyć na wakacje albo nadrobić zaległości. Ostatnia lekcja odbędzie się na 2-3 tygodnie przed LEKiem, dzięki czemu wszyscy będziecie mieli czas na powtórki i przerobienie baz pytań.</p>
 
@@ -218,7 +266,7 @@
 				<p>Na pomoc przychodzą nam najnowsze odkrycia nauk kognitywistycznych. Okazuje się, że aby nauka miała sens i dawała realne trwałe efekty trzeba po prostu robić przerwy. Zarówno w trakcie samej lekcji jak i między dużymi działami robienie przerw daje możliwość na konsolidację wiedzy.</p>
 
 				<h3>Gdzie znajdę szczegółowy plan pracy?</h3>
-				<p>Szczegółowy plan pracy możecie znaleźć pod tym linkiem - [link]</p>
+				<p>Szczegółowy plan pracy możecie znaleźć pod tym linkiem - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
 				<div class="section back small-padding">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".q-and-a">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Powrót do góry" />
@@ -226,7 +274,7 @@
 				</div>
 
 				<a name="systematyzacja-wiedzy"></a>
-				<h2 class="wnl-page-title">Systematyzacja wiedzy</h2>
+				<h2 class="wnl-page-title systematyzacja-wiedzy">Systematyzacja wiedzy</h2>
 				<h3>Jak będziemy systematyzować wiedzę na kursie “Więcej niż LEK”?</h3>
 				<p>Systematyzacja wiedzy jest naszym zdaniem najważniejszym etapem nauki. Na kursie będziemy systematyzować wiedzę na kilka sposobów. Pierwszy z nich to codzienna interakcja z albumem map myśli, który dzięki zawartym w nim grafiką pozwala na stworzenie sieci wizualnych skojarzeń, które są swego rodzaju “spustami pamięci”.</p> <p>Kolejnym aspektem kursu, który ułatwia systematyzację wiedzy to system powtórek. Każde zagadnienie, które zostanie przez Was zanotowane w albumie map myśli będzie powtórzone kilkukrotnie w ciągu trwania kursu.</p> <p>Platforma będzie przypominać o codziennych powtórkach a czasami nawet do nich zmuszać ;) Dodatkowo będziemy przerabiać pytania do LEKu a czasami jakieś przypadki kliniczne. Wszystko to po to aby każdy z Was mógł wychwycić zakres wiedzy, nad którym musi jeszcze popracować.</p>
 
@@ -250,7 +298,7 @@
 				</div>
 
 				<a name="wspolna-nauka"></a>
-				<h2 class="wnl-page-title">Wspólna nauka</h2>
+				<h2 class="wnl-page-title wspolna-nauka">Wspólna nauka</h2>
 				<h3>Jakie narzędzia komunikacyjne będą dostępne podczas kursu?</h3>
 				<p>Komunikacja na kursie będzie odbywać się na 3 poziomach.</p>
 				<h4>Chat</h4>
@@ -269,7 +317,7 @@
 				</div>
 
 				<a name="motywacja"></a>
-				<h2 class="wnl-page-title">Motywacja</h2>
+				<h2 class="wnl-page-title motywacja">Motywacja</h2>
 				<h3>Growth mindset - o co chodzi?</h3>
 				<p>Zarówno w firmie, jak i poza nią, cała ekipa projektu "Więcej niż LEK" tworzy środowisko ludzi uczących się. Naszym marzeniem jest zarazić Was entuzjazmem do ciągłej nauki, nie tylko medycyny. :)</p>
 				<p>Praktykujemy filozofię “Growth Mindset” stworzoną i opisaną przez Carol Dweck. Pomagamy sobie, uczymy się od siebie, lubimy popełniać błędy i przede wszystkim oceniamy naszą pracę na podstawie postępu jaki poczyniliśmy a nie tego co dokładnie osiągnęliśmy. Dlatego też chcemy uczyć się razem z Wami.</p>
@@ -281,12 +329,13 @@
 				</div>
 
 				<a name="platnosci-reklamacje-promocje"></a>
-				<h2 class="wnl-page-title">Płatności, reklamacje, promocje</h2>
+				<h2 class="wnl-page-title platnosci-reklamacje-promocje">Płatności, reklamacje, promocje</h2>
 				<h3>Jaka jest forma płatności za kurs Więcej niż LEK?</h3>
 				<p>Płatność za kurs Więcej niż LEK będzie odbywać się tylko w postaci elektronicznej. Poprzez system przelewów online lub tradycyjny przelew bankowy.</p>
 
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>
-				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie Wielkopolskiej Izby Lekarskiej.</p>
+				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie <strong>Wielkopolskiej Izby Lekarskiej</strong>.</p>
+				<p>Informacje o tym jak uzyskać refundację znajdziecie na stronie <a href="https://wil.org.pl/sprawy/refundacja-kosztow-ksztalcenia/">Wielkopolskiej Izby Lekarskiej</a>.</p>
 
 				<h3>Czy istnieje możliwość zrezygnowania z uczestnictwa w trakcie trwania kursu?</h3>
 				<p>W tym zakresie stosujemy się do oficjalnych praw konsumenckich.</p>
@@ -300,7 +349,7 @@
 				</div>
 
 				<a name="inne-pytania"></a>
-				<h2 class="wnl-page-title">Pytania z innej beczki</h2>
+				<h2 class="wnl-page-title inne-pytania">Pytania z innej beczki</h2>
 				<h3>Dlaczego akurat edukacja?</h3>
 				<p>Zarówno w firmie jak i poza nią cała ekipa projektu Więcej niż LEK tworzy środowisko ludzi uczących się. Naszym planem jest zarazić Was entuzjazmem do szeroko pojętej nauki i to nie tylko medycyny. :)</p>
 				<p>Praktykujemy filozofię “Growth Mindset”, stworzoną i opisaną przez Carol Dweck. Pomagamy sobie, uczymy się od siebie, lubimy popełniać błędy i przede wszystkim oceniamy naszą pracę na podstawie postępu jaki poczyniliśmy a nie tego co dokładnie osiągnęliśmy.</p>

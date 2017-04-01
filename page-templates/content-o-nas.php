@@ -1,6 +1,6 @@
 <div class="page about">
 	<div class="wrapper">
-		<p class="title">
+		<p class="title" style="padding-top: 80px;">
 			<?php the_field("about_head"); ?>
 		</p>
 		<div class="up">
@@ -26,12 +26,12 @@
 
 			<div class="cards" style="margin-top: 50px;">
 				<div class="card with-shadow">
-					<img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12645053_10153837659463555_2557956224268377114_n.jpg?oh=cc9f3aa34b72c7c7e5e28d1f43b7fc32&oe=5929F2BB" alt="lek. Dariusz Ireneusz Chrapek" class="image">
-					<p class="card-title">lek. Dariusz Ireneusz Chrapek</p>
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/12524378_10154016132373555_8454049314635508052_n.jpg" alt="lek. Dariusz Ireneusz Chrapek" class="image">
+					<p class="card-title">lek. Dariusz Ireneusz Chrapek<br>(ps. Prezes)</p>
 					<p class="card-content">Młody lekarz w trakcie specjalizacji z medycyny rodzinnej. Zdecydował się na założenie firmy edukacyjnej co pozwoliło mu na połączenie swoich dwóch wielkich pasji - medycyny i nauczania. W wolnych chwilach głównie czyta książki, medytuje i gra w gry planszowe. :)</p>
 				</div>
 				<div class="card with-shadow">
-					<img src="http://s5.postimg.org/pm0syoq6f/adam.jpg" alt="Adam Karmiński" class="image">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/seljor2.jpg" alt="Adam Karmiński" class="image">
 					<p class="card-title">Adam Karmiński</p>
 					<p class="card-content">Dzięki doświadczeniu, które zdobył jako programista i project manager, ogarnia teraz technologię dla "Więcej niż LEK". Od wielu lat marzy o zmianach w systemie edukacji nastawionych na rozwój potencjału ludzkiego. Wychowany w poznańskim akademiku Uniwersytetu Medycznego, od zawsze miał słabość do medycyny. :)</p>
 				</div>

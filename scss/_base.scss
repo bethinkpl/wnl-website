@@ -2105,13 +2105,12 @@ footer {
 			width: 33.33%;
 
 			.head {
-				margin-bottom: 20px;
+				// margin-top: 20px;
 			}
 
 			p:not(.head) {
 				font-family: $primary-font;
 				font-size: $small-font-size;
-				font-weight: 600;
 				line-height: $small-line-height;
 				color: $white-color;
 

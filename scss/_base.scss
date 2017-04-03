@@ -2160,3 +2160,22 @@ footer {
 		}
 	}
 }
+
+.platform-links {
+	background: rgba(255,255,255,0.9);
+	bottom: 0;
+	box-shadow: 0px -5px 15px 0px rgba(86,86,86,0.5);
+		-webkit-box-shadow: 0px -5px 15px 0px rgba(86,86,86,0.5);
+		-moz-box-shadow: 0px -5px 15px 0px rgba(86,86,86,0.5);
+	display: none;
+	height: 40px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 9999;
+}
+
+.platform-links-item {
+	line-height: 40px;
+	margin: 3px 21px 0;
+}

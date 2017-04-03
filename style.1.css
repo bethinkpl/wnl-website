@@ -2569,9 +2569,10 @@ footer .down .line {
 .platform-links {
   background: rgba(255, 255, 255, 0.9);
   bottom: 0;
+  box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
   -webkit-box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
   -moz-box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
-  box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
+  display: none;
   height: 40px;
   position: fixed;
   text-align: center;
@@ -4834,6 +4835,9 @@ footer .down .line {
   .page.mail .wrapper {
     padding: 0px 10%;
   }
+  .platform-links {
+    display: block;
+  }
   footer .wrapper {
     padding: 0px 10%;
   }
@@ -4878,6 +4882,9 @@ footer .down .line {
   .page.index .cover .inside {
     padding: 80px 0 0;
   }
+  .platform-links {
+    display: block;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -4904,6 +4911,9 @@ footer .down .line {
     box-sizing: border-box;
   }
   .page.index .wnl-front-cover-scroll {
+    display: block;
+  }
+  .platform-links {
     display: block;
   }
 }

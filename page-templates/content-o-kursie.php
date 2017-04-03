@@ -176,6 +176,9 @@
 				<h3>Czy przed opłaceniem kursu będzie można wypróbować działanie platformy?</h3>
 				<p>Tak, przed opłaceniem kursu będzie można zalogować się na platformę oraz odbyć pokazową lekcję, która ilustruje działanie platformy oraz możliwe formy interakcji z użytkownikami.</p>
 
+				<h3>Kiedy można spodziewać się materiałów?</h3>
+				<p>Kurier powinien zapukać do Waszych drzwi pomiędzy <strong>5-15 czerwca</strong>.</p>
+
 				<h3>Jak będą wyglądać warsztaty?</h3>
 				<p>Wszystkie informacje znajdziecie na podstronie <a href="<?php echo site_url('o-warsztatach') ?>" title="Przeczytaj więcej o warsztatach">O warsztatach</a>. :)</p>
 				<div class="section back small-padding">

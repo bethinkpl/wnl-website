@@ -54,15 +54,7 @@
 				</div>
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
-						<a href="https://www.guideme24.pl/privacy-policy/677" class="guide-embed guide-color-2 guide-branded guide-button-policy" title="Polityka Prywatności" onclick="TINY.box.show({iframe:'https://www.guideme24.pl/privacy-policy/677',boxid:'frameless',width:760,height:450,fixed:false}); return false;">Polityka Prywatności</a>
-						<span class="line">|</span>
 						<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
-            <script type="text/javascript">
-            (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
-              s.src = "http://www.guideme24.pl/privacy-policy/client.js"; tag.parentNode.insertBefore(s,tag);};
-              if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}
-              else{w.onload = loader;}})(window, document);
-            </script>
 					</ul>
 				</div>
 			</div>

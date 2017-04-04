@@ -58,7 +58,7 @@
 							</ul>
 							<div class="select-product">
 								<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
-									Wybieram kurs stacjonarny
+									Wybieram kurs internetowy
 								</a>
 							</div>
 						</div>

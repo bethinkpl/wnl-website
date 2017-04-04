@@ -34,11 +34,11 @@ Kierownik Katedry i Kliniki Reumatologii i Chorób Wewnętrznych UM im. Karola M
 Prorektor do spraw studenckich UM im. Karola Marcinkowskiego w Poznaniu  w kadencji 2008-2012. Wyróżniony tytułem honorowym “Amicus studentorum” przez studentów Akademii Medycznej im. Karola Marcinkowskiego w Poznaniu.</p>
 				</div>
 				<div class="card">
-					<img src="http://wl1.ump.edu.pl/media/uid/--f_-e-2_ac9a2379ce-/c98fe1.jpg" class="image">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/mn.jpg" class="image">
 					<p class="card-title">Dr hab. n. med. Anna Mania</p>
 					<p class="card-content" style="text-align: left;">
 						Specjalista pediatrii, chorób zakaźnych, hepatolog.<br><br>
-						Pracownik naukowy UM im. K. Marcinkowskiego w Poznaniu Kliniki Chorób Zakaźnych i Neurologii Dziecięcej. Opiekun specjalizacji oraz dydaktyk UM w dziedzinie pediatrii. Prodziekan ds. programów studiów i kształcenia oraz studentów I - II roku. <br><br>
+						Pracownik naukowy UM im. K. Marcinkowskiego w Poznaniu Kliniki Chorób Zakaźnych i Neurologii Dziecięcej. Opiekun specjalizacji oraz dydaktyk UM w dziedzinie pediatrii. <br><br>
 						Lekarz praktyk z dużym doświadczeniem klinicznym, także w zakresie podstawowej opieki
 zdrowotnej i doraźnej pomocy medycznej w stanach nagłych.
 					</p>

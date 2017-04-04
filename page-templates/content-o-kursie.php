@@ -363,10 +363,10 @@
 				<p>Mamy nadzieję, że zarówno w Waszej, jak i naszej zawodowej codzienności, wszyscy będziemy pamiętać, że aby oczekiwać pomocy, sami musimy być zawsze gotowi udzielić jej drugiej osobie.</p>
 
 				<h3>Skąd się właściwie wzięliście?</h3>
-				<p>Jesteśmy grupą przyjaciół z Poznania. Projekt jest w całości prowadzony i tworzony przez lekarza (Daro) i programistę (Adam), oraz naszych przyjaciół. Jesteśmy w pełni prywatną firmą, która nie posiada żadnych koneksji z przemysłem farmaceutycznym, ani żadnym innym. Będzie tak, dopóki my jesteśmy odpowiedzialny za prowadzenie projektu “Więcej niż LEK”. ;)</p>
+				<p>Jesteśmy grupą przyjaciół z Poznania. Projekt jest w całości prowadzony i tworzony przez lekarza (Daro) i programistę (Adam), oraz naszych przyjaciół. Jesteśmy w pełni prywatną firmą, która nie posiada żadnych koneksji z przemysłem farmaceutycznym, ani żadnym innym. Będzie tak, dopóki my jesteśmy odpowiedzialni za prowadzenie projektu “Więcej niż LEK”. ;)</p>
 
 				<h3>Wciąż mam pytania... gdzie mam pisać?</h3>
-				<p>Jeśli macie powyższy tekst nie rozwiał wszystkich Twoich wątpliwości, pisz śmiało na info@wiecejnizlek.pl . :)</p>
+				<p>Jeśli macie powyższy tekst nie rozwiał wszystkich Twoich wątpliwości, pisz śmiało na info@wiecejnizlek.pl lub na <a href="https://facebook.com/wiecejnizlek">facebooku</a>. :)</p>
 				<div class="section back small-padding">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".q-and-a">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Powrót do góry" />

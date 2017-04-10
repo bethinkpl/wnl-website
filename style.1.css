@@ -2435,7 +2435,7 @@ input[type="submit"] {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 50px 0 80px;
   background-color: #43495a;
 }
 
@@ -2568,13 +2568,11 @@ footer .down .line {
 }
 
 .platform-links {
-  background: rgba(255, 255, 255, 0.9);
+  background: #43495a;
+  color: #FFFFFF;
   bottom: 0;
-  box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
-  -webkit-box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
-  -moz-box-shadow: 0px -5px 15px 0px rgba(86, 86, 86, 0.5);
   display: none;
-  height: 40px;
+  height: 60px;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -2582,8 +2580,17 @@ footer .down .line {
 }
 
 .platform-links-item {
-  line-height: 40px;
+  color: #61CED8;
+  line-height: 60px;
   margin: 3px 21px 0;
+}
+
+.platform-links-item:visited {
+  color: #61CED8;
+}
+
+.platform-links-item:hover {
+  color: #2999A3;
 }
 
 @media (max-width: 639px) {

@@ -133,6 +133,29 @@ ol:not([class]) {
 	}
 }
 
+ol.lower-alpha {
+	margin: 15px 0 15px 30px;
+
+	li {
+		list-style-type: lower-alpha;
+	}
+}
+
+.table {
+	font-family: $primary-font;
+	font-size: 0.75em;
+
+	th {
+		font-weight: bold;
+	}
+
+	th,
+	td {
+		border: 1px solid $gray-color;
+		padding: 10px 20px;
+	}
+}
+
 div {
 	display: block;
 }
@@ -396,4 +419,11 @@ div {
 	width: 75%;
 	min-width: 280px;
 	max-width: 800px;
+}
+
+.margin {
+
+	&.vertical {
+		margin: 1.5em 0;
+	}
 }

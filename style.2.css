@@ -198,6 +198,29 @@ ol:not([class]) li {
   list-style-type: decimal;
 }
 
+ol.lower-alpha {
+  margin: 15px 0 15px 30px;
+}
+
+ol.lower-alpha li {
+  list-style-type: lower-alpha;
+}
+
+.table {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75em;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  border: 1px solid #9B9B9B;
+  padding: 10px 20px;
+}
+
 div {
   display: block;
 }
@@ -463,6 +486,10 @@ div {
   width: 75%;
   min-width: 280px;
   max-width: 800px;
+}
+
+.margin.vertical {
+  margin: 1.5em 0;
 }
 
 html, body {

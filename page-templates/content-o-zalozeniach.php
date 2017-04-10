@@ -56,25 +56,4 @@
 			</div>
 		</div>
 	</div>
-	<div class="bottom">
-		<div class="mail">
-			<div class="wrapper">
-				<div class="signin">
-					<p class="title">
-						<?php the_field("subscribe_title"); ?>
-					</p>
-					<p class="subtitle">
-						<?php the_field("subscribe_subtitle"); ?>
-					</p>
-					<div class="input">
-						<?php
-							if( function_exists( 'mc4wp_show_form' ) ) {
-							    mc4wp_show_form();
-							}
-						?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>

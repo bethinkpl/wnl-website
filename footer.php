@@ -13,9 +13,10 @@
 
 					<div class="down off-1440 off-1280 off-1024">
 						<ul class="wnl-footer-legal">
-							<li>
-								<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
-							</li>
+							<li><a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cennik</a></li>
+							<li><a href="<?php echo site_url('/regulamin'); ?>" title="Regulamin">Regulamin</a></li>
+							<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
+							<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 						</ul>
 					</div>
 				</div>
@@ -38,7 +39,6 @@
 								<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 							</div>
 						</div>
-
 						<p class="head">Kontakt</p>
 						<p>info@wiecejnizlek.pl</p>
 						<p>+48 722 100 867</p>
@@ -54,7 +54,10 @@
 				</div>
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
-						<a href="<?php echo site_url('/sitemap.xml'); ?>" title="">Mapa strony</a>
+						<li><a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cennik</a></li>
+						<li><a href="<?php echo site_url('/regulamin'); ?>" title="Regulamin">Regulamin</a></li>
+						<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
+						<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 					</ul>
 				</div>
 			</div>

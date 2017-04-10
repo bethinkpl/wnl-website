@@ -47,8 +47,7 @@ zdrowotnej i doraźnej pomocy medycznej w stanach nagłych.
 				<div class="card">
 					<img src="http://kancelariatyminski.pl/cdn/upload/team_radoslaw-tyminski.jpg" class="image">
 					<p class="card-title">Dr n. praw. Radosław Tymiński</p>
-					<p class="card-content" style="text-align: left;">Zajmuje się obroną lekarzy w sprawach sądowych. <br><br>Wykłada prawo medyczne na Akademii Leona Koźmińskiego (dla przyszłych prawników) i na Warszawskim Uniwersytecie Medycznym (dla przyszłych lekarzy).<br><br>
-					Autor bloga <a href="http://prawalekarza.pl">prawalekarza.pl</a></p>
+					<p class="card-content" style="text-align: left;">obrońca lekarzy w sprawach sądowych, doktor nauk prawnych, radca prawny, autor ponad 150 publikacji z zakresu prawa medycznego, autor strony <a href="http://prawalekarza.pl">prawalekarza.pl</a>, wykładowca Warszawskiego Uniwersytetu Medycznego i Akademii Leona Koźmińskiego w Warszawie.</p>
 				</div>
 			</div>
 			<div class="cards">

@@ -258,6 +258,9 @@
 				<h3>Co zrobić, aby skorzystać z płatności w ratach?</h3>
 				<p>Podczas składania zamówienia, w ostatnim kroku <strong>Potwierdzenie zamówienia</strong>, wystarczy kliknąć na <strong>Płatność na raty</strong> i potwierdzić ten sposób płatności klikając na <strong>Kupuję i płacę na raty</strong>.</p>
 
+				<h3>Czy mogę zmienić metodę płatności z przelewu bankowego na raty?</h3>
+				<p>Tak, bez problemu! <a href="https://platforma.wiecejnizlek.pl/login">Zaloguj się</a> na platformie i przejdź do strony <a href="https://platforma.wiecejnizlek.pl/app/myself/orders">Twoje zamówienia</a>. Jeżeli Twoje zamówienie nie zostało jeszcze opłacone, dostępna będzie opcja Zmień metodę płatności. W przeciwnym razie, skontaktuj się z nami pisząc na info@wiecejnizlek.pl</p>
+
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>
 				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie <strong>Wielkopolskiej Izby Lekarskiej</strong>.</p>
 				<p>Informacje o tym jak uzyskać refundację znajdziecie na stronie <a href="https://wil.org.pl/sprawy/refundacja-kosztow-ksztalcenia/">Wielkopolskiej Izby Lekarskiej</a>.</p>

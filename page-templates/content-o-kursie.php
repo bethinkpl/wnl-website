@@ -250,10 +250,13 @@
 				<a name="platnosci-reklamacje-promocje"></a>
 				<h2 class="wnl-page-title platnosci-reklamacje-promocje">Płatności, reklamacje, promocje</h2>
 				<h3>Jaka jest forma płatności za kurs Więcej niż LEK?</h3>
-				<p>Płatność za kurs Więcej niż LEK będzie odbywać się tylko w postaci elektronicznej. Poprzez system przelewów online lub tradycyjny przelew bankowy.</p>
+				<p>Płatność za kurs Więcej niż LEK będzie odbywać się tylko w postaci elektronicznej, poprzez system przelewów online lub tradycyjny przelew bankowy.</p>
 
 				<h3>Czy istnieje możliwość rozłożenia płatności na raty?</h3>
 				<p>Tak! W odpowiedzi na Wasze prośby, oferujemy również możliwość rozłożenia płatności na 3 raty. Pierwsza, która rezerwuje miejsce na kursie, powinna wpłynąć do nas w ciągu 7 dni od złożenia zamówienia. Kolejne zaś odpowiednio do 15 czerwca 2017r. oraz 15 lipca 2017r. Dokładne kwoty i terminy znajdziecie w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
+
+				<h3>Co zrobić, aby skorzystać z płatności w ratach?</h3>
+				<p>Podczas składania zamówienia, w ostatnim kroku <strong>Potwierdzenie zamówienia</strong>, wystarczy kliknąć na <strong>Płatność na raty</strong> i potwierdzić ten sposób płatności klikając na <strong>Kupuję i płacę na raty</strong>.</p>
 
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>
 				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie <strong>Wielkopolskiej Izby Lekarskiej</strong>.</p>

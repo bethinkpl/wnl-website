@@ -131,7 +131,7 @@
 				<h2 class="wnl-page-title przebieg-kursu">Przebieg kursu</h2>
 
 				<h3>Czy dostęp do platformy zawiera dostęp do bazy pytań do LEKu?</h3>
-				<p>Na dzień 1 kwietnia 2017 roku baza pytań do kursu Więcej niż LEK jest nadal na etapie produkcji. Dostęp do platformy będzie umożliwiał rozwiązanie dużej liczby pytań z poprzednich edycji Lekarskiego Egzaminu Końcowego jednak na tym etapie nie będzie możliwości wykupienia dostępu do samych pytań. Baza pytań będzie zwiększana z dnia na dzień w trakcie pierwszej edycji kursu. Mamy nadzieję, że na pewnym etapie będzie ważnym i samodzielnym elementem platformy.</p>
+				<p>Tak, w ramach kursu dostępna będzie baza 2000 pytań! Pracujemy nad tym, aby platforma pomagała Wam wyłapać najbardziej problematyczne pytania oraz utrwalać zdobytą wiedzę.</p>
 
 				<h3>Jak wygląda dzień lekcyjny? Czym jest lekcja na kursie Więcej niż LEK?</h3>
 				<p>Każdego dnia lekcyjnego na platformie będzie otwierał się dostęp do 1 nowej lekcji. W ramach kursu “Więcej niż LEK” przewidzianych jest 55 dni lekcyjnych. Nowe lekcje będą pojawiać się każdego dnia roboczego. W weekendy, odpoczywamy bądź nadrabiamy zaległości. ;)</p>

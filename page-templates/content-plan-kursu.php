@@ -70,7 +70,32 @@
 				</div>
 			</div>
 
-			<p>Ostatniego dnia lekcyjnego na platformie rozwiążemy próbny LEK.</p>
+			<h3>Szczegółowy plan kursu</h3>
+			<ul>
+				<li>Interna - 15 dni
+					<ul>
+						<li>Kardiologia - 3 dni</li>
+						<li>Pulmonologia - 2 dni</li>
+						<li>Gastroenterologia - 2 dni</li>
+						<li>Endokrynologia - 2 dni</li>
+						<li>Hematologia - 1 dzień</li>
+						<li>Nefrologia - 2 dni</li>
+						<li>Diabetologia - 1 dzień</li>
+						<li>Reumatologia - 1 dzień</li>
+						<li>Laryngologia - 1 dzień</li>
+					</ul>
+				</li>
+				<li>Pediatria - 10 dni</li>
+				<li>Chirurgia - 5 dni</li>
+				<li>Ginekologia - 5 dni</li>
+				<li>Psychiatria - 5 dni</li>
+				<li>Medycyna Ratunkowa - 5 dni</li>
+				<li>Zdrowie publiczne - 2 dni</li>
+				<li>Prawo medyczne i bioetyka - 2 dni</li>
+				<li>Orzecznictwo - 1 dzień</li>
+				<li>Medycyna rodzinna + powtórki - 4 dni</li>
+				<li>Próbny LEK - 1 dzień</li>
+			</ul>
 
 			<h3>Daty warsztatów</h3>
 			<ul>

@@ -13,7 +13,7 @@
 					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
 					<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u!</li>
+					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
@@ -48,7 +48,7 @@
 					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
 					<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u!</li>
+					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>

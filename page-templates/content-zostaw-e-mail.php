@@ -16,9 +16,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="">
+	<!-- <div class="">
 		<p class="wnl-email-info">
 			12-tygodniowy kurs do wrześniowego LEK-u startuje już 17 czerwca! Zapisy wystartują 1 kwietnia, wtedy podamy cenę oraz kadrę wykładowców.
 		</p>
-	</div>
+	</div> -->
 </div>

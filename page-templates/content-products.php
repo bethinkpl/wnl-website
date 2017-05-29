@@ -31,11 +31,11 @@
 					</li>
 					<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
 				</ul>
-				<div class="select-product">
+				<!-- <div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
 						Wybieram kurs stacjonarny
 					</a>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="item second">
@@ -52,11 +52,11 @@
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
-				<div class="select-product">
+				<!-- <div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
 						Wybieram kurs internetowy
 					</a>
-				</div>
+				</div> -->
 			</div>
 			<div style="height: 1px; clear: both;"></div>
 		</div>

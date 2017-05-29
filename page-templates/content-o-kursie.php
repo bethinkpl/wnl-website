@@ -298,7 +298,7 @@
 					</a>
 				</div>
 
-				<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
+				<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
 			</div>
 		</div>
 	</div>

@@ -8,10 +8,10 @@
 				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
 				</p>
-				<p class="metadata inverted">Zapisy trwają! Kurs rusza już 17 czerwca!</p>
+				<p class="metadata inverted">Bądź z nami w kontakcie i otrzymuj informacje o nowościach na stronie i kolejnych edycjach kursu</p>
 				<p class="aligncenter">
-					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
-						Zapisz się!
+					<a href="<?php echo site_url('zostaw-e-mail') ?>" class="button button__primary">
+						Zostaw e-mail
 					</a>
 				</p>
 			</div>
@@ -82,11 +82,11 @@
 		</div>
 	</div>
 
-	<div class="section">
+	<!-- <div class="section">
 		<div class="wrapper">
-			<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
+			<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="section five">
 		<div class="wrapper">

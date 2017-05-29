@@ -102,8 +102,8 @@
 						) ); ?>
 						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 						<div class="mail">
-							<a href="http://platforma.wiecejnizlek.pl/payment/select-product" title="Kliknij, aby wybrać kurs">
-								Zapisz się!
+							<a href="<?php echo site_url('zostaw-e-mail') ?>">
+								Zostaw e-mail
 							</a>
 						</div>
 					</div>
@@ -127,8 +127,8 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="http://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary" title="Kliknij, aby wybrać kurs">
-							Zapisz się!
+						<a href="<?php echo site_url('zostaw-e-mail') ?>" class="button button__primary">
+							Zostaw e-mail
 						</a>
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>

@@ -185,7 +185,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<p>Na ostatnim spotkaniu wszyscy będziemy już po nauce i po próbnym LEKu. Celem tego spotkania jest podsumowanie nauki oraz wymienienie się refleksjami. Postaramy się pomóc Wam w zaplanowaniu ostatnich dwóch tygodni przed LEKiem.</p>
 					<p>Na sam koniec odejdziemy trochę od tematu LEKu i porozmawiamy sobie o tym co będzie zaraz po nim jak i w trochę bardziej odległej przyszłości. Będziemy mówić o dokonywaniu życiowo-zawodowych decyzji oraz wybiegniemy jeszcze dalej by nakreślić Wam wizję tego jak nowe technologie zmienią nasz zawód w najbliższym czasie.</p> <p>Będzie to także okazja do pożegnania, oczywiście poza wielką imprezą, którą będziemy organizować jak już wszyscy będziemy po egzaminie. :)</p>
 
-					<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
+					<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
 				</div>
 			</div>
 		</div>

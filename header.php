@@ -88,8 +88,8 @@
 
 					<div class="bag">
 						<div class="mail">
-							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
-								<?php pll_e("button_leave_mail"); ?>
+							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+								Platforma
 							</a>
 						</div>
 
@@ -102,8 +102,8 @@
 						) ); ?>
 						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 						<div class="mail">
-							<a href="<?php echo site_url('zostaw-e-mail') ?>">
-								Zostaw e-mail
+							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+								Platforma
 							</a>
 						</div>
 					</div>
@@ -127,8 +127,8 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="<?php echo site_url('zostaw-e-mail') ?>" class="button button__primary">
-							Zostaw e-mail
+						<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+							Platforma
 						</a>
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>

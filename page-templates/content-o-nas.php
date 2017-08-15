@@ -27,7 +27,7 @@
 			<div class="cards" style="margin-top: 50px;">
 				<div class="card with-shadow">
 					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/12524378_10154016132373555_8454049314635508052_n.jpg" alt="lek. Dariusz Ireneusz Chrapek" class="image">
-					<p class="card-title">lek. Dariusz Ireneusz Chrapek<br>(ps. Prezes)</p>
+					<p class="card-title">lek. Dariusz Ireneusz Chrapek</p>
 					<p class="card-content">Młody lekarz w trakcie specjalizacji z medycyny rodzinnej. Zdecydował się na założenie firmy edukacyjnej co pozwoliło mu na połączenie swoich dwóch wielkich pasji - medycyny i nauczania. W wolnych chwilach głównie czyta książki, medytuje i gra w gry planszowe. :)</p>
 				</div>
 				<div class="card with-shadow">
@@ -36,9 +36,23 @@
 					<p class="card-content">Dzięki doświadczeniu, które zdobył jako programista i project manager, ogarnia teraz technologię dla "Więcej niż LEK". Od wielu lat marzy o zmianach w systemie edukacji nastawionych na rozwój potencjału ludzkiego. Wychowany w poznańskim akademiku Uniwersytetu Medycznego, od zawsze miał słabość do medycyny. :)</p>
 				</div>
 				<div class="card with-shadow">
-					<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t31.0-8/10550126_1469472899987537_7973644516435015689_o.jpg?oh=44845152f927294fc5900259bf0df28a&oe=59575436" alt="Kuba Karmiński" class="image">
-					<p class="card-title">Kuba Karmiński</p>
-					<p class="card-content">Kocha technologię, kocha bluesa, kocha psy. Jako pierwszy full-time'owy członek ekipy, włożył całe serce w to, żeby platforma i strona były szybkie, bezpieczne oraz niezawodne.</p>
+					<img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/18446785_1369897176435597_7651134140136768398_n.jpg?oh=a52015012fa177351c4d09f6ce73e4b8&oe=5A36DC67" alt="Zespół Więcej niż LEK" class="image">
+					<p class="card-title">Zespół "Więcej niż LEK"</p>
+					<p class="card-content">
+						<strong>Zespół medyczny</strong><br/>
+						lek. Bogna Brzezińska<br/>
+						lek. Dawid Kaczmarek<br/>
+						lek. Marta Niezgoda<br/>
+						lek. Maciej Nowak<br/>
+						lek. Joanna Sadowska<br/>
+						<strong>Projektant</strong><br/>
+						Joanna Januszewska<br/>
+						<strong>Zespół techniczny</strong><br/>
+						Przemysław Ferkaluk<br/>
+						Jakub Karmiński<br/>
+						Bogna Knychała<br/>
+						Bartłomiej Kowalczyk<br/>
+					</p>
 				</div>
 			</div>
 		</div>

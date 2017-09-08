@@ -116,6 +116,21 @@
 		</div>
 	</div>
 
+	<div class="section five">
+		<div class="wrapper">
+			<p class="title">
+				Partnerzy
+			</p>
+			<div class="cards">
+				<div class="card">
+					<a href="http://prawalekarza.pl" target="_blank">
+						<img src="http://prawalekarzy.pl/res/lay/logo.png"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="section back">
 		<a href="#" title="" class="wnl-scroll-top" data-section-target="0">
 			<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Przewiń stronę do góry">

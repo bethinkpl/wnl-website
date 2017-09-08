@@ -75,19 +75,22 @@
 				<a name="podstawowe-pytania"></a>
 				<h2 class="wnl-page-title podstawowe-pytania">Podstawowe pytania</h2>
 				<h3>Kiedy zaczyna się kurs? Jak długo potrwa?</h3>
-				<p>Kurs zaczyna się 17 czerwca i potrwa 12 tygodni, do 9 września. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
+				<!-- <p>Kurs zaczyna się 17 czerwca i potrwa 12 tygodni, do 9 września. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p> -->
+				Szczegóły odnośnie drugiej edycji już wkrótce!
 
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
-				<p>Dostęp do platformy daje dostęp do lekcji oraz narzędzi komunikacyjnych. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p>
-				<p>Dostęp do platformy jest możliwy do 31 października 2017 roku.</p>
+				<!-- <p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, Twoi narzędzi komunikacyjnych. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p> -->
+				<p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, narzędzi komunikacyjnych, a także możliwość zapisywania slajdów, pytań kontrolnych i wątków w systemie pytań i odpowiedzi do późniejszej powtórki.</p>
+				<!-- <p>Dostęp do platformy jest możliwy do 31 października 2017 roku.</p> -->
 
 				<h3>W jakiej formie można uczestniczyć w kursie Więcej niż LEK?</h3>
 				<p>Istnieją dwa warianty uczestnictwa: “Kurs internetowy” oraz “Kurs stacjonarny”.</p>
 
-				<p>Zarówno w pierwszej, jak i drugiej wersji kursu, podstawą uczestnictwa jest interakcja z platformą e-learningową, na której będą odbywać się lekcje i dostępne będą wszystkie materiały. Dodatkowo, dla osób, które zapiszą się na wersję kursu z warsztatami, w <strong>Collegium Da Vinci przy ulicy gen. Tadeusza Kutrzeby 10 w Poznaniu</strong> odbędzie się <a href="<?php echo site_url('o-warsztatach') ?>" title="Przeczytaj więcej o warsztatach">6 spotkań warsztatowych</a>.</p>
+				<p>Zarówno w pierwszej, jak i drugiej wersji kursu, podstawą uczestnictwa jest interakcja z platformą e-learningową, na której będą odbywać się lekcje i dostępne będą wszystkie materiały. Dodatkowo, dla osób, które zapiszą się na wersję kursu z warsztatami, w <strong>Collegium Da Vinci przy ulicy gen. Tadeusza Kutrzeby 10 w Poznaniu</strong> odbędą się <a href="<?php echo site_url('o-warsztatach') ?>" title="Przeczytaj więcej o warsztatach">4 spotkania warsztatowe</a>.</p>
 
 				<h3>Czy istnieje limit miejsc na kurs Więcej niż LEK?</h3>
-				<p>Dla pierwszej edycji limit miejsc na kursie internetowym został wyznaczony na 200, a na kurs stacjonarny - 100.</p>
+				<!-- <p>Dla pierwszej edycji limit miejsc na kursie internetowym został wyznaczony na 200, a na kurs stacjonarny - 100.</p> -->
+				<p>Przewidujemy limit 300 miejsc na kurs internetowy, oraz 50 miejsc na kurs stacjonarny.</p>
 
 				<h3>Czy przed opłaceniem kursu będzie można wypróbować działanie platformy?</h3>
 				<p>Tak, przed opłaceniem kursu będzie można zalogować się na platformę oraz odbyć pokazową lekcję, która ilustruje działanie platformy oraz możliwe formy interakcji z użytkownikami.</p>

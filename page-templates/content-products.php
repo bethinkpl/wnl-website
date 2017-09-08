@@ -6,24 +6,24 @@
 			<div class="item first">
 				<div class="line"></div>
 				<h3>Kurs stacjonarny</h3>
-				<h4>2200zł</h4>
-				<p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p>
+				<h4>2000zł</h4>
+				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
 					<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
 					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
-					<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
+					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
 				<span class="wnl-front-options-plus">+</span>
 				<ul class="wnl-front-options-list">
-					<li class="wnl-front-options-list-item">Uczestnictwo w 6 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
+					<li class="wnl-front-options-list-item">Uczestnictwo w 4 warsztatach weekendowych w Poznaniu - spotykamy się i pracujemy razem!
 						<ul>
 							<li>“Jak się uczyć?”- nasz przepis na LEK, czyli wprowadzenie do kursu i metody efektywnej nauki</li>
-							<li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
-							<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li>
+							<!-- <li>Choroby wewnętrzne - dr hab. n. med. Mariusz Puszczewicz, prof. UM</li>
+							<li>Choroby dziecięce - dr hab. n. med. Anna Mania</li> -->
 							<li>Stany nagłe - lek. Michał Szemień</li>
 							<li>Prawo medyczne - dr n. praw. Radosław Tymiński</li>
 							<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
@@ -42,13 +42,13 @@
 				<div class="line"></div>
 				<h3>Kurs internetowy</h3>
 				<h4>1500zł</h4>
-				<p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p>
+				<!-- <p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
 					<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
 					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
-					<li class="wnl-front-options-list-item">Ponad 12 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-					<li class="wnl-front-options-list-item">Baza 2000 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
+					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
@@ -87,7 +87,7 @@
 			</div>
 			<div class="card">
 				<h4 class="card-title">Wysyłka i materiały w cenie</h4>
-				<p class="card-content">Pomiędzy 5 a 15 czerwca dotrze do Ciebie paczka z albumem map myśli oraz innymi gadżetami!</p>
+				<p class="card-content">Przed kursem dotrze do Ciebie paczka z albumem map myśli oraz innymi gadżetami!</p>
 			</div>
 		</div>
 		<p class="text-center metadata inverted">

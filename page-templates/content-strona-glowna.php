@@ -35,7 +35,7 @@
 							</div>
 							<p class="title"><?php the_field("courses_section_title_" . $i); ?></p>
 							<p class="description"><?php the_field("courses_section_description_" . $i); ?></p>
-							<a href="<?php echo get_site_url() . '/jak-pomagamy#' . $i ?>" title="Czytaj więcej..." class="more">
+							<a href="<?php echo get_site_url() . '/o-zalozeniach#' . $i ?>" title="Czytaj więcej..." class="more">
 								<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
 							</a>
 						</li>

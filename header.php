@@ -100,7 +100,8 @@
 						<?php wp_nav_menu( array(
 						    'menu' => 'mobile_menu'
 						) ); ?>
-						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+						<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
+						<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 						<div class="mail">
 							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
@@ -121,7 +122,10 @@
 				<div class="desktop">
 					<div class="bag">
 						<?php wp_nav_menu(array('theme_location'=>'landing-menu')); ?>
-						<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a>
+						<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/facebook/normal.svg"></a> -->
+						<div class="fb-container">
+							<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+						</div>
 					</div>
 				</div>
 

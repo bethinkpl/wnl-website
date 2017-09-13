@@ -5,7 +5,7 @@
 		Korzystasz z wyselekcjonowanych materiałów i gotowego planu pracy! Regularnie systematyzujesz wiedzę! Jesteś w stałym kontakcie z resztą uczestników, która wspólnie motywuje się do działania.
 	</p>
 	<p class="metadata">
-		Zapisy trwają do 15 maja - Kurs rusza 17 czerwca - Ilość miejsc ograniczona
+		Zapisy trwają do 23 października - Kurs rusza 6 listopada - Ilość miejsc ograniczona
 	</p>
 	<div class="aligncenter">
 			<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">

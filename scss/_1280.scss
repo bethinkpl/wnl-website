@@ -25,6 +25,12 @@ body, p {
 	line-height: $normal-line-height;
 }
 
+header {
+	.wrapper {
+		padding: 0 5%;
+	}
+}
+
 .rwd-line {
 	display: block;
 }

@@ -734,7 +734,10 @@ header .logo, header .desktop, header .mail {
 }
 
 header .logo {
-  width: 220px;
+  align-items: center;
+  display: flex;
+  height: 80px;
+  width: 150px;
 }
 
 header .logo a {
@@ -745,7 +748,6 @@ header .logo a {
 header .logo img {
   width: 100%;
   line-height: 0px;
-  margin-top: 26px;
 }
 
 header .sidebar, header .hamburger {
@@ -777,28 +779,29 @@ header .desktop {
 }
 
 header .desktop .bag {
-  display: inline-block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-header .desktop .menu-main_menu-container, header .desktop .fb {
-  display: inline-block;
-  float: left;
-  width: auto;
+header .desktop .bag .fb-container {
+  width: 80px;
 }
 
-header .desktop .fb {
-  margin-left: 40px;
+header .desktop .bag .fb-like {
+  align-items: center;
+  display: flex;
+  padding: 0 30px;
 }
 
-header .desktop .fb img {
-  float: left;
-  margin-top: 30px;
-  width: 24px;
+header .desktop ul {
+  align-items: center;
+  display: flex;
+  height: 80px;
 }
 
 header .desktop ul li {
-  display: inline-block;
-  float: left;
+  line-height: 1em;
   margin-left: 30px;
 }
 
@@ -2421,10 +2424,6 @@ input[type="submit"] {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   color: #242D47;
-}
-
-.page.contact .up .social .icons {
-  margin-bottom: 30px;
 }
 
 .page.contact .up .social .icons a {
@@ -4906,6 +4905,9 @@ footer .down .line {
   body, p {
     font-size: 21px;
     line-height: 36px;
+  }
+  header .wrapper {
+    padding: 0 5%;
   }
   .rwd-line {
     display: block;

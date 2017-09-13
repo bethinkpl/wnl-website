@@ -36,7 +36,8 @@
 						<div class="social">
 							<p class="head">Social Media</p>
 							<div class="icons">
-								<a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+								<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
+								<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true" data-colorscheme="dark" data-width="250"></div>
 							</div>
 						</div>
 						<p class="head">Kontakt</p>

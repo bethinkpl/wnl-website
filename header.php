@@ -66,16 +66,15 @@
       <?php if ( is_front_page() ) : ?>
         <div class="wnl-front-particles" id="particles-js"></div>
         <div class="wnl-front-overlay"></div>
-      <?php elseif ( is_single() ) : ?>
-          <div id="fb-root"></div>
-          <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-          fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
       <?php endif;?>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<header>
 			<!-- menu mobile -->
 			<div class="sidebar">
@@ -101,7 +100,7 @@
 						    'menu' => 'mobile_menu'
 						) ); ?>
 						<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
-						<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 						<div class="mail">
 							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma

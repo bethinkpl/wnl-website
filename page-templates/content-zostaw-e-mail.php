@@ -5,7 +5,8 @@
 				<?php the_field("subscribe_title"); ?>
 			</p>
 			<p class="subtitle">
-				<?php the_field("subscribe_subtitle"); ?>
+				<!-- Zostawiając swój adres e-mail zyskujesz pewność, że dowiesz się w pierwszej kolejności o nowościach na stronie oraz zapisach na kolejne edycje kursu! -->
+				Zapisy na zimową edycję ruszają już 25 września! Zostaw swój e-mail, a przypomnimy Ci o nich. :)
 			</p>
 			<div class="input">
 				<?php

@@ -9,8 +9,8 @@
 				<h4>2000zł</h4>
 				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
-					<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
 					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
@@ -29,7 +29,7 @@
 							<li>Perspektywy zawodowe, wybór specjalizacji oraz możliwe ścieżki rozwoju po studiach medycznych</li>
 						</ul>
 					</li>
-					<li class="wnl-front-options-list-item">Na warsztatach związanych z zakresem materiału do LEK-u - odpowiedzi na pytania zadawane poprzez platformę, wspólne rozwiązywanie przypadków oraz “godzina z mentorem”</li>
+					<li class="wnl-front-options-list-item">Na warsztatach wykraczamy poza horyzont egzaminu - mówimy o tym, co w dzisiejszych czasach znaczy <strong>być lekarzem</strong>, czyli o czymś więcej, niż LEK.</li>
 				</ul>
 				<!-- <div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
@@ -44,8 +44,8 @@
 				<h4>1500zł</h4>
 				<!-- <p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
-					<li class="wnl-front-options-list-item">Uczestnictwo w 12-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 55 dni lekcyjnych</li>
+					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
 					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
@@ -83,7 +83,7 @@
 		<div class="cards">
 			<div class="card">
 				<h4 class="card-title">Płatność w ratach</h4>
-				<p class="card-content">Potrzebujesz rozłożyć płatność w czasie? Nie ma problemu! Możesz zapłacić w trzech ratach - pierwszej <strong>do 7 dni od zamówienia</strong> i kolejnych do <strong>15 czerwca</strong> i <strong>15 lipca</strong>! Dokładne kwoty znajdziesz w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
+				<p class="card-content">Potrzebujesz rozłożyć płatność w czasie? Nie ma problemu! Możesz zapłacić w trzech ratach - pierwszej <strong>do 7 dni od zamówienia</strong> (najpóźniej do 23 października) i kolejnych do <strong>20 listopada</strong> i <strong>20 grudnia</strong>! Dokładne kwoty znajdziesz w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
 			</div>
 			<div class="card">
 				<h4 class="card-title">Wysyłka i materiały w cenie</h4>

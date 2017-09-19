@@ -90,13 +90,13 @@
 
 				<h3>Czy istnieje limit miejsc na kurs Więcej niż LEK?</h3>
 				<!-- <p>Dla pierwszej edycji limit miejsc na kursie internetowym został wyznaczony na 200, a na kurs stacjonarny - 100.</p> -->
-				<p>Przewidujemy limit 300 miejsc na kurs internetowy, oraz 50 miejsc na kurs stacjonarny.</p>
+				<p>Przewidujemy limit 400 miejsc na kurs internetowy, oraz 40 miejsc na kurs stacjonarny.</p>
 
 				<h3>Czy przed opłaceniem kursu będzie można wypróbować działanie platformy?</h3>
 				<p>Tak, przed opłaceniem kursu będzie można zalogować się na platformę oraz odbyć pokazową lekcję, która ilustruje działanie platformy oraz możliwe formy interakcji z użytkownikami.</p>
 
 				<h3>Kiedy można spodziewać się materiałów?</h3>
-				<p>Kurier powinien zapukać do Waszych drzwi pomiędzy <strong>5-15 czerwca</strong>.</p>
+				<p>Kurier powinien zapukać do Waszych drzwi pomiędzy <strong>26 października a 3 listopada</strong>.</p>
 
 				<h3>Jak będą wyglądać warsztaty?</h3>
 				<p>Wszystkie informacje znajdziecie na podstronie <a href="<?php echo site_url('o-warsztatach') ?>" title="Przeczytaj więcej o warsztatach">O warsztatach</a>. :)</p>
@@ -134,10 +134,10 @@
 				<h2 class="wnl-page-title przebieg-kursu">Przebieg kursu</h2>
 
 				<h3>Czy dostęp do platformy zawiera dostęp do bazy pytań do LEKu?</h3>
-				<p>Tak, w ramach kursu dostępna będzie baza 2000 pytań! Pracujemy nad tym, aby platforma pomagała Wam wyłapać najbardziej problematyczne pytania oraz utrwalać zdobytą wiedzę.</p>
+				<p>Tak, w ramach kursu dostępna będzie baza 3500 pytań! Pracujemy nad tym, aby platforma pomagała Wam wyłapać najbardziej problematyczne pytania oraz utrwalać zdobytą wiedzę.</p>
 
 				<h3>Jak wygląda dzień lekcyjny? Czym jest lekcja na kursie Więcej niż LEK?</h3>
-				<p>Każdego dnia lekcyjnego na platformie będzie otwierał się dostęp do 1 nowej lekcji. W ramach kursu “Więcej niż LEK” przewidzianych jest 55 dni lekcyjnych. Nowe lekcje będą pojawiać się każdego dnia roboczego. W weekendy, odpoczywamy bądź nadrabiamy zaległości. ;)</p>
+				<p>Każdego dnia lekcyjnego na platformie będzie otwierał się dostęp do 1 nowej lekcji. W ramach kursu “Więcej niż LEK” przewidzianych jest 60 dni lekcyjnych. Nowe lekcje będą pojawiać się każdego dnia roboczego. W weekendy, odpoczywamy bądź nadrabiamy zaległości. ;)</p>
 
 				<p>Dzień lekcyjny to:</p>
 				<h4>Wstęp</h4>
@@ -154,8 +154,6 @@
 				<h3>W jakim języku prowadzony jest kurs Więcej niż LEK?</h3>
 				<p>Zarówno prezentacje multimedialne jak i Album Map Myśli są przygotowane w całości po polsku. Dodatkowo prezentacje będą czasami zawierać treści w języku angielskim. Będą to głównie linki do filmów edukacyjnych, dzięki którym będziemy mogli poszerzać nasze zrozumienie i ułatwić zapamiętanie treści. Podstawowa znajomość języka angielskiego pozwoli z nich w pełni korzystać jednak nie jest kluczowa w uczestnictwie w samym kursie, gdyż treści występujące tylko w języku angielskim nie przekroczą  1% całości. Poza tym, będzie to dodatkowa okazja do nauczenia się paru przydatnych słówek i angielskich mnemotechnik:)</p>
 
-				<h3>Czy możemy uczyć się razem z Wami? Odwiedzić Was w siedzibie firmy i pomóc przy tworzeniu kursu?</h3>
-				<p>W ramach projektu Więcej niż LEK w siedzibie firmy (ul.Henryka Sienkiewicza 8/1 na Poznańskich Jeżycach) od dnia 1 maja 2017 roku będzie udostępniona dla Was przestrzeń do nauki. Składa się na nią czytelnia, która może pomieścić komfortowo około 8 osób oraz biblioteka gdzie będą mogły uczyć się kolejne 3-4 osoby :) Jeśli macie ochotę pouczyć się u nas, poznać ekipę Więcej niż LEK osobiście, pomóc w tworzeniu kursu lub po prostu po ciężkim dniu nauki odetchnąć, poznać kilka osób i zagrać w planszówkę to zapraszamy Was serdecznie :)</p>
 				<div class="section back small-padding">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".q-and-a">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Powrót do góry" />
@@ -181,8 +179,8 @@
 
 				<a name="plan-pracy"></a>
 				<h2 class="wnl-page-title plan-pracy">Plan pracy</h2>
-				<h3>Dlaczego akurat 12 tygodni?</h3>
-				<p>Długość trwania kursu została określona na podstawie ankiet, oraz długich rozmów z przyjaciółmi, którzy często przygotowywali się do LEKu kilkukrotnie. Dwunastotygodniowa przygoda, z tygodniową przerwą w środku tak aby każdy mógł skoczyć na wakacje albo nadrobić zaległości. Ostatnia lekcja odbędzie się na 2-3 tygodnie przed LEKiem, dzięki czemu wszyscy będziecie mieli czas na powtórki i przerobienie baz pytań.</p>
+				<h3>Dlaczego akurat 14 tygodni?</h3>
+				<p>Pierwsza edycja kursu trwała 12 tygodni i okazała się zbyt intensywna, zwłaszcza na początku. Z tego powodu postanowiliśmy wydłużyć Internę z 15 do 20 dni lekcyjnych. Kurs przewiduje tygodniową przerwą w środku tak, aby każdy mógł w spokoju spędzić święta, albo nadrobić zaległości. :) Ostatnia lekcja odbędzie się na 2-3 tygodnie przed LEKiem, dzięki czemu wszyscy będziecie mieli czas na powtórki i przerobienie baz pytań.</p>
 
 				<h3>Po co te przerwy w lekcjach? Czemu nie ma zajęć w weekend?</h3>
 				<p>Na pomoc przychodzą nam najnowsze odkrycia nauk kognitywistycznych. Okazuje się, że aby nauka miała sens i dawała realne trwałe efekty trzeba po prostu robić przerwy. Zarówno w trakcie samej lekcji jak i między dużymi działami robienie przerw daje możliwość na konsolidację wiedzy.</p>
@@ -256,7 +254,7 @@
 				<p>Płatność za kurs Więcej niż LEK będzie odbywać się tylko w postaci elektronicznej, poprzez system przelewów online lub tradycyjny przelew bankowy.</p>
 
 				<h3>Czy istnieje możliwość rozłożenia płatności na raty?</h3>
-				<p>Tak! W odpowiedzi na Wasze prośby, oferujemy również możliwość rozłożenia płatności na 3 raty. Pierwsza, która rezerwuje miejsce na kursie, powinna wpłynąć do nas w ciągu 7 dni od złożenia zamówienia. Kolejne zaś odpowiednio do 15 czerwca 2017r. oraz 15 lipca 2017r. Dokładne kwoty i terminy znajdziecie w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
+				<p>Tak! Dokładne kwoty i terminy znajdziecie w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
 
 				<h3>Co zrobić, aby skorzystać z płatności w ratach?</h3>
 				<p>Podczas składania zamówienia, w ostatnim kroku <strong>Potwierdzenie zamówienia</strong>, wystarczy kliknąć na <strong>Płatność na raty</strong> i potwierdzić ten sposób płatności klikając na <strong>Kupuję i płacę na raty</strong>.</p>

@@ -2,27 +2,27 @@
 	<div class="wrapper">
 		<h1>Warsztaty</h1>
 		<p class="lead aligncenter">
-			<span class="rwd-line">Wybierając kurs stacjonarny uczestniczysz w 4 sobotnich spotkaniach warsztatowych. </span><span class="rwd-line">Są one wyjątkową okazją do zgłębienia problematycznych zagadnień, kontaktu ze specjalistami oraz grupowego budowania motywacji.</span>
+			<span class="rwd-line">Wybierając kurs stacjonarny uczestniczysz w&nbsp;4 sobotnich spotkaniach warsztatowych. </span><span class="rwd-line">Są one wyjątkową okazją do nabycia wiedzy niezbędnej na początku pracy zawodowej oraz w trakcie nauki na specjalizacji! </span><span class="rwd-line">Dominuje praktyka lekarska, czyli coś więcej, niż LEK!</span>
 		</p>
 
 		<h2>Przebieg zajęć</h2>
 		<div class="cards">
 			<div class="card">
 				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_01.png" class="image">
-				<p class="card-content">Podczas nauki danego przedmiotu, poprzez platformę, zbieramy Wasze pytania, problemy oraz zagadnienia wymagające rozwinięcia.</p>
+				<p class="card-content">Warsztaty są okazją do zadania pytań, na które nie znajdziesz odpowiedzi w&nbsp;książkach, zwłaszcza tych, dotyczących realiów pracy lekarza.</p>
 			</div>
 			<div class="card">
 				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_02.png" class="image">
-				<p class="card-content">Specjaliści przygotowują dzień warsztatowy odpowiadając na Wasze potrzeby oraz skupiając się na dokładny, wyjaśnieniu tematu.</p>
+				<p class="card-content">Prowadzący pomogą Wam zbudować dobre wyobrażenie o&nbsp;pierwszych krokach w&nbsp;zawodzie, obrazując je wieloma przykładami.</p>
 			</div>
 			<div class="card">
 				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_03.png" class="image">
-				<p class="card-content">Resztę czasu poświęcamy na wspólne rozwiązywanie przypadków. Ostatnia godzina zajęć przewidziana jest na porady prowadzącego oraz Wasze pytania.</p>
+				<p class="card-content">Program przygotowany jest specjalnie dla młodych lekarzy. Zdziwisz się, jak wiele cennych, praktycznych informacji nie trafia do nas w&nbsp;trakcie studiów!</p>
 			</div>
 		</div>
 
 		<div class="section">
-			<h2>Kadra</h2>
+			<h2>Prowadzący</h2>
 			<div class="cards">
 				<!-- <div class="card">
 					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/dr_Puszczewicz.jpg" class="image">
@@ -113,8 +113,8 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">1</div>
 					<p class="card-title">Wprowadzenie do kursu</p>
-					<!-- <div class="metadata">17 czerwca 2017, 10:00</div> -->
-					<div class="card-subtitle">Prowadzą Daro i Adam</div>
+					<div class="metadata">4 listopada 2017, 11:00</div>
+					<div class="card-subtitle">Prowadzi Daro</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Wprowadzenie do kursu</li>
@@ -151,14 +151,14 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				</div> -->
 				<div class="card with-shadow">
 					<div class="big-number">2</div>
-					<p class="card-title">Stany nagłe</p>
-					<!-- <div class="metadata">26 sierpnia 2017, 10:00</div> -->
-					<div class="card-subtitle">Prowadzi lek. Michał Szemień</div>
+					<p class="card-title">Prawo medyczne</p>
+					<div class="metadata">13 stycznia 2018, 11:00</div>
+					<div class="card-subtitle">Prowadzi dr n. praw. Radosław Tymiński</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
-							<li>Wspólne rozwiązywanie przypadków</li>
-							<li>Godzina z mentorem</li>
+							<li>Uwarunkowania wykonywania zawodu lekarza w 2017 r.</li>
+							<li>Zasady prowadzenia dokumentacji medycznej</li>
+							<li>Warsztaty z dokumentacją medyczną</li>
 						</ul>
 					</p>
 				</div>
@@ -179,22 +179,22 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				</div> -->
 				<div class="card with-shadow">
 					<div class="big-number">3</div>
-					<p class="card-title">Prawo medyczne</p>
-					<!-- <div class="metadata">2 września 2017, 10:00</div> -->
-					<div class="card-subtitle">Prowadzi dr n. praw. Radosław Tymiński</div>
+					<p class="card-title">Stany nagłe</p>
+					<div class="metadata">20 stycznia 2018, 11:00</div>
+					<div class="card-subtitle">Prowadzi lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Odpowiedzi na pytania zadane poprzez platformę</li>
-							<li>Wspólne rozwiązywanie przypadków</li>
-							<li>Godzina z mentorem</li>
+							<li>Przypadki + diagnostyka różnicowa</li>
+							<li>Leki - praktyczne spojrzenie</li>
+							<li>Wprowadzenie do pracy w SOR oraz Zespołach Ratownictwa Medycznego</li>
 						</ul>
 					</p>
 				</div>
 				<div class="card with-shadow">
 					<div class="big-number">4</div>
 					<p class="card-title">Co po LEK-u?</p>
-					<!-- <div class="metadata">9 września 2017, 10:00</div> -->
-					<div class="card-subtitle">Prowadzą Daro i Adam</div>
+					<div class="metadata">3 lutego 2018, 10:00</div>
+					<div class="card-subtitle">Prowadzi Daro</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Perspektywy zawodowe</li>
@@ -210,18 +210,9 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 			<div class="wrapper">
 				<div class="wrapper">
 					<h2>Jeszcze trochę o przebiegu zajęć...</h2>
-					<p>Przede wszystkim, na warsztaty przychodzimy z jasno określonymi celami. Każde ze spotkań ze specjalistami ma miejsce po zakończeniu danego bloku tematycznego na zajęciach na platformie. Innymi słowy, przychodzimy na zajęcia przygotowani merytorycznie. Pozwoli to zaoszczędzić dużo czasu i pominąć większość prostych zagadnień, o których informacje można znaleźć na platformie.</p>
-					<p>Dni warsztatowe numer 2 i 3 będą podzielony na 3 główne części.
-						<ol>
-							<li>Odpowiadanie na pytania zadawane przez Was na poziomie platformy e-learningowej w okresie poprzedzającym spotkanie ze specjalistą. Idea jest taka abyście to Wy tworzyli wcześniej listę zagadnień, które chcecie mieć wyjaśnione już po przerobieniu całego tematu na platformie. Dotyczy to interny pediatrii, szeroko pojętych stanów nagłych oraz prawa medycznego. Specjalista otrzymyuje te pytania wcześniej i opracowuje je na wspólne spotkanie.</li>
-							<li>Wspólne rozwiązywanie zadań i przypadków klinicznych.</li>
-							<li>“Godzina z mentorem “ - na zakończenie pytania do specjalisty. Rozmowy w luźnej atmosferze związane z refleksjami związanymi z dotychczasowym życiem zawodowym. Idea jest taka aby pomóc Wam chwycić inną perspektywę, która być może pomoże Wam podjąć decyzję co do wyboru własnej ścieżki zawodowej. Będzie możliwość porozmawiania z internistą, pediatrą, lekarzem medycyny ratunkowej oraz prawnikiem.</li>
-						</ol>
-					</p>
-					<p>Spotkania numer 1 i 4 będą pośrednio związane z LEK=iem. Na pierwszym będziemy uczyć się jak się uczyć i jak obsługiwać platformę. Plus, my będziemy się dokładnie tłumaczyć z tego dlaczego kurs wygląda jak wygląda.
-					<p>Na ostatnim spotkaniu wszyscy będziemy już po nauce i po próbnym LEKu. Celem tego spotkania jest podsumowanie nauki oraz wymienienie się refleksjami. Postaramy się pomóc Wam w zaplanowaniu ostatnich dwóch tygodni przed LEKiem.</p>
-					<p>Na sam koniec odejdziemy trochę od tematu LEKu i porozmawiamy sobie o tym co będzie zaraz po nim jak i w trochę bardziej odległej przyszłości. Będziemy mówić o dokonywaniu życiowo-zawodowych decyzji oraz wybiegniemy jeszcze dalej by nakreślić Wam wizję tego jak nowe technologie zmienią nasz zawód w najbliższym czasie.</p> <p>Będzie to także okazja do pożegnania, oczywiście poza wielką imprezą, którą będziemy organizować jak już wszyscy będziemy po egzaminie. :)</p>
-
+					<p>Celem warsztatów nie jest stricte lepsze przygotowanie do LEK-u, ale do bycia lekarzem, brania odpowiedzialności za swój rozwój, relacje w zespole i przede wszystkin - zdrowie i życie pacjentów.</p>
+					<p>Doświadczenia z pierwszej edycji pokazały nam, że warsztaty to przede wszystkim okazja to wspólnego spojrzenia poza horyzont zbliżającego egzaminu. A tematy są poważne - jak samodzielnie poprowadzić swoją naukę w trakcie specjalizacji? Jak reagować w kryzysowych sytuacjach? Jak ustrzec się przed pozwami i kłopotami natury prawnej? I wreszcie, jak poprowadzić swoją specjalizację w trudnych polskich realiach?</p>
+					<p>Na te pytania znajdziecie odpowiedzi na naszych warsztatach. Całość przygotowań do samego egzaminu, łącznie z sugestiami jak poradzić sobie z nim psychicznie i fizycznie, poprowadzona będzie na platformie. Spotkania, będąc oczywiście okazją do rozmów o egzaminie, będą traktowały jednak o czymś więcej, niż LEK - o tym co to znaczy <strong>być lekarzem</strong>?</p>
 					<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
 				</div>
 			</div>

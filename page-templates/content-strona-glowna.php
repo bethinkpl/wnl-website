@@ -8,7 +8,9 @@
 				<p class="subtitle">
 					<?php the_field("cover_subtitle"); ?>
 				</p>
-				<p class="metadata inverted">Bądź z nami w kontakcie i otrzymuj informacje o nowościach na stronie i kolejnych edycjach kursu</p>
+				<p class="metadata inverted">
+					Bądź z nami w kontakcie i otrzymuj informacje o nowościach na stronie i kolejnych edycjach kursu
+				</p>
 				<p class="aligncenter">
 					<a href="<?php echo site_url('zostaw-e-mail') ?>" class="button button__primary">
 						Zostaw e-mail

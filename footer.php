@@ -14,7 +14,8 @@
 					<div class="down off-1440 off-1280 off-1024">
 						<ul class="wnl-footer-legal">
 							<li><a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cennik</a></li>
-							<li><a href="<?php echo site_url('/regulamin'); ?>" title="Regulamin">Regulamin</a></li>
+							<li><a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin" target="_blank">Regulamin</a></li>
+							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji" target="_blank">Regulamin promocji</a></li>
 							<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 							<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 						</ul>
@@ -36,8 +37,9 @@
 						<div class="social">
 							<p class="head">Social Media</p>
 							<div class="icons">
-								<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
-								<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true" data-colorscheme="dark" data-width="250"></div>
+								<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="false" data-colorscheme="dark" data-width="250"></div>
+
+								<a href="https://www.facebook.com/wiecejnizlek" target="_blank" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 							</div>
 						</div>
 						<p class="head">Kontakt</p>
@@ -56,7 +58,8 @@
 				<div class="down off-768 off-640 off-320">
 					<ul class="wnl-footer-legal">
 						<li><a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cennik</a></li>
-						<li><a href="<?php echo site_url('/regulamin'); ?>" title="Regulamin">Regulamin</a></li>
+						<li><a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin" target="_blank">Regulamin</a></li>
+						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji" target="_blank">Regulamin promocji</a></li>
 						<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 						<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 					</ul>

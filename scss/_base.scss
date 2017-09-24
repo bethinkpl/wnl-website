@@ -2121,10 +2121,11 @@ footer {
 			.social {
 
 				.icons {
-					margin-bottom: 30px;
+					margin: 20px 0;
 
 					a {
-						margin-left: 10px;
+						display: inline-block;
+						margin: 10px 0;
 
 						&:first-child {
 							margin-left: 0px;

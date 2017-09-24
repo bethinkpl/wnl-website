@@ -2569,11 +2569,12 @@ footer .right .r p:not(.head).award {
 }
 
 footer .right .r .social .icons {
-  margin-bottom: 30px;
+  margin: 20px 0;
 }
 
 footer .right .r .social .icons a {
-  margin-left: 10px;
+  display: inline-block;
+  margin: 10px 0;
 }
 
 footer .right .r .social .icons a:first-child {

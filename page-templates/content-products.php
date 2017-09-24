@@ -91,7 +91,7 @@
 			</div>
 		</div>
 		<p class="text-center metadata inverted">
-			Szczegóły wszystkich promocji i reklamacji w <a href="<?php echo site_url('/regulamin'); ?>" title="Regulamin">Regulaminie</a>
+			Szczegóły wszystkich promocji i reklamacji w <a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin Serwisu" target="_blank">Regulaminie</a> oraz <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin Promocji" target="_blank">Regulaminie Promocji Study Buddy</a>.
 		</p>
 	</div>
 </div>

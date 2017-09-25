@@ -78,7 +78,7 @@
 						<li>Pulmonologia - 2 dni</li>
 						<li>Gastroenterologia - 2 dni</li>
 						<li>Endokrynologia - 2 dni</li>
-						<li>Hematologia - 2 dzień</li>
+						<li>Hematologia - 2 dni</li>
 						<li>Nefrologia - 2 dni</li>
 						<li>Reumatologia - 2 dni</li>
 						<li>Diabetologia - 1 dzień</li>

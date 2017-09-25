@@ -14,6 +14,7 @@
 					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
+					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
@@ -31,11 +32,11 @@
 					</li>
 					<li class="wnl-front-options-list-item">Na warsztatach wykraczamy poza horyzont egzaminu - mówimy o tym, co w dzisiejszych czasach znaczy <strong>być lekarzem</strong>, czyli o czymś więcej, niż LEK.</li>
 				</ul>
-				<!-- <div class="select-product">
+				<div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
 						Wybieram kurs stacjonarny
 					</a>
-				</div> -->
+				</div>
 			</div>
 
 			<div class="item second">
@@ -49,14 +50,15 @@
 					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
+					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>
 					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
-				<!-- <div class="select-product">
+				<div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
 						Wybieram kurs internetowy
 					</a>
-				</div> -->
+				</div>
 			</div>
 			<div style="height: 1px; clear: both;"></div>
 		</div>
@@ -72,25 +74,26 @@
 		</div>
 		<div class="cards">
 			<div class="card">
+				<h4 class="card-title">Promocja "Study Buddy"</h4>
+				<p class="card-content">Znajdź partnera do wspólnej nauki, a obydwoje otrzymacie 100zł zniżki! Zapisz się na kurs bez innych promocji, a otrzymasz unikalny kod. Przekaż go znajomej osobie, aby skorzystała ze zniżki! Po opłaceniu jej zamówienia Tobie również naliczy się rabat!</p>
+			</div>
+			<div class="card">
+				<h4 class="card-title">Płatność w ratach</h4>
+				<p class="card-content">Potrzebujesz rozłożyć płatność w czasie? Nie ma problemu! Możesz zapłacić w trzech ratach - pierwszej <strong>do 7 dni od zamówienia</strong> (najpóźniej do 23 października) i kolejnych do <strong>20 listopada</strong> i <strong>20 grudnia</strong>! Dokładne kwoty znajdziesz w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
+			</div>
+		</div>
+		<div class="cards">
+			<div class="card">
 				<h4 class="card-title">Rezygnacja do 7 dni</h4>
 				<p class="card-content">Obawiasz się, że kurs Ci się nie spodoba? Przez pierwsze 7 dni możesz zrezygnować i odzyskać 50% wpłaty bez żadnych wyjaśnień!</p>
 			</div>
 			<div class="card">
 				<h4 class="card-title">Bierzemy odpowiedzialność za wynik</h4>
-				<p class="card-content">Jeżeli przerobisz co najmniej 75% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
-			</div>
-		</div>
-		<div class="cards">
-			<div class="card">
-				<h4 class="card-title">Płatność w ratach</h4>
-				<p class="card-content">Potrzebujesz rozłożyć płatność w czasie? Nie ma problemu! Możesz zapłacić w trzech ratach - pierwszej <strong>do 7 dni od zamówienia</strong> (najpóźniej do 23 października) i kolejnych do <strong>20 listopada</strong> i <strong>20 grudnia</strong>! Dokładne kwoty znajdziesz w <a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cenniku</a>.</p>
-			</div>
-			<div class="card">
-				<h4 class="card-title">Wysyłka i materiały w cenie</h4>
-				<p class="card-content">Przed kursem dotrze do Ciebie paczka z albumem map myśli oraz innymi gadżetami!</p>
+				<p class="card-content">Jeżeli przerobisz co najmniej 80% kursu, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Wasz sukces jest dla nas najważniejszy!</p>
 			</div>
 		</div>
 		<p class="text-center metadata inverted">
+			W trosce o przyszłe edycje kursu, promocje nie łączą się :]<br>
 			Szczegóły wszystkich promocji i reklamacji w <a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin Serwisu" target="_blank">Regulaminie</a> oraz <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin Promocji" target="_blank">Regulaminie Promocji Study Buddy</a>.
 		</p>
 	</div>

@@ -87,8 +87,11 @@
 
 					<div class="bag">
 						<div class="mail">
-							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
+							</a> -->
+							<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+								Zapisz się!
 							</a>
 						</div>
 
@@ -102,8 +105,11 @@
 						<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
 						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 						<div class="mail">
-							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
+							</a> -->
+							<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+								Zapisz się!
 							</a>
 						</div>
 					</div>
@@ -130,8 +136,11 @@
 
 				<div class="bag">
 					<div class="mail">
-						<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
+						<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 							Platforma
+						</a> -->
+						<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+							Zapisz się!
 						</a>
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>

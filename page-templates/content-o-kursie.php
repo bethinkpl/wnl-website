@@ -7,6 +7,19 @@
 			<?php get_template_part( 'page-templates/content', 'products' ); ?>
 		</div>
 	</div>
+	<div class="wrapper">
+		<div class="content">
+			<div class="cards">
+				<div class="card with-shadow">
+					<div class="card-content">
+						<p>
+							Chcesz znać dokładny rozkład 14-tygodniowej przygody z "Więcej niż LEK"? Koniecznie zapoznaj się z <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Planem kursu</a>!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<a name="qanda"></a>
 	<div class="wrapper q-and-a">
 		<div class="content">
@@ -75,13 +88,13 @@
 				<a name="podstawowe-pytania"></a>
 				<h2 class="wnl-page-title podstawowe-pytania">Podstawowe pytania</h2>
 				<h3>Kiedy zaczyna się kurs? Jak długo potrwa?</h3>
-				<!-- <p>Kurs zaczyna się 17 czerwca i potrwa 12 tygodni, do 9 września. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p> -->
-				Szczegóły odnośnie drugiej edycji już wkrótce!
+				<p>Kurs zaczyna się 6 listopada i potrwa 14 tygodni, do 10 lutego. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
+				<!-- Szczegóły odnośnie drugiej edycji już wkrótce! -->
 
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
-				<!-- <p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, Twoi narzędzi komunikacyjnych. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p> -->
+				<!-- <p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, Twoich narzędzi komunikacyjnych i wszystkich innych funkcji. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p> -->
 				<p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, narzędzi komunikacyjnych, a także możliwość zapisywania slajdów, pytań kontrolnych i wątków w systemie pytań i odpowiedzi do późniejszej powtórki.</p>
-				<!-- <p>Dostęp do platformy jest możliwy do 31 października 2017 roku.</p> -->
+				<p>Dostęp do platformy jest możliwy do 31 marca 2017 roku.</p>
 
 				<h3>W jakiej formie można uczestniczyć w kursie Więcej niż LEK?</h3>
 				<p>Istnieją dwa warianty uczestnictwa: “Kurs internetowy” oraz “Kurs stacjonarny”.</p>
@@ -148,7 +161,7 @@
 				<p>Na tym etapie poznajemy nowy materiał. Docelowo, każdą prezentację przerabiamy tylko raz. Istnieje oczywiście możliwość powrotu do wcześniejszych prezentacji w razie potrzeby. Jest to najbardziej wymagająca część lekcji ;)</p>
 				<h4>Ćwiczenia</h4>
 				<p>Pytania, zadania i przypadki klinicznych do rozwiązania w celu podniesienia efektywności nauki.</p>
-				<h4>Ciekawostki</h4>
+				<h4>Dodatki</h4>
 				<p>Tutaj, czekają na Was same niespodzianki ;) Wyjątkowa atmosfera, którą staramy się tworzyć na kursie “Więcej niż LEK” nie wynika jedynie z zastosowania nowoczesnych narzędzi komunikacyjnych oraz metodologii nauczania. Jesteśmy przekonani, że kurs może być niesamowitą okazją do pogłębiania swojej wiedzy nie tylko z zakresu medycyny. Chcemy się dzielić z Wami naszą pasją do uczenia się i tworzyć społeczność ludzi uczących. Propozycje książek, filmów czy TED-ów, a czasami jakiś “suchar” bądź historia. Wszystko to ma służyć szerzeniu idei szeroko pojętego “dzielenia się wiedzą”. :)</p>
 
 				<h3>W jakim języku prowadzony jest kurs Więcej niż LEK?</h3>
@@ -262,15 +275,20 @@
 				<h3>Czy mogę zmienić metodę płatności z przelewu bankowego na raty?</h3>
 				<p>Tak, bez problemu! <a href="https://platforma.wiecejnizlek.pl/login">Zaloguj się</a> na platformie i przejdź do strony <a href="https://platforma.wiecejnizlek.pl/app/myself/orders">Twoje zamówienia</a>. Jeżeli Twoje zamówienie nie zostało jeszcze opłacone, dostępna będzie opcja Zmień metodę płatności. W przeciwnym razie, skontaktuj się z nami pisząc na info@wiecejnizlek.pl</p>
 
+				<h3>Z jakich promocji mogę skorzystać?</h3>
+				<p>Zachęcamy do obswerwowania naszego fanpage'a oraz stron naszych partnerów! Będziecie mogli wygrać w nich vouchery zniżkowe o wartości 10%, 20%, a nawet darmowe uczestnictwo w kursie!</p>
+				<p>Nie musicie czekać z zapisami na wyniki losowania - vouchery będzie można zastosować też po opłaceniu zamówienia i uzyskać zwrot. ;)</p>
+				<p>Jeżeli nie załapiesz się nie voucher - nic straconego! Zapisz się na kurs, a otrzymasz unikalny kod. Jeżeli zachęcisz jedną osobę do opłacenia kursu z wykorzystaniem kodu, obydwoje otrzymacie 100zł zniżki!</p>
+
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>
 				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie <strong>Wielkopolskiej Izby Lekarskiej</strong>.</p>
 				<p>Informacje o tym jak uzyskać refundację znajdziecie na stronie <a href="https://wil.org.pl/sprawy/refundacja-kosztow-ksztalcenia/">Wielkopolskiej Izby Lekarskiej</a>.</p>
 
-				<h3>Czy istnieje możliwość zrezygnowania z uczestnictwa w trakcie trwania kursu?</h3>
-				<p>W tym zakresie stosujemy się do oficjalnych praw konsumenckich.</p>
-
 				<h3>Czy zapisując się na kurs otrzymuję zniżkę na kolejne edycje?</h3>
 				<p>Dla każdego uczestnika naszego kursu oferujemy 50% zniżki na kolejne edycje <strong>Kursu Internetowego</strong> z pełnym dostępem do platformy.</p>
+
+				<h3>Czy istnieje możliwość zrezygnowania z uczestnictwa w trakcie trwania kursu?</h3>
+				<p>W tym zakresie stosujemy się do oficjalnych praw konsumenckich.</p>
 				<div class="section back small-padding" style="padding: 20px 0;">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".q-and-a">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Powrót do góry" />

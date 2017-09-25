@@ -9,11 +9,11 @@
 					<?php the_field("cover_subtitle"); ?>
 				</p>
 				<p class="metadata inverted">
-					Bądź z nami w kontakcie i otrzymuj informacje o nowościach na stronie i kolejnych edycjach kursu
+					Zapisy na kurs do lutowego LEK-u otwarte do 23 października! Kurs rusza 6 listopada!
 				</p>
 				<p class="aligncenter">
-					<a href="<?php echo site_url('zostaw-e-mail') ?>" class="button button__primary">
-						Zostaw e-mail
+					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+						Zapisz się!
 					</a>
 				</p>
 			</div>
@@ -58,7 +58,7 @@
 					</a>
 					<h2 class="card-title">Praktyczne warsztaty</h2>
 					<p class="card-content alignleft">
-						Warsztaty w ramach naszego kursu do LEK-u, to nie tylko okazja do uzyskania odpowiedzi na najtrudniejsze pytania! Pozwalają również skorzystać z doświadczenia wyjątkowych dydaktyków i specjalistów w dziedzinach chorób wewnętrznych, pediatrii, medycyny ratunkowej oraz prawa medycznego. Przeczytaj więcej na podstronie <a href="<?php echo site_url('o-warsztatach') ?>">O warsztatach</a>.
+						Warsztaty w ramach naszego kursu do LEK-u to okazja do nabycia wyjątkowej wiedzy potrzebnej zaraz po egzaminie - podczas pierwszych kroków na ścieżce zawodowej oraz w trakcie nauki na specjalizacji. Pozwalają również skorzystać z doświadczenia praktyków i lepiej zaplanować swój start. Przeczytaj więcej na podstronie <a href="<?php echo site_url('o-warsztatach') ?>">O warsztatach</a>.
 					</p>
 					<p class="alignleft">
 						<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">

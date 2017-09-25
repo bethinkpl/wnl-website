@@ -6,7 +6,9 @@
 
 			<p>Pierwsze dzień lekcyjny, to <strong>6 listopada</strong>. Od poniedziałku do piątku, o godzinie 3 rano, otwierać się będzie dostęp do kolejnej lekcji na platformie.</p>
 
-			<p>Od 23 do 31 grudnia, na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jemy pierogi.</p>
+			<p>Od <strong>23 do 31 grudnia</strong>, na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jemy pierogi.</p>
+
+			<p>Nie obawiaj się, że nie wyrobisz się z materiałem! Lekcje nie są dostępne tylko w dniu otwarcia, ale pozostają dostępne do końca, czyli do <strong>31 marca</strong>. :)</p>
 
 			<div class="timeline">
 				<div class="row">

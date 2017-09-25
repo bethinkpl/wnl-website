@@ -69,13 +69,19 @@
 			</div>
 			<div class="card">
 				<h4 class="card-title">50% zniżki na kolejne edycje</h4>
-				<p class="card-content">Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy w ramach kolejnych edycji!</p>
+				<p class="card-content">
+					Uczestnicząc w dowolnym wariancie kursu, otrzymujesz 50% zniżki na Kurs Internetowy w ramach kolejnych edycji!<br>
+					Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulaminie Promocji "Uczestnik poprzedniej edycji"</a>
+				</p>
 			</div>
 		</div>
 		<div class="cards">
 			<div class="card">
 				<h4 class="card-title">Promocja "Study Buddy"</h4>
-				<p class="card-content">Znajdź partnera do wspólnej nauki, a obydwoje otrzymacie 100zł zniżki! Zapisz się na kurs bez innych promocji, a otrzymasz unikalny kod. Przekaż go znajomej osobie, aby skorzystała ze zniżki! Po opłaceniu jej zamówienia Tobie również naliczy się rabat!</p>
+				<p class="card-content">
+					Znajdź partnera do wspólnej nauki, a obydwoje otrzymacie 100zł zniżki! Zapisz się na kurs bez innych promocji, a otrzymasz unikalny kod. Przekaż go znajomej osobie, aby skorzystała ze zniżki! Po opłaceniu jej zamówienia Tobie również naliczy się rabat!<br>
+					Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>
+				</p>
 			</div>
 			<div class="card">
 				<h4 class="card-title">Płatność w ratach</h4>
@@ -93,8 +99,7 @@
 			</div>
 		</div>
 		<p class="text-center metadata inverted">
-			W trosce o przyszłe edycje kursu, promocje nie łączą się :]<br>
-			Szczegóły wszystkich promocji i reklamacji w <a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin Serwisu" target="_blank">Regulaminie</a> oraz <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin Promocji" target="_blank">Regulaminie Promocji Study Buddy</a>.
+			W trosce o przyszłe edycje kursu, promocje nie łączą się :]	Więcej informacji w <a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin Serwisu" target="_blank">Regulaminie</a>.
 		</p>
 	</div>
 </div>

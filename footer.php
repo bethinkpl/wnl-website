@@ -116,9 +116,10 @@
 		  ga('send', 'pageview');
     </script>
 
-	<!-- <div class="platform-links metadata">
+	<div class="platform-links metadata">
 		<a class="platform-links-item" href="https://platforma.wiecejnizlek.pl/">Zaloguj się na platformie</a>
-	</div> -->
+		<a class="platform-links-item" href="https://demo.wiecejnizlek.pl/">Demo platformy</a>
+	</div>
 
     <?php wp_footer(); ?>
 	</body>

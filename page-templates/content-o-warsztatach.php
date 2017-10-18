@@ -213,7 +213,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<p>Celem warsztatów nie jest stricte lepsze przygotowanie do LEK-u, ale do bycia lekarzem, brania odpowiedzialności za swój rozwój, relacje w zespole i przede wszystkin - zdrowie i życie pacjentów.</p>
 					<p>Doświadczenia z pierwszej edycji pokazały nam, że warsztaty to przede wszystkim okazja to wspólnego spojrzenia poza horyzont zbliżającego egzaminu. A tematy są poważne - jak samodzielnie poprowadzić swoją naukę w trakcie specjalizacji? Jak reagować w kryzysowych sytuacjach? Jak ustrzec się przed pozwami i kłopotami natury prawnej? I wreszcie, jak poprowadzić swoją specjalizację w trudnych polskich realiach?</p>
 					<p>Na te pytania znajdziecie odpowiedzi na naszych warsztatach. Całość przygotowań do samego egzaminu, łącznie z sugestiami jak poradzić sobie z nim psychicznie i fizycznie, poprowadzona będzie na platformie. Spotkania, będąc oczywiście okazją do rozmów o egzaminie, będą traktowały jednak o czymś więcej, niż LEK - o tym co to znaczy <strong>być lekarzem</strong>?</p>
-					<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
+					<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
 				</div>
 			</div>
 		</div>

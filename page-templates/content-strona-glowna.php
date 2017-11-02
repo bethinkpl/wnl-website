@@ -9,7 +9,7 @@
 					<?php the_field("cover_subtitle"); ?>
 				</p>
 				<p class="metadata inverted">
-					Zapisy na kurs do lutowego LEK-u otwarte do 23 października! Kurs rusza 6 listopada!
+					Ostatnie wolne miejsca! Kurs rusza 6 listopada!
 				</p>
 				<p class="aligncenter">
 					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">

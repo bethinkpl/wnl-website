@@ -5,7 +5,7 @@
 				<h1 class="wnl-page-title"><?php the_title() ?></h1>
 				<?php the_content() ?>
 			<?php endwhile; endif; ?>
-			<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
+			<?php #get_template_part( 'page-templates/content', 'recirculation' ); ?>
 		</div>
 	</div>
 	<div class="section back">

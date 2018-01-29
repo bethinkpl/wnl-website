@@ -9,13 +9,13 @@
 					<?php the_field("cover_subtitle"); ?>
 				</p>
 				<p class="metadata inverted">
-					Ostatnie wolne miejsca! Kurs rusza 6 listopada!
+					Zapisy na kolejną edycję kursu od 3 kwietnia do 14 maja 2018!
 				</p>
-				<p class="aligncenter">
+				<!-- <p class="aligncenter">
 					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 						Zapisz się!
 					</a>
-				</p>
+				</p> -->
 			</div>
 		</div>
 	</div>

@@ -6,7 +6,7 @@
 			</p>
 			<p class="subtitle">
 				<!-- Zostawiając swój adres e-mail zyskujesz pewność, że dowiesz się w pierwszej kolejności o nowościach na stronie oraz zapisach na kolejne edycje kursu! -->
-				Zapisy na zimową edycję ruszają już 25 września! Zostaw swój e-mail, a przypomnimy Ci o nich. :)
+				Zapisy na kolejną edycję ruszają już 3 kwietnia o godzinie 12:00! Zostaw swój e-mail, a przypomnimy Ci o nich. :)
 			</p>
 			<div class="input">
 				<?php

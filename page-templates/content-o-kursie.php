@@ -94,7 +94,7 @@
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
 				<!-- <p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, Twoich narzędzi komunikacyjnych i wszystkich innych funkcji. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p> -->
 				<p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, narzędzi komunikacyjnych, a także możliwość zapisywania slajdów, pytań kontrolnych i wątków w systemie pytań i odpowiedzi do późniejszej powtórki.</p>
-				<p>Dostęp do platformy jest możliwy do 31 marca 2017 roku.</p>
+				<p>Dostęp do platformy jest możliwy do 31 marca 2018 roku.</p>
 
 				<h3>W jakiej formie można uczestniczyć w kursie Więcej niż LEK?</h3>
 				<p>Istnieją dwa warianty uczestnictwa: “Kurs internetowy” oraz “Kurs stacjonarny”.</p>

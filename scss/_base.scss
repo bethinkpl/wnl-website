@@ -12,17 +12,6 @@ html, body {
 	text-align: left;
 }
 
-.wnl-front-particles {
-	background-image: url('assets/hero-front-2.jpg');
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 820px;
-	position: fixed;
-	width: 100%;
-	z-index: -3;
-}
-
 .wnl-front-overlay {
 	height: 820px;
 	background-color: rgba(45,67,105,0.49);
@@ -415,16 +404,30 @@ header {
 	text-align: center;
 }
 
-.wnl-front-title {
-	color: $white-color;
-}
-
 input[type="submit"] {
 	cursor: pointer;
 }
 
 .content {
 	margin-top: 100px;
+}
+
+.white-shadow {
+	height: 100px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	right: 0;
+
+	&.bottom {
+		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+		bottom: 0;
+	}
+
+	&.top {
+		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+		top: 0;
+	}
 }
 
 .page {
@@ -439,12 +442,23 @@ input[type="submit"] {
 		}
 
 		.cover {
+			background-image: url('assets/hero/hero_3360.jpg');
+			background-position: center 70px;
+			background-repeat: no-repeat;
+			background-size: cover;
 			background-color: transparent;
+			color: $primary-color;
 			height: 820px;
+			position: relative;
 			text-align: center;
+			z-index: 10;
 
 			.inside {
-				padding: 170px 0 0;
+				padding: 300px 0 0;
+
+			p {
+				color: $primary-color;
+			}
 
 		    .subtitle {
 		    	display: inline-block;
@@ -474,6 +488,8 @@ input[type="submit"] {
 		.two {
 			text-align: center;
 			padding: 40px 0 120px;
+			position: relative;
+			z-index: 50;
 
 			.wnl-front-video {
 				margin: -200px auto 80px;

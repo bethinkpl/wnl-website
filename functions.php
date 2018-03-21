@@ -41,5 +41,5 @@
 	/**
 	 * Scripts
 	 */
-	wp_enqueue_script( 'particles', get_template_directory_uri() . '/js/vendors/particles.min.js' );
+	// wp_enqueue_script( 'particles', get_template_directory_uri() . '/js/vendors/particles.min.js' );
 ?>

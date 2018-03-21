@@ -39,21 +39,15 @@ header {
 	display: none !important;
 }
 
-.wnl-front-particles {
-	height: 640px;
-}
-
-.wnl-front-overlay {
-	height: 640px;
-}
-
 .page.index {
 
 		.cover {
+			background-image: url('assets/hero/hero_1280.jpg');
+			background-position: top center;
 			height: 640px;
 
 			.inside {
-				padding: 80px 0 0;
+				padding: 160px 0 0;
 			}
 		}
 }

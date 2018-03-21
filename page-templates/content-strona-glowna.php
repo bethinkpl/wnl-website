@@ -3,10 +3,15 @@
 		<div class="inside">
 			<div class="wrapper">
 				<h1 class="wnl-front-title">
-					<?php the_field("cover_title"); ?>
+					<span class="rwd-line">Sprawdzony kurs przygotowujący do </span>
+					<span class="rwd-line">Lekarskiego Egzaminu Końcowego</span>
 				</h1>
 				<p class="subtitle">
-					<?php the_field("cover_subtitle"); ?>
+					<span>Platforma e-learningowa</span>
+					<span class="line"></span>
+					<span>Praktyczne warsztaty</span>
+					<span class="line"></span>
+					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
 					Zapisy na kolejną edycję kursu od 3 kwietnia do 14 maja 2018!
@@ -18,6 +23,7 @@
 				</p> -->
 			</div>
 		</div>
+		<div class="white-shadow bottom"></div>
 	</div>
 
 	<div class="section two">

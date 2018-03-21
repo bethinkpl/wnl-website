@@ -513,17 +513,6 @@ html, body {
   text-align: left;
 }
 
-.wnl-front-particles {
-  background-image: url("assets/hero_3360.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 820px;
-  position: fixed;
-  width: 100%;
-  z-index: -3;
-}
-
 .wnl-front-overlay {
   height: 820px;
   background-color: rgba(45, 67, 105, 0.49);
@@ -910,16 +899,30 @@ header .mail {
   text-align: center;
 }
 
-.wnl-front-title {
-  color: #FFFFFF;
-}
-
 input[type="submit"] {
   cursor: pointer;
 }
 
 .content {
   margin-top: 100px;
+}
+
+.white-shadow {
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+
+.white-shadow.bottom {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  bottom: 0;
+}
+
+.white-shadow.top {
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  top: 0;
 }
 
 .page {
@@ -940,13 +943,24 @@ input[type="submit"] {
 }
 
 .page.index .cover {
+  background-image: url("assets/hero/hero_3360.jpg");
+  background-position: center 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: transparent;
+  color: #242D47;
   height: 820px;
+  position: relative;
   text-align: center;
+  z-index: 10;
 }
 
 .page.index .cover .inside {
-  padding: 170px 0 0;
+  padding: 300px 0 0;
+}
+
+.page.index .cover .inside p {
+  color: #242D47;
 }
 
 .page.index .cover .inside .subtitle {
@@ -975,6 +989,8 @@ input[type="submit"] {
 .page.index .two {
   text-align: center;
   padding: 40px 0 120px;
+  position: relative;
+  z-index: 50;
 }
 
 .page.index .two .wnl-front-video {
@@ -2792,11 +2808,11 @@ footer .down .line {
     padding: 0px 5%;
   }
   .page.index .cover {
+    background-image: url("assets/hero/hero_1024.jpg");
     height: 550px;
   }
   .page.index .cover .inside {
-    padding: 120px 0 0;
-    top: calc(50% - 60px);
+    padding: 220px 0 0;
   }
   .page.index .cover .inside .subtitle {
     display: none;
@@ -3624,14 +3640,18 @@ footer .down .line {
     padding: 0px 5%;
   }
   .page.index .cover {
+    background-image: url("assets/hero/hero_1024.jpg");
     height: 550px;
   }
   .page.index .cover .inside {
-    padding: 120px 0 0;
-    top: calc(50% - 60px);
+    padding: 220px 0 0;
   }
   .page.index .cover .inside .subtitle {
-    display: none;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .page.index .cover .inside .subtitle span.line {
+    width: 10px;
   }
   .page.index .one {
     padding-bottom: 80px;
@@ -4335,13 +4355,18 @@ footer .down .line {
     padding: 0px 10%;
   }
   .page.index .cover {
+    background-image: url("assets/hero/hero_1024.jpg");
     height: 600px;
   }
   .page.index .cover .inside {
-    padding: 120px 0 0;
+    padding: 220px 0 0;
   }
   .page.index .cover .inside .subtitle {
-    display: none;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .page.index .cover .inside .subtitle span.line {
+    width: 10px;
   }
   .page.index .one .video {
     width: 100%;
@@ -4657,23 +4682,22 @@ footer .down .line {
   .signin .input {
     width: 100%;
   }
-  .wnl-front-particles {
-    height: 600px;
-  }
-  .wnl-front-overlay {
-    height: 600px;
-  }
   .page.index .wrapper {
     padding: 0px 10%;
   }
   .page.index .cover {
+    background-image: url("assets/hero/hero_1024.jpg");
     height: 600px;
   }
   .page.index .cover .inside {
-    padding: 120px 0 0;
+    padding: 225px 0 0;
   }
   .page.index .cover .inside .subtitle {
-    display: none;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .page.index .cover .inside .subtitle span.line {
+    width: 10px;
   }
   .page.index .two .wnl-front-video {
     margin-top: -140px;
@@ -4916,17 +4940,13 @@ footer .down .line {
   .off-1280 {
     display: none !important;
   }
-  .wnl-front-particles {
-    height: 640px;
-  }
-  .wnl-front-overlay {
-    height: 640px;
-  }
   .page.index .cover {
+    background-image: url("assets/hero/hero_1280.jpg");
+    background-position: top center;
     height: 640px;
   }
   .page.index .cover .inside {
-    padding: 80px 0 0;
+    padding: 160px 0 0;
   }
   .platform-links {
     display: block;

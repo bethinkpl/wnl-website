@@ -127,13 +127,19 @@ header {
 		}
 
 		.cover {
+			background-image: url('assets/hero/hero_1024.jpg');
 			height: 600px;
 
 			.inside {
-				padding: 120px 0 0;
+				padding: 220px 0 0;
 
 				.subtitle {
-					display: none;
+					font-size: $small-font-size;
+					margin-top: 0;
+
+					span.line {
+						width: 10px;
+					}
 				}
 			}
 		}

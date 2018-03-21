@@ -41,7 +41,7 @@
         ?>
 
         <title><?php wp_title(); ?></title>
-		<?php $cssVersion=3; ?>
+		<?php $cssVersion=4; ?>
         <link rel="stylesheet" href="<?php echo sprintf('%s/style.%d.css', get_stylesheet_directory_uri(), $cssVersion) ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/assets/favicon.png" />
@@ -63,10 +63,6 @@
 	</head>
 
     <body <?php body_class() ?>>
-      <?php if ( is_front_page() ) : ?>
-        <div class="wnl-front-particles" id="particles-js"></div>
-        <div class="wnl-front-overlay"></div>
-      <?php endif;?>
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];

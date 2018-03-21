@@ -42,12 +42,19 @@ header {
 .page.index {
 
 		.cover {
-			background-image: url('assets/hero/hero_1280.jpg');
+			// background-image: url('assets/hero/hero_1280.jpg');
 			background-position: top center;
 			height: 640px;
 
 			.inside {
 				padding: 160px 0 0;
+
+				.subtitle {
+
+					span.line {
+						width: 10px;
+					}
+				}
 			}
 		}
 }

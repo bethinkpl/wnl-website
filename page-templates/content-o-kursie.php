@@ -13,7 +13,7 @@
 				<div class="card with-shadow">
 					<div class="card-content">
 						<p>
-							Chcesz znać dokładny rozkład 14-tygodniowej przygody z "Więcej niż LEK"? Koniecznie zapoznaj się z <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Planem kursu</a>!
+							Chcesz znać dokładny rozkład 3-miesięcznej przygody z "Więcej niż LEK"? Koniecznie zapoznaj się z <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Planem kursu</a>!
 						</p>
 					</div>
 				</div>
@@ -88,13 +88,13 @@
 				<a name="podstawowe-pytania"></a>
 				<h2 class="wnl-page-title podstawowe-pytania">Podstawowe pytania</h2>
 				<h3>Kiedy zaczyna się kurs? Jak długo potrwa?</h3>
-				<p>Kurs zaczyna się 6 listopada i potrwa 14 tygodni, do 10 lutego. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
+				<p>Kurs zaczyna się 9 czerwca i potrwa 13 tygodni, do 8 września. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
 				<!-- Szczegóły odnośnie drugiej edycji już wkrótce! -->
 
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
 				<!-- <p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, Twoich narzędzi komunikacyjnych i wszystkich innych funkcji. Otwarcie dostępu do platformy na pierwszą edycję kursu Więcej niż LEK w 2017 roku to 17 czerwca.</p> -->
 				<p>Dostęp do platformy daje dostęp do lekcji, bazy pytań, narzędzi komunikacyjnych, a także możliwość zapisywania slajdów, pytań kontrolnych i wątków w systemie pytań i odpowiedzi do późniejszej powtórki.</p>
-				<p>Dostęp do platformy jest możliwy do 31 marca 2018 roku.</p>
+				<p>Dostęp do platformy jest możliwy do 10 listopada 2018 roku.</p>
 
 				<h3>W jakiej formie można uczestniczyć w kursie Więcej niż LEK?</h3>
 				<p>Istnieją dwa warianty uczestnictwa: “Kurs internetowy” oraz “Kurs stacjonarny”.</p>
@@ -103,13 +103,13 @@
 
 				<h3>Czy istnieje limit miejsc na kurs Więcej niż LEK?</h3>
 				<!-- <p>Dla pierwszej edycji limit miejsc na kursie internetowym został wyznaczony na 200, a na kurs stacjonarny - 100.</p> -->
-				<p>Przewidujemy limit 400 miejsc na kurs internetowy, oraz 40 miejsc na kurs stacjonarny.</p>
+				<p>Przewidujemy limit 500 miejsc na kurs internetowy, oraz 40 miejsc na kurs stacjonarny.</p>
 
 				<h3>Czy przed opłaceniem kursu będzie można wypróbować działanie platformy?</h3>
 				<p>Tak, przed opłaceniem kursu będzie można zalogować się na platformę oraz odbyć pokazową lekcję, która ilustruje działanie platformy oraz możliwe formy interakcji z użytkownikami.</p>
 
 				<h3>Kiedy można spodziewać się materiałów?</h3>
-				<p>Kurier powinien zapukać do Waszych drzwi pomiędzy <strong>26 października a 3 listopada</strong>.</p>
+				<p>Kurier powinien zapukać do Waszych drzwi pomiędzy <strong>21 maja a 3 czerwca</strong>.</p>
 
 				<h3>Jak będą wyglądać warsztaty?</h3>
 				<p>Wszystkie informacje znajdziecie na podstronie <a href="<?php echo site_url('o-warsztatach') ?>" title="Przeczytaj więcej o warsztatach">O warsztatach</a>. :)</p>
@@ -278,14 +278,14 @@
 				<h3>Z jakich promocji mogę skorzystać?</h3>
 				<p>Zachęcamy do obswerwowania naszego fanpage'a oraz stron naszych partnerów! Będziecie mogli wygrać w nich vouchery zniżkowe o wartości 10%, 20%, a nawet darmowe uczestnictwo w kursie!</p>
 				<p>Nie musicie czekać z zapisami na wyniki losowania - vouchery będzie można zastosować też po opłaceniu zamówienia i uzyskać zwrot. ;)</p>
-				<p>Jeżeli nie załapiesz się nie voucher - nic straconego! Zapisz się na kurs, a otrzymasz unikalny kod. Jeżeli zachęcisz jedną osobę do opłacenia kursu z wykorzystaniem kodu, obydwoje otrzymacie 100zł zniżki!</p>
+				<p>Jeżeli nie załapiesz się nie voucher - nic straconego! Zapisz się na kurs, a otrzymasz unikalny kod. Jeżeli zachęcisz jedną osobę do opłacenia kursu z wykorzystaniem kodu, obydwoje otrzymacie 100zł zniżki! Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>.</p>
 
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>
 				<p>Jeżeli Twoja Izba Lekarska refunduje pozastażowe szkolenia, jak najbardziej możesz skorzystać z tego budżetu, aby refundować uczestnictwo w naszym kursie! Możemy potwierdzić, że z refundacji mogą skorzystać członkowie <strong>Wielkopolskiej Izby Lekarskiej</strong>.</p>
 				<p>Informacje o tym jak uzyskać refundację znajdziecie na stronie <a href="https://wil.org.pl/sprawy/refundacja-kosztow-ksztalcenia/">Wielkopolskiej Izby Lekarskiej</a>.</p>
 
 				<h3>Czy zapisując się na kurs otrzymuję zniżkę na kolejne edycje?</h3>
-				<p>Dla każdego uczestnika naszego kursu oferujemy 50% zniżki na kolejne edycje <strong>Kursu Internetowego</strong> z pełnym dostępem do platformy.</p>
+				<p>Dla każdego uczestnika naszego kursu oferujemy 50% zniżki na kolejne edycje <strong>Kursu Internetowego</strong> z pełnym dostępem do platformy. Więcej szczegółów w <a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulaminie Promocji "Uczestnik poprzedniej edycji"</a>.</p>
 
 				<h3>Czy istnieje możliwość zrezygnowania z uczestnictwa w trakcie trwania kursu?</h3>
 				<p>W tym zakresie stosujemy się do oficjalnych praw konsumenckich.</p>

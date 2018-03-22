@@ -113,7 +113,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">1</div>
 					<p class="card-title">Wprowadzenie do kursu</p>
-					<div class="metadata">4 listopada 2017, 11:00</div>
+					<div class="metadata">9 czerwca 2018, 11:00</div>
 					<div class="card-subtitle">Prowadzi Daro</div>
 					<p class="card-content">
 						<ul class="card-content-list">
@@ -152,11 +152,11 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">2</div>
 					<p class="card-title">Prawo medyczne</p>
-					<div class="metadata">13 stycznia 2018, 11:00</div>
+					<div class="metadata">21 lipca 2018, 11:00</div>
 					<div class="card-subtitle">Prowadzi dr n. praw. Radosław Tymiński</div>
 					<p class="card-content">
 						<ul class="card-content-list">
-							<li>Uwarunkowania wykonywania zawodu lekarza w 2017 r.</li>
+							<li>Uwarunkowania wykonywania zawodu lekarza w 2018r.</li>
 							<li>Zasady prowadzenia dokumentacji medycznej</li>
 							<li>Warsztaty z dokumentacją medyczną</li>
 						</ul>
@@ -180,7 +180,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">3</div>
 					<p class="card-title">Stany nagłe</p>
-					<div class="metadata">20 stycznia 2018, 11:00</div>
+					<div class="metadata">25 sierpnia 2018, 11:00</div>
 					<div class="card-subtitle">Prowadzi lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">
@@ -193,7 +193,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">4</div>
 					<p class="card-title">Co po LEK-u?</p>
-					<div class="metadata">3 lutego 2018, 10:00</div>
+					<div class="metadata">6 października 2018, 10:00</div>
 					<div class="card-subtitle">Prowadzi Daro</div>
 					<p class="card-content">
 						<ul class="card-content-list">

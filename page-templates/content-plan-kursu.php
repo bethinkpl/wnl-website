@@ -2,14 +2,15 @@
 	<div class="wrapper">
 		<div class="wrapper">
 			<h1>Szczegółowy plan kursu</h1>
-			<p>Kurs zaczynamy <strong>4 listopada</strong>. Tego dnia odbędzie się też pierwsze spotkanie warsztatowe, a lekcja dotycząca efektywnej nauki będzie dostępna dla wszystkich uczestników.</p>
+			<p>Kurs zaczynamy <strong>9 czerwca</strong>. Tego dnia odbędzie się też pierwsze spotkanie warsztatowe, a lekcja dotycząca efektywnej nauki będzie dostępna dla wszystkich uczestników.</p>
 
-			<p>Pierwsze dzień lekcyjny, to <strong>6 listopada</strong>. Od poniedziałku do piątku, o godzinie 3 rano, otwierać się będzie dostęp do kolejnej lekcji na platformie.</p>
+			<p>Pierwsze dzień lekcyjny, to <strong>11 czerwca</strong>. Od poniedziałku do piątku, o godzinie 3 rano, otwierać się będzie dostęp do kolejnej lekcji na platformie.</p>
 
-			<p>Od <strong>23 do 31 grudnia</strong>, na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jemy pierogi.</p>
+			<p><strong>Od 30 lipca do 3 sierpnia</strong> na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jedziemy na wakacje. 😉</p>
 
-			<p>Nie obawiaj się, że nie wyrobisz się z materiałem! Lekcje nie są dostępne tylko w dniu otwarcia, ale pozostają dostępne do końca, czyli do <strong>31 marca</strong>. :)</p>
+			<p>Nie obawiaj się, że nie wyrobisz się z materiałem! Lekcje pozostają dostępne do samego końca, czyli do <strong>10 listopada</strong>. 🙂</p>
 
+			<h3>Szczegółowy plan kursu</h3>
 			<div class="timeline">
 				<div class="row">
 					<div class="column is-3">
@@ -72,7 +73,6 @@
 				</div>
 			</div>
 
-			<h3>Szczegółowy plan kursu</h3>
 			<ul>
 				<li>Interna - 20 dni
 					<ul>
@@ -101,16 +101,19 @@
 				<li>Farmakologia, Krwiodawstwo, Żywienie i powtórki - 5 dni</li>
 			</ul>
 
-			<h3>Daty warsztatów</h3>
+			<h3>Warsztaty</h3>
+			<p style="margin-top: -20px; font-style: italic;">(dla osób, które wykupią wariant kursu z warsztatami)</p>
+
+			<h4>Daty i godziny spotkań</h4>
 			<ul>
-				<li>4 listopada - 11:00</li>
-				<li>13 stycznia - 11:00</li>
-				<li>20 stycznia - 11:00</li>
-				<li>3 lutego - 11:00</li>
+				<li>9 czerwca, 11:00 - Efektywna nauka + Wstęp do kursu</li>
+				<li>21 lipca, 11:00 - Prawo medyczne</li>
+				<li>25 sierpnia, 11:00 - Stany nagłe</li>
+				<li>6 październik, 11:00 - Perspektywy zawodowe</li>
 			</ul>
 
-			<h3>Miejsce warsztatów</h3>
-			<div class="wnl-contact-data">
+			<h4>Miejsce warsztatów</h4>
+			<div class="wnl-contact-data" style="margin-bottom: 40px;">
 				Collegium Da Vinci</br>
 				ul. Gen. T. Kutrzeby 10</br>
 				61-719 Poznań<br>

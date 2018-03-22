@@ -132,7 +132,7 @@
 			<div class="cards">
 				<div class="card">
 					<a href="http://prawalekarza.pl" target="_blank">
-						<img src="http://prawalekarzy.pl/res/lay/logo.png"/>
+						<img src="<?php echo get_template_directory_uri() ?>/assets/partners/prawalekarza.png"/>
 					</a>
 				</div>
 			</div>

@@ -124,7 +124,7 @@ header {
 				padding-bottom: 20px;
 
 				li {
-					line-height: 45px;
+					line-height: $normal-line-height;
 				}
 			}
 
@@ -141,26 +141,17 @@ header {
 
 				&.fb {
 					display: inline-block;
-				    width: 100%;
-				    float: left;
 				    height: 100%;
 				    line-height: 100%;
 				}
 			}
 
 			.mail {
-				display: inline-block;
-				float: left;
-				width: 100%;
-				height: 60px;
-				margin-top: 40px;
+				// width: 100%;
+				// height: 60px;
+				// margin-top: 40px;
 
 				a {
-				    display: inline-block;
-				    width: 100%;
-				    float: left;
-					height: 60px;
-					line-height: 60px;
 					margin-top: 0px;
 					font-size: $small-font-size;
 				}

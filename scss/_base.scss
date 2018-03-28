@@ -213,7 +213,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 19;
+	z-index: 51;
 
 	.logo, .desktop, .mail {
 		display: inline-block;
@@ -258,6 +258,10 @@ header {
 
 			.mail {
 				display: none;
+			}
+
+			.fb-like {
+				display: block;
 			}
 		}
 	}

@@ -93,11 +93,21 @@ header {
 			float: left;
 			width: 100%;
 
+			li, a {
+				line-height: $normal-line-height;
+			}
+
 			a {
-				font-family: $primary-font;
-				font-size: $medium-2-font-size;
 				color: $white-color;
+				font-family: $primary-font;
+				font-size: $normal-font-size;
 				text-decoration: none;
+
+				&.fb {
+					display: inline-block;
+				    height: 100%;
+				    line-height: 100%;
+				}
 			}
 		}
 	}

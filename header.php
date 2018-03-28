@@ -41,7 +41,7 @@
         ?>
 
         <title><?php wp_title(); ?></title>
-		<?php $cssVersion=5; ?>
+		<?php $cssVersion=6; ?>
         <link rel="stylesheet" href="<?php echo sprintf('%s/style.%d.css', get_stylesheet_directory_uri(), $cssVersion) ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/assets/favicon.png" />
@@ -98,8 +98,9 @@
 						<?php wp_nav_menu( array(
 						    'menu' => 'mobile_menu'
 						) ); ?>
-						<!-- <a href="https://www.facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a> -->
-						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+						<a href="https://facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+						<a href="https://instagram.com/wiecejnizlek" title="Profil Więcej niż LEK na Instagram" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
+						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
 						<div class="mail">
 							<a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma

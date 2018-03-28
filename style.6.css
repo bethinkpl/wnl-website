@@ -714,7 +714,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 19;
+  z-index: 51;
 }
 
 header .logo, header .desktop, header .mail {
@@ -759,6 +759,10 @@ header .sidebar .menu {
 
 header .sidebar .menu .mail {
   display: none;
+}
+
+header .sidebar .menu .fb-like {
+  display: block;
 }
 
 header .desktop {
@@ -2746,7 +2750,7 @@ footer .down .line {
     padding-bottom: 20px;
   }
   header .sidebar .menu ul li {
-    line-height: 45px;
+    line-height: 36px;
   }
   header .sidebar .menu a {
     font-family: "Poppins", sans-serif;
@@ -2760,24 +2764,10 @@ footer .down .line {
   }
   header .sidebar .menu a.fb {
     display: inline-block;
-    width: 100%;
-    float: left;
     height: 100%;
     line-height: 100%;
   }
-  header .sidebar .menu .mail {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    height: 60px;
-    margin-top: 40px;
-  }
   header .sidebar .menu .mail a {
-    display: inline-block;
-    width: 100%;
-    float: left;
-    height: 60px;
-    line-height: 60px;
     margin-top: 0px;
     font-size: 14px;
   }
@@ -3577,7 +3567,7 @@ footer .down .line {
     padding-bottom: 20px;
   }
   header .sidebar .menu ul li {
-    line-height: 45px;
+    line-height: 36px;
   }
   header .sidebar .menu a {
     font-family: "Poppins", sans-serif;
@@ -3591,24 +3581,10 @@ footer .down .line {
   }
   header .sidebar .menu a.fb {
     display: inline-block;
-    width: 100%;
-    float: left;
     height: 100%;
     line-height: 100%;
   }
-  header .sidebar .menu .mail {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    height: 60px;
-    margin-top: 40px;
-  }
   header .sidebar .menu .mail a {
-    display: inline-block;
-    width: 100%;
-    float: left;
-    height: 60px;
-    line-height: 60px;
     margin-top: 0px;
     font-size: 14px;
   }
@@ -4334,11 +4310,19 @@ footer .down .line {
     float: left;
     width: 100%;
   }
+  header .sidebar .menu li, header .sidebar .menu a {
+    line-height: 36px;
+  }
   header .sidebar .menu a {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
     color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
     text-decoration: none;
+  }
+  header .sidebar .menu a.fb {
+    display: inline-block;
+    height: 100%;
+    line-height: 100%;
   }
   .signin .input {
     width: 100%;
@@ -4670,11 +4654,19 @@ footer .down .line {
     float: left;
     width: 100%;
   }
+  header .sidebar .menu li, header .sidebar .menu a {
+    line-height: 36px;
+  }
   header .sidebar .menu a {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
     color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
     text-decoration: none;
+  }
+  header .sidebar .menu a.fb {
+    display: inline-block;
+    height: 100%;
+    line-height: 100%;
   }
   .signin .input {
     width: 100%;

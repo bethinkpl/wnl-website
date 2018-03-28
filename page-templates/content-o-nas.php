@@ -36,22 +36,24 @@
 					<p class="card-content">Dzięki doświadczeniu, które zdobył jako programista i project manager, ogarnia teraz technologię dla "Więcej niż LEK". Od wielu lat marzy o zmianach w systemie edukacji nastawionych na rozwój potencjału ludzkiego. Wychowany w poznańskim akademiku Uniwersytetu Medycznego, od zawsze miał słabość do medycyny. :)</p>
 				</div>
 				<div class="card with-shadow">
-					<img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/18446785_1369897176435597_7651134140136768398_n.jpg?oh=a52015012fa177351c4d09f6ce73e4b8&oe=5A36DC67" alt="Zespół Więcej niż LEK" class="image">
+					<img src="https://platforma.wiecejnizlek.pl/storage/team.jpg" alt="Zespół Więcej niż LEK" class="image">
 					<p class="card-title">Zespół "Więcej niż LEK"</p>
 					<p class="card-content">
 						<strong>Zespół medyczny</strong><br/>
 						lek. Bogna Brzezińska<br/>
+						Marcin Czekała<br/>
 						lek. Dawid Kaczmarek<br/>
 						lek. Marta Niezgoda<br/>
 						lek. Maciej Nowak<br/>
 						lek. Joanna Sadowska<br/>
-						<strong>Projektant</strong><br/>
+						Wojciech Zaremba<br/>
+						<strong>Projektanci i ilustratorzy</strong><br/>
 						Joanna Januszewska<br/>
+						Sebastian Krupiński<br/>
 						<strong>Zespół techniczny</strong><br/>
 						Przemysław Ferkaluk<br/>
 						Jakub Karmiński<br/>
 						Bogna Knychała<br/>
-						Bartłomiej Kowalczyk<br/>
 					</p>
 				</div>
 			</div>

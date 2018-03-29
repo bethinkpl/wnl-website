@@ -3,7 +3,7 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
-
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://*.vimeocdn.com https://*.facebook.net https://*.facebook.com https://*.google-analytics.com https://*.disqus.com http://*.disqus.com https://*.disquscdn.com">
 		<?php
           if ( is_single() ) {
             $post = get_post();

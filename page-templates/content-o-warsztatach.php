@@ -8,15 +8,15 @@
 		<h2>Przebieg zajęć</h2>
 		<div class="cards">
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" class="image">
+				<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" class="image">
 				<p class="card-content">Warsztaty są okazją do zadania pytań, na które nie znajdziesz odpowiedzi w&nbsp;książkach, zwłaszcza tych, dotyczących realiów pracy lekarza.</p>
 			</div>
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" class="image">
+				<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" class="image">
 				<p class="card-content">Prowadzący pomogą Wam zbudować dobre wyobrażenie o&nbsp;pierwszych krokach w&nbsp;zawodzie, obrazując je wieloma przykładami.</p>
 			</div>
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops3.png" class="image">
+				<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops3.png" class="image">
 				<p class="card-content">Program przygotowany jest specjalnie dla młodych lekarzy. Zdziwisz się, jak wiele cennych, praktycznych informacji nie trafia do nas w&nbsp;trakcie studiów!</p>
 			</div>
 		</div>
@@ -45,7 +45,7 @@ zdrowotnej i doraźnej pomocy medycznej w stanach nagłych.
 				</div> -->
 
 				<div class="card">
-					<img src="http://kancelariatyminski.pl/cdn/upload/team_radoslaw-tyminski.jpg" class="image">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/team_radoslaw-tyminski.jpg" class="image">
 					<p class="card-title">Dr n. praw. Radosław Tymiński</p>
 					<p class="card-content" style="text-align: left;">Obrońca lekarzy w sprawach sądowych, doktor nauk prawnych, radca prawny.<br><br>Autor ponad 150 publikacji z zakresu prawa medycznego, autor strony <a href="http://prawalekarza.pl">prawalekarza.pl</a><br><br>Wykładowca Warszawskiego Uniwersytetu Medycznego i Akademii Leona Koźmińskiego w Warszawie.</p>
 				</div>

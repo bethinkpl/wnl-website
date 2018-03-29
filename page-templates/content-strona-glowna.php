@@ -67,7 +67,7 @@
 			<div class="cards">
 				<div class="card">
 					<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">
-						<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" alt="Praktyczne warsztaty" class="image big">
+						<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" alt="Praktyczne warsztaty" class="image big">
 					</a>
 					<h2 class="card-title">Praktyczne warsztaty</h2>
 					<p class="card-content alignleft">
@@ -82,7 +82,7 @@
 				</div>
 				<div class="card">
 					<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">
-						<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" alt="Najczęście zadawane pytania" class="image big">
+						<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" alt="Najczęście zadawane pytania" class="image big">
 					</a>
 					<h2 class="card-title">Masz wątpliwości?</h2>
 					<p class="card-content alignleft">

@@ -237,6 +237,10 @@ div {
 	font-weight: bold;
 	text-transform: uppercase;
 
+	&:visited {
+		color: $primary-color;
+	}
+
 	img {
 		margin-left: 15px;
 	}
@@ -427,6 +431,22 @@ div {
 
 .wrapper {
 	@include clearfix;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.flex-center-h {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-center-v {
+	display: flex;
+	align-items: center;
 }
 
 .responsive-iframe {

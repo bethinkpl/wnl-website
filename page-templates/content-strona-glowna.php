@@ -67,7 +67,7 @@
 			<div class="cards">
 				<div class="card">
 					<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">
-						<img src="https://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_02.png" alt="Praktyczne warsztaty" class="image big">
+						<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" alt="Praktyczne warsztaty" class="image big">
 					</a>
 					<h2 class="card-title">Praktyczne warsztaty</h2>
 					<p class="card-content alignleft">
@@ -75,20 +75,22 @@
 					</p>
 					<p class="alignleft">
 						<a href="<?php echo site_url('o-warsztatach') ?>" title="Czytaj więcej..." class="more">
+							Czytaj więcej
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
 						</a>
 					</p>
 				</div>
 				<div class="card">
 					<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">
-						<img src="https://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_01.png" alt="Najczęście zadawane pytania" class="image big">
+						<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" alt="Najczęście zadawane pytania" class="image big">
 					</a>
 					<h2 class="card-title">Masz wątpliwości?</h2>
 					<p class="card-content alignleft">
-						Na podstronie <a href="<?php echo site_url('o-kursie#qanda') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. :) Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
+						Na podstronie <a href="<?php echo site_url('o-kursie#qanda') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. 🙂 Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
 					</p>
 					<p class="alignleft">
 						<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">
+							Czytaj więcej
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
 						</a>
 					</p>

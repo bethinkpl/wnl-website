@@ -604,20 +604,6 @@ input[type="submit"] {
 							font-size: $small-font-size;
 							line-height: $small-line-height;
 						}
-
-						.more {
-							align-items: center;
-							color: $primary-color;
-							display: flex;
-							font-family: $primary-font;
-							font-size: $small-font-size;
-							font-weight: bold;
-							text-transform: uppercase;
-
-							img {
-								margin-left: 15px;
-							}
-						}
 					}
 				}
 			}

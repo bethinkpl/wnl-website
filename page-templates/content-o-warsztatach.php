@@ -8,15 +8,15 @@
 		<h2>Przebieg zajęć</h2>
 		<div class="cards">
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_01.png" class="image">
+				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops1.png" class="image">
 				<p class="card-content">Warsztaty są okazją do zadania pytań, na które nie znajdziesz odpowiedzi w&nbsp;książkach, zwłaszcza tych, dotyczących realiów pracy lekarza.</p>
 			</div>
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_02.png" class="image">
+				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops2.png" class="image">
 				<p class="card-content">Prowadzący pomogą Wam zbudować dobre wyobrażenie o&nbsp;pierwszych krokach w&nbsp;zawodzie, obrazując je wieloma przykładami.</p>
 			</div>
 			<div class="card">
-				<img src="http://wiecejnizlek.pl/wp-content/uploads/2016/12/ilu_kurs_przygotowanieiprzebieg_03.png" class="image">
+				<img src="http://wiecejnizlek.pl/wp-content/uploads/2018/03/ilu2_workshops3.png" class="image">
 				<p class="card-content">Program przygotowany jest specjalnie dla młodych lekarzy. Zdziwisz się, jak wiele cennych, praktycznych informacji nie trafia do nas w&nbsp;trakcie studiów!</p>
 			</div>
 		</div>

@@ -198,6 +198,10 @@ header {
 
 .page {
 
+	.more {
+		justify-content: center;
+	}
+
 	&.index {
 
 		.wrapper {
@@ -314,10 +318,6 @@ header {
 								position: static;
 								width: 100%;
 							}
-						}
-
-						.more {
-							justify-content: center;
 						}
 					}
 				}

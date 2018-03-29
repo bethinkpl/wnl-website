@@ -839,6 +839,7 @@ input[type="submit"] {
 
 		.content {
 			@include clearfix;
+			margin: 0;
 		}
 
 		.bottom {

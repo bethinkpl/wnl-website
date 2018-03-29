@@ -98,6 +98,12 @@
 				<p class="card-content">Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% kursu i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Twój sukces jest dla nas najważniejszy!</p>
 			</div>
 		</div>
+		<div class="cards">
+			<div class="card">
+				<h4 class="card-title">Przeniesienie uczestnictwa na kolejną edycję i indywidualny plan</h4>
+				<p class="card-content">Obawiasz się, że nie wyrobisz się z egzaminami do rozpoczęcia kursu? Spokojnie! Do 14 dni od rozpoczęcia edycji możesz przenieść bezpłatnie swoje uczestnictwo na kolejną lub stworzyć indywidualny plan nauki pod kątem późniejszego LEK-u.</p>
+			</div>
+		</div>
 		<p class="text-center metadata inverted">
 			W trosce o przyszłe edycje kursu, promocje nie łączą się. 😉	Więcej informacji w <a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin Serwisu" target="_blank">Regulaminie</a>.
 		</p>

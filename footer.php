@@ -98,8 +98,8 @@
 		<div class="fb-customerchat"
 			page_id="1107802549311729"
 			theme_color="#2999A3"
-			logged_in_greeting="Cześć! :) Czy możemy Ci jakoś pomóc?"
-			logged_out_greeting="Cześć! :) Czy możemy Ci jakoś pomóc?">
+			logged_in_greeting="Cześć! Czy masz jakieś pytania? :)"
+			logged_out_greeting="Cześć! Czy masz jakieś pytania? :)">
 		</div>
 
 		<script src="<?php echo get_template_directory_uri() ?>/js/vendors/validation.form.js"></script>

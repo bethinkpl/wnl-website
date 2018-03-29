@@ -528,10 +528,6 @@ input[type="submit"] {
 				color: $primary-color;
 			}
 
-			.title {
-				margin-top: 40px;
-			}
-
 			.subtitle {
 				font-size: $medium-font-size;
 				font-weight: 400;
@@ -540,15 +536,15 @@ input[type="submit"] {
 
 			.pillars {
 				text-align: left;
-				margin-top: 20px;
 
 				ul {
 
 					li {
+						box-sizing: border-box;
 						display: inline-block;
 						float: left;
+						margin-bottom: 30px;
 						width: 33.33%;
-						box-sizing: border-box;
 
 						&:nth-child(1) {
 							padding-right: 40px;
@@ -574,22 +570,17 @@ input[type="submit"] {
 						}
 
 						.image {
-							height: 320px;
 							text-align: center;
 
 							.inside {
 								display: inline-block;
-							    position: relative;
-							    z-index: 8;
-							    top: 50%;
-							    -webkit-transform: translateY(-50%);
-							    -ms-transform: translateY(-50%);
-							    transform: translateY(-50%);
-							    height: 100%;
+								position: relative;
+								z-index: 8;
+								height: 100%;
 							}
 
 							img {
-								height: 100%;
+								width: 100%;
 							}
 						}
 
@@ -602,13 +593,31 @@ input[type="submit"] {
 
 						.description {
 						    color: $primary-color;
-								font-family: $primary-font;
-						    margin-top: 15px;
+							font-family: $primary-font;
+							font-size: $minus-font-size;
+							line-height: $minus-line-height;
+
+						}
+
+						.review-author {
+							color: $dark-background;
+							font-family: $primary-font;
+							font-size: $small-font-size;
+							line-height: $small-line-height;
 						}
 
 						.more {
-							display: block;
-							margin-top: 20px;
+							align-items: center;
+							color: $primary-color;
+							display: flex;
+							font-family: $primary-font;
+							font-size: $small-font-size;
+							font-weight: bold;
+							text-transform: uppercase;
+
+							img {
+								margin-left: 15px;
+							}
 						}
 					}
 				}

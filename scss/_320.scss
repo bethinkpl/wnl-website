@@ -141,8 +141,9 @@ header {
 
 				&.fb {
 					display: inline-block;
-				    height: 100%;
-				    line-height: 100%;
+					height: 100%;
+					line-height: 100%;
+					margin-right: 15px;
 				}
 			}
 
@@ -246,7 +247,7 @@ header {
 			.wnl-front-video {
 				box-sizing: border-box;
 				height: 160px;
-				margin-top: -60px;
+				margin: -60px 0 20px;
 				padding: 0 20px;
 				width: 100%;
 			}
@@ -256,9 +257,9 @@ header {
 			}
 
 			.title {
-				margin-top: 20px;
-				font-size: $xs-medium-font-size;
-				line-height: $xs-medium-font-size;
+				font-size: $xs-medium-2-font-size;
+				line-height: $xs-medium-2-font-size;
+				margin-bottom: 20px;
 			}
 
 			.subtitle {
@@ -289,6 +290,8 @@ header {
 						.title {
 							font-size: $xs-medium-2-font-size;
 							line-height: $xs-medium-2-line-height;
+							margin: 0;
+							padding: 0;
 						}
 
 						.description {
@@ -301,19 +304,19 @@ header {
 							width: 100%;
 
 							img {
-								width: 100%;
+								width: 80%;
 							}
 
 							.inside {
-							    display: inline-block;
-							    width: 100%;
-							    position: static;
-							    z-index: none;
-							    -webkit-transform: translateY(0px);
-							    -ms-transform: translateY(0px);
-							    transform: translateY(0px);
-							    margin-bottom: 10px;
+								display: inline-block;
+								margin: 0;
+								position: static;
+								width: 100%;
 							}
+						}
+
+						.more {
+							justify-content: center;
 						}
 					}
 				}

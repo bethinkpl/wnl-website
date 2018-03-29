@@ -5,6 +5,28 @@
 		<div class="courses">
 			<div class="item first">
 				<div class="line"></div>
+				<h3>Kurs internetowy</h3>
+				<h4>1500zł</h4>
+				<!-- <p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p> -->
+				<ul class="wnl-front-options-list">
+					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
+					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
+					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
+					<li class="wnl-front-options-list-item">Baza ponad 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
+					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>
+					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
+					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
+				</ul>
+				<div class="select-product">
+					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__primary">
+						Wybieram kurs internetowy
+					</a>
+				</div>
+			</div>
+
+			<div class="item second">
+				<div class="line"></div>
 				<h3>Kurs stacjonarny</h3>
 				<h4>2000zł</h4>
 				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
@@ -35,28 +57,6 @@
 				<div class="select-product">
 					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
 						Wybieram kurs stacjonarny
-					</a>
-				</div>
-			</div>
-
-			<div class="item second">
-				<div class="line"></div>
-				<h3>Kurs internetowy</h3>
-				<h4>1500zł</h4>
-				<!-- <p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p> -->
-				<ul class="wnl-front-options-list">
-					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
-					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
-					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
-					<li class="wnl-front-options-list-item">Baza ponad 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
-					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>
-					<li class="wnl-front-options-list-item">Codzienna porcja wiedzy o efektywnym procesie nauki, która przyda się nie tylko podczas przygotowań do egzaminu!</li>
-					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
-				</ul>
-				<div class="select-product">
-					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__secondary">
-						Wybieram kurs internetowy
 					</a>
 				</div>
 			</div>

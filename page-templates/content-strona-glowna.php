@@ -14,7 +14,7 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Zapisy na kolejną edycję kursu od 3 kwietnia do 14 maja 2018!
+					Zapisy na kolejną edycję kursu ruszają 3 kwietnia 2018r. o godz. 12:00!
 				</p>
 				<!-- <p class="aligncenter">
 					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
@@ -38,12 +38,13 @@
 						<li>
 							<div class="image">
 								<div class="inside">
-									<img src="<?php the_field("courses_section_image_" . $i); ?>" alt="<?php the_field("courses_section_title_" . $i); ?>">
+									<img src="<?php echo get_template_directory_uri() . '/assets/ilustracje/ilu2_pillar' . $i . '.png' ?>" alt="<?php the_field("courses_section_title_" . $i); ?>">
 								</div>
 							</div>
 							<p class="title"><?php the_field("courses_section_title_" . $i); ?></p>
 							<p class="description"><?php the_field("courses_section_description_" . $i); ?></p>
 							<a href="<?php echo get_site_url() . '/o-zalozeniach#' . $i ?>" title="Czytaj więcej..." class="more">
+								Czytaj więcej
 								<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
 							</a>
 						</li>

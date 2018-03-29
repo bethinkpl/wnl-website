@@ -1030,10 +1030,6 @@ input[type="submit"] {
   color: #242D47;
 }
 
-.page.index .two .title {
-  margin-top: 40px;
-}
-
 .page.index .two .subtitle {
   font-size: 30px;
   font-weight: 400;
@@ -1042,14 +1038,14 @@ input[type="submit"] {
 
 .page.index .two .pillars {
   text-align: left;
-  margin-top: 20px;
 }
 
 .page.index .two .pillars ul li {
+  box-sizing: border-box;
   display: inline-block;
   float: left;
+  margin-bottom: 30px;
   width: 33.33%;
-  box-sizing: border-box;
 }
 
 .page.index .two .pillars ul li:nth-child(1) {
@@ -1076,7 +1072,6 @@ input[type="submit"] {
 }
 
 .page.index .two .pillars ul li .image {
-  height: 320px;
   text-align: center;
 }
 
@@ -1084,15 +1079,11 @@ input[type="submit"] {
   display: inline-block;
   position: relative;
   z-index: 8;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   height: 100%;
 }
 
 .page.index .two .pillars ul li .image img {
-  height: 100%;
+  width: 100%;
 }
 
 .page.index .two .pillars ul li .title {
@@ -1105,12 +1096,29 @@ input[type="submit"] {
 .page.index .two .pillars ul li .description {
   color: #242D47;
   font-family: "Poppins", sans-serif;
-  margin-top: 15px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.page.index .two .pillars ul li .review-author {
+  color: #43495a;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .page.index .two .pillars ul li .more {
-  display: block;
-  margin-top: 20px;
+  align-items: center;
+  color: #242D47;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.page.index .two .pillars ul li .more img {
+  margin-left: 15px;
 }
 
 .page.index .three {
@@ -2766,6 +2774,7 @@ footer .down .line {
     display: inline-block;
     height: 100%;
     line-height: 100%;
+    margin-right: 15px;
   }
   header .sidebar .menu .mail a {
     margin-top: 0px;
@@ -2830,7 +2839,7 @@ footer .down .line {
   .page.index .two .wnl-front-video {
     box-sizing: border-box;
     height: 160px;
-    margin-top: -60px;
+    margin: -60px 0 20px;
     padding: 0 20px;
     width: 100%;
   }
@@ -2838,9 +2847,9 @@ footer .down .line {
     padding: 0px 5%;
   }
   .page.index .two .title {
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 20px;
   }
   .page.index .two .subtitle {
     font-size: 16px;
@@ -2866,6 +2875,8 @@ footer .down .line {
   .page.index .two .pillars ul li .title {
     font-size: 22px;
     line-height: 36px;
+    margin: 0;
+    padding: 0;
   }
   .page.index .two .pillars ul li .description {
     font-size: 16px;
@@ -2876,17 +2887,16 @@ footer .down .line {
     width: 100%;
   }
   .page.index .two .pillars ul li .image img {
-    width: 100%;
+    width: 80%;
   }
   .page.index .two .pillars ul li .image .inside {
     display: inline-block;
-    width: 100%;
+    margin: 0;
     position: static;
-    z-index: none;
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
-    margin-bottom: 10px;
+    width: 100%;
+  }
+  .page.index .two .pillars ul li .more {
+    justify-content: center;
   }
   .page.index .three {
     padding-bottom: 80px;
@@ -3583,6 +3593,7 @@ footer .down .line {
     display: inline-block;
     height: 100%;
     line-height: 100%;
+    margin-right: 15px;
   }
   header .sidebar .menu .mail a {
     margin-top: 0px;
@@ -3655,9 +3666,6 @@ footer .down .line {
   .page.index .two .wrapper {
     padding: 0px 5%;
   }
-  .page.index .two .title {
-    margin-top: 80px;
-  }
   .page.index .two .pillars {
     margin-top: 80px;
   }
@@ -3680,7 +3688,7 @@ footer .down .line {
     width: 100%;
   }
   .page.index .two .pillars ul li .image img {
-    width: 100%;
+    width: 50%;
   }
   .page.index .two .pillars ul li .image .inside {
     display: inline-block;
@@ -3691,6 +3699,9 @@ footer .down .line {
     -ms-transform: translateY(0px);
     transform: translateY(0px);
     margin-bottom: 10px;
+  }
+  .page.index .two .pillars ul li .more {
+    justify-content: center;
   }
   .page.index .three {
     padding-bottom: 80px;

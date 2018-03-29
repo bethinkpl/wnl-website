@@ -259,12 +259,13 @@ header {
 			.title {
 				font-size: $xs-medium-2-font-size;
 				line-height: $xs-medium-2-font-size;
-				margin-bottom: 20px;
+				margin: 0;
 			}
 
 			.subtitle {
 				font-size: $xs-normal-font-size;
 				line-height: $xs-normal-line-height;
+				margin-bottom: 30px;
 			}
 
 			.pillars {
@@ -327,7 +328,7 @@ header {
 			padding-bottom: 80px;
 
 			.title {
-				margin-top: 80px;
+				margin-top: 20px;
 			}
 
 			.wrapper {
@@ -335,7 +336,7 @@ header {
 			}
 
 			.courses {
-				margin-top: 80px;
+				margin-top: 10px;
 
 				.item {
 					width: 100%;

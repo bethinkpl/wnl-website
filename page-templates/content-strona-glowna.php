@@ -32,6 +32,7 @@
 		</div>
 		<div class="wrapper">
 			<h2 class="title"><?php the_field("courses_title"); ?></h2>
+			<h3 class="subtitle"><?php the_field("courses_subtitle"); ?></h3>
 			<div class="pillars">
 				<ul class="pillars-list">
 					<?php for ($i = 1; $i <= 5; $i++) : ?>
@@ -51,6 +52,11 @@
 					<?php endfor; ?>
 				</ul>
 			</div>
+		</div>
+		<div class="wrapper">
+			<a href="https://facebook.com/wiecejnizlek/reviews" class="button button__secondary more-reviews" target="_blank">
+				Sprawdź więcej recenzji
+			</a>
 		</div>
 	</div>
 

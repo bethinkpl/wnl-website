@@ -1031,9 +1031,8 @@ input[type="submit"] {
 }
 
 .page.index .two .subtitle {
-  font-size: 30px;
   font-weight: 400;
-  margin-top: 20px;
+  padding-top: 0;
 }
 
 .page.index .two .pillars {
@@ -1119,6 +1118,10 @@ input[type="submit"] {
 
 .page.index .two .pillars ul li .more img {
   margin-left: 15px;
+}
+
+.page.index .two .more-reviews {
+  margin-top: 30px;
 }
 
 .page.index .three {
@@ -2849,11 +2852,12 @@ footer .down .line {
   .page.index .two .title {
     font-size: 22px;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin: 0;
   }
   .page.index .two .subtitle {
     font-size: 16px;
     line-height: 28px;
+    margin-bottom: 30px;
   }
   .page.index .two .pillars {
     margin-top: 0;
@@ -2902,13 +2906,13 @@ footer .down .line {
     padding-bottom: 80px;
   }
   .page.index .three .title {
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .page.index .three .wrapper {
     padding: 0px 5%;
   }
   .page.index .three .courses {
-    margin-top: 80px;
+    margin-top: 10px;
   }
   .page.index .three .courses .item {
     width: 100%;
@@ -3665,6 +3669,12 @@ footer .down .line {
   }
   .page.index .two .wrapper {
     padding: 0px 5%;
+  }
+  .page.index .two .wrapper .title {
+    margin: 0;
+  }
+  .page.index .two .wrapper .subtitle {
+    padding: 0;
   }
   .page.index .two .pillars {
     margin-top: 80px;

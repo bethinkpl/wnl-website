@@ -10,8 +10,9 @@
 				<!-- <p class="metadata">1300zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
 					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
-					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+					<li class="wnl-front-options-list-item">Stała opieka moderatorów, którzy dbają o to, aby na każde pytanie pojawiła się odpowiedź!</li>
+					<li class="wnl-front-options-list-item">Gotowy, ale elastyczny plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych, który możesz dostosować do swoich potrzeb!</li>
+					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza ponad 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>
@@ -32,8 +33,9 @@
 				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
 					<li class="wnl-front-options-list-item">Uczestnictwo w 14-tygodniowym kursie internetowym - dostęp do jedynego wirtualnego pokoju nauki do LEK-u, wspierającego łatwe dzielenie się wiedzą (czat, system pytań i odpowiedzi, prywatne wiadomości)</li>
-					<li class="wnl-front-options-list-item">Gotowy, zsynchronizowany plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych</li>
-					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować wszystkich podręczników!</li>
+					<li class="wnl-front-options-list-item">Stała opieka moderatorów, którzy dbają o to, aby na każde pytanie pojawiła się odpowiedź!</li>
+					<li class="wnl-front-options-list-item">Gotowy, ale elastyczny plan pracy, uwzględniający powtórki i rozwiązywanie pytań - 60 dni lekcyjnych, który możesz dostosować do swoich potrzeb!</li>
+					<li class="wnl-front-options-list-item">Ponad 15 tysięcy slajdów w estetycznych i funkcjonalnych prezentacjach - z nami nie musisz kupować podręczników!</li>
 					<li class="wnl-front-options-list-item">Autorskie materiały ułatwiające notowanie, powtórki i systematyzację wiedzy (przesyłka kurierska w cenie)</li>
 					<li class="wnl-front-options-list-item">Baza ponad 3500 pytań do LEK-u w cenie! System ułatwiający powtarzanie najtrudniejszych pytań i łatwe przerobienie wszystkich!</li>
 					<li class="wnl-front-options-list-item">2500 pytań otwartych pomagających na bieżąco weryfikować wiedzę!</li>

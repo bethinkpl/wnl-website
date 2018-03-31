@@ -58,7 +58,31 @@
 				Sprawdź więcej recenzji
 			</a>
 		</div>
+		<div class="wrapper" style="margin-top: 60px;">
+			<h2 class="title">Skąd wiemy, że nasz kurs działa?</h2>
+			<h3 class="subtitle">Jako jedyni zbieramy i publikujemy wyniki naszych kursantów!</h3>
+			<div class="cards">
+				<div class="card">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-1.png" alt="Średnie wyniki i zdawalność" class="image full-width">
+					<h2 class="card-title">Średnie wyniki i zdawalność</h2>
+					<p class="card-content alignleft">
+						Kończący kurs zdają LEK średnio <strong>o 5-6 punktów procentowych wyżej</strong>, niż reszta kraju! Jednocześnie <strong>tylko 2-3% z nich nie zdaje</strong> egzaminu, w kraju to około 15%.
+					</p>
+				</div>
+				<div class="card">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-2.png" alt="Wyniki powyżej 70% i 80%" class="image full-width">
+					<h2 class="card-title">Wyniki powyżej 70% i 80%</h2>
+					<p class="card-content alignleft">
+						Wyników <strong>powyżej 70% i powyżej 80% - jest niemal dwukrotnie więcej</strong> wśród naszych absolwentów, niż wśród pozostałych zdających!
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<!-- <div class="section" style="padding: 30px 0;">
+
+	</div> -->
 
 	<?php get_template_part( 'page-templates/content', 'products' ); ?>
 

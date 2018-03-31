@@ -304,6 +304,11 @@ div {
 		min-height: 170px;
 		max-height: 170px;
 		margin: 0 auto;
+
+		&.full-width {
+			max-height: none;
+			max-width: 100%;
+		}
 	}
 
 	.big-number {

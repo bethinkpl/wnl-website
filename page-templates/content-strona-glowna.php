@@ -131,6 +131,13 @@
 
 	<div class="section five">
 		<div class="wrapper">
+			<p class="title">Mapy myśli naszych uczestników</p>
+			<p class="subtitle">Odryj naukę na nowo z albumem 150 map myśli, przygotowanych do notowania <small>(w cenie kursu)</small>! Kliknij na zdjęcia i zainspiruj się twórczością naszych uczestników. 🙂</p>
+			<div class="gallery">
+				<?php photo_gallery(2); ?>
+			</div>
+		</div>
+		<div class="wrapper">
 			<p class="title">
 				<?php the_field("blog_title"); ?>
 			</p>

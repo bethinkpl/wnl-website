@@ -97,6 +97,10 @@ strong {
 	font-weight: 600;
 }
 
+small {
+	font-size: 0.6em;
+}
+
 a,
 a:visited {
 	color: $green-color;
@@ -327,6 +331,10 @@ div {
 }
 
 // Auxilliary classes
+
+.gallery {
+	margin: 20px 0 60px;
+}
 
 .inverted {
 	color: $white-color;

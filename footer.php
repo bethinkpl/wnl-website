@@ -15,7 +15,9 @@
 						<ul class="wnl-footer-legal">
 							<li><a href="<?php echo site_url('/cennik'); ?>" title="Cennik">Cennik</a></li>
 							<li><a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin" target="_blank">Regulamin</a></li>
-							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji" target="_blank">Regulamin promocji</a></li>
+							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji" target="_blank">Regulamin promocji "Study Buddy"</a></li>
+							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulamin promocji "Uczestnik poprzedniej edycji"</a></li>
+							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulamin promocji "Zniżki grupowe"</a></li>
 							<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 							<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 						</ul>
@@ -62,6 +64,7 @@
 						<li><a href="<?php echo site_url('/documents/RegulaminSerwisuWiecejnizlekPl.pdf'); ?>" title="Regulamin" target="_blank">Regulamin</a></li>
 						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulamin promocji "Study Buddy"</a></li>
 						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulamin promocji "Uczestnik poprzedniej edycji"</a></li>
+						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulamin promocji "Zniżki grupowe"</a></li>
 						<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 						<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 					</ul>

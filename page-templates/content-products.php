@@ -66,8 +66,8 @@
 		</div>
 		<div class="cards">
 			<div class="card">
-				<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
-				<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
+				<h4 class="card-title">Gwarancja satysfakcji</h4>
+				<p class="card-content">Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% kursu i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Twój sukces jest dla nas najważniejszy!</p>
 			</div>
 			<div class="card">
 				<h4 class="card-title">50% zniżki na kolejne edycje</h4>
@@ -79,11 +79,8 @@
 		</div>
 		<div class="cards">
 			<div class="card">
-				<h4 class="card-title">Promocja "Study Buddy"</h4>
-				<p class="card-content">
-					Znajdź partnera do wspólnej nauki, a obydwoje otrzymacie 100zł zniżki! Zapisz się na kurs bez innych promocji, a otrzymasz unikalny kod. Przekaż go znajomej osobie, aby skorzystała ze zniżki! Po opłaceniu jej zamówienia Tobie również naliczy się rabat!<br>
-					Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>
-				</p>
+				<h4 class="card-title">Refundacja z Izby Lekarskiej</h4>
+				<p class="card-content">Jeżeli Twoja Izba Lekarska zapewnia budżet na szkolenia pozastażowe, możesz z niego refundować nasz kurs!</p>
 			</div>
 			<div class="card">
 				<h4 class="card-title">Płatność w ratach</h4>
@@ -92,15 +89,26 @@
 		</div>
 		<div class="cards">
 			<div class="card">
+				<h4 class="card-title">Promocja "Study Buddy"</h4>
+				<p class="card-content">
+					Znajdź partnera do wspólnej nauki, a obydwoje otrzymacie 100zł zniżki! Zapisz się na kurs bez innych promocji, a otrzymasz unikalny kod. Przekaż go znajomej osobie, aby skorzystała ze zniżki! Po opłaceniu jej zamówienia Tobie również naliczy się rabat!<br>
+					Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>
+				</p>
+			</div>
+			<div class="card">
+				<h4 class="card-title">Zniżka grupowa</h4>
+				<p class="card-content">
+					Study Buddy to za mało? Znajdź grupę 10-30 osób chętnych na kurs! Wyślijcie do nas listę maili, a otrzymacie 10% kod zniżkowy, z którego wszyscy będziecie mogli skorzystać! Jeżeli zapisze się Was co najmniej 10 - zniżka zostanie utrzymana. 🎉<br>
+					Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulaminie Promocji "Zniżki grupowe"</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="cards">
+			<div class="card">
 				<h4 class="card-title">Rezygnacja do 7 dni</h4>
 				<p class="card-content">Obawiasz się, że kurs Ci się nie spodoba? Przez pierwsze 7 dni możesz zrezygnować i odzyskać 50% wpłaty bez żadnych wyjaśnień!</p>
 			</div>
-			<div class="card">
-				<h4 class="card-title">Gwarancja satysfakcji</h4>
-				<p class="card-content">Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% kursu i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty. Twój sukces jest dla nas najważniejszy!</p>
-			</div>
-		</div>
-		<div class="cards">
 			<div class="card">
 				<h4 class="card-title">Przeniesienie uczestnictwa na kolejną edycję i indywidualny plan</h4>
 				<p class="card-content">Obawiasz się, że nie wyrobisz się z egzaminami do rozpoczęcia kursu? Spokojnie! Do 14 dni od rozpoczęcia edycji możesz przenieść bezpłatnie swoje uczestnictwo na kolejną lub stworzyć indywidualny plan nauki pod kątem późniejszego LEK-u.</p>

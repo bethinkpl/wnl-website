@@ -117,7 +117,7 @@
 				Collegium Da Vinci</br>
 				ul. Gen. T. Kutrzeby 10</br>
 				61-719 Poznań<br>
-				<strong>Sala N202</strong>
+				<strong>Sala N205</strong>
 			</div>
 
 			<?php #get_template_part( 'page-templates/content', 'recirculation' ); ?>

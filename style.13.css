@@ -162,6 +162,10 @@ strong {
   font-weight: 600;
 }
 
+small {
+  font-size: 0.6em;
+}
+
 a,
 a:visited {
   color: #2999A3;
@@ -391,6 +395,10 @@ div {
   width: 4rem;
 }
 
+.gallery {
+  margin: 20px 0 60px;
+}
+
 .inverted {
   color: #FFFFFF;
 }
@@ -537,6 +545,11 @@ div {
 
 .paddingless {
   padding: 0;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
 }
 
 html, body {
@@ -1294,7 +1307,7 @@ input[type="submit"] {
 }
 
 .page.index .five .title {
-  margin-top: 120px;
+  margin-top: 30px;
 }
 
 .page.index .five .subtitle {
@@ -1302,7 +1315,7 @@ input[type="submit"] {
 }
 
 .page.index .five .posts {
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .page.index .five .posts ul li {
@@ -2985,7 +2998,7 @@ footer .down .line {
     padding: 0px 5%;
   }
   .page.index .five .title {
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .page.index .five .posts {
     margin-top: 0px;
@@ -3790,7 +3803,7 @@ footer .down .line {
     padding: 0px 5%;
   }
   .page.index .five .title {
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .page.index .five .posts {
     margin-top: 0px;

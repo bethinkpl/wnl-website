@@ -47,29 +47,41 @@ zdrowotnej i doraźnej pomocy medycznej w stanach nagłych.
 				<div class="card">
 					<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/03/team_radoslaw-tyminski.jpg" class="image">
 					<p class="card-title">Dr n. praw. Radosław Tymiński</p>
-					<p class="card-content" style="text-align: left;">Obrońca lekarzy w sprawach sądowych, doktor nauk prawnych, radca prawny.<br><br>Autor ponad 150 publikacji z zakresu prawa medycznego, autor strony <a href="http://prawalekarza.pl">prawalekarza.pl</a><br><br>Wykładowca Warszawskiego Uniwersytetu Medycznego i Akademii Leona Koźmińskiego w Warszawie.</p>
+					<p class="card-content" style="text-align: left;">
+						Obrońca lekarzy w sprawach sądowych, doktor nauk prawnych, radca prawny.<br>Autor ponad 150 publikacji z zakresu prawa medycznego, autor strony <a href="http://prawalekarza.pl">prawalekarza.pl</a><br>Wykładowca Warszawskiego Uniwersytetu Medycznego i Akademii Leona Koźmińskiego w Warszawie.</p>
 				</div>
+				<div class="card">
+					<img src="https://wiecejnizlek.pl/wp-content/uploads/workshops/j-tyminska.jpg" class="image">
+					<p class="card-title">Dr n. med. Justyna Tymińska</p>
+					<p class="card-content" style="text-align: left;">
+						Stopień doktora nauk medycznych uzyskała w oparciu o rozprawę pt. „Informacja lekarska na temat zalecanego szczepienia przeciwko pneumokokom a decyzja rodziców”.<br/>
+						Jest autorką publikacji naukowych głównie na temat szczepień oraz komunikacji.<br/>
+						Prowadzi szkolenia i wykłady zarówno dla lekarzy jak i dla rodziców.
+					</p>
+				</div>
+			</div>
+			<div class="cards">
 				<div class="card">
 					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/Michał-Szemień.jpg" class="image">
 					<p class="card-title">lek. Michał Szemień</p>
-					<p class="card-content" style="text-align: left;">Rezydent medycyny ratunkowej w Szpitalnym Oddziale Ratunkowym Centrum urazowego  Wielospecjalistycznym Szpitalu Miejskim im. J. Strusia w Poznaniu.<br>
-<br>
-Koordynator ds. Wydziału Lekarskiego I, Zakładu Medycyny Ratunkowej UM w Poznaniu.<br>
-<br>
-Instruktor europejskiej rady resuscytacji z zakresu BLS, EPALS, ALS i ETC.<br>
-Emergency Point-of-Care Ultrasonography Provider.
-</p>
+					<p class="card-content" style="text-align: left;">Rezydent medycyny ratunkowej w Szpitalnym Oddziale Ratunkowym Centrum urazowego  Wielospecjalistycznym Szpitalu Miejskim im. J. Strusia w Poznaniu.
+						<br>
+						Koordynator ds. Wydziału Lekarskiego I, Zakładu Medycyny Ratunkowej UM w Poznaniu.
+						<br>
+						Instruktor europejskiej rady resuscytacji z zakresu BLS, EPALS, ALS i ETC.
+						Emergency Point-of-Care Ultrasonography Provider.
+						</p>
 				</div>
 				<div class="card">
 					<img src="https://wiecejnizlek.pl/wp-content/uploads/2017/04/FullSizeRender.jpg" class="image">
 					<p class="card-title">lek. Dariusz Chrapek</p>
 					<p class="card-content" style="text-align: left;">Absolwent UM im. Karola Marcinkowskiego w Poznaniu z 2015 roku.
-Lekarz w trakcie specjalizacji z medycyny rodzinnej.<br>
+Lekarz w trakcie specjalizacji z medycyny rodzinnej.
 <br>
-W trakcie studiów zainteresował się procesem nauczania. Pełnił przez rok funkcję Asystenta Lokalnego Koordynatora ds. Edukacji Medycznej w IFMSA Poznań.<br><br>
-Reprezentował uczelnie w zespołowych zawodach SIMOLIMPIC w 2015 roku.<br><br>
+W trakcie studiów zainteresował się procesem nauczania. Pełnił przez rok funkcję Asystenta Lokalnego Koordynatora ds. Edukacji Medycznej w IFMSA Poznań.<br>
+Reprezentował uczelnię w zespołowych zawodach SIMOLIMPIC w 2015 roku.<br>
 
-Na kursie odpowiedzialny jest za metodologię nauki, konstrukcję programu kursu oraz wykorzystanie nowych technologii w nauce medycyny.<br><br>
+Na kursie odpowiedzialny jest za metodologię nauki, konstrukcję programu kursu oraz wykorzystanie nowych technologii w nauce medycyny.<br>
 
 Współzałożyciel projektu “Więcej niż LEK”</p>
 				</div>
@@ -114,7 +126,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<div class="big-number">1</div>
 					<p class="card-title">Wprowadzenie do kursu</p>
 					<div class="metadata">9 czerwca 2018, 11:00</div>
-					<div class="card-subtitle">Prowadzi Daro</div>
+					<div class="card-subtitle">lek. Dariusz Chrapek</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Wprowadzenie do kursu</li>
@@ -153,7 +165,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<div class="big-number">2</div>
 					<p class="card-title">Prawo medyczne</p>
 					<div class="metadata">21 lipca 2018, 11:00</div>
-					<div class="card-subtitle">Prowadzi dr n. praw. Radosław Tymiński</div>
+					<div class="card-subtitle">dr n. praw. Radosław Tymiński oraz dr n. med. Justyna Tymińska</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Uwarunkowania wykonywania zawodu lekarza w 2018r.</li>
@@ -181,7 +193,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<div class="big-number">3</div>
 					<p class="card-title">Stany nagłe</p>
 					<div class="metadata">25 sierpnia 2018, 11:00</div>
-					<div class="card-subtitle">Prowadzi lek. Michał Szemień</div>
+					<div class="card-subtitle">lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Przypadki + diagnostyka różnicowa</li>
@@ -194,7 +206,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 					<div class="big-number">4</div>
 					<p class="card-title">Co po LEK-u?</p>
 					<div class="metadata">6 października 2018, 10:00</div>
-					<div class="card-subtitle">Prowadzi Daro</div>
+					<div class="card-subtitle">lek. Dariusz Chrapek</div>
 					<p class="card-content">
 						<ul class="card-content-list">
 							<li>Perspektywy zawodowe</li>

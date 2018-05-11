@@ -41,7 +41,7 @@
         ?>
 
         <title><?php wp_title(); ?></title>
-		<?php $cssVersion=13; ?>
+		<?php $cssVersion=14; ?>
         <link rel="stylesheet" href="<?php echo sprintf('%s/style.%d.css', get_stylesheet_directory_uri(), $cssVersion) ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/assets/favicon.png" />

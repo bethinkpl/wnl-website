@@ -215,6 +215,10 @@ header {
 	width: 100%;
 	z-index: 51;
 
+	.wrapper {
+		padding: 0 5%;
+	}
+
 	.logo, .desktop, .mail {
 		display: inline-block;
 		float: left;

@@ -18,7 +18,7 @@
 							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji" target="_blank">Regulamin promocji "Study Buddy"</a></li>
 							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulamin promocji "Uczestnik poprzedniej edycji"</a></li>
 							<li><a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulamin promocji "Zniżki grupowe"</a></li>
-							<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
+							<li><a href="<?php echo site_url('/documents/PolitykaPrywatnosciWiecejNizLEK.pdf'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 							<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 						</ul>
 					</div>
@@ -79,9 +79,9 @@
 		<div id="regulations">
 			<div class="inside">
 				<div class="in">
-					<p class="title">Musimy zapytać…</p>
-					<p class="subtitle">
-						Czy wyrażasz zgode na przetwarzanie Twoich danych przez bethink s.c. w celu dostarczania informacji handlowych, czyli informacji o rozpoczęciu kursu, nowych wpisach na blogu, oraz aktualności dotyczących kursu “Więcej niż LEK”?
+					<p class="title">Prosimy o zgodę…</p>
+					<p class="small" style="text-align: left;">
+						Chcę się zapisać na newsletter. Usługa newsletter jest dobrowolna, nieodpłatna i w każdej chwili możesz z niej zrezygnować kontaktując się z nami pisemnie na adres ul. Henryka Sienkiewicza 8/1, 60-817 Poznań, mailowo na adres: info@wiecejnizlek.pl lub klikając w stosowny link w otrzymywanych w ramach newslettera wiadomościach. W ramach newslettera będziesz otrzymywał od nas na podany adres poczty elektronicznej (e-mail) cykliczne informacje o nowościach i aktualnościach dotyczących Serwisu Internetowego oraz Usług Elektronicznych, w tym Kursu Internetowego. Usługodawcą i administratorem danych osobowych (imię i adres poczty elektronicznej) przetwarzanych w związku newsletterem jest BETHINK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ul. Henryka Sienkiewicza 8/1, 60-817 Poznań). W przypadku pytań dotyczących newslettera prosimy o kontakt z administratorem - pisemnie na adres ul. Henryka Sienkiewicza 8/1, 60-817 Poznań, mailowo na adres: info@wiecejnizlek.pl Zasady korzystania z newslettera określa regulamin Serwisu. Dane osobowe przetwarzane są zgodnie z <a target="_blank" href="https://wiecejnizlek.pl/documents/PolitykaPrywatnosciWiecejNizLEK.pdf">Polityką Prywatności Serwisu</a>. Zachęcamy do zapoznania się z tymi dokumentami przed zapisaniem się na newsletter.
 					</p>
 					<div class="accept">
 						<a href="#" title="">

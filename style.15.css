@@ -162,9 +162,9 @@ strong {
   font-weight: 600;
 }
 
-small {
+small, .small {
   font-size: 0.6em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 a,
@@ -686,6 +686,18 @@ html, body {
   border-color: #FFFFFF;
 }
 
+.cookies-approval {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cookies-approval a,
+.cookies-approval a:hover,
+.cookies-approval a:visited {
+  color: #2999A3;
+}
+
 #regulations {
   display: none;
   float: left;
@@ -714,6 +726,8 @@ html, body {
   background-color: #FFFFFF;
   padding: 80px;
   box-sizing: border-box;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 #regulations .inside .in .title, #regulations .inside .in .subtitle {

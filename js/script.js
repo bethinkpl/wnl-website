@@ -286,7 +286,7 @@ function subscribe() {
 
 $('.signin input[name="EMAIL"]').on('keyup change paste input', function(e){
     var value = $(this).val();
-    console.log(checkValid(value));
+
     $(this).attr({'data-is-valid': checkValid(value)});
 
     if (!checkValid(value)) {

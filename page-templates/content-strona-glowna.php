@@ -14,13 +14,13 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Zapisy na kolejną edycję kursu ruszają 3 kwietnia 2018r. o godz. 12:00!
+					Kurs wystartował 9 czerwca! Są jeszcze ostatnie wolne miejsca!
 				</p>
-				<!-- <p class="aligncenter">
+				<p class="aligncenter">
 					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 						Zapisz się!
 					</a>
-				</p> -->
+				</p>
 			</div>
 		</div>
 		<div class="white-shadow bottom"></div>

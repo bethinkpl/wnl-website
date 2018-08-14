@@ -86,8 +86,11 @@
 							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
 							</a> -->
-							<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+							<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 								Zapisz się!
+							</a> -->
+							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
+								Zarezerwuj!
 							</a>
 						</div>
 
@@ -105,8 +108,11 @@
 							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
 							</a> -->
-							<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+							<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 								Zapisz się!
+							</a> -->
+							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
+								Zarezerwuj!
 							</a>
 						</div>
 					</div>
@@ -136,8 +142,11 @@
 						<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 							Platforma
 						</a> -->
-						<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+						<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 							Zapisz się!
+						</a> -->
+						<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
+							Zarezerwuj!
 						</a>
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>

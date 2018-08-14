@@ -14,11 +14,12 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Kurs wystartował 9 czerwca! Są jeszcze ostatnie wolne miejsca!
+					Myślisz o 4. edycji kursu? Zarezerwuj miejsce już dziś!
 				</p>
 				<p class="aligncenter">
-					<a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
-						Zapisz się!
+					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary"> -->
+					<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
+						Zarezerwuj!
 					</a>
 				</p>
 			</div>
@@ -31,8 +32,8 @@
 			<iframe src="https://player.vimeo.com/video/205572663?byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<div class="wrapper">
-			<h2 class="title"><?php the_field("courses_title"); ?></h2>
-			<h3 class="subtitle"><?php the_field("courses_subtitle"); ?></h3>
+			<h2 class="title">Dlaczego nasz kurs działa?</h2>
+			<h3 class="subtitle">O 5 filarach kursu najlepiej opowiedzą sami uczestnicy! W końcu co 4 lekarz w kraju uczy się do LEK-u razem z nami!</h3>
 			<div class="pillars">
 				<ul class="pillars-list">
 					<?php for ($i = 1; $i <= 5; $i++) : ?>

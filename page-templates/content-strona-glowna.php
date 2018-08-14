@@ -14,7 +14,7 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Myślisz o 4. edycji kursu? Zarezerwuj miejsce już dziś!
+					Myślisz o 4. edycji kursu? Zarezerwuj miejsce już dziś! Zapisy ruszają 25 września!
 				</p>
 				<p class="aligncenter">
 					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary"> -->

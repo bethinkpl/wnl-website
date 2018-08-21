@@ -138,13 +138,13 @@ header {
 			}
 
 			.mail {
-				// width: 100%;
-				// height: 60px;
-				// margin-top: 40px;
+				display: block;
+				margin: 0 0 20px 0;
 
-				a {
-					margin-top: 0px;
+				.button {
+					display: block;
 					font-size: $small-font-size;
+					margin: 0;
 				}
 			}
 		}
@@ -203,15 +203,24 @@ header {
 			height: 550px;
 
 			.inside {
-				padding: 220px 0 0;
+				padding: 200px 0 0;
+
+				.wnl-front-title {
+					padding-bottom: 5px;
+				}
 
 				.subtitle {
 					font-size: $small-font-size;
 					margin-top: 0;
+					padding-bottom: 5px;
 
 					span.line {
 						width: 10px;
 					}
+				}
+
+				.metadata {
+					padding: 5px 0;
 				}
 			}
 		}

@@ -41,7 +41,7 @@
         ?>
 
         <title><?php wp_title(); ?></title>
-		<?php $cssVersion=15; ?>
+		<?php $cssVersion=16; ?>
         <link rel="stylesheet" href="<?php echo sprintf('%s/style.%d.css', get_stylesheet_directory_uri(), $cssVersion) ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/assets/favicon.png" />
@@ -82,39 +82,29 @@
 					</div>
 
 					<div class="bag">
-						<div class="mail">
-							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
-								Platforma
-							</a> -->
-							<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
-								Zapisz się!
-							</a> -->
-							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
-								Zarezerwuj!
-							</a>
-						</div>
-
 						<a href="" class="close"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/exit.svg" alt="Zamknij menu" /></a>
 					</div>
 
 					<div class="menu">
-						<?php wp_nav_menu( array(
-						    'menu' => 'mobile_menu'
-						) ); ?>
-						<a href="https://facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
-						<a href="https://instagram.com/wiecejnizlek" title="Profil Więcej niż LEK na Instagram" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
-						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
 						<div class="mail">
 							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
-							</a> -->
-							<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+								</a> -->
+								<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
 								Zapisz się!
 							</a> -->
 							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 								Zarezerwuj!
 							</a>
 						</div>
+
+						<?php wp_nav_menu( array(
+						    'menu' => 'mobile_menu'
+						) ); ?>
+
+						<a href="https://facebook.com/wiecejnizlek" title="Profil Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
+						<a href="https://instagram.com/wiecejnizlek" title="Profil Więcej niż LEK na Instagram" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
+						<div class="fb-like" data-href="https://facebook.com/wiecejnizlek" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
 					</div>
 				</div>
 			</div>

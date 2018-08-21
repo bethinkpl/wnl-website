@@ -94,6 +94,17 @@ header {
 				    line-height: 100%;
 				}
 			}
+
+			.mail {
+				display: block;
+				margin: 0 0 20px 0;
+
+				.button {
+					display: block;
+					font-size: $small-font-size;
+					margin: 0;
+				}
+			}
 		}
 	}
 }
@@ -134,7 +145,7 @@ header {
 		.two {
 
 			.wnl-front-video {
-				margin-top: -140px;
+				margin-top: -80px;
 			}
 
 			.pillars {

@@ -258,6 +258,10 @@ div {
 	flex-flow: row wrap;
 	justify-content: space-around;
 
+	&.align-center {
+		align-items: center;
+	}
+
 	.card {
 		flex: 1 1 auto;
 		margin: 10px 20px;
@@ -269,6 +273,10 @@ div {
 			border-radius: 5px;
 			box-shadow: $card-box-shadow;
 			margin-bottom: 30px;
+		}
+
+		&.alignleft {
+			text-align: left;
 		}
 	}
 
@@ -313,6 +321,21 @@ div {
 		&.full-width {
 			max-height: none;
 			max-width: 100%;
+		}
+	}
+
+	.video-embed {
+		height: 0;
+		padding-bottom: 56.25%;
+		position: relative;
+		width: 100%;
+
+		iframe {
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
 		}
 	}
 

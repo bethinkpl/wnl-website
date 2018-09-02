@@ -1054,6 +1054,14 @@ input[type="submit"] {
 		}
 	}
 
+	&.album {
+		margin-top: 80px;
+
+		.album-slogan {
+
+		}
+	}
+
 	&.course {
 		margin-top: 120px;
 
@@ -1536,6 +1544,12 @@ input[type="submit"] {
 		}
 	}
 
+	&.album {
+		.album-slogan {
+
+		}
+	}
+
 	&.about {
 
 		.wrapper {
@@ -1657,6 +1671,40 @@ input[type="submit"] {
 		    text-align: center;
 		    padding-top: 40px;
 		    padding-bottom: 80px;
+		}
+	}
+
+	&.album {
+		.album-slogan {
+			font-size: $large-font-size;
+			line-height: $large-line-height;
+
+			& * {
+				display: block;
+			}
+
+			.slogan-image {
+				color: $green-color;
+			}
+
+			.slogan-plus {
+
+			}
+
+			.slogan-action {
+				color: $color-orange;
+			}
+
+			.slogan-equals {
+				color: $color-purple;
+			}
+		}
+
+		.album-scheme {
+			img {
+				height: 400px;
+				width: auto;
+			}
 		}
 	}
 

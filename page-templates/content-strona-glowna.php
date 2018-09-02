@@ -124,11 +124,11 @@
 		</div>
 	</div>
 
-	<!-- <div class="section">
+	<div class="section">
 		<div class="wrapper">
-			<?php // get_template_part( 'page-templates/content', 'recirculation' ); ?>
+			<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="section five">
 		<div class="wrapper">

@@ -64,26 +64,57 @@
 			<h3 class="subtitle">Jako jedyni zbieramy i publikujemy wyniki naszych kursantów!</h3>
 			<div class="cards">
 				<div class="card">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-1.png" alt="Średnie wyniki i zdawalność" class="image full-width">
 					<h2 class="card-title">Średnie wyniki i zdawalność</h2>
 					<p class="card-content alignleft">
 						Kończący kurs zdają LEK średnio <strong>o 5-6 punktów procentowych wyżej</strong>, niż reszta kraju! Jednocześnie <strong>tylko 2-3% z nich nie zdaje</strong> egzaminu, w kraju to około 15%.
 					</p>
+					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-1.png" alt="Średnie wyniki i zdawalność" class="image full-width">
 				</div>
 				<div class="card">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-2.png" alt="Wyniki powyżej 70% i 80%" class="image full-width">
 					<h2 class="card-title">Wyniki powyżej 70% i 80%</h2>
 					<p class="card-content alignleft">
-						Wyników <strong>powyżej 70% i powyżej 80% - jest niemal dwukrotnie więcej</strong> wśród naszych absolwentów, niż wśród pozostałych zdających!
+						Wyników <strong>powyżej 70% i powyżej 80%</strong> jest niemal <strong>dwukrotnie więcej</strong> wśród naszych absolwentów, niż wśród pozostałych zdających!
 					</p>
+					<img src="<?php echo get_template_directory_uri() ?>/assets/chart-2.png" alt="Wyniki powyżej 70% i 80%" class="image full-width">
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper" style="margin-top: 60px;">
+			<h2 class="title">Nowy album map myśli</h2>
+			<h3 class="subtitle">Poznaj najefektywniejszy sposób notowania!</h3>
+			<div class="cards align-center">
+				<div class="card">
+					<a href="<?php echo get_site_url() ?>/album">
+						<img src="https://wiecejnizlek.pl/wp-content/uploads/2018/09/map6-1.jpg" class="image full-width" alt="Mapa myśli - Choroby śródmiąższowe płuc">
+					</a>
+				</div>
+				<div class="card alignleft">
+					<div class="card-content">
+						<div>
+							Efektywna nauka wymaga systematyzacji wiedzy. W tym pomoże Ci album map myśli, który stworzyliśmy specjalnie dla kursu do LEK-u.
+						</div>
+						<p>
+							Ponad <strong>150 map</strong>, <strong>400 rysunków</strong> i <strong>300 nagrań</strong> audio stworzy w Twojej głowie liczne skojarzenia, które zostaną Ci pamięci na długie lata!
+						</p>
+						<div>
+							<strong>
+								Spróbuj i sprawdź jak łatwo przywołać w pamięci skojarzenie z nagrania poniżej!
+							</strong>
+						</div>
+						<p>
+							<iframe width="100%" height="160" src="https://clyp.it/mbzky4s2/widget" frameborder="0"></iframe>
+						</p>
+						<p>
+							<a href="<?php echo get_site_url() ?>/album" class="button button__secondary">
+								Przeczytaj więcej
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- <div class="section" style="padding: 30px 0;">
-
-	</div> -->
 
 	<?php get_template_part( 'page-templates/content', 'products' ); ?>
 
@@ -131,13 +162,6 @@
 	</div>
 
 	<div class="section five">
-		<div class="wrapper">
-			<p class="title">Mapy myśli naszych uczestników</p>
-			<p class="subtitle">Odryj naukę na nowo z albumem 150 map myśli, przygotowanych do notowania <small>(w cenie kursu)</small>! Kliknij na zdjęcia i zainspiruj się twórczością naszych uczestników. 🙂</p>
-			<div class="gallery">
-				<?php photo_gallery(2); ?>
-			</div>
-		</div>
 		<div class="wrapper">
 			<p class="title">
 				<?php the_field("blog_title"); ?>

@@ -1675,13 +1675,12 @@ input[type="submit"] {
 	}
 
 	&.album {
+		background: #fff;
+		margin-top: 0;
+
 		.album-slogan {
 			font-size: $large-font-size;
 			line-height: $large-line-height;
-
-			& * {
-				display: block;
-			}
 
 			.slogan-image {
 				color: $green-color;

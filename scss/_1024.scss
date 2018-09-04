@@ -116,6 +116,14 @@ header {
 	}
 }
 
+.page-hero {
+	height: 500px;
+
+	.background-image {
+		height: 500px;
+	}
+}
+
 .page {
 
 	&.index {

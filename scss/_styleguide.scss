@@ -251,6 +251,27 @@ div {
 	}
 }
 
+// hero
+
+.page-hero {
+	align-items: center;
+	background: $background-overlay;
+	display: flex;
+	height: 520px;
+	justify-content: center;
+	margin-top: 80px;
+	position: relative;
+	width: 100%;
+
+	h1 {
+		color: $white-color;
+	}
+
+	.background-image {
+		height: 520px;
+	}
+}
+
 // Card item
 
 .cards {

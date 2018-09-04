@@ -139,6 +139,14 @@ header {
 	height: 600px;
 }
 
+.page-hero {
+	height: 400px;
+
+	.background-image {
+		height: 400px;
+	}
+}
+
 .page {
 
 	&.index {

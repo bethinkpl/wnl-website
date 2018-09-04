@@ -1,8 +1,11 @@
+<div class="page-hero">
+	<div class="background-image" style="background-image: url('https://wiecejnizlek.pl/wp-content/uploads/2018/09/Album_3.jpg');"></div>
+	<h1 class="page-hero-title">
+		Album map myśli
+	</h1>
+</div>
 <div class="page album">
 	<div class="wrapper">
-		<h1 class="wnl-page-title">
-			Album map myśli
-		</h1>
 		<h2 class="wnl-page-title no-shadow">
 			Mapy myśli
 		</h2>
@@ -33,10 +36,17 @@
 			<div class="card">
 				<div class="card-content">
 					<h3 class="album-slogan">
-						<span class="slogan-image">Obraz</span>
-						<span class="slogan-plus">+</span>
-						<span class="slogan-action">Akcja</span>
-						<span class="slogan-equals">= Pamięć</span>
+						<div>
+							<span class="slogan-image">Obraz</span>
+							<span class="slogan-plus">+</span>
+							<span class="slogan-action">Akcja</span>
+						</div>
+						<div>
+							=
+						</div>
+						<div>
+							<span class="slogan-equals">Pamięć</span>
+						</div>
 					</h3>
 				</div>
 			</div>
@@ -60,24 +70,24 @@
 		<div class="cards">
 			<div class="card">
 				<div class="video-embed">
-					<iframe src="https://www.youtube.com/embed/WyDR1qISeVA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/w0h7xOf_HOA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="card">
 				<div class="video-embed">
-					<iframe src="https://www.youtube.com/embed/4AU8BJage34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/175brAtim58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
 		<div class="cards">
 			<div class="card">
 				<div class="video-embed">
-					<iframe src="https://www.youtube.com/embed/4AU8BJage34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/1LOdKlk9Jiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="card">
 				<div class="video-embed">
-					<iframe src="https://www.youtube.com/embed/4AU8BJage34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/Go53N5AWFDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -104,9 +114,13 @@
 				</div>
 			</div>
 		</div>
-		<h3 class="aligncenter">Przykładowe mapy myśli</h3>
+		<h3 class="aligncenter">Przykładowe mapy myśli z nowego albumu</h3>
 		<div class="gallery">
 			<?php photo_gallery(3); ?>
+		</div>
+		<h3 class="aligncenter">Mapy myśli uczestników poprzednich edycji, tworzone w starym albumie</h3>
+		<div class="gallery">
+			<?php photo_gallery(2); ?>
 		</div>
 		<?php get_template_part( 'page-templates/content', 'recirculation' ); ?>
 	</div>

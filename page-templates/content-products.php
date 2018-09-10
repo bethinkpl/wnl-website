@@ -20,15 +20,18 @@
 					<li class="wnl-front-options-list-item">Wspólne, próbne podejście do LEK-u ostatniego dnia kursu</li>
 				</ul>
 				<div class="select-product">
-					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__primary">
+					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__primary">
 						Wybieram kurs internetowy
+					</a> -->
+					<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
+						Zarezerwuj miejsce!
 					</a>
 				</div>
 			</div>
 
 			<div class="item second">
 				<div class="line"></div>
-				<h3>Kurs stacjonarny</h3>
+				<h3>Kurs internetowy + warsztaty</h3>
 				<h4>2000zł</h4>
 				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list">
@@ -57,8 +60,11 @@
 					<li class="wnl-front-options-list-item">Na warsztatach wykraczamy poza horyzont egzaminu - mówimy o tym, co w dzisiejszych czasach znaczy <strong>być lekarzem</strong>, czyli o czymś więcej, niż LEK.</li>
 				</ul>
 				<div class="select-product">
-					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
+					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
 						Wybieram kurs stacjonarny
+					</a> -->
+					<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
+						Zarezerwuj miejsce!
 					</a>
 				</div>
 			</div>

@@ -115,10 +115,12 @@
 			</div>
 		</div>
 		<h3 class="aligncenter">Przykładowe mapy myśli z nowego albumu</h3>
+		<p class="aligncenter metadata">Kliknij, aby powiększyć</p>
 		<div class="gallery">
 			<?php photo_gallery(3); ?>
 		</div>
 		<h3 class="aligncenter">Mapy myśli uczestników poprzednich edycji, tworzone w starym albumie</h3>
+		<p class="aligncenter metadata">Kliknij, aby powiększyć</p>
 		<div class="gallery">
 			<?php photo_gallery(2); ?>
 		</div>

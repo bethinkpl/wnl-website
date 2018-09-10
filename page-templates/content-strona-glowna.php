@@ -95,7 +95,7 @@
 							Efektywna nauka wymaga systematyzacji wiedzy. W tym pomoże Ci album map myśli, który stworzyliśmy specjalnie dla kursu do LEK-u.
 						</div>
 						<p>
-							Ponad <strong>150 map</strong>, <strong>400 rysunków</strong> i <strong>300 nagrań</strong> audio stworzy w Twojej głowie liczne skojarzenia, które zostaną Ci pamięci na długie lata!
+							Ponad <strong>150 map</strong>, <strong>400 rysunków</strong> i <strong>300 nagrań</strong> audio stworzy w Twojej głowie liczne skojarzenia, które zostaną Ci w pamięci na długie lata!
 						</p>
 						<div>
 							<strong>

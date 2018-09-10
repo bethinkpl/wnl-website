@@ -22,6 +22,7 @@
 						<li>Przejdź na <a href="https://wiecejnizlek.pl/zapisy" target="_blank">wiecejnizlek.pl/zapisy</a>.</li>
 						<li>Wybierz Kurs Internetowy - zniżka zostanie naliczona automatycznie, o czym poinformuje Cię niebieskie powiadomienie widoczne na górze strony. 🙂</li>
 					</ol>
+					<small>Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulaminie Promocji "Uczestnik poprzedniej edycji"</a></small>
 				</div>
 			</div>
 		</div>
@@ -38,6 +39,7 @@
 						<li>Jeżeli Twoja znajoma zakupiła już kurs - nic straconego! Jeżeli nie użyła innych zniżek, wciąż może użyć Twojego kodu Study Buddy w zakładce <a href="https://platforma.wiecejnizlek.pl/app/myself/orders" target="_blank">KONTO > Twoje zamówienia</a> klikając na Dodaj lub zmień kupon.</li>
 						<li>Zwrot możesz wypłacić na konto, z którego opłacony był kurs. Przycisk znajdziesz w zakładce <a href="https://platforma.wiecejnizlek.pl/app/myself/orders" target="_blank">KONTO > Twoje zamówienia</a>.</li>
 					</ol>
+					<small>Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a></small>
 				</div>
 			</div>
 		</div>
@@ -52,8 +54,9 @@
 						<li>Wyślij listę adresów na info@wiecejnizlek.pl</li>
 						<li>W ciągu 5 dni roboczych wszystkie osoby otrzymają od nas maila ze swoim unikalnym kodem.</li>
 						<li>Otrzymany kod można zrealizować wchodząc na <a href="https://wiecejnizlek.pl/voucher" target="_blank">wiecejnizlek.pl/voucher</a>.</li>
-						<li></li>
+						<li>Musi się Was zapisać co najmniej 10, aby zniżka była utrzymana. W przeciwnym razie będzie anulowana i niestety będziecie musieli dopłacić brakującą różnicę.</li>
 					</ol>
+					<small>Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulaminie Promocji "Zniżki grupowe"</a></small>
 				</div>
 			</div>
 		</div>

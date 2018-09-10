@@ -96,7 +96,6 @@
 							Jak skorzystać ze zniżki?
 						</a>
 					</p>
-					<!-- Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulaminie Promocji "Uczestnik poprzedniej edycji"</a> -->
 				</div>
 			</div>
 		</div>
@@ -110,7 +109,6 @@
 							Jak skorzystać ze zniżki?
 						</a>
 					</p>
-					<!-- Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a> -->
 				</div>
 			</div>
 			<div class="card">
@@ -122,7 +120,6 @@
 							Jak skorzystać ze zniżki?
 						</a>
 					</p>
-					<!-- Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulaminie Promocji "Zniżki grupowe"</a> -->
 				</div>
 			</div>
 		</div>

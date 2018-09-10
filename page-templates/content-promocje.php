@@ -1,6 +1,7 @@
 <div class="page album">
 	<div class="wrapper">
-		<h1 class="wnl-page-title no-shadow">
+		<div class="wnl-section-heading"></div>
+		<h1>
 			Jak skorzystać ze zniżek?
 		</h1>
 		<div class="cards">

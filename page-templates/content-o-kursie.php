@@ -219,7 +219,7 @@
 				<p>Dodatkowo w albumie znajdują się podstawowe informacje o tym jak zachodzi proces nauki oraz dużo wskazówek jak można uczyć się efektywnie. Na końcowych stronach albumu będzie zgromadzona wiedza medyczna, na którą szkoda poświęcać miejsca w notatkach czyli definicje różnych zespołów, objawów, norm a do tego skale, tabele, klasyfikacje itd. :)</p>
 
 				<h3>Jak powstał?</h3>
-				<p>Album jest tworzony przez lekarza, desinera, product managera oraz zespół grafików. Jest połączeniem wiedzy wielu osób. Prace nad nim rozpoczęły się już w 2015 roku. Jest także swego rodzaju eksperymentem, próbą stworzenia unikalnego narzędzia do nauki i powtórek nie tylko do LEKu ale także do nauki na specjalizacji.</p>
+				<p>Album jest połączeniem wiedzy wielu osób - lekarzy, designerów, nauczycieli. Prace nad nim rozpoczęły się już w 2015 roku. Jest także swego rodzaju eksperymentem, próbą stworzenia unikalnego narzędzia do nauki i powtórek nie tylko do LEKu ale także do nauki na specjalizacji.</p>
 
 				<h3>Czy uczestnictwo w kursie wymaga stosowania Albumu Map Myśli?</h3>
 				<p>Album map myśli tak samo jak platforma, prezentacje czy książki jest jedynie narzędziem do pracy. To w jaki sposób każdy z Was je wykorzysta zależy tylko i wyłącznie od Was. Album pozwala spojrzeć na naukę z trochę z innej perspektywy. Kto wie, może się okazać, że odkryjecie całkiem nowy sposób na zdobywanie i segregowanie wiedzy albo wpadniecie na kosmiczny pomysł i pomożecie nam go ulepszyć. :)</p>
@@ -278,7 +278,7 @@
 				<h3>Z jakich promocji mogę skorzystać?</h3>
 				<p>Zachęcamy do obswerwowania naszego fanpage'a oraz stron naszych partnerów! Będziecie mogli wygrać w nich vouchery zniżkowe o wartości 10%, 20%, a nawet darmowe uczestnictwo w kursie!</p>
 				<p>Nie musicie czekać z zapisami na wyniki losowania - vouchery będzie można zastosować też po opłaceniu zamówienia i uzyskać zwrot. ;)</p>
-				<p>Jeżeli nie załapiesz się nie voucher - nic straconego! Zapisz się na kurs, a otrzymasz unikalny kod. Jeżeli zachęcisz jedną osobę do opłacenia kursu z wykorzystaniem kodu, obydwoje otrzymacie 100zł zniżki! Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>.</p>
+				<p>Jeżeli nie załapiesz się na voucher - nic straconego! Zapisz się na kurs, a otrzymasz unikalny kod. Jeżeli zachęcisz jedną osobę do opłacenia kursu z wykorzystaniem kodu, obydwoje otrzymacie 100zł zniżki! Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulaminie Promocji "Study Buddy"</a>.</p>
 				<p>Możesz też sięgnąć nie po Study Buddy, ale Study Group! Znajdź 10 do 30 osób chętnych na kurs i wyślij ich listę maili do nas na info@wiecejnizlek.pl. Dostaniecie od nas kod, którego będziecie mogli użyć tyle razy, ile jest osób na liście. Jeżeli zapisze się Was i opłaci kurs co najmniej 10 - zniżka zostaje aktywna! W przeciwnym razie, będziemy musieli anulować zniżkę, a brakującą kwotę trzeba będzie dopłacić. ☹️ Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulaminie promocji "Zniżki grupowe"</a>.</p>
 
 				<h3>Czy kurs "Więcej niż LEK" jest refundowany przez Izby Lekarskie?</h3>

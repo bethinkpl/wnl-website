@@ -2,8 +2,6 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-
 				<?php
 					if (is_page(array('strona-glowna'))) {
 						echo '<script>page = "index";</script>';
@@ -18,6 +16,9 @@
 					}
 					else if (is_page(array('o-warsztatach'))) {
 						get_template_part( 'page-templates/content', 'o-warsztatach' );
+					}
+					else if (is_page(array('promocje'))) {
+						get_template_part( 'page-templates/content', 'promocje' );
 					}
 					else if (is_page(array('o-nas'))) {
 						echo '<script>page = "o-nas";</script>';

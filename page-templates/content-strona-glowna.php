@@ -14,7 +14,7 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Myślisz o 4. edycji kursu? Zarezerwuj miejsce już dziś! Zapisy ruszają 25 września!
+					Co 4 lekarz uczy się razem z nami! zarezerwuj miejsce już dziś! Zapisy ruszają 25 września!
 				</p>
 				<p class="aligncenter">
 					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary"> -->
@@ -82,7 +82,7 @@
 
 		<div class="wrapper" style="margin-top: 60px;">
 			<h2 class="title">Nowy album map myśli</h2>
-			<h3 class="subtitle">Poznaj najefektywniejszy sposób notowania!</h3>
+			<h3 class="subtitle">Poznaj najefektywniejszy sposób notowania i powtarzania!</h3>
 			<div class="cards align-center">
 				<div class="card">
 					<a href="<?php echo get_site_url() ?>/album">

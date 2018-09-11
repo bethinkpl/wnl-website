@@ -79,7 +79,7 @@
 			</section>
 			<section class="two">
 				<h1>Nauka przez cały rok!</h1>
-				<p class="subtitle">Dostęp w ramach dwóch edycji zawsze trwa 13 miesięcy, co pozwala na nieprzerwaną naukę cały rok!</p>
+				<p class="subtitle">Dostęp w ramach dwóch edycji zawsze trwa 13 miesięcy, co pozwala na nieprzerwaną naukę przez cały rok!</p>
 				<div class="cards">
 					<div class="card">
 						<h2 class="card-title">🗓 3 miesiące to za mało?</h2>

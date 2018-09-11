@@ -1,7 +1,7 @@
 <div class="page about">
 	<div class="wrapper">
 		<p class="title" style="padding-top: 80px;">
-			<?php the_field("about_head"); ?>
+			Misja "Więcej niż LEK"
 		</p>
 		<div class="up">
 			<div class="wrapper">
@@ -9,8 +9,7 @@
 					<div class="cloud">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down/normal.svg" alt="Zobacz więcej">
 					</div>
-					<h2 class="alignleft">Misja "Więcej niż LEK"</h2>
-					<p class="subtitle">Dlaczego robimy to, co robimy?</p>
+					<h2 class="alignleft">Dlaczego robimy to, co robimy?</h2>
 					<div class="description">
 						<?php the_field("about_description"); ?>
 					</div>

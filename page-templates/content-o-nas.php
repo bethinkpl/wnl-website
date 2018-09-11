@@ -9,8 +9,8 @@
 					<div class="cloud">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_down/normal.svg" alt="Zobacz więcej">
 					</div>
-					<h2 class="alignleft"><?php the_field("about_title"); ?></h2>
-					<p class="subtitle"><?php the_field("about_subtitle"); ?></p>
+					<h2 class="alignleft">Misja "Więcej niż LEK"</h2>
+					<p class="subtitle">Dlaczego robimy to, co robimy?</p>
 					<div class="description">
 						<?php the_field("about_description"); ?>
 					</div>

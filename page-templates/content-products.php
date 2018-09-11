@@ -86,7 +86,7 @@
 			<div class="card">
 				<h4 class="card-title">Gwarancja satysfakcji</h4>
 				<div class="card-content">
-					Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% lekcji i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty!
+					Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% lekcji i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty! Gwarancja dotyczy tylko osób uczących się po polsku, na polskich uczelniach.
 				</div>
 			</div>
 			<div class="card">
@@ -130,7 +130,7 @@
 			<div class="card">
 				<h4 class="card-title">Nauka przez cały rok</h4>
 				<div class="card-content">
-					3 miesiące to dla Ciebie za mało? Możesz kontynuować bez przerwy naukę przez dowolną ilość czasu, wykupując dostęp do kolejnych edycji z 50% zniżką! Dostęp w ramach jednej edycji zawsze trwa do zapisów na kolejną.
+					3 miesiące to dla Ciebie za mało? Możesz kontynuować bez przerwy naukę przez dowolną ilość czasu, wykupując dostęp do kolejnych edycji z 50% zniżką! Dostęp w ramach dwóch edycji zawsze trwa aż 13 miesięcy!
 				</div>
 			</div>
 			<div class="card">

@@ -288,7 +288,7 @@ div {
 		margin: 10px 20px;
 		padding: 20px;
 		text-align: center;
-		width: 250px;
+		width: 300px;
 
 		&.with-shadow {
 			border-radius: 5px;
@@ -342,6 +342,11 @@ div {
 		&.full-width {
 			max-height: none;
 			max-width: 100%;
+		}
+
+		&.width-80 {
+			max-height: none;
+			max-width: 80%;
 		}
 	}
 

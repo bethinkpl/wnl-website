@@ -2,13 +2,13 @@
 	<div class="wrapper">
 		<div class="wrapper">
 			<h1>Szczegółowy plan kursu</h1>
-			<p>Kurs zaczynamy <strong>9 czerwca</strong>. Tego dnia odbędzie się też pierwsze spotkanie warsztatowe, a lekcja dotycząca efektywnej nauki będzie dostępna dla wszystkich uczestników.</p>
+			<p>Kurs zaczynamy <strong>5 listopada</strong>. Tego dnia odbędzie się też pierwsze spotkanie warsztatowe, a lekcja dotycząca efektywnej nauki będzie dostępna dla wszystkich uczestników.</p>
 
-			<p>Pierwsze dzień lekcyjny, to <strong>11 czerwca</strong>. Od poniedziałku do piątku, o godzinie 3 rano, otwierać się będzie dostęp do kolejnej lekcji na platformie.</p>
+			<p>Pierwsze dzień lekcyjny, to <strong>7 listopada</strong>. Od poniedziałku do piątku, o godzinie 3 rano, otwierać się będzie dostęp do kolejnej lekcji na platformie.</p>
 
-			<p><strong>Od 30 lipca do 3 sierpnia</strong> na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jedziemy na wakacje. 😉</p>
+			<p><strong>Od 24 do 28 grudnia</strong> na platformie nie będą pojawiały się kolejne lekcje. Robimy tydzień przerwy, wyrównujemy tempo, powtarzamy 3 główne działy, jemy pierogi. 😉</p>
 
-			<p>Nie obawiaj się, że nie wyrobisz się z materiałem! Lekcje pozostają dostępne do samego końca, czyli do <strong>10 listopada</strong>. 🙂</p>
+			<p>Nie obawiaj się, że nie wyrobisz się z materiałem! Lekcje pozostają dostępne do samego końca dostępu, czyli do <strong>10 kwietnia 2019</strong>. 🙂</p>
 
 			<h3>Szczegółowy plan kursu</h3>
 			<div class="timeline">
@@ -77,14 +77,13 @@
 				<li>Interna - 20 dni
 					<ul>
 						<li>Kardiologia - 5 dni</li>
-						<li>Pulmonologia - 2 dni</li>
+						<li>Pulmonologia - 3 dni</li>
 						<li>Gastroenterologia - 2 dni</li>
 						<li>Endokrynologia - 2 dni</li>
 						<li>Hematologia - 2 dni</li>
 						<li>Nefrologia - 2 dni</li>
 						<li>Reumatologia - 2 dni</li>
 						<li>Diabetologia - 1 dzień</li>
-						<li>Laryngologia - 1 dzień</li>
 						<li>Powtórki - 1 dzień</li>
 					</ul>
 				</li>
@@ -96,9 +95,9 @@
 				<li>Zdrowie publiczne - 2 dni</li>
 				<li>Prawo medyczne i bioetyka - 2 dni</li>
 				<li>Orzecznictwo - 1 dzień</li>
-				<li>Medycyna rodzinna + powtórki - 4 dni</li>
+				<li>Medycyna rodzinna + Antybiotykoterapia + Neurologia + powtórki - 4 dni</li>
 				<li>Próbny LEK - 1 dzień</li>
-				<li>Farmakologia, Krwiodawstwo, Żywienie i powtórki - 5 dni</li>
+				<li>Farmakologia, Laryngologia, Krwiodawstwo, Żywienie i powtórki - 5 dni</li>
 			</ul>
 
 			<h3>Warsztaty</h3>
@@ -106,10 +105,10 @@
 
 			<h4>Daty i godziny spotkań</h4>
 			<ul>
-				<li>9 czerwca, 11:00 - Efektywna nauka + Wstęp do kursu</li>
-				<li>21 lipca, 11:00 - Prawo medyczne</li>
-				<li>25 sierpnia, 11:00 - Stany nagłe</li>
-				<li>6 październik, 11:00 - Perspektywy zawodowe</li>
+				<li>5 listopada 2018, 11:00 - Efektywna nauka + Wstęp do kursu</li>
+				<li>15 grudnia 2018, 11:00 - Prawo medyczne</li>
+				<li>19 stycznia 2019, 11:00 - Stany nagłe</li>
+				<li>2 marca 2019, 11:00 - Perspektywy zawodowe</li>
 			</ul>
 
 			<h4>Miejsce warsztatów</h4>

@@ -43,6 +43,7 @@
 
 								<a href="https://facebook.com/wiecejnizlek" target="_blank" title="Profil Więcej niż LEK na Facebooku" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/facebook/normal.svg"></a>
 								<a href="https://instagram.com/wiecejnizlek" target="_blank" title="Profil Więcej niż LEK na Instagram" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/instagram/normal.svg"></a>
+								<a href="https://linkedin.com/company/bethink.pl" target="_blank" title="Profil Bethink na LinkedIn" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_footer/linkedin/normal.svg"></a>
 							</div>
 						</div>
 						<p class="head">Kontakt</p>
@@ -65,10 +66,13 @@
 						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiStudyBuddy.pdf'); ?>" title="Regulamin promocji Study Buddy" target="_blank">Regulamin promocji "Study Buddy"</a></li>
 						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiUczestnikPoprzedniejEdycji.pdf'); ?>" title="Regulamin promocji Uczestnik poprzedniej edycji" target="_blank">Regulamin promocji "Uczestnik poprzedniej edycji"</a></li>
 						<li><a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulamin promocji "Zniżki grupowe"</a></li>
-						<li><a href="<?php echo site_url('/polityka-prywatnosci'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
+						<li><a href="<?php echo site_url('/documents/PolitykaPrywatnosciWiecejNizLEK.pdf'); ?>" title="Polityka Prywatności">Polityka Prywatności</a></li>
 						<li><a href="<?php echo site_url('/sitemap.xml'); ?>" title="Mapa strony">Mapa strony</a></li>
 					</ul>
 				</div>
+				<p class="metadata inverted aligncenter">
+					Rozwijane z&nbsp;&nbsp;❤️&nbsp;&nbsp;przez <a href="https://fb.com/bethinkpl" target="_blank">bethink</a>
+				</p>
 			</div>
 		</footer>
 

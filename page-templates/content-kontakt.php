@@ -19,7 +19,9 @@
 					<div class="social">
 						<p class="head">Obserwuj nas na:</p>
 						<div class="icons">
-							<a href="" title="Fanpage Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_contact/facebook/normal.svg"></a>
+							<a href="https://facebook.com/wiecejnizlek" title="Fanpage Więcej niż LEK na Facebooku" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_contact/facebook/normal.svg"></a>
+							<a href="https://instagram.com/wiecejnizlek" title="Instagram Więcej niż LEK" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_contact/instagram/normal.svg"></a>
+							<a href="https://www.linkedin.com/company/bethink.pl/" title="LinkedIn Bethink" target="_blank" class="fb"><img src="<?php echo get_template_directory_uri() ?>/assets/button/social_media_contact/linkedin/normal.svg"></a>
 						</div>
 					</div>
 				</div>

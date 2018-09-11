@@ -14,6 +14,9 @@
 					else if (is_page(array('o-kursie'))) {
 						get_template_part( 'page-templates/content', 'o-kursie' );
 					}
+					else if (is_page(array('faq'))) {
+						get_template_part( 'page-templates/content', 'faq' );
+					}
 					else if (is_page(array('o-warsztatach'))) {
 						get_template_part( 'page-templates/content', 'o-warsztatach' );
 					}

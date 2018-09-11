@@ -142,7 +142,7 @@
 					</a>
 					<h2 class="card-title">Masz wątpliwości?</h2>
 					<p class="card-content alignleft">
-						Na podstronie <a href="<?php echo site_url('o-kursie#qanda') ?>">O kursie</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. 🙂 Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
+						Na podstronie <a href="<?php echo site_url('faw') ?>">FAQ</a> odpowiadamy na wszystkie pytania dotyczące kursu. Od dat i planu zajęć, przez opis metodyki i materiałów, po misję, która motywuje nas do działania - wszystko w jednym miejscu. 🙂 Jeżeli nie rozwiejemy Twoich wątpliwości, napisz do nas, a na pewno dodamy odpowiedź do strony!
 					</p>
 					<p class="alignleft">
 						<a href="<?php echo site_url('o-kursie#qanda') ?>" title="Czytaj więcej..." class="more">

@@ -7,6 +7,11 @@
 				<div class="line"></div>
 				<h3>Kurs internetowy</h3>
 				<h4>1500zł</h4>
+				<p class="metadata">
+					<a href="<?php echo site_url('cennik') ?>" target="_blank">
+						Płatność jednorazowa, albo w trzech ratach
+					</a>
+				</p>
 				<ul class="wnl-front-options-list">
 					<li class="wnl-front-options-list-item"><strong>14 tygodni codziennej nauki</strong> pod opieką moderatorów, którzy odpowiedzą na każde Twoje pytanie!</li>
 					<li class="wnl-front-options-list-item">65 obszernych lekcji dostępnych na platformie e-learningowej kiedy chcesz i gdzie chcesz!</li>
@@ -38,6 +43,11 @@
 				<div class="line"></div>
 				<h3>Kurs internetowy + warsztaty</h3>
 				<h4>2000zł</h4>
+				<p class="metadata">
+					<a href="<?php echo site_url('cennik') ?>" target="_blank">
+						Płatność jednorazowa, albo w trzech ratach
+					</a>
+				</p>
 				<!-- <p class="metadata">2000zł dla zapisanych na listę mailingową przed 1.04</p> -->
 				<ul class="wnl-front-options-list off-320 off-640 off-768 off-1024">
 					<li class="wnl-front-options-list-item"><strong>14 tygodni codziennej nauki</strong> pod opieką moderatorów, którzy odpowiedzą na każde Twoje pytanie!</li>

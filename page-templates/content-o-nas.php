@@ -90,7 +90,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/bogna-brzezinska.jpg" alt="Bogna Brzezińska" class="image">
-				<p class="card-title">Bogna Brzezińska</p>
+				<p class="card-title">lek. Bogna Brzezińska</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Zajmuje się tworzeniem prezentacji. Propozycję pracy w Bethink początkowo traktowała jako możliwość zarobienia na wyjazd do Chin. Na tyle jej się spodobało, że niedługo minie rok, od kiedy dołączyła do zespołu.
@@ -107,7 +107,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/maciej-nowak.jpg" alt="Maciej Nowak" class="image">
-				<p class="card-title">Maciej Nowak</p>
+				<p class="card-title">lek. Maciej Nowak</p>
 				<div class="alignleft">
 					<p class="card-content">
 						W firmie Bethink objął stanowisko prezydenta medycyny. Tworzy prezentacje, grafiki, schematy, czuwa nad powstaniem rysunków medycznych. Świetnie się przy tym bawi. Uważa, że medycyna to obrazy, a nie litery zapisane w książkach.
@@ -144,7 +144,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/dawid-kaczmarek.jpg" alt="Dawid Kaczmarek" class="image">
-				<p class="card-title">Dawid Kaczmarek</p>
+				<p class="card-title">lek. Dawid Kaczmarek</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Zespołowy indywidualista, próbujący okiełznać dział medyków, którzy -jak to wolny zawód, sami sobie szefami. Poza biurem uprawia medycynę w naszych pięknych Polskich realiach medycznych, gdzie wiedza książkowa musi zostać zweryfikowana w dość szybkim tempie poprzez magiczną ilość pacjentów / 1h do obrobienia=). W chwilach wolnych grzebie w przydomowym warsztacie po łokcie w smarach i olejach, naprawiając i psując różne, dziwne samochody minionej epoki.
@@ -159,7 +159,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/joanna-sadowska.jpg" alt="Joanna Sadowska" class="image">
-				<p class="card-title">Joanna Sadowska</p>
+				<p class="card-title">lek. Joanna Sadowska</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Zaczęła współpracę z Bethink w czerwcu 2017, zaraz po powrocie z Nepalu i napisaniu ostatniego egzaminu. Zajmuje się redagowaniem prezentacji, a teraz zaczyna również prace nad tworzeniem medycznych mnemonek.
@@ -193,7 +193,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/wojciech-zaremba.jpg" alt="Wojciech Zaremba" class="image">
-				<p class="card-title">Wojciech Zaremba</p>
+				<p class="card-title">lek. Wojciech Zaremba</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Jednoosobowy krakowski oddział zamiejscowy projektu „Więcej niż LEK”. Amator fotografii, amator lotnictwa, profesjonalny wuzetkowicz. Jeśli ma wybierać między byciem nerdem a byciem lekarzem, woli nie wybierać wcale. No...ewentualnie wybrać i to, i to.
@@ -238,7 +238,7 @@
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/marcin-czekala.jpg" alt="Marcin Czekała" class="image">
-				<p class="card-title">Marcin Czekała</p>
+				<p class="card-title">lek. Marcin Czekała</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Balansując między werbalnym onanizmem, a pozorną skromnością decyduje wejść w nomenklaturę piekarniczą. Prawie co, “świeżo upieczony lekarz”, aktualnie w fazie dopiekania. Gdyby miał określić się rodzajem pieczywa - chciałby być bardziej żytnim na zakwasie, niż maślaną bułeczką. Postanowił sobie że jedyną kopertę jaką przyjmie, to tę z serowym nadzieniem.
@@ -254,8 +254,8 @@
 
 
 			<div class="card with-shadow">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/radek-zubka.jpg" alt="Radek Żubka" class="image">
-				<p class="card-title">Radek Żubka</p>
+				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/radek-zubka.jpg" alt="Radosław Żubka" class="image">
+				<p class="card-title">lek. Radosław Żubka</p>
 				<div class="alignleft">
 					<p class="card-content">
 						Główkując nad rozwiązaniem problemu zapomina o planach czy obowiązkach. Typ człowieka, który jak się za coś zabierze, to nie potrafi odpuścić (no chyba, że chodzi o sprzątanie w kuchni - przyp. kob.). Wierząc, że droga do poprawy torowana jest edukacją, wstąpił w szeregi zespołu Bethink i Więcej Niż Lek. Przygodę tę zaczął absorbującą funkcją moderatora, szukając prostych i zrozumiałych odpowiedzi na nierzadko wyszukane pytania kursantów.

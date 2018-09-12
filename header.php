@@ -29,7 +29,7 @@
               'type' => 'website',
               'title' => 'Więcej niż LEK - Unikalny kurs przygotowujący do LEK-u',
               'description' => 'Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.',
-              'image' => 'https://platforma.wiecejnizlek.pl/storage/wnl_fb_cover.jpg',
+              'image' => 'https://wiecejnizlek.pl/wp-content/themes/wiecejnizlek/assets/hero/wnl-og-image.jpg',
             ];
 
 			echo '<meta name="description" content="Platfroma e-learningowa, praktyczne warsztaty, selekcja materiałów, wspólny plan pracy, systematyzacja wiedzy - to tylko początek! Wejdź na stronę i dowiedz się więcej.">';

@@ -75,7 +75,7 @@
 				<a name="podstawowe-pytania"></a>
 				<h2 class="wnl-page-title podstawowe-pytania">Podstawowe pytania</h2>
 				<h3>Kiedy zaczyna się kurs? Jak długo potrwa?</h3>
-				<p>Edycje kurs zaczynają się zawsze w pierwszym tygodniu czerwaca lub pierwszym tygodniu listopada i trwają 14 tygodni. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
+				<p>Edycje kurs zaczynają się zawsze w pierwszym tygodniu czerwca lub pierwszym tygodniu listopada i trwają 14 tygodni. Szczegółowy plan znajdziecie tutaj - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
 				<!-- Szczegóły odnośnie drugiej edycji już wkrótce! -->
 
 				<h3>Czym jest dostęp do platformy i jak długo trwa?</h3>
@@ -167,13 +167,13 @@
 
 				<p>W trakcie opracowywania materiału korzystamy przede wszystkim z najnowszych wytycznych, gdyż podręczniki tradycyjne często nie są aktualne. Konkretne informacje weryfikujemy w podręcznikach z listy CEM-u, dzięki czemu są one również odpowiednio przygotowane pod kątem samego egzaminu.</p>
 
-				<p>Dodatkowo, dzięki aktywności ponad 2000 uczestników i dawanych przez nich sugestiom stale, na bieżąco doskonalimy materiały na platformie tak aby były jak najbardziej efektywne i nastawione na zrozumienie zagadnień. Dzięki temu, platforma Więcej niż LEK pozostaje najbardziej aktualnym źródłem wiedzy do nauki do Lekarskiego Egzaminu Końcowego.</p>
+				<p>Dodatkowo, dzięki aktywności ponad 2000 uczestników i dawanych przez nich sugestiom stale, na bieżąco doskonalimy materiały na platformie tak, aby były jak najbardziej efektywne i nastawione na zrozumienie zagadnień. Dzięki temu, platforma Więcej niż LEK pozostaje najbardziej aktualnym źródłem wiedzy do nauki do Lekarskiego Egzaminu Końcowego.</p>
 
 				<h3>Czy istnieje możliwość drukowania prezentacji multimedialnych?</h3>
-				<p>Ze względu na ilość slajdów, sposób sformatowania prezentacji oraz ilość kolorów i grafik nie ma możliwości drukowania prezentacji. Jest to po prostu niepraktyczne i wydrukowane tak materiały byłyby nieczytelne. Platforma posiada wbudowaną opcję prezentowania niektórych treści w postaci diagramów czy tabel w sposób interaktywny co powoduje, że wydrukowanie ich nie jest po prostu możliwe. Najważniejsze szczegóły czyli tabele, skale, objawy, zespoły, czy normy będą zawarte w na ostatnich stronach Albumu Map Myśli dzięki czemu będa zawsze łatwo dostępne.</p>
+				<p>Ze względu na ilość slajdów, sposób sformatowania prezentacji oraz ilość kolorów i grafik nie ma możliwości drukowania prezentacji. Jest to po prostu niepraktyczne i wydrukowane tak materiały byłyby nieczytelne. Platforma posiada wbudowaną opcję prezentowania niektórych treści w postaci diagramów czy tabel w sposób interaktywny co powoduje, że wydrukowanie ich nie jest po prostu możliwe. Najważniejsze szczegóły czyli tabele, skale, objawy, zespoły, czy normy będą zawarte na ostatnich stronach Albumu Map Myśli, dzięki czemu będą zawsze łatwo dostępne.</p>
 
 				<h3>Czym jest system skojarzeniowo-wyobrażeniowy?</h3>
-				<p>System skojarzeniowo-wyobrażeniowy jest mnemotechniką, która poprzez wykorzystanie charakterystycznych a czasami wręcz “absurdalnych” skojarzeń pozwala na efektywną systematyzację wiedzy. Używamy do tego trzech rzeczy - wyobraźni, obrazu i historii. Jest to cecha charakterystyczna naszych materiałów, której poświęciliśmy wiele uwagi. Mamy zamiar w przyszłości je doskonalić i zmapować w ten sposób całą wiedzę medyczną. Z drugiej strony zdajemy sobie sprawę, że nie wszystkim musi ten sposób nauki przypaść do gustu dlatego na platformie będzie możliwość wyświetlania prezentacji także w surowej postaci :)</p>
+				<p>System skojarzeniowo-wyobrażeniowy jest mnemotechniką, która poprzez wykorzystanie charakterystycznych a czasami wręcz “absurdalnych” skojarzeń pozwala na efektywną systematyzację wiedzy. Używamy do tego trzech rzeczy - wyobraźni, obrazu i historii. Jest to cecha charakterystyczna naszych materiałów, której poświęciliśmy wiele uwagi. Mamy zamiar w przyszłości je doskonalić i zmapować w ten sposób całą wiedzę medyczną. Z drugiej strony zdajemy sobie sprawę, że nie wszystkim musi ten sposób nauki przypaść do gustu, dlatego na platformie będzie możliwość wyświetlania prezentacji także w surowej postaci :)</p>
 
 				<p class="aligncenter margin vertical">
 					<a href="<?php echo site_url('album') ?>" class="button button__primary">
@@ -193,7 +193,7 @@
 				<p>Pierwsza edycja kursu trwała 12 tygodni i okazała się zbyt intensywna, zwłaszcza na początku. Z tego powodu postanowiliśmy wydłużyć Internę z 15 do 20 dni lekcyjnych. Kurs przewiduje tygodniową przerwą w środku tak, aby każdy mógł w spokoju spędzić święta, albo nadrobić zaległości. :) Ostatnia lekcja odbędzie się na 2-3 tygodnie przed LEKiem, dzięki czemu wszyscy będziecie mieli czas na powtórki i przerobienie baz pytań.</p>
 
 				<h3>Po co te przerwy w lekcjach? Czemu nie ma zajęć w weekend?</h3>
-				<p>Na pomoc przychodzą nam najnowsze odkrycia nauk kognitywistycznych. Okazuje się, że aby nauka miała sens i dawała realne trwałe efekty trzeba po prostu robić przerwy. Zarówno w trakcie samej lekcji jak i między dużymi działami robienie przerw daje możliwość na konsolidację wiedzy.</p>
+				<p>Na pomoc przychodzą nam najnowsze odkrycia nauk kognitywistycznych. Okazuje się, że aby nauka miała sens i dawała realne, trwałe efekty, trzeba po prostu robić przerwy. Zarówno w trakcie samej lekcji, jak i między dużymi działami, robienie przerw daje możliwość na konsolidację wiedzy.</p>
 
 				<h3>Gdzie znajdę szczegółowy plan pracy?</h3>
 				<p>Szczegółowy plan pracy możecie znaleźć pod tym linkiem - <a href="<?php echo site_url('plan-kursu') ?>" title="Szczegółowy plan kursu">Szczegółowy plan kursu</a>.</p>
@@ -206,7 +206,7 @@
 				<a name="systematyzacja-wiedzy"></a>
 				<h2 class="wnl-page-title systematyzacja-wiedzy">Systematyzacja wiedzy</h2>
 				<h3>Jak będziemy systematyzować wiedzę na kursie “Więcej niż LEK”?</h3>
-				<p>Systematyzacja wiedzy jest naszym zdaniem najważniejszym etapem nauki. Na kursie będziemy systematyzować wiedzę na kilka sposobów. Pierwszy z nich to codzienna interakcja z albumem map myśli, który dzięki zawartym w nim grafiką pozwala na stworzenie sieci wizualnych skojarzeń, które są swego rodzaju “spustami pamięci”.</p> <p>Kolejnym aspektem kursu, który ułatwia systematyzację wiedzy to system powtórek. Każde zagadnienie, które zostanie przez Was zanotowane w albumie map myśli będzie powtórzone kilkukrotnie w ciągu trwania kursu.</p> <p>Platforma będzie przypominać o codziennych powtórkach a czasami nawet do nich zmuszać ;) Dodatkowo będziemy przerabiać pytania do LEKu a czasami jakieś przypadki kliniczne. Wszystko to po to aby każdy z Was mógł wychwycić zakres wiedzy, nad którym musi jeszcze popracować.</p>
+				<p>Systematyzacja wiedzy jest naszym zdaniem najważniejszym etapem nauki. Na kursie będziemy systematyzować wiedzę na kilka sposobów. Pierwszy z nich to codzienna interakcja z albumem map myśli, który dzięki zawartym w nim grafikom pozwala na stworzenie sieci wizualnych skojarzeń, które są swego rodzaju “spustami pamięci”.</p> <p>Kolejnym aspektem kursu, który ułatwia systematyzację wiedzy, jest system powtórek. Każde zagadnienie, które zostanie przez Was zanotowane w albumie map myśli, będzie powtórzone kilkukrotnie w ciągu trwania kursu.</p> <p>Platforma będzie przypominać o codziennych powtórkach a czasami nawet do nich zmuszać ;) Dodatkowo będziemy przerabiać pytania do LEKu a czasami jakieś przypadki kliniczne. Wszystko to po to aby każdy z Was mógł wychwycić zakres wiedzy, nad którym musi jeszcze popracować.</p>
 
 				<p class="aligncenter margin vertical">
 					<a href="<?php echo site_url('album') ?>" class="button button__primary">
@@ -222,8 +222,8 @@
 				<p>Dodatkowo w albumie znajdują się podstawowe informacje o tym jak zachodzi proces nauki oraz dużo wskazówek jak można uczyć się efektywnie. Na końcowych stronach albumu będzie zgromadzona wiedza medyczna, na którą szkoda poświęcać miejsca w notatkach czyli definicje różnych zespołów, objawów, norm a do tego skale, tabele, klasyfikacje itd. :)</p>
 
 				<h3>Czy uczestnictwo w kursie wymaga stosowania Albumu Map Myśli?</h3>
-				<p>Album map myśli tak samo jak platforma, prezentacje czy książki jest jedynie narzędziem do pracy. To w jaki sposób każdy z Was je wykorzysta zależy tylko i wyłącznie od Was. Album pozwala spojrzeć na naukę z trochę z innej perspektywy. Kto wie, może się okazać, że odkryjecie całkiem nowy sposób na zdobywanie i segregowanie wiedzy albo wpadniecie na kosmiczny pomysł i pomożecie nam go ulepszyć. :)</p>
-				<p>Niezależnie od tego, czy będziecie go używać, czy też nie, nadal lwią część wiedzy i samego kursu stanowi platforma i prezentacje, z których będziemy się uczyć. Dlatego też aby skorzystać z kursu używanie albumu nie jest wymagane. Oczywiście na każdym kroku będziemy Was jednak do tego zachęcać, gdyż regularne stosowanie albumu zdecydowanie poprawia efektywność nauki.</p>
+				<p>Album map myśli, tak samo jak platforma, prezentacje, czy książki, jest jedynie narzędziem do pracy. To w jaki sposób każdy z Was je wykorzysta zależy tylko i wyłącznie od Was. Album pozwala spojrzeć na naukę z trochę z innej perspektywy. Kto wie? Może się okazać, że odkryjecie całkiem nowy sposób na zdobywanie i segregowanie wiedzy albo wpadniecie na kosmiczny pomysł i pomożecie nam go ulepszyć. :)</p>
+				<p>Niezależnie od tego, czy będziecie go używać, czy też nie, nadal lwią część wiedzy i samego kursu stanowi platforma i prezentacje, z których będziemy się uczyć. Dlatego też używanie albumu nie jest wymagane do skorzystania z kursu. Oczywiście na każdym kroku będziemy Was jednak do tego zachęcać, gdyż regularne stosowanie albumu zdecydowanie poprawia efektywność nauki.</p>
 				<div class="section back small-padding">
 					<a href="#" title="" class="wnl-scroll-top" data-section-target=".q-and-a">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_up/normal.svg" alt="Powrót do góry" />
@@ -235,14 +235,14 @@
 				<h3>Jakie narzędzia komunikacyjne będą dostępne podczas kursu?</h3>
 				<p>Komunikacja na kursie będzie odbywać się na 3 poziomach.</p>
 				<h4>Chat</h4>
-				<p>Każda z lekcji posiada własny, dedykowany chat co pozwala na komunikację z osobami, które aktualnie uczą się tego samego tematu. Pozwoli to szybko rozwiać pojawiające się wątpliwości, podzielić się wiedzą i budować wspólną motywację.</p>
+				<p>Każda z lekcji posiada własny, dedykowany czat, co pozwala na komunikację z osobami, które aktualnie uczą się tego samego tematu. Pozwoli to szybko rozwiać pojawiające się wątpliwości, podzielić się wiedzą i budować wspólną motywację.</p>
 
 				<h4>Komentarze do slajdów</h4>
 				<p>Każdy z Was posiada możliwość budowania wspólnej bazy wiedzy dzięki umieszczaniu adnotacji do prezentacji. Pozwoli to nam wszystkim nie tylko wyłapać ewentualne błędy czy nieaktualne informacje ale dodatkowo pozwoli stworzyć unikalną i niezwykle szczegółową bazę wiedzy. Z edycji na edycję kursu będziemy tworzyć coraz bogatsze źródło wiedzy medycznej.</p>
 
 				<h4>System pytań i odpowiedzi</h4>
 				<p>Dla najważniejszych pytań i często powtarzających się wątków, stworzyliśmy system pytań i odpowiedzi. Każdy z uczestników może na poziomie lekcji zadać pytanie lub odpowiedzieć innej osobie.</p>
-				<p>Dzięki systemowi powiadomień dowiecie się, gdy ktoś odpowie na Wasze wcześniej zadane pytanie i da Wam to możliwość rozpoczęcia dyskusji. Każdy z uczestników będzie posiadał swój indywidualny widok, gdzie będzie mógł śledzić dyskusje,w których uczestniczy lub które zdecydował się obserwować.</p>
+				<p>Dzięki systemowi powiadomień dowiecie się, gdy ktoś odpowie na Wasze wcześniej zadane pytanie i da Wam to możliwość rozpoczęcia dyskusji. Każdy z uczestników będzie posiadał swój indywidualny widok, gdzie będzie mógł śledzić dyskusje, w których uczestniczy lub które zdecydował się obserwować.</p>
 
 				<h4>Prywatne wiadomości</h4>
 				<p>Możesz wymieniać się wiedzą i pytaniami ze znajomymi nie opuszczając platformy!</p>

@@ -61,6 +61,7 @@
 		</div>
 		<div class="wrapper" style="margin-top: 60px;">
 			<h2 class="title">Skąd wiemy, że nasz kurs działa?</h2>
+			<h3 class="subtitle">⭐️ Kurs uzyskał akredytację Kuratorium Oświaty oraz Wielkopolskiej Izby Lekarskiej! ⭐️</h3>
 			<h3 class="subtitle">Jako jedyni zbieramy i publikujemy wyniki naszych kursantów!</h3>
 			<div class="cards">
 				<div class="card">

@@ -14,13 +14,15 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Co 4 lekarz uczy się razem z nami! zarezerwuj miejsce już dziś! Zapisy ruszają 25 września!
+					Zapisy na 4. edycję trwają do 22 października! Co 4 lekarz uczy się razem z nami!
 				</p>
 				<p class="aligncenter">
-					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary"> -->
-					<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
-						Zarezerwuj!
+					<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
+						Zapisz się!
 					</a>
+					<!-- <a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
+						Zarezerwuj!
+					</a> -->
 				</p>
 			</div>
 		</div>

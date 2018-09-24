@@ -108,12 +108,12 @@
 							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
 								</a> -->
-								<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+							<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
 								Zapisz się!
-							</a> -->
-							<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
-								Zarezerwuj!
 							</a>
+							<!-- <a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
+								Zarezerwuj!
+							</a> -->
 						</div>
 
 						<?php wp_nav_menu( array(
@@ -150,12 +150,12 @@
 						<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 							Platforma
 						</a> -->
-						<!-- <a href="https://platforma.wiecejnizlek.pl/payment/select-product" class="button button__primary">
+						<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
 							Zapisz się!
-						</a> -->
-						<a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
-							Zarezerwuj!
 						</a>
+						<!-- <a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
+							Zarezerwuj!
+						</a> -->
 					</div>
 					<a href="" class="hamburger"><img src="<?php echo get_template_directory_uri() ?>/assets/button/menu/normal.svg" alt="Menu mobile" /></a>
 				</div>

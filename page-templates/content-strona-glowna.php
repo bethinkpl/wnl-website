@@ -80,7 +80,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrapper aligncenter" style="margin-top: 60px;">
+		<div class="wrapper aligncenter" style="margin-top: 30px;">
 			<a href="<?php echo site_url('o-kursie') ?>" class="button button__primary">Sprawdź jak działa nasz kurs</a>
 		</div>
 		<div class="wrapper" style="margin-top: 60px;">

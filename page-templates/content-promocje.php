@@ -53,8 +53,9 @@
 					<ol>
 						<li>Zbierz adresy e-mail od grupy od 10 do 30 zainteresowanych kursem osób</li>
 						<li>Wyślij listę adresów na info@wiecejnizlek.pl</li>
-						<li>W ciągu 5 dni roboczych wszystkie osoby otrzymają od nas maila ze swoim unikalnym kodem.</li>
+						<li>W ciągu 5 dni roboczych aktywujemy zniżkę i na wszystkie adresy e-mail przyjdzie wiadomość potwierdzająca z kodem.</li>
 						<li>Otrzymany kod można zrealizować wchodząc na <a href="https://wiecejnizlek.pl/voucher" target="_blank">wiecejnizlek.pl/voucher</a>.</li>
+						<li><strong>Indywidualnym kodem każdej osoby z listy będzie po prostu jej adres e-mail!</strong> Dlatego nawet jeśli ktoś z listy nie dostanie przypadkiem wiadomości, a będzie wiedział, że reszta już ją otrzymała - może spokojnie zrealizować zniżkę wchodząc na <a href="https://wiecejnizlek.pl/voucher" target="_blank">wiecejnizlek.pl/voucher</a> i wpisując swój adres e-mail.</li>
 						<li>Musi się Was zapisać co najmniej 10, aby zniżka była utrzymana. W przeciwnym razie będzie anulowana i niestety będziecie musieli dopłacić brakującą różnicę.</li>
 					</ol>
 					<small>Więcej w <a href="<?php echo site_url('/documents/RegulaminPromocjiZnizkiGrupowe.pdf'); ?>" title="Regulamin promocji Zniżki grupowe" target="_blank">Regulaminie Promocji "Zniżki grupowe"</a></small>

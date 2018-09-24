@@ -80,7 +80,9 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="wrapper aligncenter" style="margin-top: 60px;">
+			<a href="<?php echo site_url('o-kursie') ?>" class="button button__primary">Sprawdź jak działa nasz kurs</a>
+		</div>
 		<div class="wrapper" style="margin-top: 60px;">
 			<h2 class="title">Nowy album map myśli</h2>
 			<h3 class="subtitle">Poznaj najefektywniejszy sposób notowania i powtarzania!</h3>

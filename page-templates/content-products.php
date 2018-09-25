@@ -96,7 +96,7 @@
 			<div class="card">
 				<h4 class="card-title">Gwarancja satysfakcji</h4>
 				<div class="card-content">
-					Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% lekcji i 60% naszej bazy pytań, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty! Gwarancja dotyczy tylko osób uczących się po polsku, na polskich uczelniach.
+					Jeżeli poświęcisz na kurs co najmniej 300h, przerobisz 80% lekcji, 60% naszej bazy pytań oraz podejdziesz do wstępnego i końcowego LEK-u na platformie, a mimo to nie zdasz LEK-u - zwracamy 100% wpłaty! Gwarancja dotyczy tylko osób uczących się po polsku, na polskich uczelniach.
 				</div>
 			</div>
 			<div class="card">

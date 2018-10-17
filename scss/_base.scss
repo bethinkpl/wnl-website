@@ -281,6 +281,18 @@ header {
 			.fb-like {
 				display: block;
 			}
+
+			.sub-menu {
+				margin: 20px 0;
+
+				li {
+					line-height: 2.5em;
+
+					a {
+						font-size: 1em;
+					}
+				}
+			}
 		}
 	}
 

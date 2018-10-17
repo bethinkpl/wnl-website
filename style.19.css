@@ -352,7 +352,7 @@ div {
   margin: 10px 20px;
   padding: 20px;
   text-align: center;
-  width: 250px;
+  width: 300px;
 }
 
 .cards .card.with-shadow {
@@ -407,6 +407,11 @@ div {
 .cards .image.full-width {
   max-height: none;
   max-width: 100%;
+}
+
+.cards .image.width-80 {
+  max-height: none;
+  max-width: 80%;
 }
 
 .cards .video-embed {
@@ -876,6 +881,18 @@ header .sidebar .menu .mail {
 
 header .sidebar .menu .fb-like {
   display: block;
+}
+
+header .sidebar .menu .sub-menu {
+  margin: 20px 0;
+}
+
+header .sidebar .menu .sub-menu li {
+  line-height: 2.5em;
+}
+
+header .sidebar .menu .sub-menu li a {
+  font-size: 1em;
 }
 
 header .desktop {

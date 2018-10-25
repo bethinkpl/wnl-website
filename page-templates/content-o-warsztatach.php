@@ -192,7 +192,7 @@ Współzałożyciel projektu “Więcej niż LEK”</p>
 				<div class="card with-shadow">
 					<div class="big-number">3</div>
 					<p class="card-title">Stany nagłe</p>
-					<div class="metadata">19 stycznia 2019, 11:00</div>
+					<div class="metadata">12 stycznia 2019, 11:00</div>
 					<div class="card-subtitle">lek. Michał Szemień</div>
 					<p class="card-content">
 						<ul class="card-content-list">

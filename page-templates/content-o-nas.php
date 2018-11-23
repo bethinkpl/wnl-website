@@ -50,7 +50,7 @@
 				</div>
 			</div>
 
-			<div class="card with-shadow">
+			<!-- <div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/jakub-karminski.jpg" alt="Jakub Karmiński" class="image">
 				<p class="card-title">Jakub Karmiński</p>
 				<div class="alignleft">
@@ -67,7 +67,7 @@
 						Kiedy nie pracuje - gra na gitarze, kiedy nie gra na gitarze i nie pracuje - śpi. A przynajmniej tego by sobie życzył.
 					</p>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="card with-shadow">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/ilustracje/onas/joanna-januszewska.jpg" alt="Joanna Januszewska" class="image">

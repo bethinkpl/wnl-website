@@ -14,7 +14,7 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Ostatnie miejsca na kurs do LEK-u w lutym 2019r.! Co 3. lekarz uczy się razem z nami!
+					Ostatnie miejsca - kurs do LEK-U w lutym już trwa! Co 3. lekarz uczy się razem z nami!
 				</p>
 				<p class="aligncenter">
 					<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">

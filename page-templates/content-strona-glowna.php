@@ -14,7 +14,7 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Zapisy na 4. edycję trwają do 22 października! Co 4 lekarz uczy się razem z nami!
+					Ostatnie miejsca na kurs do LEK-u w lutym 2019r.! Co 3. lekarz uczy się razem z nami!
 				</p>
 				<p class="aligncenter">
 					<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">

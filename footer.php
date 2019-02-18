@@ -76,7 +76,7 @@
 			</div>
 		</footer>
 
-		<div id="statement">
+		<!-- <div id="statement">
 			<p class="name"></p>
 			<a href="#" class="close"></a>
 		</div>
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- Your customer chat code -->
 		<div class="fb-customerchat"

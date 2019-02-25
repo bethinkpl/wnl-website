@@ -9,7 +9,7 @@
 				<p class="subtitle">
 					<span>Platforma e-learningowa</span>
 					<span class="line"></span>
-					<span>Praktyczne warsztaty</span>
+					<span>Efektywna nauka</span>
 					<span class="line"></span>
 					<span>Wyjątkowa atmosfera</span>
 				</p>

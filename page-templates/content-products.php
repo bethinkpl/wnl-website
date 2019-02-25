@@ -30,9 +30,9 @@
 					<li class="wnl-front-options-list-item"><strong>Jesteś na 6. roku?</strong> Kurs pomoże Ci w przygotowaniu do egzaminów!</li>
 				</ul>
 				<div class="select-product">
-					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__primary">
+					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online" class="button button__primary">
 						Wybieram kurs internetowy
-					</a>
+					</a> -->
 					<!-- <a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
 						Zarezerwuj miejsce!
 					</a> -->
@@ -82,9 +82,9 @@
 					<li class="wnl-front-options-list-item">Na warsztatach wykraczamy poza horyzont egzaminu - mówimy o tym, co w dzisiejszych czasach znaczy <strong>być lekarzem</strong>, czyli o czymś więcej, niż LEK.</li>
 				</ul>
 				<div class="select-product">
-					<a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
+					<!-- <a href="https://platforma.wiecejnizlek.pl/payment/personal-data/wnl-online-onsite" class="button button__primary">
 						Wybieram kurs stacjonarny
-					</a>
+					</a> -->
 					<!-- <a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
 						Zarezerwuj miejsce!
 					</a> -->

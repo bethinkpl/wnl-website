@@ -6,15 +6,18 @@
 			</p>
 			<p class="subtitle">
 				<!-- Zostawiając swój adres e-mail zyskujesz pewność, że dowiesz się w pierwszej kolejności o nowościach na stronie oraz zapisach na kolejne edycje kursu! -->
-				W marcu 2019 ruszamy z nową stroną, nowym newsletterem i systemem rezerwacji! Zapraszamy za kilka tygodni. 🙂
+				W marcu 2019 ruszamy z nową stroną, nowym newsletterem i systemem rezerwacji!
 			</p>
-			<!-- <div class="input">
+			<p class="subtitle">
+				Zapraszamy za kilka tygodni. 🙂
+			</p>
+			<!-- <div class="input"> -->
 				<?php
-					if( function_exists( 'mc4wp_show_form' ) ) {
-					    mc4wp_show_form();
-					}
+					// if( function_exists( 'mc4wp_show_form' ) ) {
+					//     mc4wp_show_form();
+					// }
 				?>
-			</div> -->
+			<!-- </div> -->
 		</div>
 	</div>
 	<!-- <div class="wrapper" style="margin-top: 40px;">

@@ -1,4 +1,4 @@
-<div class="recirculation-box">
+<!-- <div class="recirculation-box">
 	<h2>Chcesz dobrze zdać LEK?</h2>
 	<p>
 		<strong>Więcej niż LEK</strong>, to unikalny kurs przygotowujący do Lekarskiego Egzaminu Końcowego.
@@ -12,12 +12,12 @@
 			Zapisz się!
 		</a>
 	</div>
-	<!-- <p class="metadata">
-		Zarezerwuj miejsce na 4. edycji! Zapisy ruszają 25 września, a kurs 5 listopada!
-	</p>
-	<div class="aligncenter">
-			<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
-				Zarezerwuj!
-			</a>
-	</div> -->
-</div>
+</div> -->
+<!-- <p class="metadata">
+Zarezerwuj miejsce na 4. edycji! Zapisy ruszają 25 września, a kurs 5 listopada!
+</p>
+<div class="aligncenter">
+<a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
+Zarezerwuj!
+</a>
+</div> -->

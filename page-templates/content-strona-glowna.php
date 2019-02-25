@@ -14,12 +14,14 @@
 					<span>Wyjątkowa atmosfera</span>
 				</p>
 				<p class="metadata inverted">
-					Ostatnie miejsca - kurs do LEK-U w lutym już trwa! Co 3. lekarz uczy się razem z nami!
+					Zapisy na kursy startują: <br>
+					LEK - 1 kwietnia, godz. 12:00 <br>
+					LDEK - 8 kwietnia, godz. 12:00
 				</p>
 				<p class="aligncenter">
-					<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
+					<!-- <a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
 						Zapisz się!
-					</a>
+					</a> -->
 					<!-- <a href="https://wiecejnizlek.pl/zostaw-e-mail" class="button button__primary">
 						Zarezerwuj!
 					</a> -->

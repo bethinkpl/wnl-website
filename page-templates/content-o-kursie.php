@@ -89,10 +89,10 @@
 						<p class="card-content alignleft">
 							Jak to zrobić? Wykup kurs i ustaw swój wydłużony plan nauki. Podczas kolejnych zapisów po prostu przedłuż za 50% ceny dostęp, aby kontynuować pracę. 🙂
 						</p>
-						<a href="<?php echo site_url('zostaw-e-mail') ?>" title="Czytaj więcej..." class="more">
+						<!-- <a href="<?php echo site_url('zostaw-e-mail') ?>" title="Czytaj więcej..." class="more">
 							Zarezerwuj miejsce na kursie
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
-						</a>
+						</a> -->
 						<!-- <a href="<?php echo site_url('zapisy') ?>" title="Czytaj więcej..." class="more" target="_blank">
 							Zapisz się na kurs
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
@@ -106,10 +106,10 @@
 						<p class="card-content alignleft">
 							Po zakończonych zmaganiach z egzaminami po prostu przedłużasz dostęp za 50% ceny i kontynuujesz naukę do LEK-u. 🙂 Dzięki temu zyskujesz baaardzo dużo czasu na powtórki, które są kluczem do sukcesu! Nie czekaj zatem do ostatniej chwili! 😉
 						</p>
-						<a href="<?php echo site_url('zostaw-e-mail') ?>" title="Czytaj więcej..." class="more">
+						<!-- <a href="<?php echo site_url('zostaw-e-mail') ?>" title="Czytaj więcej..." class="more">
 							Zarezerwuj miejsce na kursie
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">
-						</a>
+						</a> -->
 						<!-- <a href="<?php echo site_url('zapisy') ?>" title="Czytaj więcej..." class="more" target="_blank">
 							Zapisz się na kurs
 							<img src="<?php echo get_template_directory_uri() ?>/assets/button/arrow_right/normal.svg" alt="Kliknij, aby przeczytać więcej">

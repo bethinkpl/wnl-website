@@ -108,9 +108,9 @@
 							<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 								Platforma
 								</a> -->
-							<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
+							<!-- <a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
 								Zapisz się!
-							</a>
+							</a> -->
 							<!-- <a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 								Zarezerwuj!
 							</a> -->
@@ -150,9 +150,9 @@
 						<!-- <a href="https://platforma.wiecejnizlek.pl" class="button button__primary">
 							Platforma
 						</a> -->
-						<a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
+						<!-- <a href="<?php echo site_url('zapisy') ?>" class="button button__primary">
 							Zapisz się!
-						</a>
+						</a> -->
 						<!-- <a href="<?php echo get_site_url() ?>/zostaw-e-mail" class="button button__primary">
 							Zarezerwuj!
 						</a> -->
